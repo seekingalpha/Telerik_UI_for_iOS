@@ -1,0 +1,2482 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>TKListView Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">TelerikUI </a></h1>
+				<a id="developerHome" href="../index.html">Telerik</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">TKListView Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/allowsCellReorder">&nbsp;&nbsp;&nbsp;&nbsp;allowsCellReorder</option>
+	
+	<option value="//api/name/allowsCellSwipe">&nbsp;&nbsp;&nbsp;&nbsp;allowsCellSwipe</option>
+	
+	<option value="//api/name/allowsMultipleSelection">&nbsp;&nbsp;&nbsp;&nbsp;allowsMultipleSelection</option>
+	
+	<option value="//api/name/allowsPullToRefresh">&nbsp;&nbsp;&nbsp;&nbsp;allowsPullToRefresh</option>
+	
+	<option value="//api/name/autoScrollTreshold">&nbsp;&nbsp;&nbsp;&nbsp;autoScrollTreshold</option>
+	
+	<option value="//api/name/backgroundView">&nbsp;&nbsp;&nbsp;&nbsp;backgroundView</option>
+	
+	<option value="//api/name/cellBufferSize">&nbsp;&nbsp;&nbsp;&nbsp;cellBufferSize</option>
+	
+	<option value="//api/name/cellSwipeAnimationDuration">&nbsp;&nbsp;&nbsp;&nbsp;cellSwipeAnimationDuration</option>
+	
+	<option value="//api/name/cellSwipeLimits">&nbsp;&nbsp;&nbsp;&nbsp;cellSwipeLimits</option>
+	
+	<option value="//api/name/cellSwipeTreshold">&nbsp;&nbsp;&nbsp;&nbsp;cellSwipeTreshold</option>
+	
+	<option value="//api/name/contentInset">&nbsp;&nbsp;&nbsp;&nbsp;contentInset</option>
+	
+	<option value="//api/name/contentOffset">&nbsp;&nbsp;&nbsp;&nbsp;contentOffset</option>
+	
+	<option value="//api/name/dataSource">&nbsp;&nbsp;&nbsp;&nbsp;dataSource</option>
+	
+	<option value="//api/name/delegate">&nbsp;&nbsp;&nbsp;&nbsp;delegate</option>
+	
+	<option value="//api/name/layout">&nbsp;&nbsp;&nbsp;&nbsp;layout</option>
+	
+	<option value="//api/name/loadOnDemandView">&nbsp;&nbsp;&nbsp;&nbsp;loadOnDemandView</option>
+	
+	<option value="//api/name/pullToRefreshTreshold">&nbsp;&nbsp;&nbsp;&nbsp;pullToRefreshTreshold</option>
+	
+	<option value="//api/name/pullToRefreshView">&nbsp;&nbsp;&nbsp;&nbsp;pullToRefreshView</option>
+	
+	<option value="//api/name/scrollDirection">&nbsp;&nbsp;&nbsp;&nbsp;scrollDirection</option>
+	
+	<option value="//api/name/selectionBehavior">&nbsp;&nbsp;&nbsp;&nbsp;selectionBehavior</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/cellForItemAtIndexPath:">&nbsp;&nbsp;&nbsp;&nbsp;- cellForItemAtIndexPath:</option>
+	
+	<option value="//api/name/clearSelectedItems">&nbsp;&nbsp;&nbsp;&nbsp;- clearSelectedItems</option>
+	
+	<option value="//api/name/deleteItemsAtIndexPaths:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteItemsAtIndexPaths:</option>
+	
+	<option value="//api/name/dequeueReusableCellWithReuseIdentifier:forIndexPath:">&nbsp;&nbsp;&nbsp;&nbsp;- dequeueReusableCellWithReuseIdentifier:forIndexPath:</option>
+	
+	<option value="//api/name/dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath:">&nbsp;&nbsp;&nbsp;&nbsp;- dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath:</option>
+	
+	<option value="//api/name/deselectItemAtIndexPath:animated:">&nbsp;&nbsp;&nbsp;&nbsp;- deselectItemAtIndexPath:animated:</option>
+	
+	<option value="//api/name/didLoadDataOnDemand">&nbsp;&nbsp;&nbsp;&nbsp;- didLoadDataOnDemand</option>
+	
+	<option value="//api/name/indexPathForCell:">&nbsp;&nbsp;&nbsp;&nbsp;- indexPathForCell:</option>
+	
+	<option value="//api/name/indexPathForItemAtPoint:">&nbsp;&nbsp;&nbsp;&nbsp;- indexPathForItemAtPoint:</option>
+	
+	<option value="//api/name/indexPathsForSelectedItems">&nbsp;&nbsp;&nbsp;&nbsp;- indexPathsForSelectedItems</option>
+	
+	<option value="//api/name/indexPathsForVisibleItems">&nbsp;&nbsp;&nbsp;&nbsp;- indexPathsForVisibleItems</option>
+	
+	<option value="//api/name/insertItemsAtIndexPaths:">&nbsp;&nbsp;&nbsp;&nbsp;- insertItemsAtIndexPaths:</option>
+	
+	<option value="//api/name/moveItemAtIndexPath:toIndexPath:">&nbsp;&nbsp;&nbsp;&nbsp;- moveItemAtIndexPath:toIndexPath:</option>
+	
+	<option value="//api/name/numberOfItemsInSection:">&nbsp;&nbsp;&nbsp;&nbsp;- numberOfItemsInSection:</option>
+	
+	<option value="//api/name/numberOfSections">&nbsp;&nbsp;&nbsp;&nbsp;- numberOfSections</option>
+	
+	<option value="//api/name/performBatchUpdates:completion:">&nbsp;&nbsp;&nbsp;&nbsp;- performBatchUpdates:completion:</option>
+	
+	<option value="//api/name/registerClass:forCellWithReuseIdentifier:">&nbsp;&nbsp;&nbsp;&nbsp;- registerClass:forCellWithReuseIdentifier:</option>
+	
+	<option value="//api/name/registerClass:forSupplementaryViewOfKind:withReuseIdentifier:">&nbsp;&nbsp;&nbsp;&nbsp;- registerClass:forSupplementaryViewOfKind:withReuseIdentifier:</option>
+	
+	<option value="//api/name/reloadData">&nbsp;&nbsp;&nbsp;&nbsp;- reloadData</option>
+	
+	<option value="//api/name/reloadItemsAtIndexPaths:">&nbsp;&nbsp;&nbsp;&nbsp;- reloadItemsAtIndexPaths:</option>
+	
+	<option value="//api/name/scrollToItemAtIndexPath:atScrollPosition:animated:">&nbsp;&nbsp;&nbsp;&nbsp;- scrollToItemAtIndexPath:atScrollPosition:animated:</option>
+	
+	<option value="//api/name/selectItemAtIndexPath:animated:scrollPosition:">&nbsp;&nbsp;&nbsp;&nbsp;- selectItemAtIndexPath:animated:scrollPosition:</option>
+	
+	<option value="//api/name/visibleCells">&nbsp;&nbsp;&nbsp;&nbsp;- visibleCells</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/allowsCellReorder">allowsCellReorder</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/allowsCellSwipe">allowsCellSwipe</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/allowsMultipleSelection">allowsMultipleSelection</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/allowsPullToRefresh">allowsPullToRefresh</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/autoScrollTreshold">autoScrollTreshold</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/backgroundView">backgroundView</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cellBufferSize">cellBufferSize</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cellSwipeAnimationDuration">cellSwipeAnimationDuration</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cellSwipeLimits">cellSwipeLimits</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cellSwipeTreshold">cellSwipeTreshold</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/contentInset">contentInset</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/contentOffset">contentOffset</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dataSource">dataSource</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/delegate">delegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/layout">layout</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/loadOnDemandView">loadOnDemandView</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pullToRefreshTreshold">pullToRefreshTreshold</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pullToRefreshView">pullToRefreshView</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scrollDirection">scrollDirection</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/selectionBehavior">selectionBehavior</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cellForItemAtIndexPath:">cellForItemAtIndexPath:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/clearSelectedItems">clearSelectedItems</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteItemsAtIndexPaths:">deleteItemsAtIndexPaths:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dequeueReusableCellWithReuseIdentifier:forIndexPath:">dequeueReusableCellWithReuseIdentifier:forIndexPath:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath:">dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deselectItemAtIndexPath:animated:">deselectItemAtIndexPath:animated:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/didLoadDataOnDemand">didLoadDataOnDemand</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/indexPathForCell:">indexPathForCell:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/indexPathForItemAtPoint:">indexPathForItemAtPoint:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/indexPathsForSelectedItems">indexPathsForSelectedItems</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/indexPathsForVisibleItems">indexPathsForVisibleItems</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insertItemsAtIndexPaths:">insertItemsAtIndexPaths:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/moveItemAtIndexPath:toIndexPath:">moveItemAtIndexPath:toIndexPath:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/numberOfItemsInSection:">numberOfItemsInSection:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/numberOfSections">numberOfSections</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/performBatchUpdates:completion:">performBatchUpdates:completion:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/registerClass:forCellWithReuseIdentifier:">registerClass:forCellWithReuseIdentifier:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/registerClass:forSupplementaryViewOfKind:withReuseIdentifier:">registerClass:forSupplementaryViewOfKind:withReuseIdentifier:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/reloadData">reloadData</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/reloadItemsAtIndexPaths:">reloadItemsAtIndexPaths:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scrollToItemAtIndexPath:atScrollPosition:animated:">scrollToItemAtIndexPath:atScrollPosition:animated:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/selectItemAtIndexPath:animated:scrollPosition:">selectItemAtIndexPath:animated:scrollPosition:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/visibleCells">visibleCells</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="TKListView Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">TKListView Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">UIView</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">UICollectionViewDataSource<br />UICollectionViewDelegate</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">TKListView.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>TKListView provides means for displaying lists of data. The items of the list can be arranged in a columns <a href="#//api/name/layout">layout</a> or wrap <a href="#//api/name/layout">layout</a>. It provides UI virtualization, pull-to-refresh, load-on-demand, cells swipe, cell reorder, single/multiple selection, grouping.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dataSource">&nbsp;&nbsp;dataSource</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/layout">&nbsp;&nbsp;layout</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/allowsMultipleSelection">&nbsp;&nbsp;allowsMultipleSelection</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/allowsCellReorder">&nbsp;&nbsp;allowsCellReorder</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/allowsCellSwipe">&nbsp;&nbsp;allowsCellSwipe</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/allowsPullToRefresh">&nbsp;&nbsp;allowsPullToRefresh</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cellSwipeLimits">&nbsp;&nbsp;cellSwipeLimits</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cellSwipeTreshold">&nbsp;&nbsp;cellSwipeTreshold</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cellSwipeAnimationDuration">&nbsp;&nbsp;cellSwipeAnimationDuration</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/autoScrollTreshold">&nbsp;&nbsp;autoScrollTreshold</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pullToRefreshTreshold">&nbsp;&nbsp;pullToRefreshTreshold</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cellBufferSize">&nbsp;&nbsp;cellBufferSize</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/contentInset">&nbsp;&nbsp;contentInset</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/contentOffset">&nbsp;&nbsp;contentOffset</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scrollDirection">&nbsp;&nbsp;scrollDirection</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/selectionBehavior">&nbsp;&nbsp;selectionBehavior</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pullToRefreshView">&nbsp;&nbsp;pullToRefreshView</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/loadOnDemandView">&nbsp;&nbsp;loadOnDemandView</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/backgroundView">&nbsp;&nbsp;backgroundView</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/reloadData">&ndash;&nbsp;reloadData</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/indexPathsForSelectedItems">&ndash;&nbsp;indexPathsForSelectedItems</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/clearSelectedItems">&ndash;&nbsp;clearSelectedItems</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/selectItemAtIndexPath:animated:scrollPosition:">&ndash;&nbsp;selectItemAtIndexPath:animated:scrollPosition:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deselectItemAtIndexPath:animated:">&ndash;&nbsp;deselectItemAtIndexPath:animated:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dequeueReusableCellWithReuseIdentifier:forIndexPath:">&ndash;&nbsp;dequeueReusableCellWithReuseIdentifier:forIndexPath:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath:">&ndash;&nbsp;dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/registerClass:forCellWithReuseIdentifier:">&ndash;&nbsp;registerClass:forCellWithReuseIdentifier:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/registerClass:forSupplementaryViewOfKind:withReuseIdentifier:">&ndash;&nbsp;registerClass:forSupplementaryViewOfKind:withReuseIdentifier:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cellForItemAtIndexPath:">&ndash;&nbsp;cellForItemAtIndexPath:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insertItemsAtIndexPaths:">&ndash;&nbsp;insertItemsAtIndexPaths:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/moveItemAtIndexPath:toIndexPath:">&ndash;&nbsp;moveItemAtIndexPath:toIndexPath:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteItemsAtIndexPaths:">&ndash;&nbsp;deleteItemsAtIndexPaths:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/reloadItemsAtIndexPaths:">&ndash;&nbsp;reloadItemsAtIndexPaths:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/performBatchUpdates:completion:">&ndash;&nbsp;performBatchUpdates:completion:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/numberOfSections">&ndash;&nbsp;numberOfSections</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/numberOfItemsInSection:">&ndash;&nbsp;numberOfItemsInSection:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/visibleCells">&ndash;&nbsp;visibleCells</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/indexPathsForVisibleItems">&ndash;&nbsp;indexPathsForVisibleItems</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/indexPathForItemAtPoint:">&ndash;&nbsp;indexPathForItemAtPoint:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/indexPathForCell:">&ndash;&nbsp;indexPathForCell:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scrollToItemAtIndexPath:atScrollPosition:animated:">&ndash;&nbsp;scrollToItemAtIndexPath:atScrollPosition:animated:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/didLoadDataOnDemand">&ndash;&nbsp;didLoadDataOnDemand</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/allowsCellReorder" title="allowsCellReorder"></a>
+	<h3 class="subsubtitle method-title">allowsCellReorder</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether user is able to reorder cells.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL allowsCellReorder</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/allowsCellSwipe" title="allowsCellSwipe"></a>
+	<h3 class="subsubtitle method-title">allowsCellSwipe</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether the end-user is able to swipe cells.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL allowsCellSwipe</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/allowsMultipleSelection" title="allowsMultipleSelection"></a>
+	<h3 class="subsubtitle method-title">allowsMultipleSelection</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether user is able to select multiple items.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL allowsMultipleSelection</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/allowsPullToRefresh" title="allowsPullToRefresh"></a>
+	<h3 class="subsubtitle method-title">allowsPullToRefresh</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether user is able to perform the pull-to-refresh gesture.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL allowsPullToRefresh</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/autoScrollTreshold" title="autoScrollTreshold"></a>
+	<h3 class="subsubtitle method-title">autoScrollTreshold</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The distance from the edge where autoscroll commences while dragging/reordering a cell.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) CGFloat autoScrollTreshold</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/backgroundView" title="backgroundView"></a>
+	<h3 class="subsubtitle method-title">backgroundView</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A view that will be automatically resized to track the size of the collection view and placed behind all cells and supplementary views.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) UIView *backgroundView</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/cellBufferSize" title="cellBufferSize"></a>
+	<h3 class="subsubtitle method-title">cellBufferSize</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Defines the number of cells from the bottom of TKListView up at which to start requesting load-on-demand data.
+Default is zero which means that no data will be loaded on demand.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) NSInteger cellBufferSize</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/cellSwipeAnimationDuration" title="cellSwipeAnimationDuration"></a>
+	<h3 class="subsubtitle method-title">cellSwipeAnimationDuration</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The cell swipe animation duration.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) CGFloat cellSwipeAnimationDuration</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/cellSwipeLimits" title="cellSwipeLimits"></a>
+	<h3 class="subsubtitle method-title">cellSwipeLimits</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The maximum distance a cell can be swiped by the end-user.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) UIEdgeInsets cellSwipeLimits</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/cellSwipeTreshold" title="cellSwipeTreshold"></a>
+	<h3 class="subsubtitle method-title">cellSwipeTreshold</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The cell swipe treshold - the distance defining whether the cell will revert to original position or animate to the swipe limits if the end-user does not finish the swipe gesture.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) CGFloat cellSwipeTreshold</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/contentInset" title="contentInset"></a>
+	<h3 class="subsubtitle method-title">contentInset</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The content insets relative to its view size.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) UIEdgeInsets contentInset</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/contentOffset" title="contentOffset"></a>
+	<h3 class="subsubtitle method-title">contentOffset</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The content offset.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) CGPoint contentOffset</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dataSource" title="dataSource"></a>
+	<h3 class="subsubtitle method-title">dataSource</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A datasource <a href="#//api/name/delegate">delegate</a> used to provide data for the cells, headers and footers.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) id&lt;TKListViewDataSource&gt; dataSource</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/delegate" title="delegate"></a>
+	<h3 class="subsubtitle method-title">delegate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A delegate used to manage the selection of items in TKListView, perform actions on those items and respond to interaction with those items.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) id&lt;TKListViewDelegate&gt; delegate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/layout" title="layout"></a>
+	<h3 class="subsubtitle method-title">layout</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The layout object used to arrange cells.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UICollectionViewLayout *layout</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/loadOnDemandView" title="loadOnDemandView"></a>
+	<h3 class="subsubtitle method-title">loadOnDemandView</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The UIView containing the activity indicator while TKListView is loading data on demand and has scrolled to the end of the content size.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) TKListViewLoadOnDemandView *loadOnDemandView</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pullToRefreshTreshold" title="pullToRefreshTreshold"></a>
+	<h3 class="subsubtitle method-title">pullToRefreshTreshold</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The pull distance at which pull-to-refresh activates.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) CGFloat pullToRefreshTreshold</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pullToRefreshView" title="pullToRefreshView"></a>
+	<h3 class="subsubtitle method-title">pullToRefreshView</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The UIView containing the activity indicator while TKListView is refreshing data after the pull-to-refresh gesture.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) TKListViewPullToRefreshView *pullToRefreshView</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scrollDirection" title="scrollDirection"></a>
+	<h3 class="subsubtitle method-title">scrollDirection</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Defines the scroll direction. Applicable if the current <a href="#//api/name/layout">layout</a> supports it.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) TKListViewScrollDirection scrollDirection</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/selectionBehavior" title="selectionBehavior"></a>
+	<h3 class="subsubtitle method-title">selectionBehavior</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Defines whether cells are selected on press, long press, or can&rsquo;t be selected at all.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) TKListViewSelectionBehavior selectionBehavior</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/cellForItemAtIndexPath:" title="cellForItemAtIndexPath:"></a>
+	<h3 class="subsubtitle method-title">cellForItemAtIndexPath:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the visible cell object at the specified index path.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (TKListViewCell *)cellForItemAtIndexPath:(NSIndexPath *)<em>indexPath</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>The index path for the cell.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/clearSelectedItems" title="clearSelectedItems"></a>
+	<h3 class="subsubtitle method-title">clearSelectedItems</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Deselects all selected items.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)clearSelectedItems</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteItemsAtIndexPaths:" title="deleteItemsAtIndexPaths:"></a>
+	<h3 class="subsubtitle method-title">deleteItemsAtIndexPaths:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Deletes the items at the specified index paths.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)deleteItemsAtIndexPaths:(NSArray *)<em>indexPaths</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPaths</em></dt>
+			<dd><p>The index paths of the deleted items.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dequeueReusableCellWithReuseIdentifier:forIndexPath:" title="dequeueReusableCellWithReuseIdentifier:forIndexPath:"></a>
+	<h3 class="subsubtitle method-title">dequeueReusableCellWithReuseIdentifier:forIndexPath:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a TKListVIewCell to be provided in the listView:cellForItemAtIndexPath:ndexPath <a href="#//api/name/delegate">delegate</a> method.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)dequeueReusableCellWithReuseIdentifier:(NSString *)<em>identifier</em> forIndexPath:(NSIndexPath *)<em>indexPath</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>identifier</em></dt>
+			<dd><p>A string identifier of the cell type.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>The index path of the item we need a cell for.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath:" title="dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath:"></a>
+	<h3 class="subsubtitle method-title">dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a header or footer view to be provided in the listView:viewForSupplementaryElementOfKind:atIndexPath:</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)dequeueReusableSupplementaryViewOfKind:(NSString *)<em>elementKind</em> withReuseIdentifier:(NSString *)<em>identifier</em> forIndexPath:(NSIndexPath *)<em>indexPath</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>elementKind</em></dt>
+			<dd><p>The element kind - header or footer.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>identifier</em></dt>
+			<dd><p>A string identifier of the view type.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>The index path of the supplementary view.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deselectItemAtIndexPath:animated:" title="deselectItemAtIndexPath:animated:"></a>
+	<h3 class="subsubtitle method-title">deselectItemAtIndexPath:animated:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Deselects an item at the given index path.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)deselectItemAtIndexPath:(NSIndexPath *)<em>indexPath</em> animated:(BOOL)<em>animated</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>The index path of the item to deselect.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animated</em></dt>
+			<dd><p>Determines whether to animate the selection.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/didLoadDataOnDemand" title="didLoadDataOnDemand"></a>
+	<h3 class="subsubtitle method-title">didLoadDataOnDemand</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the list view that a new data requested on demand is ready to be shown.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)didLoadDataOnDemand</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/indexPathForCell:" title="indexPathForCell:"></a>
+	<h3 class="subsubtitle method-title">indexPathForCell:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the index path for specific cell.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSIndexPath *)indexPathForCell:(UICollectionViewCell *)<em>cell</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>cell</em></dt>
+			<dd><p>The cell.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/indexPathForItemAtPoint:" title="indexPathForItemAtPoint:"></a>
+	<h3 class="subsubtitle method-title">indexPathForItemAtPoint:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the index path for the item at the specified location.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSIndexPath *)indexPathForItemAtPoint:(CGPoint)<em>point</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>point</em></dt>
+			<dd><p>The point where the item is located.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/indexPathsForSelectedItems" title="indexPathsForSelectedItems"></a>
+	<h3 class="subsubtitle method-title">indexPathsForSelectedItems</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns an array with the index paths of the selected items.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)indexPathsForSelectedItems</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/indexPathsForVisibleItems" title="indexPathsForVisibleItems"></a>
+	<h3 class="subsubtitle method-title">indexPathsForVisibleItems</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the index paths for the currently visible cells.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)indexPathsForVisibleItems</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insertItemsAtIndexPaths:" title="insertItemsAtIndexPaths:"></a>
+	<h3 class="subsubtitle method-title">insertItemsAtIndexPaths:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Inserts new items at the specified index paths.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)insertItemsAtIndexPaths:(NSArray *)<em>indexPaths</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPaths</em></dt>
+			<dd><p>The index paths of the newly inserted items.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/moveItemAtIndexPath:toIndexPath:" title="moveItemAtIndexPath:toIndexPath:"></a>
+	<h3 class="subsubtitle method-title">moveItemAtIndexPath:toIndexPath:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Moves an item from one location to another in the list view.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)moveItemAtIndexPath:(NSIndexPath *)<em>indexPath</em> toIndexPath:(NSIndexPath *)<em>newIndexPath</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>The old index path.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>newIndexPath</em></dt>
+			<dd><p>The new index path.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/numberOfItemsInSection:" title="numberOfItemsInSection:"></a>
+	<h3 class="subsubtitle method-title">numberOfItemsInSection:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the number of items conatined in specific section.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)numberOfItemsInSection:(NSInteger)<em>section</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>section</em></dt>
+			<dd><p>The index of the section.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/numberOfSections" title="numberOfSections"></a>
+	<h3 class="subsubtitle method-title">numberOfSections</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the number of sections.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)numberOfSections</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/performBatchUpdates:completion:" title="performBatchUpdates:completion:"></a>
+	<h3 class="subsubtitle method-title">performBatchUpdates:completion:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Allows multiple insert/delete/reload/move calls to be animated.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)performBatchUpdates:(void ( ^ ) ( void ))<em>updates</em> completion:(void ( ^ ) ( BOOL finished ))<em>completion</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>updates</em></dt>
+			<dd><p>The updates to apply.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completion</em></dt>
+			<dd><p>Will be executed upon completion.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/registerClass:forCellWithReuseIdentifier:" title="registerClass:forCellWithReuseIdentifier:"></a>
+	<h3 class="subsubtitle method-title">registerClass:forCellWithReuseIdentifier:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Registers a class to be used to represent cells in listview.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)registerClass:(Class)<em>cellClass</em> forCellWithReuseIdentifier:(NSString *)<em>identifier</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>cellClass</em></dt>
+			<dd><p>The class of the UIView to represent a cell.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>identifier</em></dt>
+			<dd><p>A string identifier of the cell type.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/registerClass:forSupplementaryViewOfKind:withReuseIdentifier:" title="registerClass:forSupplementaryViewOfKind:withReuseIdentifier:"></a>
+	<h3 class="subsubtitle method-title">registerClass:forSupplementaryViewOfKind:withReuseIdentifier:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Registers a class to be used to represent headers and footers.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)registerClass:(Class)<em>viewClass</em> forSupplementaryViewOfKind:(NSString *)<em>elementKind</em> withReuseIdentifier:(NSString *)<em>identifier</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>viewClass</em></dt>
+			<dd><p>The class of the UIView to represent a header or footer</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>elementKind</em></dt>
+			<dd><p>The element kind - header or footer.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>identifier</em></dt>
+			<dd><p>A string identifier of the supplementary view type.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/reloadData" title="reloadData"></a>
+	<h3 class="subsubtitle method-title">reloadData</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Reloads all data.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)reloadData</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/reloadItemsAtIndexPaths:" title="reloadItemsAtIndexPaths:"></a>
+	<h3 class="subsubtitle method-title">reloadItemsAtIndexPaths:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Reloads the items at the specified index paths.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)reloadItemsAtIndexPaths:(NSArray *)<em>indexPaths</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPaths</em></dt>
+			<dd><p>The index paths of items to reload.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scrollToItemAtIndexPath:atScrollPosition:animated:" title="scrollToItemAtIndexPath:atScrollPosition:animated:"></a>
+	<h3 class="subsubtitle method-title">scrollToItemAtIndexPath:atScrollPosition:animated:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Scrolls to specific item.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)scrollToItemAtIndexPath:(NSIndexPath *)<em>indexPath</em> atScrollPosition:(UICollectionViewScrollPosition)<em>scrollPosition</em> animated:(BOOL)<em>animated</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>The index path for the item.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>scrollPosition</em></dt>
+			<dd><p>The scroll position.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animated</em></dt>
+			<dd><p>Determines whether to animate the scrolling.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/selectItemAtIndexPath:animated:scrollPosition:" title="selectItemAtIndexPath:animated:scrollPosition:"></a>
+	<h3 class="subsubtitle method-title">selectItemAtIndexPath:animated:scrollPosition:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Selects an item at the given index path.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)selectItemAtIndexPath:(NSIndexPath *)<em>indexPath</em> animated:(BOOL)<em>animated</em> scrollPosition:(UICollectionViewScrollPosition)<em>scrollPosition</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>The index path of the item to select.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animated</em></dt>
+			<dd><p>Determines whether to animate the selection.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>scrollPosition</em></dt>
+			<dd><p>The scroll position.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/visibleCells" title="visibleCells"></a>
+	<h3 class="subsubtitle method-title">visibleCells</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the number for currently visible cells.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)visibleCells</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Telerik. All rights reserved. (Last updated: 2015-06-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

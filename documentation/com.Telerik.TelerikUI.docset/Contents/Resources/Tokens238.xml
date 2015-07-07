@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKListViewLoadOnDemandView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKListViewLoadOnDemandView</TokenIdentifier>
+			<Abstract type="html">An UIView containing an activity indicator to be displayed while user is waiting for data update after a load-on-demand request takes place.</Abstract>
+			<DeclaredIn>TKListViewLoadOnDemandView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="238"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

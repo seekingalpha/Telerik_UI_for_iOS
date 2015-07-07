@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Calendar-Customizations Document</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../../../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../../../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../../../index.html">TelerikUI </a></h1>
+				<a id="developerHome" href="../../../index.html">Telerik</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode" id="pageTitleHeader">Calendar-Customizations Document</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<a title="Calendar-Customizations Document" name="top"></a>
+			<div id="overview_contents" role="main">
+				<div id="container">	
+					<h1>Calendar: Customizations</h1>
+
+<p><img src="../images/calendar-customization001.png"/></p>
+
+<p><a href="../../../Classes/TKCalendar.html">TKCalendar</a> allows customizing almost evety aspect of its visual appearance. This article demonstrates some of the customization techniques that can be used with it.</p>
+
+<p><a href="../../../Classes/TKCalendar.html">TKCalendar</a> comes with two predefined themes:
+- <a href="../../../Classes/TKCalendarDefaultTheme.html">TKCalendarDefaultTheme</a> - a default theme
+- <a href="../../../Classes/TKCalendarIPadTheme.html">TKCalendarIPadTheme</a> - a theme designed for iPad</p>
+
+<p>You can switch between themes by usig the theme property:</p>
+
+<p>Objective-C</p>
+
+<pre><code>TKCalendar *calendar = [[TKCalendar alloc] initWithFrame:self.view.bounds];
+calendar.theme = [TKCalendarIPadTheme new];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let calendar = TKCalendar(frame: self.view.bounds)
+calendar.theme = TKCalendarIPadTheme()
+</code></pre>
+
+<p><a href="../../../Classes/TKCalendar.html">TKCalendar</a> uses presenter classes to render different view modes. They all inherit from UIView and contain subviews with settings that can be changed. Most useful settings are grouped in a style property in the presenter class:</p>
+
+<p>Objective-C</p>
+
+<pre><code>TKCalendarMonthPresenter *presenter = (TKCalendarMonthPresenter*)calendar.presenter;
+presenter.style.titleCellHeight = 40;
+presenter.style.backgroundColor = [UIColor redColor];
+presenter.headerIsSticky = YES;
+presenter.style.monthNameTextEffect = TKCalendarTextEffectLowercase;
+[presenter update:NO];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let presenter = calendar.presenter() as! TKCalendarMonthPresenter
+presenter.style().titleCellHeight = 40
+presenter.style().backgroundColor = UIColor.redColor()
+presenter.headerIsSticky = true
+presenter.style().monthNameTextEffect = TKCalendarTextEffect.Lowercase
+presenter.update(false)
+</code></pre>
+
+<p>There are cases when specific cells must have custom design based on the cell state (e.g. today, weekend, selected). This can be dobe by adopging the <a href="../../../Protocols/TKCalendarDelegate.html">TKCalendarDelegate</a> protocol and implementing its calendar:upateVisualsForCell: method:</p>
+
+<p>Objective-C</p>
+
+<pre><code>- (void)calendar:(TKCalendar*)calendar updateVisualsForCell:(TKCalendarCell*)cell;
+{
+    if ([cell isKindOfClass:[TKCalendarDayCell class]]) {
+        TKCalendarDayCell *dayCell = (TKCalendarDayCell*)cell;
+        if (dayCell.state &amp; TKCalendarDayStateToday) {
+            cell.style.textColor = [UIColor colorWithRed:0.0039 green:0.5843 blue:0.5529 alpha:1.0000];
+        }
+    }
+}
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>func calendar(calendar: TKCalendar!, updateVisualsForCell cell: TKCalendarCell!) {
+    if cell.isKindOfClass(TKCalendarDayCell) {
+        let dayCell: TKCalendarDayCell = cell as! TKCalendarDayCell
+        var a:Int = dayCell.state.rawValue
+        if (dayCell.state.rawValue &amp; TKCalendarDayState.Today.rawValue != 0 {
+            cell.style().textColor = UIColor(red: 0.0039, green: 0.5843, blue: 0.5529, alpha: 1.0000)
+        }
+    }
+}
+</code></pre>
+
+<p>The cell can be replaced with a custom one for more complex scenarios. This can be done by implementing the calendar:viewForCellOfKind: method of <a href="../../../Protocols/TKCalendarDelegate.html">TKCalendarDelegate</a> protocol:</p>
+
+<p>Objective-C</p>
+
+<pre><code>- (TKCalendarCell *)calendar:(TKCalendar *)calendar viewForCellOfKind:(TKCalendarCellType)cellType
+{
+    if (cellType == TKCalendarCellTypeDay) {
+        CustomCell *cell = [CustomCell new];
+        return cell;
+    }
+    return nil;
+}
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>func calendar(calendar: TKCalendar!, viewForCellOfKind cellType: TKCalendarCellType) -&gt; TKCalendarCell! {
+    if cellType == TKCalendarCellType.Day {
+        let cell = CustomCell()
+        return cell
+    }
+    return nil
+}
+</code></pre>
+
+<p>The following is the implementation of the CustomCell class:</p>
+
+<p>Objective-C</p>
+
+<pre><code>@interface CustomCell : TKCalendarDayCell
+@end
+
+@implementation CustomCell
+
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+    }
+    return self;
+}
+
+- (void)updateVisuals
+{
+    [super updateVisuals];
+
+        if (self.state &amp; TKCalendarDayStateToday) {
+        self.label.textColor = [UIColor redColor];
+        }
+        else {
+            self.label.textColor = [UIColor blueColor];
+        }
+}
+
+@end
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>class CustomCell: TKCalendarDayCell {
+    override func updateVisuals() {
+        super.updateVisuals()
+
+        if self.state.rawValue &amp; TKCalendarDayState.Today.rawValue != 0 {
+            self.label.textColor = UIColor.redColor()
+        }
+        else {
+            self.label.textColor = UIColor.blueColor()
+        }
+    }
+}
+</code></pre>
+
+<p>The result is presented below:</p>
+
+<p><img src="../images/calendar-customization002.png"/></p>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Telerik. All rights reserved. (Last updated: 2015-06-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					
+					</div>
+				</div>
+			</div>
+		</article>
+	</body>
+</html>

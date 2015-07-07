@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKChartAxisTitleAlignment.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKChartAxisTitleAlignment</TokenIdentifier>
+			<Abstract type="html">@enum TKChartAxisTitleAlignment</Abstract>
+			<DeclaredIn>TKChartAxisTitleStyle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="302"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartAxisTitleAlignmentCenter</TokenIdentifier>
+            <Abstract type="html">     Aligns the title at the axis center.
+     </Abstract>
+            <Declaration>TKChartAxisTitleAlignmentCenter</Declaration>
+            
+            <DeclaredIn>TKChartAxisTitleStyle.h</DeclaredIn>
+            
+            <NodeRef refid="302"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartAxisTitleAlignmentLeftOrTop</TokenIdentifier>
+            <Abstract type="html">     Aligns the title at the left or at the top.
+     </Abstract>
+            <Declaration>TKChartAxisTitleAlignmentLeftOrTop</Declaration>
+            
+            <DeclaredIn>TKChartAxisTitleStyle.h</DeclaredIn>
+            
+            <NodeRef refid="302"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartAxisTitleAlignmentRightOrBottom</TokenIdentifier>
+            <Abstract type="html">     Aligns the title at the right or at the bottom.
+     </Abstract>
+            <Declaration>TKChartAxisTitleAlignmentRightOrBottom</Declaration>
+            
+            <DeclaredIn>TKChartAxisTitleStyle.h</DeclaredIn>
+            
+            <NodeRef refid="302"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

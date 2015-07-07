@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKChartSelectionMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKChartSelectionMode</TokenIdentifier>
+			<Abstract type="html">@enum TKChartSelectionMode</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+            
+			
+			<NodeRef refid="317"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartSelectionModeSingle</TokenIdentifier>
+            <Abstract type="html">     Only a single item (series or point) can be selected at a time.
+     </Abstract>
+            <Declaration>TKChartSelectionModeSingle</Declaration>
+            
+            <DeclaredIn>TKChart.h</DeclaredIn>
+            
+            <NodeRef refid="317"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartSelectionModeMultiple</TokenIdentifier>
+            <Abstract type="html">     Multiple items can be selected.
+     </Abstract>
+            <Declaration>TKChartSelectionModeMultiple</Declaration>
+            
+            <DeclaredIn>TKChart.h</DeclaredIn>
+            
+            <NodeRef refid="317"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

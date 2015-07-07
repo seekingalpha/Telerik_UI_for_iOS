@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TKChartDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TKChartDelegate</TokenIdentifier>
+			<Abstract type="html">The methods declared by the TKChartDelegate protocol allow the adopting delegate to respond to messages from the TKChart class and thus respond to, and in some affect, operations such as panning, zooming and data animations.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+            
+			
+			<NodeRef refid="277"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chart:paletteItemForSeries:atIndex:</TokenIdentifier>
+			<Abstract type="html">Returns an instance of TKChartPaletteItem based on the specified series and index.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (TKChartPaletteItem *)chart:(TKChart *)chart paletteItemForSeries:(TKChartSeries *)series atIndex:(NSInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart instance requesting this information.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series of the palette item that is being requested.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The item index for the series.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The instance of TKChartPaletteItem that contains style settings for specific series.</Abstract></ReturnValue>
+			<Anchor>//api/name/chart:paletteItemForSeries:atIndex:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chart:paletteItemForPoint:inSeries:</TokenIdentifier>
+			<Abstract type="html">Returns an instance of TKChartPaletteItem used to draw a single point in chart based on the point index and the series.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (TKChartPaletteItem *)chart:(TKChart *)chart paletteItemForPoint:(NSUInteger)index inSeries:(TKChartSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart instance requesting this information.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The point index within the specified series.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series where the point is contained.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The instance of TKCahrtPaletteItem that contains style settings for specific point.</Abstract></ReturnValue>
+			<Anchor>//api/name/chart:paletteItemForPoint:inSeries:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chart:shapeForSeries:atIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a shape for a specified series and index.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (TKShape *)chart:(TKChart *)chart shapeForSeries:(TKChartSeries *)series atIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart instance requesting the shape.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series of the palette item that is being requested.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index of the series item.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of TKChartPaletteItem that contains style settings for a specific series.</Abstract></ReturnValue>
+			<Anchor>//api/name/chart:shapeForSeries:atIndex:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chart:animationForSeries:withState:inRect:</TokenIdentifier>
+			<Abstract type="html">Creates an animation for particular series.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (CAAnimation *)chart:(TKChart *)chart animationForSeries:(TKChartSeries *)series withState:(TKChartSeriesRenderState *)state inRect:(CGRect)rect</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart instance requesting this information.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series to which the animation will be applied.</Abstract>
+				</Parameter><Parameter>
+					<Name>state</Name>
+					<Abstract type="html">The series&apos; visual state.</Abstract>
+				</Parameter><Parameter>
+					<Name>rect</Name>
+					<Abstract type="html">The viewport of the plot area.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chart:animationForSeries:withState:inRect:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chart:didSelectSeries:</TokenIdentifier>
+			<Abstract type="html">Called on selecting series.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (void)chart:(TKChart *)chart didSelectSeries:(TKChartSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart for which the selection has occurred.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series that is selected.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chart:didSelectSeries:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chart:didDeselectSeries:</TokenIdentifier>
+			<Abstract type="html">Called when a series is deselected.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (void)chart:(TKChart *)chart didDeselectSeries:(TKChartSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart for which the selection change has occurred.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series that is deselected.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chart:didDeselectSeries:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chart:didSelectPoint:inSeries:atIndex:</TokenIdentifier>
+			<Abstract type="html">Called on selecting a point.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (void)chart:(TKChart *)chart didSelectPoint:(id&lt;TKChartData&gt;)point inSeries:(TKChartSeries *)series atIndex:(NSInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart for which the selection change has occurred.</Abstract>
+				</Parameter><Parameter>
+					<Name>point</Name>
+					<Abstract type="html">The data point that is selected.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series that contains the selected point.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index of the data point within the series.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chart:didSelectPoint:inSeries:atIndex:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chart:didDeselectPoint:inSeries:atIndex:</TokenIdentifier>
+			<Abstract type="html">Called when a point is deselected.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (void)chart:(TKChart *)chart didDeselectPoint:(id&lt;TKChartData&gt;)point inSeries:(TKChartSeries *)series atIndex:(NSInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart for which the selection change has occurred.</Abstract>
+				</Parameter><Parameter>
+					<Name>point</Name>
+					<Abstract type="html">The data point that is deselected.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series that contains the selected point.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index of the data point within the series.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chart:didDeselectPoint:inSeries:atIndex:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chartWillZoom:</TokenIdentifier>
+			<Abstract type="html">Tells the delegate when the chart view is about to start zooming the content.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (void)chartWillZoom:(TKChart *)chart</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart instance displaying the content.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chartWillZoom:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chartDidZoom:</TokenIdentifier>
+			<Abstract type="html">Tells the delegate that the TKChart zoom factor changed.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (void)chartDidZoom:(TKChart *)chart</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart instance displaying the content.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chartDidZoom:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chartWillPan:</TokenIdentifier>
+			<Abstract type="html">*
+Tells the delegate when the TKChart is about to start panning the content.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (void)chartWillPan:(TKChart *)chart</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart instance displaying the content.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chartWillPan:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chartDidPan:</TokenIdentifier>
+			<Abstract type="html">Tells the delegate that the TKChart pan factor changed.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (void)chartDidPan:(TKChart *)chart</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart instance displaying the content.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chartDidPan:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chart:trackballDidTrackSelection:</TokenIdentifier>
+			<Abstract type="html">Called on trackball moved</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (void)chart:(TKChart *)chart trackballDidTrackSelection:(NSArray *)selection</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart for which the crosshair moved</Abstract>
+				</Parameter><Parameter>
+					<Name>selection</Name>
+					<Abstract type="html">The array of TKChartSelectionInfo</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chart:trackballDidTrackSelection:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chart:trackballDidHideSelection:</TokenIdentifier>
+			<Abstract type="html">Called when the trackball hides.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (void)chart:(TKChart *)chart trackballDidHideSelection:(NSArray *)selection</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart instance displaying the content.</Abstract>
+				</Parameter><Parameter>
+					<Name>selection</Name>
+					<Abstract type="html">The array of TKChartSelectionInfo</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chart:trackballDidHideSelection:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chart:labelForDataPoint:inSeries:atIndex:</TokenIdentifier>
+			<Abstract type="html">Returns TKChartPointLabel for specific data point.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (TKChartPointLabel *)chart:(TKChart *)chart labelForDataPoint:(id&lt;TKChartData&gt;)dataPoint inSeries:(TKChartSeries *)series atIndex:(NSUInteger)dataIndex</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart instance requesting the label.</Abstract>
+				</Parameter><Parameter>
+					<Name>dataPoint</Name>
+					<Abstract type="html">The data point for which a label will be returned.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series of the data point.</Abstract>
+				</Parameter><Parameter>
+					<Name>dataIndex</Name>
+					<Abstract type="html">The index of the data point.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">TKChartPointLabel instance that will be rendered for the data point.</Abstract></ReturnValue>
+			<Anchor>//api/name/chart:labelForDataPoint:inSeries:atIndex:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chart:textForLabelAtPoint:inSeries:atIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a string representing the specified point.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)chart:(TKChart *)chart textForLabelAtPoint:(id&lt;TKChartData&gt;)dataPoint inSeries:(TKChartSeries *)series atIndex:(NSUInteger)dataIndex</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart instance requesting this information.</Abstract>
+				</Parameter><Parameter>
+					<Name>dataPoint</Name>
+					<Abstract type="html">The data point for which a label is being created.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series of the data point.</Abstract>
+				</Parameter><Parameter>
+					<Name>dataIndex</Name>
+					<Abstract type="html">The index of the data point.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A string for the point label.</Abstract></ReturnValue>
+			<Anchor>//api/name/chart:textForLabelAtPoint:inSeries:atIndex:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chart:textForAxis:value:atIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a string representing the specified tick value.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)chart:(TKChart *)chart textForAxis:(TKChartAxis *)axis value:(id)value atIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart instance requesting this information.</Abstract>
+				</Parameter><Parameter>
+					<Name>axis</Name>
+					<Abstract type="html">The axis.</Abstract>
+				</Parameter><Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The tick value.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index of the tick value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chart:textForAxis:value:atIndex:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chart:attributedTextForAxis:value:atIndex:</TokenIdentifier>
+			<Abstract type="html">Returns an attributed string representing the specified tick value.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (NSAttributedString *)chart:(TKChart *)chart attributedTextForAxis:(TKChartAxis *)axis value:(id)value atIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart instance requesting this information.</Abstract>
+				</Parameter><Parameter>
+					<Name>axis</Name>
+					<Abstract type="html">The axis.</Abstract>
+				</Parameter><Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The tick value.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index of the tick value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chart:attributedTextForAxis:value:atIndex:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chart:pointLabelRenderForSeries:withRender:</TokenIdentifier>
+			<Abstract type="html">Returns a render for point labels.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (TKChartPointLabelRender *)chart:(TKChart *)chart pointLabelRenderForSeries:(TKChartSeries *)series withRender:(TKChartSeriesRender *)render</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart instance requesting this information.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series for which labels will be rendered.</Abstract>
+				</Parameter><Parameter>
+					<Name>render</Name>
+					<Abstract type="html">The series render.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">TKChartPointLabelRender instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/chart:pointLabelRenderForSeries:withRender:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chart:legendItemForSeries:atIndex:</TokenIdentifier>
+			<Abstract type="html">Returns TKChartLegendItem instance for series.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (TKChartLegendItem *)chart:(TKChart *)chart legendItemForSeries:(TKChartSeries *)series atIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart instance requesting this information.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series for which a legend item is requested.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The legend item&apos;s index.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chart:legendItemForSeries:atIndex:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chart:updateLegendItem:forSeries:atIndex:</TokenIdentifier>
+			<Abstract type="html">Called when legend item&apos;s styles should be updated.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (void)chart:(TKChart *)chart updateLegendItem:(TKChartLegendItem *)item forSeries:(TKChartSeries *)series atIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart instance requesting this information.</Abstract>
+				</Parameter><Parameter>
+					<Name>item</Name>
+					<Abstract type="html">The legend item that will be updated.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The legend item&apos;s series.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The legend item&apos;s index.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chart:updateLegendItem:forSeries:atIndex:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDelegate/chart:didTapOnLegendItem:</TokenIdentifier>
+			<Abstract type="html">Called when touch occured on a legend item.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (void)chart:(TKChart *)chart didTapOnLegendItem:(TKChartLegendItem *)legendItem</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart instance where the event occured.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chart:didTapOnLegendItem:</Anchor>
+            <NodeRef refid="277"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

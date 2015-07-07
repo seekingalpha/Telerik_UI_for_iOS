@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKCalendarTitleCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKCalendarTitleCell</TokenIdentifier>
+			<Abstract type="html">A calendar cell used to present titles in TKCalendar.</Abstract>
+			<DeclaredIn>TKCalendarTitleCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="92"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarTitleCell/attachWithCalendar:withText:</TokenIdentifier>
+			<Abstract type="html">Attaches the cell with its owner and a text.</Abstract>
+			<DeclaredIn>TKCalendarTitleCell.h</DeclaredIn>
+			
+			<Declaration>- (void)attachWithCalendar:(TKCalendar *)owner withText:(NSString *)text</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>owner</Name>
+					<Abstract type="html">The cell owner, an instance of TKCalendar.</Abstract>
+				</Parameter><Parameter>
+					<Name>text</Name>
+					<Abstract type="html">The cell text.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/attachWithCalendar:withText:</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

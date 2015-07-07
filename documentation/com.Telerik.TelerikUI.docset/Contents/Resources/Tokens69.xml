@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKCalendar.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKCalendar</TokenIdentifier>
+			<Abstract type="html">TKCalendar is a highly customizable calendar component with year, month and week views. Different transition effects are available when switching between calendar screens and view modes. The API allows customizing almost every aspect of the visual appearance by using custom cells and styles.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+            
+			
+			<NodeRef refid="69"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/setDelegate:</TokenIdentifier>
+			<Abstract type="html">A delegate for styling the calendar component and receiving notifications.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;TKCalendarDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/delegate</TokenIdentifier>
+			<Abstract type="html">A delegate for styling the calendar component and receiving notifications.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;TKCalendarDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendar/delegate</TokenIdentifier>
+			<Abstract type="html">A delegate for styling the calendar component and receiving notifications.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;TKCalendarDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/setDataSource:</TokenIdentifier>
+			<Abstract type="html">A data-source delegate used to provide events for calendar cells.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;TKCalendarDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/dataSource</TokenIdentifier>
+			<Abstract type="html">A data-source delegate used to provide events for calendar cells.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;TKCalendarDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendar/dataSource</TokenIdentifier>
+			<Abstract type="html">A data-source delegate used to provide events for calendar cells.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;TKCalendarDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/setMinDate:</TokenIdentifier>
+			<Abstract type="html">The minimal date that will be visible when navigating between calendar screens.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *minDate</Declaration>
+			
+			
+			<Anchor>//api/name/minDate</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/minDate</TokenIdentifier>
+			<Abstract type="html">The minimal date that will be visible when navigating between calendar screens.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *minDate</Declaration>
+			
+			
+			<Anchor>//api/name/minDate</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendar/minDate</TokenIdentifier>
+			<Abstract type="html">The minimal date that will be visible when navigating between calendar screens.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *minDate</Declaration>
+			
+			
+			<Anchor>//api/name/minDate</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/setMaxDate:</TokenIdentifier>
+			<Abstract type="html">The maximal date that will be visible when navigating between calendar screens.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *maxDate</Declaration>
+			
+			
+			<Anchor>//api/name/maxDate</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/maxDate</TokenIdentifier>
+			<Abstract type="html">The maximal date that will be visible when navigating between calendar screens.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *maxDate</Declaration>
+			
+			
+			<Anchor>//api/name/maxDate</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendar/maxDate</TokenIdentifier>
+			<Abstract type="html">The maximal date that will be visible when navigating between calendar screens.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *maxDate</Declaration>
+			
+			
+			<Anchor>//api/name/maxDate</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/setSelectedDate:</TokenIdentifier>
+			<Abstract type="html">The currently selected date. Use this property when the selectionMode is set to a single selection.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *selectedDate</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDate</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/selectedDate</TokenIdentifier>
+			<Abstract type="html">The currently selected date. Use this property when the selectionMode is set to a single selection.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *selectedDate</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDate</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendar/selectedDate</TokenIdentifier>
+			<Abstract type="html">The currently selected date. Use this property when the selectionMode is set to a single selection.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *selectedDate</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDate</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/setSelectedDates:</TokenIdentifier>
+			<Abstract type="html">An array of selected dates. Use this property when the selectionMode is set to allow selecting multiple dates.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *selectedDates</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDates</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/selectedDates</TokenIdentifier>
+			<Abstract type="html">An array of selected dates. Use this property when the selectionMode is set to allow selecting multiple dates.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *selectedDates</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDates</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendar/selectedDates</TokenIdentifier>
+			<Abstract type="html">An array of selected dates. Use this property when the selectionMode is set to allow selecting multiple dates.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *selectedDates</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDates</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/setSelectedDatesRange:</TokenIdentifier>
+			<Abstract type="html">A date range. Use this property when the selectionMode is set to a range.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKDateRange *selectedDatesRange</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDatesRange</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/selectedDatesRange</TokenIdentifier>
+			<Abstract type="html">A date range. Use this property when the selectionMode is set to a range.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKDateRange *selectedDatesRange</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDatesRange</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendar/selectedDatesRange</TokenIdentifier>
+			<Abstract type="html">A date range. Use this property when the selectionMode is set to a range.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKDateRange *selectedDatesRange</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDatesRange</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/setSelectionMode:</TokenIdentifier>
+			<Abstract type="html">Defines the current selction mode.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarSelectionMode selectionMode</Declaration>
+			
+			
+			<Anchor>//api/name/selectionMode</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/selectionMode</TokenIdentifier>
+			<Abstract type="html">Defines the current selction mode.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarSelectionMode selectionMode</Declaration>
+			
+			
+			<Anchor>//api/name/selectionMode</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendar/selectionMode</TokenIdentifier>
+			<Abstract type="html">Defines the current selction mode.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarSelectionMode selectionMode</Declaration>
+			
+			
+			<Anchor>//api/name/selectionMode</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/setCalendar:</TokenIdentifier>
+			<Abstract type="html">The calendar that will be used when handling dates within the component.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSCalendar *calendar</Declaration>
+			
+			
+			<Anchor>//api/name/calendar</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/calendar</TokenIdentifier>
+			<Abstract type="html">The calendar that will be used when handling dates within the component.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSCalendar *calendar</Declaration>
+			
+			
+			<Anchor>//api/name/calendar</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendar/calendar</TokenIdentifier>
+			<Abstract type="html">The calendar that will be used when handling dates within the component.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSCalendar *calendar</Declaration>
+			
+			
+			<Anchor>//api/name/calendar</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/setLocale:</TokenIdentifier>
+			<Abstract type="html">The locale which determines month and week days text representation.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSLocale *locale</Declaration>
+			
+			
+			<Anchor>//api/name/locale</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/locale</TokenIdentifier>
+			<Abstract type="html">The locale which determines month and week days text representation.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSLocale *locale</Declaration>
+			
+			
+			<Anchor>//api/name/locale</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendar/locale</TokenIdentifier>
+			<Abstract type="html">The locale which determines month and week days text representation.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSLocale *locale</Declaration>
+			
+			
+			<Anchor>//api/name/locale</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/setViewMode:</TokenIdentifier>
+			<Abstract type="html">Defines the calendar view mode.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarViewMode viewMode</Declaration>
+			
+			
+			<Anchor>//api/name/viewMode</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/viewMode</TokenIdentifier>
+			<Abstract type="html">Defines the calendar view mode.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarViewMode viewMode</Declaration>
+			
+			
+			<Anchor>//api/name/viewMode</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendar/viewMode</TokenIdentifier>
+			<Abstract type="html">Defines the calendar view mode.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarViewMode viewMode</Declaration>
+			
+			
+			<Anchor>//api/name/viewMode</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/setAllowPinchZoom:</TokenIdentifier>
+			<Abstract type="html">Defines whether a pinch gesture is enabled to switch between month, month names and year numbers view modes.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowPinchZoom</Declaration>
+			
+			
+			<Anchor>//api/name/allowPinchZoom</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/allowPinchZoom</TokenIdentifier>
+			<Abstract type="html">Defines whether a pinch gesture is enabled to switch between month, month names and year numbers view modes.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowPinchZoom</Declaration>
+			
+			
+			<Anchor>//api/name/allowPinchZoom</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendar/allowPinchZoom</TokenIdentifier>
+			<Abstract type="html">Defines whether a pinch gesture is enabled to switch between month, month names and year numbers view modes.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowPinchZoom</Declaration>
+			
+			
+			<Anchor>//api/name/allowPinchZoom</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/setTheme:</TokenIdentifier>
+			<Abstract type="html">The calendar theme. Currenlty there are two themes available: the default one and an ipad theme.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKTheme *theme</Declaration>
+			
+			
+			<Anchor>//api/name/theme</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/theme</TokenIdentifier>
+			<Abstract type="html">The calendar theme. Currenlty there are two themes available: the default one and an ipad theme.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKTheme *theme</Declaration>
+			
+			
+			<Anchor>//api/name/theme</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendar/theme</TokenIdentifier>
+			<Abstract type="html">The calendar theme. Currenlty there are two themes available: the default one and an ipad theme.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKTheme *theme</Declaration>
+			
+			
+			<Anchor>//api/name/theme</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKCalendar/versionString</TokenIdentifier>
+			<Abstract type="html">Returns the version of the calendar.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)versionString</Declaration>
+			
+			
+			<Anchor>//api/name/versionString</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKCalendar/dateWithYear:month:day:withCalendar:</TokenIdentifier>
+			<Abstract type="html">Creates a date by specifying its year, month and day. The calendar argument is optional. If it is nil, the current calendar will be used.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>+ (NSDate *)dateWithYear:(NSInteger)year month:(NSInteger)month day:(NSInteger)day withCalendar:(NSCalendar *)calendar</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>year</Name>
+					<Abstract type="html">The year.</Abstract>
+				</Parameter><Parameter>
+					<Name>month</Name>
+					<Abstract type="html">The month.</Abstract>
+				</Parameter><Parameter>
+					<Name>day</Name>
+					<Abstract type="html">The day.</Abstract>
+				</Parameter><Parameter>
+					<Name>calendar</Name>
+					<Abstract type="html">The calendar to be used when creating this date. The current calendar will be used if this argument is nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of NSDate if successfull.</Abstract></ReturnValue>
+			<Anchor>//api/name/dateWithYear:month:day:withCalendar:</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKCalendar/isDate:equalToDate:withComponents:withCalendar:</TokenIdentifier>
+			<Abstract type="html">Compares two dates by using only the specified components. Nonspecified components will be ignored.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isDate:(NSDate *)date1 equalToDate:(NSDate *)date2 withComponents:(NSCalendarUnit)components withCalendar:(NSCalendar *)calendar</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>date1</Name>
+					<Abstract type="html">The first date to compare.</Abstract>
+				</Parameter><Parameter>
+					<Name>date2</Name>
+					<Abstract type="html">The second date to compare.</Abstract>
+				</Parameter><Parameter>
+					<Name>components</Name>
+					<Abstract type="html">The components to be used when comparing the two dates.</Abstract>
+				</Parameter><Parameter>
+					<Name>calendar</Name>
+					<Abstract type="html">The calendar to be used when comparing the two dates. The current calendar will be used if this argument is nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the dates are equal. NO otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/isDate:equalToDate:withComponents:withCalendar:</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/navigateForward:</TokenIdentifier>
+			<Abstract type="html">Navigates to the next screen in current view mode context.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>- (void)navigateForward:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">Defines whether to use animation when navigating.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/navigateForward:</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/navigateBack:</TokenIdentifier>
+			<Abstract type="html">Navigates to the previous screen in the current view mode context.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>- (void)navigateBack:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">Defines whether to use animation when navigating.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/navigateBack:</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/navigateToDate:animated:</TokenIdentifier>
+			<Abstract type="html">Navigates to the specified date.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>- (void)navigateToDate:(NSDate *)date animated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>date</Name>
+					<Abstract type="html">The date that should be visible in calendar.</Abstract>
+				</Parameter><Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">Defines whether to use animation when navigating.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/navigateToDate:animated:</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/reloadData</TokenIdentifier>
+			<Abstract type="html">Reloads all events in the calendar and resets the selection.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>- (void)reloadData</Declaration>
+			
+			
+			<Anchor>//api/name/reloadData</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/eventsForDate:</TokenIdentifier>
+			<Abstract type="html">Returns the events for a specific date.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)eventsForDate:(NSDate *)date</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>date</Name>
+					<Abstract type="html">The date.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An array with events if scuccessfull. Nil otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/eventsForDate:</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/presenter</TokenIdentifier>
+			<Abstract type="html">Returns the presenter that is responsible for displaying the calendar in the selected view mode</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>- (id&lt;TKCalendarPresenter&gt;)presenter</Declaration>
+			
+			<ReturnValue><Abstract type="html">An instance of a class that implements TKCalendarPresenter.</Abstract></ReturnValue>
+			<Anchor>//api/name/presenter</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendar/displayedDate</TokenIdentifier>
+			<Abstract type="html">Returns the date that is currently displayed in calendar.</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+			
+			<Declaration>- (NSDate *)displayedDate</Declaration>
+			
+			<ReturnValue><Abstract type="html">An instance of NSDate.</Abstract></ReturnValue>
+			<Anchor>//api/name/displayedDate</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

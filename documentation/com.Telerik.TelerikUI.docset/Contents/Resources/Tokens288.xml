@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKCalendarDayState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKCalendarDayState</TokenIdentifier>
+			<Abstract type="html">@enum TKCalendarDayState</Abstract>
+			<DeclaredIn>TKCalendarDayCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="288"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarDayStateToday</TokenIdentifier>
+            <Abstract type="html">The date is today.
+     </Abstract>
+            <Declaration>TKCalendarDayStateToday</Declaration>
+            
+            <DeclaredIn>TKCalendarDayCell.h</DeclaredIn>
+            
+            <NodeRef refid="288"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarDayStateWeekend</TokenIdentifier>
+            <Abstract type="html">The date represents a weekend.
+     </Abstract>
+            <Declaration>TKCalendarDayStateWeekend</Declaration>
+            
+            <DeclaredIn>TKCalendarDayCell.h</DeclaredIn>
+            
+            <NodeRef refid="288"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarDayStateCurrentMonth</TokenIdentifier>
+            <Abstract type="html">The date is contained within the currently presented month.
+     </Abstract>
+            <Declaration>TKCalendarDayStateCurrentMonth</Declaration>
+            
+            <DeclaredIn>TKCalendarDayCell.h</DeclaredIn>
+            
+            <NodeRef refid="288"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarDayStateCurrentYear</TokenIdentifier>
+            <Abstract type="html">The date is contained within the currently presented year.
+     </Abstract>
+            <Declaration>TKCalendarDayStateCurrentYear</Declaration>
+            
+            <DeclaredIn>TKCalendarDayCell.h</DeclaredIn>
+            
+            <NodeRef refid="288"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarDayStateSelected</TokenIdentifier>
+            <Abstract type="html">The date is selected.
+     </Abstract>
+            <Declaration>TKCalendarDayStateSelected</Declaration>
+            
+            <DeclaredIn>TKCalendarDayCell.h</DeclaredIn>
+            
+            <NodeRef refid="288"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarDayStateFirstInSelection</TokenIdentifier>
+            <Abstract type="html">The date is the first date in a range selection.
+     </Abstract>
+            <Declaration>TKCalendarDayStateFirstInSelection</Declaration>
+            
+            <DeclaredIn>TKCalendarDayCell.h</DeclaredIn>
+            
+            <NodeRef refid="288"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarDayStateLastInSelection</TokenIdentifier>
+            <Abstract type="html">The date is the last date in a range selection.
+     </Abstract>
+            <Declaration>TKCalendarDayStateLastInSelection</Declaration>
+            
+            <DeclaredIn>TKCalendarDayCell.h</DeclaredIn>
+            
+            <NodeRef refid="288"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarDayStateMidInSelection</TokenIdentifier>
+            <Abstract type="html">The date is a mid date in a range selection.
+     </Abstract>
+            <Declaration>TKCalendarDayStateMidInSelection</Declaration>
+            
+            <DeclaredIn>TKCalendarDayCell.h</DeclaredIn>
+            
+            <NodeRef refid="288"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarDayStateDisabled</TokenIdentifier>
+            <Abstract type="html">The date is outside of the selectable range and cannot be selected
+     </Abstract>
+            <Declaration>TKCalendarDayStateDisabled</Declaration>
+            
+            <DeclaredIn>TKCalendarDayCell.h</DeclaredIn>
+            
+            <NodeRef refid="288"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKChartTitlePosition.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKChartTitlePosition</TokenIdentifier>
+			<Abstract type="html">@enum TKChartTitlePosition</Abstract>
+			<DeclaredIn>TKChartTitleView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="322"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartTitlePositionLeft</TokenIdentifier>
+            <Abstract type="html">     The chart title should be positioned at the left side of the chart.
+     </Abstract>
+            <Declaration>TKChartTitlePositionLeft</Declaration>
+            
+            <DeclaredIn>TKChartTitleView.h</DeclaredIn>
+            
+            <NodeRef refid="322"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartTitlePositionRight</TokenIdentifier>
+            <Abstract type="html">     The chart title should be positioned at the right side of the chart.
+     </Abstract>
+            <Declaration>TKChartTitlePositionRight</Declaration>
+            
+            <DeclaredIn>TKChartTitleView.h</DeclaredIn>
+            
+            <NodeRef refid="322"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartTitlePositionTop</TokenIdentifier>
+            <Abstract type="html">     The chart title should be positioned at the top side of the chart.
+     </Abstract>
+            <Declaration>TKChartTitlePositionTop</Declaration>
+            
+            <DeclaredIn>TKChartTitleView.h</DeclaredIn>
+            
+            <NodeRef refid="322"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartTitlePositionBottom</TokenIdentifier>
+            <Abstract type="html">     The chart title should be positioned at the bottom side of the chart.
+     </Abstract>
+            <Declaration>TKChartTitlePositionBottom</Declaration>
+            
+            <DeclaredIn>TKChartTitleView.h</DeclaredIn>
+            
+            <NodeRef refid="322"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

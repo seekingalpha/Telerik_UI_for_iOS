@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartPieVisualPoint.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartPieVisualPoint</TokenIdentifier>
+			<Abstract type="html">Represents the visual point rendered by TKChart pie series.</Abstract>
+			<DeclaredIn>TKChartPieVisualPoint.h</DeclaredIn>
+            
+			
+			<NodeRef refid="169"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPieVisualPoint/setDistanceFromCenter:</TokenIdentifier>
+			<Abstract type="html">The distance from pie&apos;s center.</Abstract>
+			<DeclaredIn>TKChartPieVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat distanceFromCenter</Declaration>
+			
+			
+			<Anchor>//api/name/distanceFromCenter</Anchor>
+            <NodeRef refid="169"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPieVisualPoint/distanceFromCenter</TokenIdentifier>
+			<Abstract type="html">The distance from pie&apos;s center.</Abstract>
+			<DeclaredIn>TKChartPieVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat distanceFromCenter</Declaration>
+			
+			
+			<Anchor>//api/name/distanceFromCenter</Anchor>
+            <NodeRef refid="169"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartPieVisualPoint/distanceFromCenter</TokenIdentifier>
+			<Abstract type="html">The distance from pie&apos;s center.</Abstract>
+			<DeclaredIn>TKChartPieVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat distanceFromCenter</Declaration>
+			
+			
+			<Anchor>//api/name/distanceFromCenter</Anchor>
+            <NodeRef refid="169"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPieVisualPoint/setStartAngle:</TokenIdentifier>
+			<Abstract type="html">The start angle of the point.</Abstract>
+			<DeclaredIn>TKChartPieVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat startAngle</Declaration>
+			
+			
+			<Anchor>//api/name/startAngle</Anchor>
+            <NodeRef refid="169"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPieVisualPoint/startAngle</TokenIdentifier>
+			<Abstract type="html">The start angle of the point.</Abstract>
+			<DeclaredIn>TKChartPieVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat startAngle</Declaration>
+			
+			
+			<Anchor>//api/name/startAngle</Anchor>
+            <NodeRef refid="169"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartPieVisualPoint/startAngle</TokenIdentifier>
+			<Abstract type="html">The start angle of the point.</Abstract>
+			<DeclaredIn>TKChartPieVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat startAngle</Declaration>
+			
+			
+			<Anchor>//api/name/startAngle</Anchor>
+            <NodeRef refid="169"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartSplineSeries.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartSplineSeries</TokenIdentifier>
+			<Abstract type="html">Represents a TKChart spline series. Check this Guide for more information.</Abstract>
+			<DeclaredIn>TKChartSplineSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="191"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

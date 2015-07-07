@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartVisualPoint.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartVisualPoint</TokenIdentifier>
+			<Abstract type="html">Represents a visual point rendered by TKChart cartesian series.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+            
+			
+			<NodeRef refid="206"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartVisualPoint/initWithPoint:</TokenIdentifier>
+			<Abstract type="html">Initializes a visual point with its geometry point.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithPoint:(CGPoint)point</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>point</Name>
+					<Abstract type="html">The point in screen coordinates.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithPoint:</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartVisualPoint/CGPoint</TokenIdentifier>
+			<Abstract type="html">Returns a geometry point.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>- (CGPoint)CGPoint</Declaration>
+			
+			
+			<Anchor>//api/name/CGPoint</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartVisualPoint/setX:</TokenIdentifier>
+			<Abstract type="html">The x-coordinate of the visual point.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat x</Declaration>
+			
+			
+			<Anchor>//api/name/x</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartVisualPoint/x</TokenIdentifier>
+			<Abstract type="html">The x-coordinate of the visual point.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat x</Declaration>
+			
+			
+			<Anchor>//api/name/x</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartVisualPoint/x</TokenIdentifier>
+			<Abstract type="html">The x-coordinate of the visual point.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat x</Declaration>
+			
+			
+			<Anchor>//api/name/x</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartVisualPoint/setY:</TokenIdentifier>
+			<Abstract type="html">The y-coordinate of the visual point.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat y</Declaration>
+			
+			
+			<Anchor>//api/name/y</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartVisualPoint/y</TokenIdentifier>
+			<Abstract type="html">The y-coordinate of the visual point.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat y</Declaration>
+			
+			
+			<Anchor>//api/name/y</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartVisualPoint/y</TokenIdentifier>
+			<Abstract type="html">The y-coordinate of the visual point.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat y</Declaration>
+			
+			
+			<Anchor>//api/name/y</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartVisualPoint/setScaleFactor:</TokenIdentifier>
+			<Abstract type="html">The scale factor of the visual point.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat scaleFactor</Declaration>
+			
+			
+			<Anchor>//api/name/scaleFactor</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartVisualPoint/scaleFactor</TokenIdentifier>
+			<Abstract type="html">The scale factor of the visual point.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat scaleFactor</Declaration>
+			
+			
+			<Anchor>//api/name/scaleFactor</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartVisualPoint/scaleFactor</TokenIdentifier>
+			<Abstract type="html">The scale factor of the visual point.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat scaleFactor</Declaration>
+			
+			
+			<Anchor>//api/name/scaleFactor</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartVisualPoint/setOpacity:</TokenIdentifier>
+			<Abstract type="html">The opacity of the visual point.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat opacity</Declaration>
+			
+			
+			<Anchor>//api/name/opacity</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartVisualPoint/opacity</TokenIdentifier>
+			<Abstract type="html">The opacity of the visual point.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat opacity</Declaration>
+			
+			
+			<Anchor>//api/name/opacity</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartVisualPoint/opacity</TokenIdentifier>
+			<Abstract type="html">The opacity of the visual point.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat opacity</Declaration>
+			
+			
+			<Anchor>//api/name/opacity</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartVisualPoint/setCenter:</TokenIdentifier>
+			<Abstract type="html">The center of the visual point.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGPoint center</Declaration>
+			
+			
+			<Anchor>//api/name/center</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartVisualPoint/center</TokenIdentifier>
+			<Abstract type="html">The center of the visual point.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGPoint center</Declaration>
+			
+			
+			<Anchor>//api/name/center</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartVisualPoint/center</TokenIdentifier>
+			<Abstract type="html">The center of the visual point.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGPoint center</Declaration>
+			
+			
+			<Anchor>//api/name/center</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartVisualPoint/setBounds:</TokenIdentifier>
+			<Abstract type="html">The bounds of the visual point. This property is required by the UIDynamicItem protocol that is used with UIKitDynamics.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGRect bounds</Declaration>
+			
+			
+			<Anchor>//api/name/bounds</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartVisualPoint/bounds</TokenIdentifier>
+			<Abstract type="html">The bounds of the visual point. This property is required by the UIDynamicItem protocol that is used with UIKitDynamics.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGRect bounds</Declaration>
+			
+			
+			<Anchor>//api/name/bounds</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartVisualPoint/bounds</TokenIdentifier>
+			<Abstract type="html">The bounds of the visual point. This property is required by the UIDynamicItem protocol that is used with UIKitDynamics.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGRect bounds</Declaration>
+			
+			
+			<Anchor>//api/name/bounds</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartVisualPoint/setTransform:</TokenIdentifier>
+			<Abstract type="html">The affine transofmation matrix of the visual point. This property is required by the UIDynamicItem protocol that is used with UIKitDynamics.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGAffineTransform transform</Declaration>
+			
+			
+			<Anchor>//api/name/transform</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartVisualPoint/transform</TokenIdentifier>
+			<Abstract type="html">The affine transofmation matrix of the visual point. This property is required by the UIDynamicItem protocol that is used with UIKitDynamics.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGAffineTransform transform</Declaration>
+			
+			
+			<Anchor>//api/name/transform</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartVisualPoint/transform</TokenIdentifier>
+			<Abstract type="html">The affine transofmation matrix of the visual point. This property is required by the UIDynamicItem protocol that is used with UIKitDynamics.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGAffineTransform transform</Declaration>
+			
+			
+			<Anchor>//api/name/transform</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartVisualPoint/setAnimator:</TokenIdentifier>
+			<Abstract type="html">The animator of the visual point used by UIKitDynamics animations.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIDynamicAnimator *animator</Declaration>
+			
+			
+			<Anchor>//api/name/animator</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartVisualPoint/animator</TokenIdentifier>
+			<Abstract type="html">The animator of the visual point used by UIKitDynamics animations.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIDynamicAnimator *animator</Declaration>
+			
+			
+			<Anchor>//api/name/animator</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartVisualPoint/animator</TokenIdentifier>
+			<Abstract type="html">The animator of the visual point used by UIKitDynamics animations.</Abstract>
+			<DeclaredIn>TKChartVisualPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIDynamicAnimator *animator</Declaration>
+			
+			
+			<Anchor>//api/name/animator</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

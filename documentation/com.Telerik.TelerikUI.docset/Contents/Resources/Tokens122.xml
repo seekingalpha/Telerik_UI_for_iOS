@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartBubbleDataPoint.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartBubbleDataPoint</TokenIdentifier>
+			<Abstract type="html">Represents a data point for bubble series.</Abstract>
+			<DeclaredIn>TKChartBubbleDataPoint.h</DeclaredIn>
+            
+			
+			<NodeRef refid="122"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBubbleDataPoint/setArea:</TokenIdentifier>
+			<Abstract type="html">Bubble area value.</Abstract>
+			<DeclaredIn>TKChartBubbleDataPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *area</Declaration>
+			
+			
+			<Anchor>//api/name/area</Anchor>
+            <NodeRef refid="122"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBubbleDataPoint/area</TokenIdentifier>
+			<Abstract type="html">Bubble area value.</Abstract>
+			<DeclaredIn>TKChartBubbleDataPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *area</Declaration>
+			
+			
+			<Anchor>//api/name/area</Anchor>
+            <NodeRef refid="122"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartBubbleDataPoint/area</TokenIdentifier>
+			<Abstract type="html">Bubble area value.</Abstract>
+			<DeclaredIn>TKChartBubbleDataPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *area</Declaration>
+			
+			
+			<Anchor>//api/name/area</Anchor>
+            <NodeRef refid="122"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKChartBubbleDataPoint/dataPointWithX:Y:area:</TokenIdentifier>
+			<Abstract type="html">Creates a data point for bubble series.</Abstract>
+			<DeclaredIn>TKChartBubbleDataPoint.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)dataPointWithX:(id)xValue Y:(id)yValue area:(NSNumber *)area</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>xValue</Name>
+					<Abstract type="html">X axis value.</Abstract>
+				</Parameter><Parameter>
+					<Name>yValue</Name>
+					<Abstract type="html">Y axis value.</Abstract>
+				</Parameter><Parameter>
+					<Name>area</Name>
+					<Abstract type="html">Bubble area value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/dataPointWithX:Y:area:</Anchor>
+            <NodeRef refid="122"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBubbleDataPoint/initWithX:Y:area:</TokenIdentifier>
+			<Abstract type="html">Creates a data point for bubble series.</Abstract>
+			<DeclaredIn>TKChartBubbleDataPoint.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithX:(id)xValue Y:(id)yValue area:(NSNumber *)area</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>xValue</Name>
+					<Abstract type="html">X axis value.</Abstract>
+				</Parameter><Parameter>
+					<Name>yValue</Name>
+					<Abstract type="html">Y axis value.</Abstract>
+				</Parameter><Parameter>
+					<Name>area</Name>
+					<Abstract type="html">Bubble area value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithX:Y:area:</Anchor>
+            <NodeRef refid="122"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TKListViewDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TKListViewDelegate</TokenIdentifier>
+			<Abstract type="html">The TKListViewDelegate protocol defines methods that allow you to manage the selection of items in TKListView, to perform actions on those items, and respond to interaction with those items.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="282"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKListViewDelegate/listView:shouldHighlightItemAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">* Returns a boolean value indicating whether the specified item should be highlighted.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)listView:(TKListView *)listView shouldHighlightItemAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listView</Name>
+					<Abstract type="html">The TKListView instance requesting this information.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path of the item about to be highlighted.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the item should be highlighted.</Abstract></ReturnValue>
+			<Anchor>//api/name/listView:shouldHighlightItemAtIndexPath:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKListViewDelegate/listView:didHighlightItemAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">This method is called after highliting an item.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)listView:(TKListView *)listView didHighlightItemAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listView</Name>
+					<Abstract type="html">The TKListView instance.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path of the highlighted item.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listView:didHighlightItemAtIndexPath:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKListViewDelegate/listView:didUnhighlightItemAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">This method is called after unhighliting an item.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)listView:(TKListView *)listView didUnhighlightItemAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listView</Name>
+					<Abstract type="html">The TKListView instance.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path of the unhighlighted item.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listView:didUnhighlightItemAtIndexPath:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKListViewDelegate/listView:shouldSelectItemAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">Returns a boolean value indicating whether the specified item should be selected.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)listView:(TKListView *)listView shouldSelectItemAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listView</Name>
+					<Abstract type="html">The TKListView instance requesting this information.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path of the item about to be selected.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the item should be selected.</Abstract></ReturnValue>
+			<Anchor>//api/name/listView:shouldSelectItemAtIndexPath:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKListViewDelegate/listView:shouldDeselectItemAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">Returns a boolean value indicating whether the specified item should be deselected.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)listView:(TKListView *)listView shouldDeselectItemAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listView</Name>
+					<Abstract type="html">The TKListView instance requesting this information.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path of the item about to be deselected.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the item should be selected.</Abstract></ReturnValue>
+			<Anchor>//api/name/listView:shouldDeselectItemAtIndexPath:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKListViewDelegate/listView:didSelectItemAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">This method is called after selecting an item.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)listView:(TKListView *)listView didSelectItemAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listView</Name>
+					<Abstract type="html">The TKListView instance.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path of the selected item.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listView:didSelectItemAtIndexPath:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKListViewDelegate/listView:didDeselectItemAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">This method is called after deselecting an item.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)listView:(TKListView *)listView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listView</Name>
+					<Abstract type="html">The TKListView instance.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path of the deselected item.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listView:didDeselectItemAtIndexPath:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKListViewDelegate/listView:didReorderItemFromIndexPath:toIndexPath:</TokenIdentifier>
+			<Abstract type="html">This method is called after reordering an item an item.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)listView:(TKListView *)listView didReorderItemFromIndexPath:(NSIndexPath *)originalIndexPath toIndexPath:(NSIndexPath *)targetIndexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listView</Name>
+					<Abstract type="html">The TKListView instance.</Abstract>
+				</Parameter><Parameter>
+					<Name>originalIndexPath</Name>
+					<Abstract type="html">The index path we move the item from.</Abstract>
+				</Parameter><Parameter>
+					<Name>targetIndexPath</Name>
+					<Abstract type="html">The index path we move the item to.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listView:didReorderItemFromIndexPath:toIndexPath:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKListViewDelegate/listView:shouldSwipeCell:atIndexPath:</TokenIdentifier>
+			<Abstract type="html">This method is called when the user starts swiping a cell.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)listView:(TKListView *)listView shouldSwipeCell:(TKListViewCell *)cell atIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listView</Name>
+					<Abstract type="html">The TKListView instance.</Abstract>
+				</Parameter><Parameter>
+					<Name>cell</Name>
+					<Abstract type="html">The TKListViewCell instance being swiped.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path of the cell being swiped.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listView:shouldSwipeCell:atIndexPath:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKListViewDelegate/listView:didSwipeCell:atIndexPath:withOffset:</TokenIdentifier>
+			<Abstract type="html">This method is called when the user swipes a cell. This method is called after shouldSwipeCell and before didFinishSwipingCell.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)listView:(TKListView *)listView didSwipeCell:(TKListViewCell *)cell atIndexPath:(NSIndexPath *)indexPath withOffset:(CGPoint)offset</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listView</Name>
+					<Abstract type="html">The TKListView instance.</Abstract>
+				</Parameter><Parameter>
+					<Name>cell</Name>
+					<Abstract type="html">The TKListViewCell instance being swiped.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path of the cell being swiped.</Abstract>
+				</Parameter><Parameter>
+					<Name>offset</Name>
+					<Abstract type="html">The swipe offset.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listView:didSwipeCell:atIndexPath:withOffset:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKListViewDelegate/listView:didFinishSwipeCell:atIndexPath:withOffset:</TokenIdentifier>
+			<Abstract type="html">This method is called after the user has finished swiping a cell.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)listView:(TKListView *)listView didFinishSwipeCell:(TKListViewCell *)cell atIndexPath:(NSIndexPath *)indexPath withOffset:(CGPoint)offset</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listView</Name>
+					<Abstract type="html">The TKListView instance.</Abstract>
+				</Parameter><Parameter>
+					<Name>cell</Name>
+					<Abstract type="html">The TKListViewCell instance being swiped.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path of the cell being swiped.</Abstract>
+				</Parameter><Parameter>
+					<Name>offset</Name>
+					<Abstract type="html">The swipe offset.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listView:didFinishSwipeCell:atIndexPath:withOffset:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKListViewDelegate/listView:didPullWithOffset:</TokenIdentifier>
+			<Abstract type="html">This method is called when the user pulls the list view to refresh its data.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)listView:(TKListView *)listView didPullWithOffset:(CGFloat)offset</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listView</Name>
+					<Abstract type="html">The TKListView instance.</Abstract>
+				</Parameter><Parameter>
+					<Name>offset</Name>
+					<Abstract type="html">The pull offset.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listView:didPullWithOffset:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKListViewDelegate/listView:didLongPressCell:atIndexPath:</TokenIdentifier>
+			<Abstract type="html">This method is called after the user long pressed a cell.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)listView:(TKListView *)listView didLongPressCell:(TKListViewCell *)cell atIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listView</Name>
+					<Abstract type="html">The TKListView instance.</Abstract>
+				</Parameter><Parameter>
+					<Name>cell</Name>
+					<Abstract type="html">The TKListViewCell instance being long pressed.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path of the cell being long pressed.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listView:didLongPressCell:atIndexPath:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKListViewDelegate/listView:shouldLoadMoreDataAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">Returns a boolean value indicating whether more data will be loaded.
+Called after the user requested loading more data on demand by scrolling over the cellBuffer limit size.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)listView:(TKListView *)listView shouldLoadMoreDataAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listView</Name>
+					<Abstract type="html">The TKListView instance.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path where the buffer limit size was reached.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listView:shouldLoadMoreDataAtIndexPath:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKListViewDelegate/listViewShouldRefreshOnPull:</TokenIdentifier>
+			<Abstract type="html">Returns a boolean value indicating whether listView should display activity indicator and wait for fresh data.
+Called after user performs pull-to-refresh gesture.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)listViewShouldRefreshOnPull:(TKListView *)listView</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listView</Name>
+					<Abstract type="html">The listview component instance requesting the fresh data.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listViewShouldRefreshOnPull:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

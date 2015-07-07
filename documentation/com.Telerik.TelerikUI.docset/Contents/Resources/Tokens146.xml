@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartLayerAnnotation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartLayerAnnotation</TokenIdentifier>
+			<Abstract type="html">Represents an annotation that contains a layer.</Abstract>
+			<DeclaredIn>TKChartLayerAnnotation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="146"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLayerAnnotation/initWithLayer:X:Y:forSeries:</TokenIdentifier>
+			<Abstract type="html">Initializes the annotation with a layer.</Abstract>
+			<DeclaredIn>TKChartLayerAnnotation.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithLayer:(CALayer *)layer X:(id)xValue Y:(id)yValue forSeries:(TKChartSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>layer</Name>
+					<Abstract type="html">The layer to display with this annotation.</Abstract>
+				</Parameter><Parameter>
+					<Name>xValue</Name>
+					<Abstract type="html">The X coordinate of the annotation.</Abstract>
+				</Parameter><Parameter>
+					<Name>yValue</Name>
+					<Abstract type="html">The Y coordinate of the annotation.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The TKChartSeries instance to use with these coordinates.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithLayer:X:Y:forSeries:</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLayerAnnotation/initWithLayer:point:forSeries:</TokenIdentifier>
+			<Abstract type="html">Initializes the annotation with a layer.</Abstract>
+			<DeclaredIn>TKChartLayerAnnotation.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithLayer:(CALayer *)layer point:(id&lt;TKChartData&gt;)point forSeries:(TKChartSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>layer</Name>
+					<Abstract type="html">The layer to display with this annotation.</Abstract>
+				</Parameter><Parameter>
+					<Name>point</Name>
+					<Abstract type="html">The location of the annotation.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The TKChartSeries instance to use with these coordinates.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithLayer:point:forSeries:</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLayerAnnotation/initWithLayer:</TokenIdentifier>
+			<Abstract type="html">Initializes the annotation with a layer.</Abstract>
+			<DeclaredIn>TKChartLayerAnnotation.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithLayer:(CALayer *)layer</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>layer</Name>
+					<Abstract type="html">The layer to display with this annotation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithLayer:</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLayerAnnotation/setLayer:</TokenIdentifier>
+			<Abstract type="html">The annotation layer.</Abstract>
+			<DeclaredIn>TKChartLayerAnnotation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CALayer *layer</Declaration>
+			
+			
+			<Anchor>//api/name/layer</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLayerAnnotation/layer</TokenIdentifier>
+			<Abstract type="html">The annotation layer.</Abstract>
+			<DeclaredIn>TKChartLayerAnnotation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CALayer *layer</Declaration>
+			
+			
+			<Anchor>//api/name/layer</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartLayerAnnotation/layer</TokenIdentifier>
+			<Abstract type="html">The annotation layer.</Abstract>
+			<DeclaredIn>TKChartLayerAnnotation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CALayer *layer</Declaration>
+			
+			
+			<Anchor>//api/name/layer</Anchor>
+            <NodeRef refid="146"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

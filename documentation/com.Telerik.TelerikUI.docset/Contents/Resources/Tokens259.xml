@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKSolidFill.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKSolidFill</TokenIdentifier>
+			<Abstract type="html">A solid color fill.</Abstract>
+			<DeclaredIn>TKSolidFill.h</DeclaredIn>
+            
+			
+			<NodeRef refid="259"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKSolidFill/solidFillWithColor:</TokenIdentifier>
+			<Abstract type="html">Initializes with a fill color.</Abstract>
+			<DeclaredIn>TKSolidFill.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)solidFillWithColor:(UIColor *)color</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>color</Name>
+					<Abstract type="html">The fill color.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/solidFillWithColor:</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKSolidFill/solidFillWithColor:cornerRadius:</TokenIdentifier>
+			<Abstract type="html">Initializes with a fill color.</Abstract>
+			<DeclaredIn>TKSolidFill.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)solidFillWithColor:(UIColor *)color cornerRadius:(CGFloat)cornerRadius</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>color</Name>
+					<Abstract type="html">The fill color.</Abstract>
+				</Parameter><Parameter>
+					<Name>cornerRadius</Name>
+					<Abstract type="html">The corner radius in points.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/solidFillWithColor:cornerRadius:</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSolidFill/initWithColor:</TokenIdentifier>
+			<Abstract type="html">Initializes with a fill color.</Abstract>
+			<DeclaredIn>TKSolidFill.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithColor:(UIColor *)color</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>color</Name>
+					<Abstract type="html">The fill color.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithColor:</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSolidFill/initWithColor:cornerRadius:</TokenIdentifier>
+			<Abstract type="html">Initializes with a fill color.</Abstract>
+			<DeclaredIn>TKSolidFill.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithColor:(UIColor *)color cornerRadius:(CGFloat)cornerRadius</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>color</Name>
+					<Abstract type="html">The fill color.</Abstract>
+				</Parameter><Parameter>
+					<Name>cornerRadius</Name>
+					<Abstract type="html">The corner radius in points.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithColor:cornerRadius:</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSolidFill/setColor:</TokenIdentifier>
+			<Abstract type="html">The Fill color to use while drawing.</Abstract>
+			<DeclaredIn>TKSolidFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSolidFill/color</TokenIdentifier>
+			<Abstract type="html">The Fill color to use while drawing.</Abstract>
+			<DeclaredIn>TKSolidFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKSolidFill/color</TokenIdentifier>
+			<Abstract type="html">The Fill color to use while drawing.</Abstract>
+			<DeclaredIn>TKSolidFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

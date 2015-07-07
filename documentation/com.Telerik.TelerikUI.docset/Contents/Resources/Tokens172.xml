@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartPointLabelRender.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartPointLabelRender</TokenIdentifier>
+			<Abstract type="html">Represents a base class for point label renders.</Abstract>
+			<DeclaredIn>TKChartPointLabelRender.h</DeclaredIn>
+            
+			
+			<NodeRef refid="172"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelRender/setRender:</TokenIdentifier>
+			<Abstract type="html">The corresponding series render.</Abstract>
+			<DeclaredIn>TKChartPointLabelRender.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, weak) TKChartSeriesRender *render</Declaration>
+			
+			
+			<Anchor>//api/name/render</Anchor>
+            <NodeRef refid="172"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelRender/render</TokenIdentifier>
+			<Abstract type="html">The corresponding series render.</Abstract>
+			<DeclaredIn>TKChartPointLabelRender.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, weak) TKChartSeriesRender *render</Declaration>
+			
+			
+			<Anchor>//api/name/render</Anchor>
+            <NodeRef refid="172"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartPointLabelRender/render</TokenIdentifier>
+			<Abstract type="html">The corresponding series render.</Abstract>
+			<DeclaredIn>TKChartPointLabelRender.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, weak) TKChartSeriesRender *render</Declaration>
+			
+			
+			<Anchor>//api/name/render</Anchor>
+            <NodeRef refid="172"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelRender/initWithRender:</TokenIdentifier>
+			<Abstract type="html">Initializes the point label&apos;s render with corresponding series render.</Abstract>
+			<DeclaredIn>TKChartPointLabelRender.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithRender:(TKChartSeriesRender *)render</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>render</Name>
+					<Abstract type="html">The series render.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithRender:</Anchor>
+            <NodeRef refid="172"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelRender/renderPointLabelsForSeries:inRect:context:</TokenIdentifier>
+			<Abstract type="html">Renders point labels for a series.</Abstract>
+			<DeclaredIn>TKChartPointLabelRender.h</DeclaredIn>
+			
+			<Declaration>- (void)renderPointLabelsForSeries:(TKChartSeries *)series inRect:(CGRect)bounds context:(CGContextRef)ctx</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series for which point labels will be rendered.</Abstract>
+				</Parameter><Parameter>
+					<Name>bounds</Name>
+					<Abstract type="html">The rect that point labels should be rendered into.</Abstract>
+				</Parameter><Parameter>
+					<Name>ctx</Name>
+					<Abstract type="html">CGContext instance.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/renderPointLabelsForSeries:inRect:context:</Anchor>
+            <NodeRef refid="172"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelRender/locationForDataPoint:forSeries:inRect:</TokenIdentifier>
+			<Abstract type="html">Returns the coordinates of idTKChartData in specified rect.</Abstract>
+			<DeclaredIn>TKChartPointLabelRender.h</DeclaredIn>
+			
+			<Declaration>- (CGPoint)locationForDataPoint:(id&lt;TKChartData&gt;)dataPoint forSeries:(TKChartSeries *)series inRect:(CGRect)rect</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataPoint</Name>
+					<Abstract type="html">idTKChartData instance which coordeinates will be returned.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The idTKChartData object series.</Abstract>
+				</Parameter><Parameter>
+					<Name>rect</Name>
+					<Abstract type="html">The rect for which coordinates will be returned.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/locationForDataPoint:forSeries:inRect:</Anchor>
+            <NodeRef refid="172"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelRender/labelForDataPoint:inSeries:atIndex:</TokenIdentifier>
+			<Abstract type="html">Returns TKChartPointLabel instance.</Abstract>
+			<DeclaredIn>TKChartPointLabelRender.h</DeclaredIn>
+			
+			<Declaration>- (TKChartPointLabel *)labelForDataPoint:(id&lt;TKChartData&gt;)dataPoint inSeries:(TKChartSeries *)series atIndex:(NSUInteger)dataIndex</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataPoint</Name>
+					<Abstract type="html">The data point for which a label will be returned.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The data point&apos;s series.</Abstract>
+				</Parameter><Parameter>
+					<Name>dataIndex</Name>
+					<Abstract type="html">Data point&apos;s index in the series.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/labelForDataPoint:inSeries:atIndex:</Anchor>
+            <NodeRef refid="172"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelRender/isPoint:insideRect:</TokenIdentifier>
+			<Abstract type="html">Returns BOOL value showing if point is inside the bounds of given rectangle.</Abstract>
+			<DeclaredIn>TKChartPointLabelRender.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isPoint:(CGPoint)point insideRect:(CGRect)rect</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>point</Name>
+					<Abstract type="html">The point which will be tested.</Abstract>
+				</Parameter><Parameter>
+					<Name>rect</Name>
+					<Abstract type="html">The given rectangle.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/isPoint:insideRect:</Anchor>
+            <NodeRef refid="172"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

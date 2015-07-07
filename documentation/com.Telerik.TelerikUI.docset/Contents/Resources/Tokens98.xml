@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKCalendarYearPresenterStyle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKCalendarYearPresenterStyle</TokenIdentifier>
+			<Abstract type="html">A year presenter&apos;s style.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="98"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/setMonthsPerPage:</TokenIdentifier>
+			<Abstract type="html">The number of months to be shown on a single page.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger monthsPerPage</Declaration>
+			
+			
+			<Anchor>//api/name/monthsPerPage</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/monthsPerPage</TokenIdentifier>
+			<Abstract type="html">The number of months to be shown on a single page.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger monthsPerPage</Declaration>
+			
+			
+			<Anchor>//api/name/monthsPerPage</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarYearPresenterStyle/monthsPerPage</TokenIdentifier>
+			<Abstract type="html">The number of months to be shown on a single page.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger monthsPerPage</Declaration>
+			
+			
+			<Anchor>//api/name/monthsPerPage</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/setDayTextColor:</TokenIdentifier>
+			<Abstract type="html">The day text color.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *dayTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/dayTextColor</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/dayTextColor</TokenIdentifier>
+			<Abstract type="html">The day text color.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *dayTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/dayTextColor</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarYearPresenterStyle/dayTextColor</TokenIdentifier>
+			<Abstract type="html">The day text color.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *dayTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/dayTextColor</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/setWeekendTextColor:</TokenIdentifier>
+			<Abstract type="html">The weekend text color.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *weekendTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/weekendTextColor</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/weekendTextColor</TokenIdentifier>
+			<Abstract type="html">The weekend text color.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *weekendTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/weekendTextColor</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarYearPresenterStyle/weekendTextColor</TokenIdentifier>
+			<Abstract type="html">The weekend text color.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *weekendTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/weekendTextColor</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/setTodayTextColor:</TokenIdentifier>
+			<Abstract type="html">The today text color.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *todayTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/todayTextColor</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/todayTextColor</TokenIdentifier>
+			<Abstract type="html">The today text color.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *todayTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/todayTextColor</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarYearPresenterStyle/todayTextColor</TokenIdentifier>
+			<Abstract type="html">The today text color.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *todayTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/todayTextColor</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/setDayNameTextColor:</TokenIdentifier>
+			<Abstract type="html">The day name text color.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *dayNameTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/dayNameTextColor</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/dayNameTextColor</TokenIdentifier>
+			<Abstract type="html">The day name text color.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *dayNameTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/dayNameTextColor</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarYearPresenterStyle/dayNameTextColor</TokenIdentifier>
+			<Abstract type="html">The day name text color.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *dayNameTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/dayNameTextColor</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/setMonthNameTextColor:</TokenIdentifier>
+			<Abstract type="html">The month name text color.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *monthNameTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/monthNameTextColor</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/monthNameTextColor</TokenIdentifier>
+			<Abstract type="html">The month name text color.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *monthNameTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/monthNameTextColor</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarYearPresenterStyle/monthNameTextColor</TokenIdentifier>
+			<Abstract type="html">The month name text color.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *monthNameTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/monthNameTextColor</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/setDayFont:</TokenIdentifier>
+			<Abstract type="html">The day text font.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *dayFont</Declaration>
+			
+			
+			<Anchor>//api/name/dayFont</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/dayFont</TokenIdentifier>
+			<Abstract type="html">The day text font.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *dayFont</Declaration>
+			
+			
+			<Anchor>//api/name/dayFont</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarYearPresenterStyle/dayFont</TokenIdentifier>
+			<Abstract type="html">The day text font.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *dayFont</Declaration>
+			
+			
+			<Anchor>//api/name/dayFont</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/setDayNameFont:</TokenIdentifier>
+			<Abstract type="html">The day name text font.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *dayNameFont</Declaration>
+			
+			
+			<Anchor>//api/name/dayNameFont</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/dayNameFont</TokenIdentifier>
+			<Abstract type="html">The day name text font.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *dayNameFont</Declaration>
+			
+			
+			<Anchor>//api/name/dayNameFont</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarYearPresenterStyle/dayNameFont</TokenIdentifier>
+			<Abstract type="html">The day name text font.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *dayNameFont</Declaration>
+			
+			
+			<Anchor>//api/name/dayNameFont</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/setMonthNameFont:</TokenIdentifier>
+			<Abstract type="html">The month name text font.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *monthNameFont</Declaration>
+			
+			
+			<Anchor>//api/name/monthNameFont</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/monthNameFont</TokenIdentifier>
+			<Abstract type="html">The month name text font.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *monthNameFont</Declaration>
+			
+			
+			<Anchor>//api/name/monthNameFont</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarYearPresenterStyle/monthNameFont</TokenIdentifier>
+			<Abstract type="html">The month name text font.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *monthNameFont</Declaration>
+			
+			
+			<Anchor>//api/name/monthNameFont</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/setTodayShape:</TokenIdentifier>
+			<Abstract type="html">The today cell shape.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKShape *todayShape</Declaration>
+			
+			
+			<Anchor>//api/name/todayShape</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/todayShape</TokenIdentifier>
+			<Abstract type="html">The today cell shape.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKShape *todayShape</Declaration>
+			
+			
+			<Anchor>//api/name/todayShape</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarYearPresenterStyle/todayShape</TokenIdentifier>
+			<Abstract type="html">The today cell shape.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKShape *todayShape</Declaration>
+			
+			
+			<Anchor>//api/name/todayShape</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/setTodayShapeFill:</TokenIdentifier>
+			<Abstract type="html">The today shape fill.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *todayShapeFill</Declaration>
+			
+			
+			<Anchor>//api/name/todayShapeFill</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/todayShapeFill</TokenIdentifier>
+			<Abstract type="html">The today shape fill.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *todayShapeFill</Declaration>
+			
+			
+			<Anchor>//api/name/todayShapeFill</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarYearPresenterStyle/todayShapeFill</TokenIdentifier>
+			<Abstract type="html">The today shape fill.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *todayShapeFill</Declaration>
+			
+			
+			<Anchor>//api/name/todayShapeFill</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/setTodayShapeStroke:</TokenIdentifier>
+			<Abstract type="html">The today shape stroke.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *todayShapeStroke</Declaration>
+			
+			
+			<Anchor>//api/name/todayShapeStroke</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/todayShapeStroke</TokenIdentifier>
+			<Abstract type="html">The today shape stroke.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *todayShapeStroke</Declaration>
+			
+			
+			<Anchor>//api/name/todayShapeStroke</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarYearPresenterStyle/todayShapeStroke</TokenIdentifier>
+			<Abstract type="html">The today shape stroke.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *todayShapeStroke</Declaration>
+			
+			
+			<Anchor>//api/name/todayShapeStroke</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/setMonthNameTextEffect:</TokenIdentifier>
+			<Abstract type="html">The text effect that will be applied to the month name text.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarTextEffect monthNameTextEffect</Declaration>
+			
+			
+			<Anchor>//api/name/monthNameTextEffect</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/monthNameTextEffect</TokenIdentifier>
+			<Abstract type="html">The text effect that will be applied to the month name text.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarTextEffect monthNameTextEffect</Declaration>
+			
+			
+			<Anchor>//api/name/monthNameTextEffect</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarYearPresenterStyle/monthNameTextEffect</TokenIdentifier>
+			<Abstract type="html">The text effect that will be applied to the month name text.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarTextEffect monthNameTextEffect</Declaration>
+			
+			
+			<Anchor>//api/name/monthNameTextEffect</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/setDayNameTextEffect:</TokenIdentifier>
+			<Abstract type="html">The text effect to be applied to the day name text.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarTextEffect dayNameTextEffect</Declaration>
+			
+			
+			<Anchor>//api/name/dayNameTextEffect</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/dayNameTextEffect</TokenIdentifier>
+			<Abstract type="html">The text effect to be applied to the day name text.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarTextEffect dayNameTextEffect</Declaration>
+			
+			
+			<Anchor>//api/name/dayNameTextEffect</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarYearPresenterStyle/dayNameTextEffect</TokenIdentifier>
+			<Abstract type="html">The text effect to be applied to the day name text.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarTextEffect dayNameTextEffect</Declaration>
+			
+			
+			<Anchor>//api/name/dayNameTextEffect</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/setMonthNameTextAlignment:</TokenIdentifier>
+			<Abstract type="html">The text alignment for the month name.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTextAlignment monthNameTextAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/monthNameTextAlignment</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenterStyle/monthNameTextAlignment</TokenIdentifier>
+			<Abstract type="html">The text alignment for the month name.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTextAlignment monthNameTextAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/monthNameTextAlignment</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarYearPresenterStyle/monthNameTextAlignment</TokenIdentifier>
+			<Abstract type="html">The text alignment for the month name.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTextAlignment monthNameTextAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/monthNameTextAlignment</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

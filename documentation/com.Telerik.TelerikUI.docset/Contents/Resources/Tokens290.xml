@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKCalendarMonthNameState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKCalendarMonthNameState</TokenIdentifier>
+			<Abstract type="html">@enum TKCalendarMonthNameState</Abstract>
+			<DeclaredIn>TKCalendarMonthNameCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="290"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarMonthNameStateSelected</TokenIdentifier>
+            <Abstract type="html">The month is selected.
+     </Abstract>
+            <Declaration>TKCalendarMonthNameStateSelected</Declaration>
+            
+            <DeclaredIn>TKCalendarMonthNameCell.h</DeclaredIn>
+            
+            <NodeRef refid="290"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarMonthNameStateDisabled</TokenIdentifier>
+            <Abstract type="html">The month is disabled (it is outside of the selectable range)
+     </Abstract>
+            <Declaration>TKCalendarMonthNameStateDisabled</Declaration>
+            
+            <DeclaredIn>TKCalendarMonthNameCell.h</DeclaredIn>
+            
+            <NodeRef refid="290"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

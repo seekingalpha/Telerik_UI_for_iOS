@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TKListViewDataSource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TKListViewDataSource</TokenIdentifier>
+			<Abstract type="html">A delegate class exposing mothods to provide cells and supplementary views matching the source data.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="281"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKListViewDataSource/listView:numberOfItemsInSection:</TokenIdentifier>
+			<Abstract type="html">Returns the number of items conatined in specific section.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)listView:(TKListView *)listView numberOfItemsInSection:(NSInteger)section</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listView</Name>
+					<Abstract type="html">The TKListView instance requesting the information.</Abstract>
+				</Parameter><Parameter>
+					<Name>section</Name>
+					<Abstract type="html">The index for the section.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listView:numberOfItemsInSection:</Anchor>
+            <NodeRef refid="281"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKListViewDataSource/listView:cellForItemAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">Returns a TKListViewCell instance for a given index path.
+The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (TKListViewCell *)listView:(TKListView *)listView cellForItemAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listView</Name>
+					<Abstract type="html">The TKListView instance requesting the cell.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path we need a cell for.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listView:cellForItemAtIndexPath:</Anchor>
+            <NodeRef refid="281"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKListViewDataSource/numberOfSectionsInListView:</TokenIdentifier>
+			<Abstract type="html">Returns the number of sections.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)numberOfSectionsInListView:(TKListView *)listView</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listView</Name>
+					<Abstract type="html">The TKListView instance requesting the cell.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/numberOfSectionsInListView:</Anchor>
+            <NodeRef refid="281"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKListViewDataSource/listView:viewForSupplementaryElementOfKind:atIndexPath:</TokenIdentifier>
+			<Abstract type="html">Returns a view to be used as a section header or footer in TKListView.
+The cell that is returned must be retrieved from a call to -dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath:</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (TKListViewReusableCell *)listView:(TKListView *)listView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listView</Name>
+					<Abstract type="html">The TKListView instance requesting the cell.</Abstract>
+				</Parameter><Parameter>
+					<Name>kind</Name>
+					<Abstract type="html">The kind of the supplementary view e.g. TKListViewElementKindSectionHeader or TKListViewElementKindSectionFooter</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path we need a cell for.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/listView:viewForSupplementaryElementOfKind:atIndexPath:</Anchor>
+            <NodeRef refid="281"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

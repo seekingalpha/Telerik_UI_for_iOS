@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKCalendarDayCellStyle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKCalendarDayCellStyle</TokenIdentifier>
+			<Abstract type="html">A class that represents a day cell&apos;s style.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="73"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/setEventInsets:</TokenIdentifier>
+			<Abstract type="html">The event instets.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIEdgeInsets eventInsets</Declaration>
+			
+			
+			<Anchor>//api/name/eventInsets</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/eventInsets</TokenIdentifier>
+			<Abstract type="html">The event instets.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIEdgeInsets eventInsets</Declaration>
+			
+			
+			<Anchor>//api/name/eventInsets</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayCellStyle/eventInsets</TokenIdentifier>
+			<Abstract type="html">The event instets.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIEdgeInsets eventInsets</Declaration>
+			
+			
+			<Anchor>//api/name/eventInsets</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/setEventFont:</TokenIdentifier>
+			<Abstract type="html">The event font.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *eventFont</Declaration>
+			
+			
+			<Anchor>//api/name/eventFont</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/eventFont</TokenIdentifier>
+			<Abstract type="html">The event font.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *eventFont</Declaration>
+			
+			
+			<Anchor>//api/name/eventFont</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayCellStyle/eventFont</TokenIdentifier>
+			<Abstract type="html">The event font.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *eventFont</Declaration>
+			
+			
+			<Anchor>//api/name/eventFont</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/setEventTextColor:</TokenIdentifier>
+			<Abstract type="html">The event text color.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *eventTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/eventTextColor</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/eventTextColor</TokenIdentifier>
+			<Abstract type="html">The event text color.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *eventTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/eventTextColor</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayCellStyle/eventTextColor</TokenIdentifier>
+			<Abstract type="html">The event text color.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *eventTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/eventTextColor</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/setAllDayEventTextColor:</TokenIdentifier>
+			<Abstract type="html">The all day event text color.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *allDayEventTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/allDayEventTextColor</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/allDayEventTextColor</TokenIdentifier>
+			<Abstract type="html">The all day event text color.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *allDayEventTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/allDayEventTextColor</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayCellStyle/allDayEventTextColor</TokenIdentifier>
+			<Abstract type="html">The all day event text color.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *allDayEventTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/allDayEventTextColor</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/setEventAlignment:</TokenIdentifier>
+			<Abstract type="html">The event alignment.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarCellAlignment eventAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/eventAlignment</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/eventAlignment</TokenIdentifier>
+			<Abstract type="html">The event alignment.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarCellAlignment eventAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/eventAlignment</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayCellStyle/eventAlignment</TokenIdentifier>
+			<Abstract type="html">The event alignment.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarCellAlignment eventAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/eventAlignment</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/setEventShape:</TokenIdentifier>
+			<Abstract type="html">The event shape.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKShape *eventShape</Declaration>
+			
+			
+			<Anchor>//api/name/eventShape</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/eventShape</TokenIdentifier>
+			<Abstract type="html">The event shape.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKShape *eventShape</Declaration>
+			
+			
+			<Anchor>//api/name/eventShape</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayCellStyle/eventShape</TokenIdentifier>
+			<Abstract type="html">The event shape.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKShape *eventShape</Declaration>
+			
+			
+			<Anchor>//api/name/eventShape</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/setEventSpacing:</TokenIdentifier>
+			<Abstract type="html">The spacing between events.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat eventSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/eventSpacing</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/eventSpacing</TokenIdentifier>
+			<Abstract type="html">The spacing between events.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat eventSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/eventSpacing</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayCellStyle/eventSpacing</TokenIdentifier>
+			<Abstract type="html">The spacing between events.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat eventSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/eventSpacing</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/setEventOrientation:</TokenIdentifier>
+			<Abstract type="html">The event layout orientation.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarDayCellEventOrientation eventOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/eventOrientation</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/eventOrientation</TokenIdentifier>
+			<Abstract type="html">The event layout orientation.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarDayCellEventOrientation eventOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/eventOrientation</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayCellStyle/eventOrientation</TokenIdentifier>
+			<Abstract type="html">The event layout orientation.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarDayCellEventOrientation eventOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/eventOrientation</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/setUseDefaultSelectionStyle:</TokenIdentifier>
+			<Abstract type="html">Defines whether the default selection style should be used. This style is used in range selection mode.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL useDefaultSelectionStyle</Declaration>
+			
+			
+			<Anchor>//api/name/useDefaultSelectionStyle</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/useDefaultSelectionStyle</TokenIdentifier>
+			<Abstract type="html">Defines whether the default selection style should be used. This style is used in range selection mode.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL useDefaultSelectionStyle</Declaration>
+			
+			
+			<Anchor>//api/name/useDefaultSelectionStyle</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayCellStyle/useDefaultSelectionStyle</TokenIdentifier>
+			<Abstract type="html">Defines whether the default selection style should be used. This style is used in range selection mode.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL useDefaultSelectionStyle</Declaration>
+			
+			
+			<Anchor>//api/name/useDefaultSelectionStyle</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/setDefaultSelectionColor:</TokenIdentifier>
+			<Abstract type="html">The selection color to be used when useDefaultSelectionStyle is set to YES.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *defaultSelectionColor</Declaration>
+			
+			
+			<Anchor>//api/name/defaultSelectionColor</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/defaultSelectionColor</TokenIdentifier>
+			<Abstract type="html">The selection color to be used when useDefaultSelectionStyle is set to YES.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *defaultSelectionColor</Declaration>
+			
+			
+			<Anchor>//api/name/defaultSelectionColor</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayCellStyle/defaultSelectionColor</TokenIdentifier>
+			<Abstract type="html">The selection color to be used when useDefaultSelectionStyle is set to YES.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *defaultSelectionColor</Declaration>
+			
+			
+			<Anchor>//api/name/defaultSelectionColor</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/setStretchEvents:</TokenIdentifier>
+			<Abstract type="html">Defines whether to stretch events to fill the available cell area.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL stretchEvents</Declaration>
+			
+			
+			<Anchor>//api/name/stretchEvents</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/stretchEvents</TokenIdentifier>
+			<Abstract type="html">Defines whether to stretch events to fill the available cell area.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL stretchEvents</Declaration>
+			
+			
+			<Anchor>//api/name/stretchEvents</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayCellStyle/stretchEvents</TokenIdentifier>
+			<Abstract type="html">Defines whether to stretch events to fill the available cell area.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL stretchEvents</Declaration>
+			
+			
+			<Anchor>//api/name/stretchEvents</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/setDisplayEventsAsText:</TokenIdentifier>
+			<Abstract type="html">Defines whether to show events as text.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL displayEventsAsText</Declaration>
+			
+			
+			<Anchor>//api/name/displayEventsAsText</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/displayEventsAsText</TokenIdentifier>
+			<Abstract type="html">Defines whether to show events as text.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL displayEventsAsText</Declaration>
+			
+			
+			<Anchor>//api/name/displayEventsAsText</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayCellStyle/displayEventsAsText</TokenIdentifier>
+			<Abstract type="html">Defines whether to show events as text.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL displayEventsAsText</Declaration>
+			
+			
+			<Anchor>//api/name/displayEventsAsText</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/setMaxEventsCount:</TokenIdentifier>
+			<Abstract type="html">Defines the maximal number of events that can be displayed in a single calendar cell.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger maxEventsCount</Declaration>
+			
+			
+			<Anchor>//api/name/maxEventsCount</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarDayCellStyle/maxEventsCount</TokenIdentifier>
+			<Abstract type="html">Defines the maximal number of events that can be displayed in a single calendar cell.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger maxEventsCount</Declaration>
+			
+			
+			<Anchor>//api/name/maxEventsCount</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarDayCellStyle/maxEventsCount</TokenIdentifier>
+			<Abstract type="html">Defines the maximal number of events that can be displayed in a single calendar cell.</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger maxEventsCount</Declaration>
+			
+			
+			<Anchor>//api/name/maxEventsCount</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

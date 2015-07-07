@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartBarSeries.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartBarSeries</TokenIdentifier>
+			<Abstract type="html">Represents TKChart bar series. Check this Guide for more information.</Abstract>
+			<DeclaredIn>TKChartBarSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="120"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBarSeries/setGapLength:</TokenIdentifier>
+			<Abstract type="html">The value which controls the distance between bar groups as percent. Note that the value should be between 0 and 1, where a value of 0 means that a bar would take the entire space between two ticks, while a value of 1 means the bar will have zero width as all the space should appear as a gap. Default is 0.25f.</Abstract>
+			<DeclaredIn>TKChartBarSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat gapLength</Declaration>
+			
+			
+			<Anchor>//api/name/gapLength</Anchor>
+            <NodeRef refid="120"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBarSeries/gapLength</TokenIdentifier>
+			<Abstract type="html">The value which controls the distance between bar groups as percent. Note that the value should be between 0 and 1, where a value of 0 means that a bar would take the entire space between two ticks, while a value of 1 means the bar will have zero width as all the space should appear as a gap. Default is 0.25f.</Abstract>
+			<DeclaredIn>TKChartBarSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat gapLength</Declaration>
+			
+			
+			<Anchor>//api/name/gapLength</Anchor>
+            <NodeRef refid="120"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartBarSeries/gapLength</TokenIdentifier>
+			<Abstract type="html">The value which controls the distance between bar groups as percent. Note that the value should be between 0 and 1, where a value of 0 means that a bar would take the entire space between two ticks, while a value of 1 means the bar will have zero width as all the space should appear as a gap. Default is 0.25f.</Abstract>
+			<DeclaredIn>TKChartBarSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat gapLength</Declaration>
+			
+			
+			<Anchor>//api/name/gapLength</Anchor>
+            <NodeRef refid="120"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBarSeries/setMaxBarHeight:</TokenIdentifier>
+			<Abstract type="html">Value for maximum possible bar height in TKChartBarSeries.</Abstract>
+			<DeclaredIn>TKChartBarSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxBarHeight</Declaration>
+			
+			
+			<Anchor>//api/name/maxBarHeight</Anchor>
+            <NodeRef refid="120"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBarSeries/maxBarHeight</TokenIdentifier>
+			<Abstract type="html">Value for maximum possible bar height in TKChartBarSeries.</Abstract>
+			<DeclaredIn>TKChartBarSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxBarHeight</Declaration>
+			
+			
+			<Anchor>//api/name/maxBarHeight</Anchor>
+            <NodeRef refid="120"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartBarSeries/maxBarHeight</TokenIdentifier>
+			<Abstract type="html">Value for maximum possible bar height in TKChartBarSeries.</Abstract>
+			<DeclaredIn>TKChartBarSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxBarHeight</Declaration>
+			
+			
+			<Anchor>//api/name/maxBarHeight</Anchor>
+            <NodeRef refid="120"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBarSeries/setMinBarHeight:</TokenIdentifier>
+			<Abstract type="html">Value for minimum bar height in TKChartBarSeries.</Abstract>
+			<DeclaredIn>TKChartBarSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minBarHeight</Declaration>
+			
+			
+			<Anchor>//api/name/minBarHeight</Anchor>
+            <NodeRef refid="120"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBarSeries/minBarHeight</TokenIdentifier>
+			<Abstract type="html">Value for minimum bar height in TKChartBarSeries.</Abstract>
+			<DeclaredIn>TKChartBarSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minBarHeight</Declaration>
+			
+			
+			<Anchor>//api/name/minBarHeight</Anchor>
+            <NodeRef refid="120"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartBarSeries/minBarHeight</TokenIdentifier>
+			<Abstract type="html">Value for minimum bar height in TKChartBarSeries.</Abstract>
+			<DeclaredIn>TKChartBarSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minBarHeight</Declaration>
+			
+			
+			<Anchor>//api/name/minBarHeight</Anchor>
+            <NodeRef refid="120"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBarSeries/setAllowClustering:</TokenIdentifier>
+			<Abstract type="html">Determines whether clustering is allowed when arranging non-stacked series</Abstract>
+			<DeclaredIn>TKChartBarSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL allowClustering</Declaration>
+			
+			
+			<Anchor>//api/name/allowClustering</Anchor>
+            <NodeRef refid="120"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBarSeries/allowClustering</TokenIdentifier>
+			<Abstract type="html">Determines whether clustering is allowed when arranging non-stacked series</Abstract>
+			<DeclaredIn>TKChartBarSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL allowClustering</Declaration>
+			
+			
+			<Anchor>//api/name/allowClustering</Anchor>
+            <NodeRef refid="120"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartBarSeries/allowClustering</TokenIdentifier>
+			<Abstract type="html">Determines whether clustering is allowed when arranging non-stacked series</Abstract>
+			<DeclaredIn>TKChartBarSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL allowClustering</Declaration>
+			
+			
+			<Anchor>//api/name/allowClustering</Anchor>
+            <NodeRef refid="120"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

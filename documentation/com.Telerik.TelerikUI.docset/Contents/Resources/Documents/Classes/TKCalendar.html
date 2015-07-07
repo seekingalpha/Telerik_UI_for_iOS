@@ -1,0 +1,1492 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>TKCalendar Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">TelerikUI </a></h1>
+				<a id="developerHome" href="../index.html">Telerik</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">TKCalendar Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/allowPinchZoom">&nbsp;&nbsp;&nbsp;&nbsp;allowPinchZoom</option>
+	
+	<option value="//api/name/calendar">&nbsp;&nbsp;&nbsp;&nbsp;calendar</option>
+	
+	<option value="//api/name/dataSource">&nbsp;&nbsp;&nbsp;&nbsp;dataSource</option>
+	
+	<option value="//api/name/delegate">&nbsp;&nbsp;&nbsp;&nbsp;delegate</option>
+	
+	<option value="//api/name/locale">&nbsp;&nbsp;&nbsp;&nbsp;locale</option>
+	
+	<option value="//api/name/maxDate">&nbsp;&nbsp;&nbsp;&nbsp;maxDate</option>
+	
+	<option value="//api/name/minDate">&nbsp;&nbsp;&nbsp;&nbsp;minDate</option>
+	
+	<option value="//api/name/selectedDate">&nbsp;&nbsp;&nbsp;&nbsp;selectedDate</option>
+	
+	<option value="//api/name/selectedDates">&nbsp;&nbsp;&nbsp;&nbsp;selectedDates</option>
+	
+	<option value="//api/name/selectedDatesRange">&nbsp;&nbsp;&nbsp;&nbsp;selectedDatesRange</option>
+	
+	<option value="//api/name/selectionMode">&nbsp;&nbsp;&nbsp;&nbsp;selectionMode</option>
+	
+	<option value="//api/name/theme">&nbsp;&nbsp;&nbsp;&nbsp;theme</option>
+	
+	<option value="//api/name/viewMode">&nbsp;&nbsp;&nbsp;&nbsp;viewMode</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/dateWithYear:month:day:withCalendar:">&nbsp;&nbsp;&nbsp;&nbsp;+ dateWithYear:month:day:withCalendar:</option>
+	
+	<option value="//api/name/isDate:equalToDate:withComponents:withCalendar:">&nbsp;&nbsp;&nbsp;&nbsp;+ isDate:equalToDate:withComponents:withCalendar:</option>
+	
+	<option value="//api/name/versionString">&nbsp;&nbsp;&nbsp;&nbsp;+ versionString</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/displayedDate">&nbsp;&nbsp;&nbsp;&nbsp;- displayedDate</option>
+	
+	<option value="//api/name/eventsForDate:">&nbsp;&nbsp;&nbsp;&nbsp;- eventsForDate:</option>
+	
+	<option value="//api/name/navigateBack:">&nbsp;&nbsp;&nbsp;&nbsp;- navigateBack:</option>
+	
+	<option value="//api/name/navigateForward:">&nbsp;&nbsp;&nbsp;&nbsp;- navigateForward:</option>
+	
+	<option value="//api/name/navigateToDate:animated:">&nbsp;&nbsp;&nbsp;&nbsp;- navigateToDate:animated:</option>
+	
+	<option value="//api/name/presenter">&nbsp;&nbsp;&nbsp;&nbsp;- presenter</option>
+	
+	<option value="//api/name/reloadData">&nbsp;&nbsp;&nbsp;&nbsp;- reloadData</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/allowPinchZoom">allowPinchZoom</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/calendar">calendar</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dataSource">dataSource</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/delegate">delegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/locale">locale</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/maxDate">maxDate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minDate">minDate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/selectedDate">selectedDate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/selectedDates">selectedDates</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/selectedDatesRange">selectedDatesRange</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/selectionMode">selectionMode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/theme">theme</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/viewMode">viewMode</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dateWithYear:month:day:withCalendar:">dateWithYear:month:day:withCalendar:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isDate:equalToDate:withComponents:withCalendar:">isDate:equalToDate:withComponents:withCalendar:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/versionString">versionString</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/displayedDate">displayedDate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/eventsForDate:">eventsForDate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/navigateBack:">navigateBack:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/navigateForward:">navigateForward:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/navigateToDate:animated:">navigateToDate:animated:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/presenter">presenter</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/reloadData">reloadData</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="TKCalendar Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">TKCalendar Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/TKView.html">TKView</a> : UIView</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">TKCalendar.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>TKCalendar is a highly customizable <a href="#//api/name/calendar">calendar</a> component with year, month and week views. Different transition effects are available when switching between <a href="#//api/name/calendar">calendar</a> screens and view modes. The API allows customizing almost every aspect of the visual appearance by using custom cells and styles.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dataSource">&nbsp;&nbsp;dataSource</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minDate">&nbsp;&nbsp;minDate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/maxDate">&nbsp;&nbsp;maxDate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/selectedDate">&nbsp;&nbsp;selectedDate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/selectedDates">&nbsp;&nbsp;selectedDates</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/selectedDatesRange">&nbsp;&nbsp;selectedDatesRange</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/selectionMode">&nbsp;&nbsp;selectionMode</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/calendar">&nbsp;&nbsp;calendar</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/locale">&nbsp;&nbsp;locale</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/viewMode">&nbsp;&nbsp;viewMode</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/allowPinchZoom">&nbsp;&nbsp;allowPinchZoom</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/theme">&nbsp;&nbsp;theme</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/versionString">+&nbsp;versionString</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dateWithYear:month:day:withCalendar:">+&nbsp;dateWithYear:month:day:withCalendar:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isDate:equalToDate:withComponents:withCalendar:">+&nbsp;isDate:equalToDate:withComponents:withCalendar:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/navigateForward:">&ndash;&nbsp;navigateForward:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/navigateBack:">&ndash;&nbsp;navigateBack:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/navigateToDate:animated:">&ndash;&nbsp;navigateToDate:animated:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/reloadData">&ndash;&nbsp;reloadData</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/eventsForDate:">&ndash;&nbsp;eventsForDate:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/presenter">&ndash;&nbsp;presenter</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/displayedDate">&ndash;&nbsp;displayedDate</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/allowPinchZoom" title="allowPinchZoom"></a>
+	<h3 class="subsubtitle method-title">allowPinchZoom</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Defines whether a pinch gesture is enabled to switch between month, month names and year numbers view modes.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL allowPinchZoom</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/calendar" title="calendar"></a>
+	<h3 class="subsubtitle method-title">calendar</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The calendar that will be used when handling dates within the component.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSCalendar *calendar</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dataSource" title="dataSource"></a>
+	<h3 class="subsubtitle method-title">dataSource</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A data-source <a href="#//api/name/delegate">delegate</a> used to provide events for <a href="#//api/name/calendar">calendar</a> cells.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) id&lt;TKCalendarDataSource&gt; dataSource</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/delegate" title="delegate"></a>
+	<h3 class="subsubtitle method-title">delegate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A delegate for styling the <a href="#//api/name/calendar">calendar</a> component and receiving notifications.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) id&lt;TKCalendarDelegate&gt; delegate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/locale" title="locale"></a>
+	<h3 class="subsubtitle method-title">locale</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The locale which determines month and week days text representation.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSLocale *locale</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/maxDate" title="maxDate"></a>
+	<h3 class="subsubtitle method-title">maxDate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The maximal date that will be visible when navigating between <a href="#//api/name/calendar">calendar</a> screens.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSDate *maxDate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minDate" title="minDate"></a>
+	<h3 class="subsubtitle method-title">minDate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The minimal date that will be visible when navigating between <a href="#//api/name/calendar">calendar</a> screens.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSDate *minDate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/selectedDate" title="selectedDate"></a>
+	<h3 class="subsubtitle method-title">selectedDate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The currently selected date. Use this property when the <a href="#//api/name/selectionMode">selectionMode</a> is set to a single selection.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSDate *selectedDate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/selectedDates" title="selectedDates"></a>
+	<h3 class="subsubtitle method-title">selectedDates</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>An array of selected dates. Use this property when the <a href="#//api/name/selectionMode">selectionMode</a> is set to allow selecting multiple dates.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSArray *selectedDates</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/selectedDatesRange" title="selectedDatesRange"></a>
+	<h3 class="subsubtitle method-title">selectedDatesRange</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A date range. Use this property when the <a href="#//api/name/selectionMode">selectionMode</a> is set to a range.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) TKDateRange *selectedDatesRange</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/selectionMode" title="selectionMode"></a>
+	<h3 class="subsubtitle method-title">selectionMode</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Defines the current selction mode.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) TKCalendarSelectionMode selectionMode</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The available selection modes are specified below:</p>
+
+<p>typedef enum {
+TKCalendarSelectionModeNone,       // no selection is allowed
+TKCalendarSelectionModeSingle,     // a single date can be selected
+TKCalendarSelectionModeMultiple,   // the user can select different dates by tapping on them. A second tap will deselect the date
+TKCalendarSelectionModeRange,      // the user can select a range between two dates by using a swipe gesture
+} <a href="../Constants/TKCalendarSelectionMode.html">TKCalendarSelectionMode</a>;</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/theme" title="theme"></a>
+	<h3 class="subsubtitle method-title">theme</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The <a href="#//api/name/calendar">calendar</a> theme. Currenlty there are two themes available: the default one and an ipad theme.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) TKTheme *theme</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/viewMode" title="viewMode"></a>
+	<h3 class="subsubtitle method-title">viewMode</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Defines the <a href="#//api/name/calendar">calendar</a> view mode.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) TKCalendarViewMode viewMode</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The available view modes are specified below:</p>
+
+<p>typedef enum {
+TKCalendarViewModeWeek,            // the <a href="#//api/name/calendar">calendar</a> component displays a single week
+TKCalendarViewModeMonth,           // the <a href="#//api/name/calendar">calendar</a> component displays a single month with its dates
+TKCalendarViewModeMonthNames,      // the <a href="#//api/name/calendar">calendar</a> component displays a list with month names
+TKCalendarViewModeYear,            // the <a href="#//api/name/calendar">calendar</a> component displays years with months and dates
+TKCalendarViewModeYearNumbers,     // the <a href="#//api/name/calendar">calendar</a> component displays a list with year numbers
+TKCalendarViewModeFlow,            // the <a href="#//api/name/calendar">calendar</a> component displays a continious list with months
+} <a href="../Constants/TKCalendarViewMode.html">TKCalendarViewMode</a>;</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/dateWithYear:month:day:withCalendar:" title="dateWithYear:month:day:withCalendar:"></a>
+	<h3 class="subsubtitle method-title">dateWithYear:month:day:withCalendar:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Creates a date by specifying its year, month and day. The <a href="#//api/name/calendar">calendar</a> argument is optional. If it is nil, the current <a href="#//api/name/calendar">calendar</a> will be used.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSDate *)dateWithYear:(NSInteger)<em>year</em> month:(NSInteger)<em>month</em> day:(NSInteger)<em>day</em> withCalendar:(NSCalendar *)<em>calendar</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>year</em></dt>
+			<dd><p>The year.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>month</em></dt>
+			<dd><p>The month.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>day</em></dt>
+			<dd><p>The day.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>calendar</em></dt>
+			<dd><p>The <a href="#//api/name/calendar">calendar</a> to be used when creating this date. The current <a href="#//api/name/calendar">calendar</a> will be used if this argument is nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of NSDate if successfull.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isDate:equalToDate:withComponents:withCalendar:" title="isDate:equalToDate:withComponents:withCalendar:"></a>
+	<h3 class="subsubtitle method-title">isDate:equalToDate:withComponents:withCalendar:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Compares two dates by using only the specified components. Nonspecified components will be ignored.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)isDate:(NSDate *)<em>date1</em> equalToDate:(NSDate *)<em>date2</em> withComponents:(NSCalendarUnit)<em>components</em> withCalendar:(NSCalendar *)<em>calendar</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>date1</em></dt>
+			<dd><p>The first date to compare.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>date2</em></dt>
+			<dd><p>The second date to compare.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>components</em></dt>
+			<dd><p>The components to be used when comparing the two dates.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>calendar</em></dt>
+			<dd><p>The <a href="#//api/name/calendar">calendar</a> to be used when comparing the two dates. The current <a href="#//api/name/calendar">calendar</a> will be used if this argument is nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>YES if the dates are equal. NO otherwise.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/versionString" title="versionString"></a>
+	<h3 class="subsubtitle method-title">versionString</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the version of the <a href="#//api/name/calendar">calendar</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)versionString</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/displayedDate" title="displayedDate"></a>
+	<h3 class="subsubtitle method-title">displayedDate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the date that is currently displayed in <a href="#//api/name/calendar">calendar</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSDate *)displayedDate</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of NSDate.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/eventsForDate:" title="eventsForDate:"></a>
+	<h3 class="subsubtitle method-title">eventsForDate:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the events for a specific date.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)eventsForDate:(NSDate *)<em>date</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>date</em></dt>
+			<dd><p>The date.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An array with events if scuccessfull. Nil otherwise.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/navigateBack:" title="navigateBack:"></a>
+	<h3 class="subsubtitle method-title">navigateBack:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Navigates to the previous screen in the current view mode context.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)navigateBack:(BOOL)<em>animated</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animated</em></dt>
+			<dd><p>Defines whether to use animation when navigating.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/navigateForward:" title="navigateForward:"></a>
+	<h3 class="subsubtitle method-title">navigateForward:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Navigates to the next screen in current view mode context.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)navigateForward:(BOOL)<em>animated</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animated</em></dt>
+			<dd><p>Defines whether to use animation when navigating.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/navigateToDate:animated:" title="navigateToDate:animated:"></a>
+	<h3 class="subsubtitle method-title">navigateToDate:animated:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Navigates to the specified date.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)navigateToDate:(NSDate *)<em>date</em> animated:(BOOL)<em>animated</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>date</em></dt>
+			<dd><p>The date that should be visible in <a href="#//api/name/calendar">calendar</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animated</em></dt>
+			<dd><p>Defines whether to use animation when navigating.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/presenter" title="presenter"></a>
+	<h3 class="subsubtitle method-title">presenter</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the presenter that is responsible for displaying the <a href="#//api/name/calendar">calendar</a> in the selected view mode</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id&lt;TKCalendarPresenter&gt;)presenter</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of a class that implements <a href="../Protocols/TKCalendarPresenter.html">TKCalendarPresenter</a>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/reloadData" title="reloadData"></a>
+	<h3 class="subsubtitle method-title">reloadData</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Reloads all events in the <a href="#//api/name/calendar">calendar</a> and resets the selection.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)reloadData</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKCalendar.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Telerik. All rights reserved. (Last updated: 2015-06-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

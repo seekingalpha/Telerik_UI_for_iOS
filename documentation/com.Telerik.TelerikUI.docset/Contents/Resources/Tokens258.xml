@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKSideDrawerTransition.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKSideDrawerTransition</TokenIdentifier>
+			<Abstract type="html">This is a base class that represents a transition used to show and dismiss TKSideDrawer.</Abstract>
+			<DeclaredIn>TKSideDrawerTransition.h</DeclaredIn>
+            
+			
+			<NodeRef refid="258"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerTransition/setSideDrawer:</TokenIdentifier>
+			<Abstract type="html">TKSideDrawer that will be show or dismissed.</Abstract>
+			<DeclaredIn>TKSideDrawerTransition.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) TKSideDrawer *sideDrawer</Declaration>
+			
+			
+			<Anchor>//api/name/sideDrawer</Anchor>
+            <NodeRef refid="258"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerTransition/sideDrawer</TokenIdentifier>
+			<Abstract type="html">TKSideDrawer that will be show or dismissed.</Abstract>
+			<DeclaredIn>TKSideDrawerTransition.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) TKSideDrawer *sideDrawer</Declaration>
+			
+			
+			<Anchor>//api/name/sideDrawer</Anchor>
+            <NodeRef refid="258"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKSideDrawerTransition/sideDrawer</TokenIdentifier>
+			<Abstract type="html">TKSideDrawer that will be show or dismissed.</Abstract>
+			<DeclaredIn>TKSideDrawerTransition.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) TKSideDrawer *sideDrawer</Declaration>
+			
+			
+			<Anchor>//api/name/sideDrawer</Anchor>
+            <NodeRef refid="258"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerTransition/initWithSideDrawer:</TokenIdentifier>
+			<Abstract type="html">Creates new TKSideDrawerTransition instance.</Abstract>
+			<DeclaredIn>TKSideDrawerTransition.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithSideDrawer:(TKSideDrawer *)sideDrawer</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sideDrawer</Name>
+					<Abstract type="html">The sideDrawer that will be shown and dismiss by this transition.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">TKSideDrawerTransition instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithSideDrawer:</Anchor>
+            <NodeRef refid="258"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerTransition/show</TokenIdentifier>
+			<Abstract type="html">Shows the TKSideDrawer instance.</Abstract>
+			<DeclaredIn>TKSideDrawerTransition.h</DeclaredIn>
+			
+			<Declaration>- (void)show</Declaration>
+			
+			
+			<Anchor>//api/name/show</Anchor>
+            <NodeRef refid="258"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerTransition/dismiss</TokenIdentifier>
+			<Abstract type="html">Dismisses the TKSideDrawer intance.</Abstract>
+			<DeclaredIn>TKSideDrawerTransition.h</DeclaredIn>
+			
+			<Declaration>- (void)dismiss</Declaration>
+			
+			
+			<Anchor>//api/name/dismiss</Anchor>
+            <NodeRef refid="258"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerTransition/handleGesture:</TokenIdentifier>
+			<Abstract type="html">Handels a gesture.</Abstract>
+			<DeclaredIn>TKSideDrawerTransition.h</DeclaredIn>
+			
+			<Declaration>- (void)handleGesture:(UIGestureRecognizer *)gestureRecognizer</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>gestureRecognizer</Name>
+					<Abstract type="html">The gesture that will be handled.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/handleGesture:</Anchor>
+            <NodeRef refid="258"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerTransition/transitionBegan:</TokenIdentifier>
+			<Abstract type="html">Called when the transition is about to begin.</Abstract>
+			<DeclaredIn>TKSideDrawerTransition.h</DeclaredIn>
+			
+			<Declaration>- (void)transitionBegan:(BOOL)showing</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>showing</Name>
+					<Abstract type="html">Determines if the sideDrawer is about to show or dismiss.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/transitionBegan:</Anchor>
+            <NodeRef refid="258"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerTransition/transitionEnded:</TokenIdentifier>
+			<Abstract type="html">Called when the transition ended.</Abstract>
+			<DeclaredIn>TKSideDrawerTransition.h</DeclaredIn>
+			
+			<Declaration>- (void)transitionEnded:(BOOL)showing</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>showing</Name>
+					<Abstract type="html">Determines if the sideDrawer is shown or dismissed.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/transitionEnded:</Anchor>
+            <NodeRef refid="258"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

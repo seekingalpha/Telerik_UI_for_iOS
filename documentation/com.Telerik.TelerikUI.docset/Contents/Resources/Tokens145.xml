@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartLabelStyle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartLabelStyle</TokenIdentifier>
+			<Abstract type="html">A class that represents a label&apos;s style.</Abstract>
+			<DeclaredIn>TKChartLabelStyle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="145"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLabelStyle/setFont:</TokenIdentifier>
+			<Abstract type="html">The label&apos;s font.</Abstract>
+			<DeclaredIn>TKChartLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="145"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLabelStyle/font</TokenIdentifier>
+			<Abstract type="html">The label&apos;s font.</Abstract>
+			<DeclaredIn>TKChartLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="145"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartLabelStyle/font</TokenIdentifier>
+			<Abstract type="html">The label&apos;s font.</Abstract>
+			<DeclaredIn>TKChartLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="145"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLabelStyle/setTextColor:</TokenIdentifier>
+			<Abstract type="html">The label&apos;s text color.</Abstract>
+			<DeclaredIn>TKChartLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+            <NodeRef refid="145"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLabelStyle/textColor</TokenIdentifier>
+			<Abstract type="html">The label&apos;s text color.</Abstract>
+			<DeclaredIn>TKChartLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+            <NodeRef refid="145"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartLabelStyle/textColor</TokenIdentifier>
+			<Abstract type="html">The label&apos;s text color.</Abstract>
+			<DeclaredIn>TKChartLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+            <NodeRef refid="145"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLabelStyle/setShadowColor:</TokenIdentifier>
+			<Abstract type="html">The labels&apos; text shadow color.</Abstract>
+			<DeclaredIn>TKChartLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *shadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/shadowColor</Anchor>
+            <NodeRef refid="145"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLabelStyle/shadowColor</TokenIdentifier>
+			<Abstract type="html">The labels&apos; text shadow color.</Abstract>
+			<DeclaredIn>TKChartLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *shadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/shadowColor</Anchor>
+            <NodeRef refid="145"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartLabelStyle/shadowColor</TokenIdentifier>
+			<Abstract type="html">The labels&apos; text shadow color.</Abstract>
+			<DeclaredIn>TKChartLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *shadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/shadowColor</Anchor>
+            <NodeRef refid="145"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLabelStyle/setShadowOffset:</TokenIdentifier>
+			<Abstract type="html">The labels&apos; text shadow offset.</Abstract>
+			<DeclaredIn>TKChartLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGSize shadowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOffset</Anchor>
+            <NodeRef refid="145"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLabelStyle/shadowOffset</TokenIdentifier>
+			<Abstract type="html">The labels&apos; text shadow offset.</Abstract>
+			<DeclaredIn>TKChartLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGSize shadowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOffset</Anchor>
+            <NodeRef refid="145"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartLabelStyle/shadowOffset</TokenIdentifier>
+			<Abstract type="html">The labels&apos; text shadow offset.</Abstract>
+			<DeclaredIn>TKChartLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGSize shadowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOffset</Anchor>
+            <NodeRef refid="145"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLabelStyle/setTextHidden:</TokenIdentifier>
+			<Abstract type="html">Determines whether the label is hidden.</Abstract>
+			<DeclaredIn>TKChartLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL textHidden</Declaration>
+			
+			
+			<Anchor>//api/name/textHidden</Anchor>
+            <NodeRef refid="145"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLabelStyle/textHidden</TokenIdentifier>
+			<Abstract type="html">Determines whether the label is hidden.</Abstract>
+			<DeclaredIn>TKChartLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL textHidden</Declaration>
+			
+			
+			<Anchor>//api/name/textHidden</Anchor>
+            <NodeRef refid="145"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartLabelStyle/textHidden</TokenIdentifier>
+			<Abstract type="html">Determines whether the label is hidden.</Abstract>
+			<DeclaredIn>TKChartLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL textHidden</Declaration>
+			
+			
+			<Anchor>//api/name/textHidden</Anchor>
+            <NodeRef refid="145"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

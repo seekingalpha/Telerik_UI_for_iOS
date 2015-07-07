@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKChartTrackballSnapMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKChartTrackballSnapMode</TokenIdentifier>
+			<Abstract type="html">  The trackball snapping modes.</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+            
+			
+			<NodeRef refid="326"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartTrackballSnapModeClosestPoint</TokenIdentifier>
+            <Abstract type="html">     Only the closest point is selected.
+     </Abstract>
+            <Declaration>TKChartTrackballSnapModeClosestPoint</Declaration>
+            
+            <DeclaredIn>TKChartTrackball.h</DeclaredIn>
+            
+            <NodeRef refid="326"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartTrackballSnapModeAllClosestPoints</TokenIdentifier>
+            <Abstract type="html">     All points within the specified range are selected.
+     </Abstract>
+            <Declaration>TKChartTrackballSnapModeAllClosestPoints</Declaration>
+            
+            <DeclaredIn>TKChartTrackball.h</DeclaredIn>
+            
+            <NodeRef refid="326"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

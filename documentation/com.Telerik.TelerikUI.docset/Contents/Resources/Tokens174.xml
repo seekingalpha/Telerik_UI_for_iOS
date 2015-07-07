@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartPositiveVolumeIndexIndicator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartPositiveVolumeIndexIndicator</TokenIdentifier>
+			<Abstract type="html">Represents Positive Volume Index indicator. Doesn&apos;t have any specific properties.</Abstract>
+			<DeclaredIn>TKChartPositiveVolumeIndexIndicator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="174"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

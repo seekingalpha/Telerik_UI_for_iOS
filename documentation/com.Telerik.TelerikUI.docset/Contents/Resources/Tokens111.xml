@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartAxisMajorTickStyle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartAxisMajorTickStyle</TokenIdentifier>
+			<Abstract type="html">Represents a major tick style of an axis.</Abstract>
+			<DeclaredIn>TKChartAxisMajorTickStyle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="111"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAxisMajorTickStyle/setMinTickClippingMode:</TokenIdentifier>
+			<Abstract type="html">The clipping mode of a tick at the minimum position in the axis. See TKChartAxisLabelStyle for TKChartAxisClippingMode description.</Abstract>
+			<DeclaredIn>TKChartAxisMajorTickStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartAxisClippingMode minTickClippingMode</Declaration>
+			
+			
+			<Anchor>//api/name/minTickClippingMode</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAxisMajorTickStyle/minTickClippingMode</TokenIdentifier>
+			<Abstract type="html">The clipping mode of a tick at the minimum position in the axis. See TKChartAxisLabelStyle for TKChartAxisClippingMode description.</Abstract>
+			<DeclaredIn>TKChartAxisMajorTickStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartAxisClippingMode minTickClippingMode</Declaration>
+			
+			
+			<Anchor>//api/name/minTickClippingMode</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartAxisMajorTickStyle/minTickClippingMode</TokenIdentifier>
+			<Abstract type="html">The clipping mode of a tick at the minimum position in the axis. See TKChartAxisLabelStyle for TKChartAxisClippingMode description.</Abstract>
+			<DeclaredIn>TKChartAxisMajorTickStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartAxisClippingMode minTickClippingMode</Declaration>
+			
+			
+			<Anchor>//api/name/minTickClippingMode</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAxisMajorTickStyle/setMaxTickClippingMode:</TokenIdentifier>
+			<Abstract type="html">The clipping mode of a tick at the maximum position in the axis. See TKChartAxisLabelStyle for TKChartAxisClippingMode description.</Abstract>
+			<DeclaredIn>TKChartAxisMajorTickStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartAxisClippingMode maxTickClippingMode</Declaration>
+			
+			
+			<Anchor>//api/name/maxTickClippingMode</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAxisMajorTickStyle/maxTickClippingMode</TokenIdentifier>
+			<Abstract type="html">The clipping mode of a tick at the maximum position in the axis. See TKChartAxisLabelStyle for TKChartAxisClippingMode description.</Abstract>
+			<DeclaredIn>TKChartAxisMajorTickStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartAxisClippingMode maxTickClippingMode</Declaration>
+			
+			
+			<Anchor>//api/name/maxTickClippingMode</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartAxisMajorTickStyle/maxTickClippingMode</TokenIdentifier>
+			<Abstract type="html">The clipping mode of a tick at the maximum position in the axis. See TKChartAxisLabelStyle for TKChartAxisClippingMode description.</Abstract>
+			<DeclaredIn>TKChartAxisMajorTickStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartAxisClippingMode maxTickClippingMode</Declaration>
+			
+			
+			<Anchor>//api/name/maxTickClippingMode</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

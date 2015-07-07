@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKCalendarCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKCalendarCell</TokenIdentifier>
+			<Abstract type="html">Represents a base class for cells used in TKCalendar.</Abstract>
+			<DeclaredIn>TKCalendarCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="70"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarCell/setLabel:</TokenIdentifier>
+			<Abstract type="html">A label used to display the cell text.</Abstract>
+			<DeclaredIn>TKCalendarCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) UILabel *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarCell/label</TokenIdentifier>
+			<Abstract type="html">A label used to display the cell text.</Abstract>
+			<DeclaredIn>TKCalendarCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) UILabel *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarCell/label</TokenIdentifier>
+			<Abstract type="html">A label used to display the cell text.</Abstract>
+			<DeclaredIn>TKCalendarCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) UILabel *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarCell/owner</TokenIdentifier>
+			<Abstract type="html">An instance of TKCalendar, the owner of this object.</Abstract>
+			<DeclaredIn>TKCalendarCell.h</DeclaredIn>
+			
+			<Declaration>- (TKCalendar *)owner</Declaration>
+			
+			
+			<Anchor>//api/name/owner</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarCell/style</TokenIdentifier>
+			<Abstract type="html">Returns the cell style. Use the style property to customize the visual appearance of TKCalendarCell.</Abstract>
+			<DeclaredIn>TKCalendarCell.h</DeclaredIn>
+			
+			<Declaration>- (TKCalendarCellStyle *)style</Declaration>
+			
+			
+			<Anchor>//api/name/style</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarCell/updateVisuals</TokenIdentifier>
+			<Abstract type="html">Updates the visual appearance of the cell based on its content.</Abstract>
+			<DeclaredIn>TKCalendarCell.h</DeclaredIn>
+			
+			<Declaration>- (void)updateVisuals</Declaration>
+			
+			
+			<Anchor>//api/name/updateVisuals</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarCell/applyStyleForState:</TokenIdentifier>
+			<Abstract type="html">Applies the style specified by its argument to the cell.</Abstract>
+			<DeclaredIn>TKCalendarCell.h</DeclaredIn>
+			
+			<Declaration>- (void)applyStyleForState:(NSInteger)state</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>state</Name>
+					<Abstract type="html">the state that defines the style to apply
+.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/applyStyleForState:</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

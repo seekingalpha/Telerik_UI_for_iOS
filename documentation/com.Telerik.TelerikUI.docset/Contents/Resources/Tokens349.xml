@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/UIBlurEffectStyle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/UIBlurEffectStyle</TokenIdentifier>
+			<Abstract type="html">@enum UIBlurEffectStyle</Abstract>
+			<DeclaredIn>TKSideDrawerStyle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="349"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UIBlurEffectStyleLight</TokenIdentifier>
+            <Abstract type="html">     Light blur style.
+     </Abstract>
+            <Declaration>UIBlurEffectStyleLight</Declaration>
+            
+            <DeclaredIn>TKSideDrawerStyle.h</DeclaredIn>
+            
+            <NodeRef refid="349"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UIBlurEffectStyleDark</TokenIdentifier>
+            <Abstract type="html">     Dark blur style.
+     </Abstract>
+            <Declaration>UIBlurEffectStyleDark</Declaration>
+            
+            <DeclaredIn>TKSideDrawerStyle.h</DeclaredIn>
+            
+            <NodeRef refid="349"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UIBlurEffectStyleExtraLight</TokenIdentifier>
+            <Abstract type="html">     Extra light blur style.
+     </Abstract>
+            <Declaration>UIBlurEffectStyleExtraLight</Declaration>
+            
+            <DeclaredIn>TKSideDrawerStyle.h</DeclaredIn>
+            
+            <NodeRef refid="349"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

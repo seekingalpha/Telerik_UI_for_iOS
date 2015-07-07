@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartDetrendedPriceOscillator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartDetrendedPriceOscillator</TokenIdentifier>
+			<Abstract type="html">Represents Detrended Price oscillator.</Abstract>
+			<DeclaredIn>TKChartDetrendedPriceOscillator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="133"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartDetrendedPriceOscillator/setPeriod:</TokenIdentifier>
+			<Abstract type="html">The period for which the indicator will be calculated. Default value is 20.</Abstract>
+			<DeclaredIn>TKChartDetrendedPriceOscillator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartDetrendedPriceOscillator/period</TokenIdentifier>
+			<Abstract type="html">The period for which the indicator will be calculated. Default value is 20.</Abstract>
+			<DeclaredIn>TKChartDetrendedPriceOscillator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartDetrendedPriceOscillator/period</TokenIdentifier>
+			<Abstract type="html">The period for which the indicator will be calculated. Default value is 20.</Abstract>
+			<DeclaredIn>TKChartDetrendedPriceOscillator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

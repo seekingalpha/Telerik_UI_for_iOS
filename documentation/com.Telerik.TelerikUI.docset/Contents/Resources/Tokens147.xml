@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartLegendContainer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartLegendContainer</TokenIdentifier>
+			<Abstract type="html">The container which contains legend items.</Abstract>
+			<DeclaredIn>TKChartLegendContainer.h</DeclaredIn>
+            
+			
+			<NodeRef refid="147"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLegendContainer/setPreferredSize:</TokenIdentifier>
+			<Abstract type="html">Set preferred size for the container.</Abstract>
+			<DeclaredIn>TKChartLegendContainer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGSize preferredSize</Declaration>
+			
+			
+			<Anchor>//api/name/preferredSize</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLegendContainer/preferredSize</TokenIdentifier>
+			<Abstract type="html">Set preferred size for the container.</Abstract>
+			<DeclaredIn>TKChartLegendContainer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGSize preferredSize</Declaration>
+			
+			
+			<Anchor>//api/name/preferredSize</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartLegendContainer/preferredSize</TokenIdentifier>
+			<Abstract type="html">Set preferred size for the container.</Abstract>
+			<DeclaredIn>TKChartLegendContainer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGSize preferredSize</Declaration>
+			
+			
+			<Anchor>//api/name/preferredSize</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLegendContainer/addItem:</TokenIdentifier>
+			<Abstract type="html">Adds a legend item.</Abstract>
+			<DeclaredIn>TKChartLegendContainer.h</DeclaredIn>
+			
+			<Declaration>- (void)addItem:(TKChartLegendItem *)item</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>item</Name>
+					<Abstract type="html">The item to add to the legend container.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addItem:</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLegendContainer/removeAllItems</TokenIdentifier>
+			<Abstract type="html">Removes all items contained in this container.</Abstract>
+			<DeclaredIn>TKChartLegendContainer.h</DeclaredIn>
+			
+			<Declaration>- (void)removeAllItems</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllItems</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLegendContainer/itemAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns the item at a specified index.</Abstract>
+			<DeclaredIn>TKChartLegendContainer.h</DeclaredIn>
+			
+			<Declaration>- (TKChartLegendItem *)itemAtIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index of the item that the method should return.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of TKLegendItem which represents the legend item.</Abstract></ReturnValue>
+			<Anchor>//api/name/itemAtIndex:</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLegendContainer/indexOfItem:</TokenIdentifier>
+			<Abstract type="html">Returns the index for specific item.</Abstract>
+			<DeclaredIn>TKChartLegendContainer.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)indexOfItem:(TKChartLegendItem *)item</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>item</Name>
+					<Abstract type="html">The item.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The item index.</Abstract></ReturnValue>
+			<Anchor>//api/name/indexOfItem:</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartLegendContainer/itemCount</TokenIdentifier>
+			<Abstract type="html">The items count.</Abstract>
+			<DeclaredIn>TKChartLegendContainer.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)itemCount</Declaration>
+			
+			
+			<Anchor>//api/name/itemCount</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

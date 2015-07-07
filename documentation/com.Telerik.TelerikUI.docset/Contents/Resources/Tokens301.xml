@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKChartAxisPosition.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKChartAxisPosition</TokenIdentifier>
+			<Abstract type="html">@enum TKChartAxisPosition</Abstract>
+			<DeclaredIn>TKChartAxis.h</DeclaredIn>
+            
+			
+			<NodeRef refid="301"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartAxisPositionLeft</TokenIdentifier>
+            <Abstract type="html">     The axis should be positioned at the left side of the chart.
+     </Abstract>
+            <Declaration>TKChartAxisPositionLeft</Declaration>
+            
+            <DeclaredIn>TKChartAxis.h</DeclaredIn>
+            
+            <NodeRef refid="301"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartAxisPositionRight</TokenIdentifier>
+            <Abstract type="html">     The axis shuld be positioned at the right side of the chart.
+     </Abstract>
+            <Declaration>TKChartAxisPositionRight</Declaration>
+            
+            <DeclaredIn>TKChartAxis.h</DeclaredIn>
+            
+            <NodeRef refid="301"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartAxisPositionTop</TokenIdentifier>
+            <Abstract type="html">     The axis should be positioned at the top side of the chart.
+     </Abstract>
+            <Declaration>TKChartAxisPositionTop</Declaration>
+            
+            <DeclaredIn>TKChartAxis.h</DeclaredIn>
+            
+            <NodeRef refid="301"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartAxisPositionBottom</TokenIdentifier>
+            <Abstract type="html">     The axis should be positioned at the bottom side of the chart.
+     </Abstract>
+            <Declaration>TKChartAxisPositionBottom</Declaration>
+            
+            <DeclaredIn>TKChartAxis.h</DeclaredIn>
+            
+            <NodeRef refid="301"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

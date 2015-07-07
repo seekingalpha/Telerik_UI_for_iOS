@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKCalendarMonthPresenterStyle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKCalendarMonthPresenterStyle</TokenIdentifier>
+			<Abstract type="html">A month presenter&apos;s style.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="87"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthPresenterStyle/setRowSpacing:</TokenIdentifier>
+			<Abstract type="html">The spacing between rows.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat rowSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/rowSpacing</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthPresenterStyle/rowSpacing</TokenIdentifier>
+			<Abstract type="html">The spacing between rows.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat rowSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/rowSpacing</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarMonthPresenterStyle/rowSpacing</TokenIdentifier>
+			<Abstract type="html">The spacing between rows.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat rowSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/rowSpacing</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthPresenterStyle/setColumnSpacing:</TokenIdentifier>
+			<Abstract type="html">The spacing between columns.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat columnSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/columnSpacing</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthPresenterStyle/columnSpacing</TokenIdentifier>
+			<Abstract type="html">The spacing between columns.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat columnSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/columnSpacing</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarMonthPresenterStyle/columnSpacing</TokenIdentifier>
+			<Abstract type="html">The spacing between columns.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat columnSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/columnSpacing</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthPresenterStyle/setBackgroundColor:</TokenIdentifier>
+			<Abstract type="html">The presenter background color.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *backgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundColor</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthPresenterStyle/backgroundColor</TokenIdentifier>
+			<Abstract type="html">The presenter background color.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *backgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundColor</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarMonthPresenterStyle/backgroundColor</TokenIdentifier>
+			<Abstract type="html">The presenter background color.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *backgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundColor</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthPresenterStyle/setTitleCellHeight:</TokenIdentifier>
+			<Abstract type="html">The title cell height.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat titleCellHeight</Declaration>
+			
+			
+			<Anchor>//api/name/titleCellHeight</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthPresenterStyle/titleCellHeight</TokenIdentifier>
+			<Abstract type="html">The title cell height.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat titleCellHeight</Declaration>
+			
+			
+			<Anchor>//api/name/titleCellHeight</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarMonthPresenterStyle/titleCellHeight</TokenIdentifier>
+			<Abstract type="html">The title cell height.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat titleCellHeight</Declaration>
+			
+			
+			<Anchor>//api/name/titleCellHeight</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthPresenterStyle/setDayNameCellHeight:</TokenIdentifier>
+			<Abstract type="html">The day name cell height.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat dayNameCellHeight</Declaration>
+			
+			
+			<Anchor>//api/name/dayNameCellHeight</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthPresenterStyle/dayNameCellHeight</TokenIdentifier>
+			<Abstract type="html">The day name cell height.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat dayNameCellHeight</Declaration>
+			
+			
+			<Anchor>//api/name/dayNameCellHeight</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarMonthPresenterStyle/dayNameCellHeight</TokenIdentifier>
+			<Abstract type="html">The day name cell height.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat dayNameCellHeight</Declaration>
+			
+			
+			<Anchor>//api/name/dayNameCellHeight</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthPresenterStyle/setWeekNumberCellWidth:</TokenIdentifier>
+			<Abstract type="html">The week number cell width.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat weekNumberCellWidth</Declaration>
+			
+			
+			<Anchor>//api/name/weekNumberCellWidth</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthPresenterStyle/weekNumberCellWidth</TokenIdentifier>
+			<Abstract type="html">The week number cell width.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat weekNumberCellWidth</Declaration>
+			
+			
+			<Anchor>//api/name/weekNumberCellWidth</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarMonthPresenterStyle/weekNumberCellWidth</TokenIdentifier>
+			<Abstract type="html">The week number cell width.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat weekNumberCellWidth</Declaration>
+			
+			
+			<Anchor>//api/name/weekNumberCellWidth</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthPresenterStyle/setMonthNameTextEffect:</TokenIdentifier>
+			<Abstract type="html">The text effect that will be applied to the month name text.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarTextEffect monthNameTextEffect</Declaration>
+			
+			
+			<Anchor>//api/name/monthNameTextEffect</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthPresenterStyle/monthNameTextEffect</TokenIdentifier>
+			<Abstract type="html">The text effect that will be applied to the month name text.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarTextEffect monthNameTextEffect</Declaration>
+			
+			
+			<Anchor>//api/name/monthNameTextEffect</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarMonthPresenterStyle/monthNameTextEffect</TokenIdentifier>
+			<Abstract type="html">The text effect that will be applied to the month name text.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarTextEffect monthNameTextEffect</Declaration>
+			
+			
+			<Anchor>//api/name/monthNameTextEffect</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthPresenterStyle/setDayNameTextEffect:</TokenIdentifier>
+			<Abstract type="html">The text effect that will be applied to the month name text.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarTextEffect dayNameTextEffect</Declaration>
+			
+			
+			<Anchor>//api/name/dayNameTextEffect</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthPresenterStyle/dayNameTextEffect</TokenIdentifier>
+			<Abstract type="html">The text effect that will be applied to the month name text.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarTextEffect dayNameTextEffect</Declaration>
+			
+			
+			<Anchor>//api/name/dayNameTextEffect</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarMonthPresenterStyle/dayNameTextEffect</TokenIdentifier>
+			<Abstract type="html">The text effect that will be applied to the month name text.</Abstract>
+			<DeclaredIn>TKCalendarMonthPresenterStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarTextEffect dayNameTextEffect</Declaration>
+			
+			
+			<Anchor>//api/name/dayNameTextEffect</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

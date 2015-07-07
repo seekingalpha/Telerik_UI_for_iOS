@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartTitleView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartTitleView</TokenIdentifier>
+			<Abstract type="html">A UIView containing the chart title.</Abstract>
+			<DeclaredIn>TKChartTitleView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="197"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTitleView/setPosition:</TokenIdentifier>
+			<Abstract type="html">The position of the TKChart title.</Abstract>
+			<DeclaredIn>TKChartTitleView.h</DeclaredIn>
+			
+			<Declaration>@property TKChartTitlePosition position</Declaration>
+			
+			
+			<Anchor>//api/name/position</Anchor>
+            <NodeRef refid="197"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTitleView/position</TokenIdentifier>
+			<Abstract type="html">The position of the TKChart title.</Abstract>
+			<DeclaredIn>TKChartTitleView.h</DeclaredIn>
+			
+			<Declaration>@property TKChartTitlePosition position</Declaration>
+			
+			
+			<Anchor>//api/name/position</Anchor>
+            <NodeRef refid="197"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartTitleView/position</TokenIdentifier>
+			<Abstract type="html">The position of the TKChart title.</Abstract>
+			<DeclaredIn>TKChartTitleView.h</DeclaredIn>
+			
+			<Declaration>@property TKChartTitlePosition position</Declaration>
+			
+			
+			<Anchor>//api/name/position</Anchor>
+            <NodeRef refid="197"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTitleView/setStyle:</TokenIdentifier>
+			<Abstract type="html">The title&apos;s view style.</Abstract>
+			<DeclaredIn>TKChartTitleView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartTitleStyle *style</Declaration>
+			
+			
+			<Anchor>//api/name/style</Anchor>
+            <NodeRef refid="197"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTitleView/style</TokenIdentifier>
+			<Abstract type="html">The title&apos;s view style.</Abstract>
+			<DeclaredIn>TKChartTitleView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartTitleStyle *style</Declaration>
+			
+			
+			<Anchor>//api/name/style</Anchor>
+            <NodeRef refid="197"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartTitleView/style</TokenIdentifier>
+			<Abstract type="html">The title&apos;s view style.</Abstract>
+			<DeclaredIn>TKChartTitleView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartTitleStyle *style</Declaration>
+			
+			
+			<Anchor>//api/name/style</Anchor>
+            <NodeRef refid="197"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

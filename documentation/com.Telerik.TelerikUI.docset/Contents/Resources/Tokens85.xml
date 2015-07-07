@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKCalendarMonthNamesPresenter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKCalendarMonthNamesPresenter</TokenIdentifier>
+			<Abstract type="html">A calendar presenter responsible for rendering TKCalendar in month names view mode.</Abstract>
+			<DeclaredIn>TKCalendarMonthNamesPresenter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="85"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthNamesPresenter/setColumns:</TokenIdentifier>
+			<Abstract type="html">Defines the number of columns for this view.</Abstract>
+			<DeclaredIn>TKCalendarMonthNamesPresenter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger columns</Declaration>
+			
+			
+			<Anchor>//api/name/columns</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthNamesPresenter/columns</TokenIdentifier>
+			<Abstract type="html">Defines the number of columns for this view.</Abstract>
+			<DeclaredIn>TKCalendarMonthNamesPresenter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger columns</Declaration>
+			
+			
+			<Anchor>//api/name/columns</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarMonthNamesPresenter/columns</TokenIdentifier>
+			<Abstract type="html">Defines the number of columns for this view.</Abstract>
+			<DeclaredIn>TKCalendarMonthNamesPresenter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger columns</Declaration>
+			
+			
+			<Anchor>//api/name/columns</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthNamesPresenter/contentView</TokenIdentifier>
+			<Abstract type="html">Returns a view containing month name cells.</Abstract>
+			<DeclaredIn>TKCalendarMonthNamesPresenter.h</DeclaredIn>
+			
+			<Declaration>- (UIView *)contentView</Declaration>
+			
+			
+			<Anchor>//api/name/contentView</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

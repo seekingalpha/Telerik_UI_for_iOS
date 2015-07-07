@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="docs/temp-doc/DataSource/DataSource-Data-Shaping.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/doc/DataSource-Data-Shaping</TokenIdentifier>
+			<Abstract type="html"># DataSource: Data Shaping Operations</Abstract>
+			<DeclaredIn>DataSource-Data-Shaping-template.html</DeclaredIn>
+            
+			
+			<NodeRef refid="45"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

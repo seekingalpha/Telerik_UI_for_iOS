@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKListViewHeaderCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKListViewHeaderCell</TokenIdentifier>
+			<Abstract type="html">A cell representing a group header.</Abstract>
+			<DeclaredIn>TKListViewHeaderCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="236"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

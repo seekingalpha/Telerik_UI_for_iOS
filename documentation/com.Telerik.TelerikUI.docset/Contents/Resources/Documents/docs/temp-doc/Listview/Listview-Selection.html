@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Listview-Selection Document</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../../../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../../../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../../../index.html">TelerikUI </a></h1>
+				<a id="developerHome" href="../../../index.html">Telerik</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode" id="pageTitleHeader">Listview-Selection Document</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<a title="Listview-Selection Document" name="top"></a>
+			<div id="overview_contents" role="main">
+				<div id="container">	
+					<h1>ListView: Selection</h1>
+
+<p><a href="../../../Classes/TKListView.html">TKListView</a> supports different selection modes:</p>
+
+<ul>
+<li>Single selection</li>
+<li>Multiple selection</li>
+</ul>
+
+
+<p>The end-user can use different gestures to trigger cell selection:</p>
+
+<ul>
+<li>Selection on press.</li>
+<li>Selection on hold (long press).</li>
+</ul>
+
+
+<p>Additionaly, <a href="../../../Classes/TKListView.html">TKListView</a> provides a few methods to programmatically control the selection state as well as delegate methods to react to user interactions related to selection.</p>
+
+<p>This article describes the selection API of <a href="../../../Classes/TKListView.html">TKListView</a> in detail.</p>
+
+<p>The allowsMultipleSelection property of <a href="../../../Classes/TKListView.html">TKListView</a> defines whether the user is allowed to select multiple items at the same time. It also affects the default appearance of the selected items.</p>
+
+<h2>Single seletion mode</h2>
+
+<p><img src="../images/listview-selection001.png"/></p>
+
+<p>The default value of the allowsMultipleSelection property is NO (false)</p>
+
+<p>Objective-C</p>
+
+<pre><code>_listView.allowsMultipleSelection = NO;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>listView.allowsMultipleSelection = false
+</code></pre>
+
+<h2>Multiple selection mode</h2>
+
+<p><img src="../images/listview-selection002.png"/></p>
+
+<p>Set the allowsMultipleSelection property to YES (true) to enable this view:</p>
+
+<p>Objective-C</p>
+
+<pre><code>_listView.allowsMultipleSelection = YES;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>listView.allowsMultipleSelection = true 
+</code></pre>
+
+<h2>Selection on press</h2>
+
+<p>By default <a href="../../../Classes/TKListView.html">TKListView</a> will allow user to select on press.</p>
+
+<p>Objective-C</p>
+
+<pre><code>_listView.selectionBehavior = TKListViewSelectionBehaviorPress;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>listView.selectionBehavior = TKListViewSelectionBehavior.Press
+</code></pre>
+
+<h2>Selection on hold (long press)</h2>
+
+<p>In this mode a long-press gesture is required in order to select a cell.</p>
+
+<p>Objective-C</p>
+
+<pre><code>_listView.selectionBehavior = TKListViewSelectionBehaviorLongPress;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>listView.selectionBehavior = TKListViewSelectionBehavior.LongPress
+</code></pre>
+
+<h2>Disable selection</h2>
+
+<p>In order to disable the selection, you need to set the _listView.selectionBehavior property to TKListViewSelectionBehaviorNone:
+Objective-C</p>
+
+<pre><code>_listView.selectionBehavior = TKListViewSelectionBehaviorNone;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>listView.selectionBehavior = TKListViewSelectionBehavior.None
+</code></pre>
+
+<h2>Programatically selecting items</h2>
+
+<p>Cells can be selected programatically as well.</p>
+
+<p>Objective-C</p>
+
+<pre><code>NSIndexPath *indexPath = [NSIndexPath indexPathForRow:1 inSection:0];
+[_listView selectItemAtIndexPath:indexPath animated:NO scrollPosition:UICollectionViewScrollPositionNone];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let indexPath = NSIndexPath(forRow: 1, inSection: 0)
+listView.selectItemAtIndexPath(indexPath, animated: false, scrollPosition: UICollectionViewScrollPosition.None)
+</code></pre>
+
+<h2>Programmatically deselecting items</h2>
+
+<p>To deselected a cell programatically, you should call the deselectItemAtIndexPath method giving the indexPath of the cell:</p>
+
+<p>Objective-C</p>
+
+<pre><code>NSIndexPath *indexPath = [NSIndexPath indexPathForRow:1 inSection:0];
+[_listView deselectItemAtIndexPath:indexPath animated:false];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let indexPath = NSIndexPath(forRow: 1, inSection: 0)
+listView.deselectItemAtIndexPath(indexPath, animated: false)
+</code></pre>
+
+<h2><a href="../../../Protocols/TKListViewDelegate.html">TKListViewDelegate</a> methods</h2>
+
+<p>The <a href="../../../Protocols/TKListViewDelegate.html">TKListViewDelegate</a> protocol provides a few handy delegate methods to be used to control and respond to selection events triggered by user. In order to take advantage of these methods, you should set the delegate proeprty of <a href="../../../Classes/TKListView.html">TKListView</a> to a class adopting the <a href="../../../Protocols/TKListViewDelegate.html">TKListViewDelegate</a> protocol. For example:</p>
+
+<p>Objective-C</p>
+
+<pre><code>//assuming your view controller adopts the TKListViewdelegate protocol
+_listView.delegate = self;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>//assuming your view controller adopts the TKListViewdelegate protocol
+listView.delegate = self
+</code></pre>
+
+<p>Bellow you can find some details on how you can use the delegate methods from <a href="../../../Protocols/TKListViewDelegate.html">TKListViewDelegate</a>.</p>
+
+<h2>Responding to user triggered cell selection / deselection</h2>
+
+<p>If you need to perform a specific action after the user selects or deselects a cell, you can use the following methods from the <a href="../../../Protocols/TKListViewDelegate.html">TKListViewDelegate</a> protocol:</p>
+
+<p>Objective-C</p>
+
+<pre><code>- (void)listView:(TKListView *)listView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"Did select item at row: %i in section: %i", indexPath.row,indexPath.section);
+}
+
+- (void)listView:(TKListView *)listView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+        NSLog(@"Did deselect item at row: %i in section: %i", indexPath.row,indexPath.section);
+}
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>func listView(listView: TKListView!, didSelectItemAtIndexPath indexPath: NSIndexPath!) {
+    println("Did select item at row: \(indexPath.row )  in section \(indexPath.section)")
+    }
+
+    func listView(listView: TKListView!, didDeselectItemAtIndexPath indexPath: NSIndexPath!){
+    println("Did deselect item at row: \(indexPath.row )  in section \(indexPath.section)")
+    }
+</code></pre>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Telerik. All rights reserved. (Last updated: 2015-06-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					
+					</div>
+				</div>
+			</div>
+		</article>
+	</body>
+</html>

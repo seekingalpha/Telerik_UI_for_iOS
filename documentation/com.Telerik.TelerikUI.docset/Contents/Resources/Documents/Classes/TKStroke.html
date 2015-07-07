@@ -1,0 +1,1511 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>TKStroke Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">TelerikUI </a></h1>
+				<a id="developerHome" href="../index.html">Telerik</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">TKStroke Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/allowsAntialiasing">&nbsp;&nbsp;&nbsp;&nbsp;allowsAntialiasing</option>
+	
+	<option value="//api/name/cornerRadius">&nbsp;&nbsp;&nbsp;&nbsp;cornerRadius</option>
+	
+	<option value="//api/name/corners">&nbsp;&nbsp;&nbsp;&nbsp;corners</option>
+	
+	<option value="//api/name/dashPattern">&nbsp;&nbsp;&nbsp;&nbsp;dashPattern</option>
+	
+	<option value="//api/name/fill">&nbsp;&nbsp;&nbsp;&nbsp;fill</option>
+	
+	<option value="//api/name/insets">&nbsp;&nbsp;&nbsp;&nbsp;insets</option>
+	
+	<option value="//api/name/lineCap">&nbsp;&nbsp;&nbsp;&nbsp;lineCap</option>
+	
+	<option value="//api/name/lineJoin">&nbsp;&nbsp;&nbsp;&nbsp;lineJoin</option>
+	
+	<option value="//api/name/miterLimit">&nbsp;&nbsp;&nbsp;&nbsp;miterLimit</option>
+	
+	<option value="//api/name/phase">&nbsp;&nbsp;&nbsp;&nbsp;phase</option>
+	
+	<option value="//api/name/strokeSides">&nbsp;&nbsp;&nbsp;&nbsp;strokeSides</option>
+	
+	<option value="//api/name/width">&nbsp;&nbsp;&nbsp;&nbsp;width</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/strokeWithColor:">&nbsp;&nbsp;&nbsp;&nbsp;+ strokeWithColor:</option>
+	
+	<option value="//api/name/strokeWithColor:width:">&nbsp;&nbsp;&nbsp;&nbsp;+ strokeWithColor:width:</option>
+	
+	<option value="//api/name/strokeWithColor:width:cornerRadius:">&nbsp;&nbsp;&nbsp;&nbsp;+ strokeWithColor:width:cornerRadius:</option>
+	
+	<option value="//api/name/strokeWithFill:">&nbsp;&nbsp;&nbsp;&nbsp;+ strokeWithFill:</option>
+	
+	<option value="//api/name/strokeWithFill:width:">&nbsp;&nbsp;&nbsp;&nbsp;+ strokeWithFill:width:</option>
+	
+	<option value="//api/name/strokeWithFill:width:cornerRadius:">&nbsp;&nbsp;&nbsp;&nbsp;+ strokeWithFill:width:cornerRadius:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/color">&nbsp;&nbsp;&nbsp;&nbsp;- color</option>
+	
+	<option value="//api/name/initWithColor:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithColor:</option>
+	
+	<option value="//api/name/initWithColor:width:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithColor:width:</option>
+	
+	<option value="//api/name/initWithFill:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithFill:</option>
+	
+	<option value="//api/name/initWithFill:width:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithFill:width:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/allowsAntialiasing">allowsAntialiasing</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cornerRadius">cornerRadius</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/corners">corners</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dashPattern">dashPattern</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fill">fill</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insets">insets</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/lineCap">lineCap</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/lineJoin">lineJoin</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/miterLimit">miterLimit</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/phase">phase</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/strokeSides">strokeSides</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/width">width</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/strokeWithColor:">strokeWithColor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/strokeWithColor:width:">strokeWithColor:width:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/strokeWithColor:width:cornerRadius:">strokeWithColor:width:cornerRadius:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/strokeWithFill:">strokeWithFill:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/strokeWithFill:width:">strokeWithFill:width:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/strokeWithFill:width:cornerRadius:">strokeWithFill:width:cornerRadius:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/color">color</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithColor:">initWithColor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithColor:width:">initWithColor:width:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithFill:">initWithFill:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithFill:width:">initWithFill:width:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="TKStroke Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">TKStroke Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSCopying<br /><a href="../Protocols/TKDrawing.html">TKDrawing</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">TKStroke.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Represents a stroke that renders a line.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/strokeWithColor:">+&nbsp;strokeWithColor:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/strokeWithColor:width:">+&nbsp;strokeWithColor:width:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/strokeWithColor:width:cornerRadius:">+&nbsp;strokeWithColor:width:cornerRadius:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/strokeWithFill:">+&nbsp;strokeWithFill:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/strokeWithFill:width:">+&nbsp;strokeWithFill:width:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/strokeWithFill:width:cornerRadius:">+&nbsp;strokeWithFill:width:cornerRadius:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/width">&nbsp;&nbsp;width</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/lineCap">&nbsp;&nbsp;lineCap</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/lineJoin">&nbsp;&nbsp;lineJoin</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/miterLimit">&nbsp;&nbsp;miterLimit</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/phase">&nbsp;&nbsp;phase</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/corners">&nbsp;&nbsp;corners</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cornerRadius">&nbsp;&nbsp;cornerRadius</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insets">&nbsp;&nbsp;insets</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/allowsAntialiasing">&nbsp;&nbsp;allowsAntialiasing</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/strokeSides">&nbsp;&nbsp;strokeSides</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dashPattern">&nbsp;&nbsp;dashPattern</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fill">&nbsp;&nbsp;fill</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/color">&ndash;&nbsp;color</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithColor:">&ndash;&nbsp;initWithColor:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithColor:width:">&ndash;&nbsp;initWithColor:width:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithFill:">&ndash;&nbsp;initWithFill:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithFill:width:">&ndash;&nbsp;initWithFill:width:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/allowsAntialiasing" title="allowsAntialiasing"></a>
+	<h3 class="subsubtitle method-title">allowsAntialiasing</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Determines whether to use antialiasing when drawing the stroke</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL allowsAntialiasing</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/cornerRadius" title="cornerRadius"></a>
+	<h3 class="subsubtitle method-title">cornerRadius</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The radius to use when drawing rounded <a href="#//api/name/corners">corners</a>. The Default is 0.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat cornerRadius</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/corners" title="corners"></a>
+	<h3 class="subsubtitle method-title">corners</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A bitmask value that identifies the corners that you want rounded. You can use this parameter to round only a
+subset of the corners of the rectangle. The default is all corners. Ignored if <a href="#//api/name/cornerRadius">cornerRadius</a> is 0.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) UIRectCorner corners</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dashPattern" title="dashPattern"></a>
+	<h3 class="subsubtitle method-title">dashPattern</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The dash patterns of the stroke. An array of NSNumber that specify the lengths of the painted segments and
+unpainted segments, respectively, of the dash pattern, or nil for no dash pattern.
+For example, passing an array with values [@2, @3] sets a dash pattern that alternates between
+a 2-user-space-unit-long painted segment and a 3-user-space-unit-long unpainted segment.
+Passing values [@1, @3, @4, @2] sets the pattern to a 1-unit painted segment, a 3-unit unpainted segment,
+a 4-unit painted segment, and a 2-unit unpainted segment.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSArray *dashPattern</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/fill" title="fill"></a>
+	<h3 class="subsubtitle method-title">fill</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The stroke&rsquo;s brush.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) TKFill *fill</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insets" title="insets"></a>
+	<h3 class="subsubtitle method-title">insets</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Edge insets to apply. This property has no effect when using drawInContext:withPath: method.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) UIEdgeInsets insets</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/lineCap" title="lineCap"></a>
+	<h3 class="subsubtitle method-title">lineCap</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Line cap style.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGLineCap lineCap</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/lineJoin" title="lineJoin"></a>
+	<h3 class="subsubtitle method-title">lineJoin</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Line join style.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGLineJoin lineJoin</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/miterLimit" title="miterLimit"></a>
+	<h3 class="subsubtitle method-title">miterLimit</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Line miter limit.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat miterLimit</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/phase" title="phase"></a>
+	<h3 class="subsubtitle method-title">phase</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A value that specifies how far into the dash pattern the line starts, in units of the user space. For example,
+passing a value of 3 means the line is drawn with the dash pattern starting at three units from its beginning.
+Passing a value of 0 draws a line starting at the beginning of the dash pattern.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat phase</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/strokeSides" title="strokeSides"></a>
+	<h3 class="subsubtitle method-title">strokeSides</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The sides of the stroke to draw. The default is all sides.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) TKRectSide strokeSides</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The rectangle sides are defined as follows:</p>
+
+<pre><code>typedef enum {
+    TKRectSideTop = 1 &lt;&lt; 0,     // Draw stroke on top side.
+    TKRectSideBottom = 1 &lt;&lt; 1,  // Draw stroke on bottom side.
+    TKRectSideLeft = 1 &lt;&lt; 2,    // Draw stroke on left side.
+    TKRectSideRight = 1 &lt;&lt; 3,   // Draw stroke on right side.
+    TKRectSideAll = ~0UL        // Draw stroke on all sides (default)
+} TKRectSide;
+</code></pre>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/width" title="width"></a>
+	<h3 class="subsubtitle method-title">width</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The stroke&rsquo;s width.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat width</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/strokeWithColor:" title="strokeWithColor:"></a>
+	<h3 class="subsubtitle method-title">strokeWithColor:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Defines the stroke with a solid <a href="#//api/name/color">color</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (instancetype)strokeWithColor:(UIColor *)<em>color</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>color</em></dt>
+			<dd><p>The solid <a href="#//api/name/color">color</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/strokeWithColor:width:" title="strokeWithColor:width:"></a>
+	<h3 class="subsubtitle method-title">strokeWithColor:width:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Defines the stroke with a solid <a href="#//api/name/color">color</a> and thickness.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (instancetype)strokeWithColor:(UIColor *)<em>color</em> width:(CGFloat)<em>width</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>color</em></dt>
+			<dd><p>The solid <a href="#//api/name/color">color</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>width</em></dt>
+			<dd><p>The stroke&rsquo;s thickness.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/strokeWithColor:width:cornerRadius:" title="strokeWithColor:width:cornerRadius:"></a>
+	<h3 class="subsubtitle method-title">strokeWithColor:width:cornerRadius:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Defines the stroke with a solid <a href="#//api/name/color">color</a>, thickness and corner radius.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (instancetype)strokeWithColor:(UIColor *)<em>color</em> width:(CGFloat)<em>width</em> cornerRadius:(CGFloat)<em>cornerRadius</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>color</em></dt>
+			<dd><p>The solid <a href="#//api/name/color">color</a>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>width</em></dt>
+			<dd><p>The stroke&rsquo;s tickness.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>cornerRadius</em></dt>
+			<dd><p>The corner radius in points.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/strokeWithFill:" title="strokeWithFill:"></a>
+	<h3 class="subsubtitle method-title">strokeWithFill:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Defines the stroke with a <a href="#//api/name/fill">fill</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (instancetype)strokeWithFill:(TKFill *)<em>fill</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>fill</em></dt>
+			<dd><p>The <a href="#//api/name/fill">fill</a> used for the stroke.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/strokeWithFill:width:" title="strokeWithFill:width:"></a>
+	<h3 class="subsubtitle method-title">strokeWithFill:width:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Defines the stroke with a <a href="#//api/name/fill">fill</a> and thickness.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (instancetype)strokeWithFill:(TKFill *)<em>fill</em> width:(CGFloat)<em>width</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>fill</em></dt>
+			<dd><p>The <a href="#//api/name/fill">fill</a> used for the stroke.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>width</em></dt>
+			<dd><p>The stroke&rsquo;s thickness.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/strokeWithFill:width:cornerRadius:" title="strokeWithFill:width:cornerRadius:"></a>
+	<h3 class="subsubtitle method-title">strokeWithFill:width:cornerRadius:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Defines the stroke with a <a href="#//api/name/fill">fill</a>, thickness and corder radius.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (instancetype)strokeWithFill:(TKFill *)<em>fill</em> width:(CGFloat)<em>width</em> cornerRadius:(CGFloat)<em>cornerRadius</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>fill</em></dt>
+			<dd><p>The <a href="#//api/name/fill">fill</a> used for the stroke.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>width</em></dt>
+			<dd><p>The stroke&rsquo;s thickness.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>cornerRadius</em></dt>
+			<dd><p>The corner radius in points.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/color" title="color"></a>
+	<h3 class="subsubtitle method-title">color</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The stroke color.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (UIColor *)color</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithColor:" title="initWithColor:"></a>
+	<h3 class="subsubtitle method-title">initWithColor:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Defines the stroke with a solid <a href="#//api/name/color">color</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithColor:(UIColor *)<em>color</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>color</em></dt>
+			<dd><p>The solid <a href="#//api/name/color">color</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithColor:width:" title="initWithColor:width:"></a>
+	<h3 class="subsubtitle method-title">initWithColor:width:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Defines the stroke with a solid <a href="#//api/name/color">color</a> and thickness.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithColor:(UIColor *)<em>color</em> width:(CGFloat)<em>width</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>color</em></dt>
+			<dd><p>The solid <a href="#//api/name/color">color</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>width</em></dt>
+			<dd><p>The stroke&rsquo;s thickness.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithFill:" title="initWithFill:"></a>
+	<h3 class="subsubtitle method-title">initWithFill:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initializes the stroke with a <a href="#//api/name/fill">fill</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithFill:(TKFill *)<em>fill</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>fill</em></dt>
+			<dd><p>The <a href="#//api/name/fill">fill</a> used for the stroke.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithFill:width:" title="initWithFill:width:"></a>
+	<h3 class="subsubtitle method-title">initWithFill:width:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initializes the stroke with a <a href="#//api/name/fill">fill</a> and thickness.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithFill:(TKFill *)<em>fill</em> width:(CGFloat)<em>width</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>fill</em></dt>
+			<dd><p>The <a href="#//api/name/fill">fill</a> used for the stroke.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>width</em></dt>
+			<dd><p>The stroke&rsquo;s thickness.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKStroke.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Telerik. All rights reserved. (Last updated: 2015-06-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

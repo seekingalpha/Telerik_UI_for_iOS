@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKCalendarYearNumbersPresenter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKCalendarYearNumbersPresenter</TokenIdentifier>
+			<Abstract type="html">A calendar presenter responsible for rendering TKCalendar in year numbers view mode.</Abstract>
+			<DeclaredIn>TKCalendarYearNumbersPresenter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="96"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearNumbersPresenter/setColumns:</TokenIdentifier>
+			<Abstract type="html">Defines the number of columns.</Abstract>
+			<DeclaredIn>TKCalendarYearNumbersPresenter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger columns</Declaration>
+			
+			
+			<Anchor>//api/name/columns</Anchor>
+            <NodeRef refid="96"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearNumbersPresenter/columns</TokenIdentifier>
+			<Abstract type="html">Defines the number of columns.</Abstract>
+			<DeclaredIn>TKCalendarYearNumbersPresenter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger columns</Declaration>
+			
+			
+			<Anchor>//api/name/columns</Anchor>
+            <NodeRef refid="96"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarYearNumbersPresenter/columns</TokenIdentifier>
+			<Abstract type="html">Defines the number of columns.</Abstract>
+			<DeclaredIn>TKCalendarYearNumbersPresenter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger columns</Declaration>
+			
+			
+			<Anchor>//api/name/columns</Anchor>
+            <NodeRef refid="96"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearNumbersPresenter/setRows:</TokenIdentifier>
+			<Abstract type="html">Defines the number of rows.</Abstract>
+			<DeclaredIn>TKCalendarYearNumbersPresenter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger rows</Declaration>
+			
+			
+			<Anchor>//api/name/rows</Anchor>
+            <NodeRef refid="96"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearNumbersPresenter/rows</TokenIdentifier>
+			<Abstract type="html">Defines the number of rows.</Abstract>
+			<DeclaredIn>TKCalendarYearNumbersPresenter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger rows</Declaration>
+			
+			
+			<Anchor>//api/name/rows</Anchor>
+            <NodeRef refid="96"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarYearNumbersPresenter/rows</TokenIdentifier>
+			<Abstract type="html">Defines the number of rows.</Abstract>
+			<DeclaredIn>TKCalendarYearNumbersPresenter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger rows</Declaration>
+			
+			
+			<Anchor>//api/name/rows</Anchor>
+            <NodeRef refid="96"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

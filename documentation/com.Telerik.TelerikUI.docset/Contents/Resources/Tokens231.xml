@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKLinearGradientFill.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKLinearGradientFill</TokenIdentifier>
+			<Abstract type="html">Represents a linear gradient fill.</Abstract>
+			<DeclaredIn>TKLinearGradientFill.h</DeclaredIn>
+            
+			
+			<NodeRef refid="231"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKLinearGradientFill/reverse:</TokenIdentifier>
+			<Abstract type="html">Reverses a linear gradient fill.</Abstract>
+			<DeclaredIn>TKLinearGradientFill.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)reverse:(TKLinearGradientFill *)fill</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>fill</Name>
+					<Abstract type="html">The fill.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The reversed fill.</Abstract></ReturnValue>
+			<Anchor>//api/name/reverse:</Anchor>
+            <NodeRef refid="231"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKLinearGradientFill/linearGradientFillWithColors:</TokenIdentifier>
+			<Abstract type="html">Creates a linear gradient fill with colors.</Abstract>
+			<DeclaredIn>TKLinearGradientFill.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)linearGradientFillWithColors:(NSArray *)colors</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>colors</Name>
+					<Abstract type="html">The array of UIColor containing gradient colors.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/linearGradientFillWithColors:</Anchor>
+            <NodeRef refid="231"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKLinearGradientFill/linearGradientFillWithColors:startPoint:endPoint:</TokenIdentifier>
+			<Abstract type="html">Creates a linear gradient fill with colors, start point and end point.</Abstract>
+			<DeclaredIn>TKLinearGradientFill.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)linearGradientFillWithColors:(NSArray *)colors startPoint:(CGPoint)startPoint endPoint:(CGPoint)endPoint</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>colors</Name>
+					<Abstract type="html">The array of UIColor containing gradient colors.</Abstract>
+				</Parameter><Parameter>
+					<Name>startPoint</Name>
+					<Abstract type="html">The start point for gradient drawing. Both values are in the interval of 0 to 1.</Abstract>
+				</Parameter><Parameter>
+					<Name>endPoint</Name>
+					<Abstract type="html">The end point for gradient drawing. Both values are in the interval of 0 to 1.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/linearGradientFillWithColors:startPoint:endPoint:</Anchor>
+            <NodeRef refid="231"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKLinearGradientFill/linearGradientFillWithColors:locations:startPoint:endPoint:</TokenIdentifier>
+			<Abstract type="html">Creates a linear gradient fill with colors, locations, start point and end point.</Abstract>
+			<DeclaredIn>TKLinearGradientFill.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)linearGradientFillWithColors:(NSArray *)colors locations:(NSArray *)locations startPoint:(CGPoint)startPoint endPoint:(CGPoint)endPoint</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>colors</Name>
+					<Abstract type="html">The array of UIColor containing gradient colors.</Abstract>
+				</Parameter><Parameter>
+					<Name>locations</Name>
+					<Abstract type="html">The array of NSNumber objects defining the location of each gradient stop in the interval of 0 to 1.</Abstract>
+				</Parameter><Parameter>
+					<Name>startPoint</Name>
+					<Abstract type="html">The start point for gradient drawing. Both values are in the interval of 0 to 1.</Abstract>
+				</Parameter><Parameter>
+					<Name>endPoint</Name>
+					<Abstract type="html">The end point for gradient drawing. Both values are in the interval of 0 to 1.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/linearGradientFillWithColors:locations:startPoint:endPoint:</Anchor>
+            <NodeRef refid="231"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLinearGradientFill/initWithColors:startPoint:endPoint:</TokenIdentifier>
+			<Abstract type="html">Initializes a linear gradient fill with colors, start point and end point.</Abstract>
+			<DeclaredIn>TKLinearGradientFill.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithColors:(NSArray *)colors startPoint:(CGPoint)startPoint endPoint:(CGPoint)endPoint</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>colors</Name>
+					<Abstract type="html">The array of UIColor containing gradient colors.</Abstract>
+				</Parameter><Parameter>
+					<Name>startPoint</Name>
+					<Abstract type="html">The start point for gradient drawing. Both values are in the interval of 0 to 1.</Abstract>
+				</Parameter><Parameter>
+					<Name>endPoint</Name>
+					<Abstract type="html">The end point for gradient drawing. Both values are in the interval of 0 to 1.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithColors:startPoint:endPoint:</Anchor>
+            <NodeRef refid="231"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLinearGradientFill/initWithColors:locations:startPoint:endPoint:</TokenIdentifier>
+			<Abstract type="html">Initializes a linear gradient fill with colors, locations, start point and end point.</Abstract>
+			<DeclaredIn>TKLinearGradientFill.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithColors:(NSArray *)colors locations:(NSArray *)locations startPoint:(CGPoint)startPoint endPoint:(CGPoint)endPoint</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>colors</Name>
+					<Abstract type="html">The array of UIColor containing gradient colors</Abstract>
+				</Parameter><Parameter>
+					<Name>locations</Name>
+					<Abstract type="html">The array of NSNumber objects defining the location of each gradient stop in the interval of 0 to 1.</Abstract>
+				</Parameter><Parameter>
+					<Name>startPoint</Name>
+					<Abstract type="html">The start point for gradient drawing. Both values are in the interval of 0 to 1.</Abstract>
+				</Parameter><Parameter>
+					<Name>endPoint</Name>
+					<Abstract type="html">The end point for gradient drawing. Both values are in the interval of 0 to 1.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithColors:locations:startPoint:endPoint:</Anchor>
+            <NodeRef refid="231"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLinearGradientFill/setStartPoint:</TokenIdentifier>
+			<Abstract type="html">The start point of the gradient. Both values are in the interval of 0 to 1.</Abstract>
+			<DeclaredIn>TKLinearGradientFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint startPoint</Declaration>
+			
+			
+			<Anchor>//api/name/startPoint</Anchor>
+            <NodeRef refid="231"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLinearGradientFill/startPoint</TokenIdentifier>
+			<Abstract type="html">The start point of the gradient. Both values are in the interval of 0 to 1.</Abstract>
+			<DeclaredIn>TKLinearGradientFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint startPoint</Declaration>
+			
+			
+			<Anchor>//api/name/startPoint</Anchor>
+            <NodeRef refid="231"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKLinearGradientFill/startPoint</TokenIdentifier>
+			<Abstract type="html">The start point of the gradient. Both values are in the interval of 0 to 1.</Abstract>
+			<DeclaredIn>TKLinearGradientFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint startPoint</Declaration>
+			
+			
+			<Anchor>//api/name/startPoint</Anchor>
+            <NodeRef refid="231"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLinearGradientFill/setEndPoint:</TokenIdentifier>
+			<Abstract type="html">The end point of the gradient. Both values are in the interval of 0 to 1.</Abstract>
+			<DeclaredIn>TKLinearGradientFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint endPoint</Declaration>
+			
+			
+			<Anchor>//api/name/endPoint</Anchor>
+            <NodeRef refid="231"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLinearGradientFill/endPoint</TokenIdentifier>
+			<Abstract type="html">The end point of the gradient. Both values are in the interval of 0 to 1.</Abstract>
+			<DeclaredIn>TKLinearGradientFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint endPoint</Declaration>
+			
+			
+			<Anchor>//api/name/endPoint</Anchor>
+            <NodeRef refid="231"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKLinearGradientFill/endPoint</TokenIdentifier>
+			<Abstract type="html">The end point of the gradient. Both values are in the interval of 0 to 1.</Abstract>
+			<DeclaredIn>TKLinearGradientFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint endPoint</Declaration>
+			
+			
+			<Anchor>//api/name/endPoint</Anchor>
+            <NodeRef refid="231"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

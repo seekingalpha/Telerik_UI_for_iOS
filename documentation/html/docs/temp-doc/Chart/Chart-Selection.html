@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Chart-Selection Document</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../../../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../../../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../../../index.html">TelerikUI </a></h1>
+				<a id="developerHome" href="../../../index.html">Telerik</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode" id="pageTitleHeader">Chart-Selection Document</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<a title="Chart-Selection Document" name="top"></a>
+			<div id="overview_contents" role="main">
+				<div id="container">	
+					<h1>Chart: Selection</h1>
+
+<p>This help topic demonstrates how you can make your charts more interactive by enabling a selection behavior.</p>
+
+<h2>Configure</h2>
+
+<p>You can alter the selection mode for each series by altering the series selectionMode property with the following value:</p>
+
+<ul>
+<li>TKChartSeriesSelectionModeNone - No selection</li>
+<li>TKChartSeriesSelectionModeSeries - Select a whole series</li>
+<li>TKChartSeriesSelectionModeDataPoint - Select a data point</li>
+</ul>
+
+
+<p>In addition you can choose between single and multiple item selection by altering the chart selectionMode property:</p>
+
+<ul>
+<li>TKChartSelectionModeSingle - a single point/series can be selected</li>
+<li>TKChartSelectionModeMultiple - multiple points/series can be selected</li>
+</ul>
+
+
+<p>Use the selectedSeries and selectedPoints properties to get currently selected series or points respectively.</p>
+
+<p>Objective-C</p>
+
+<pre><code>for (TKChartSeries *series in chart.selectedSeries) {
+    NSLog(@"selected series at index: %d", series.index);
+}
+
+for (TKChartSelectionInfo *info in chart.selectedPoints) {
+    NSLog(@"selected point at index %d from series %d", info.dataPointIndex, info.series.index);
+}
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>for series in chart.selectedSeries() as! [TKChartSeries] {
+    println("selected series at index: \(series.index)")
+}
+
+for info in chart.selectedPoints() as! [TKChartSelectionInfo] {
+    NSLog("selected point at index \(info.dataPointIndex) from series \(info.series.index)")
+}
+</code></pre>
+
+<p>The isSelected property of <a href="../../../Classes/TKChartSeries.html">TKChartSeries</a> indicates whether the series is selected.</p>
+
+<p>You can determine whether a selection is changed by adopting <a href="../../../Protocols/TKChartDelegate.html">TKChartDelegate</a> protocol and implementing one the following methods:</p>
+
+<p>Objective-C</p>
+
+<pre><code>- (void)chart:(TKChart *)chart didSelectSeries:(TKChartSeries *)series
+{
+    // Here you can perform the desired action when the selection is changed.
+}
+
+- (void)chart:(TKChart *)chart didSelectPoint:(idTKChartData)point inSeries:(TKChartSeries *)series atIndex:(NSInteger)index
+{
+    // Here you can perform the desired action when the selection is changed.
+}
+
+- (void)chart:(TKChart *)chart didDeselectSeries:(TKChartSeries *)series
+{
+    // Here you can perform the desired action when the selection is changed.
+}
+
+- (void)chart:(TKChart *)chart didDeselectPoint:(idTKChartData)point inSeries:(TKChartSeries *)series atIndex:(NSInteger)index
+{
+    // Here you can perform the desired action when the selection is changed.
+}
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>func chart(chart: TKChart!, didSelectSeries series: TKChartSeries!) {
+    // Here you can perform the desired action when the selection is changed.
+}
+
+func chart(chart: TKChart!, didSelectPoint point: TKChartData!, inSeries series: TKChartSeries!, atIndex index: Int) {
+    // Here you can perform the desired action when the selection is changed.
+}
+
+func chart(chart: TKChart!, didDeselectSeries series: TKChartSeries!) {
+    // Here you can perform the desired action when the selection is changed.
+}
+
+func chart(chart: TKChart!, didDeselectPoint point: TKChartData!, inSeries series: TKChartSeries!, atIndex index: Int) {
+    // Here you can perform the desired action when the selection is changed.
+}
+</code></pre>
+
+<p>In addition, you can change the selection programmatically by calling the select method in the following manner:</p>
+
+<p>Objective-C</p>
+
+<pre><code>series.selectionMode = TKChartSeriesSelectionModeDataPoint;
+series.expandRadius = 1.2;
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [_pieChart select:[[TKChartSelectionInfo alloc] initWithSeries:_pieChart.series[0] dataPointIndex:0]];
+}
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>series.selectionMode = TKChartSeriesSelectionModeDataPoint
+series.expandRadius = 1.2
+
+override func viewDidAppear(animated: Bool) {
+    super.viewDidAppear(animated)
+    chart.select(TKChartSelectionInfo(series: chart.series()[0] as! TKChartSeries, dataPointIndex: 0))
+}
+</code></pre>
+
+<p><img src="../images/chart-selection001.png"/></p>
+
+<p>Note that you can clear the selection by passing <em>nil</em> value to the series argument.</p>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Telerik. All rights reserved. (Last updated: 2015-06-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					
+					</div>
+				</div>
+			</div>
+		</article>
+	</body>
+</html>

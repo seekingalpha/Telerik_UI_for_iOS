@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKCalendarViewMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKCalendarViewMode</TokenIdentifier>
+			<Abstract type="html">@enum TKCalendarViewMode</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+            
+			
+			<NodeRef refid="294"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarViewModeWeek</TokenIdentifier>
+            <Abstract type="html">     A single week will be presented in calendar component.
+     </Abstract>
+            <Declaration>TKCalendarViewModeWeek</Declaration>
+            
+            <DeclaredIn>TKCalendar.h</DeclaredIn>
+            
+            <NodeRef refid="294"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarViewModeMonth</TokenIdentifier>
+            <Abstract type="html">     A single month will be presented in calendar component.
+     </Abstract>
+            <Declaration>TKCalendarViewModeMonth</Declaration>
+            
+            <DeclaredIn>TKCalendar.h</DeclaredIn>
+            
+            <NodeRef refid="294"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarViewModeMonthNames</TokenIdentifier>
+            <Abstract type="html">     A list of month names will be presented in calendar component.
+     </Abstract>
+            <Declaration>TKCalendarViewModeMonthNames</Declaration>
+            
+            <DeclaredIn>TKCalendar.h</DeclaredIn>
+            
+            <NodeRef refid="294"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarViewModeYear</TokenIdentifier>
+            <Abstract type="html">     A list with years, months and dates will be presented in calendar component.
+     </Abstract>
+            <Declaration>TKCalendarViewModeYear</Declaration>
+            
+            <DeclaredIn>TKCalendar.h</DeclaredIn>
+            
+            <NodeRef refid="294"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarViewModeYearNumbers</TokenIdentifier>
+            <Abstract type="html">     A list with year numbers will be presented in calendar component.
+     </Abstract>
+            <Declaration>TKCalendarViewModeYearNumbers</Declaration>
+            
+            <DeclaredIn>TKCalendar.h</DeclaredIn>
+            
+            <NodeRef refid="294"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarViewModeFlow</TokenIdentifier>
+            <Abstract type="html">     A continious list with months will be presented in calendar component.
+     </Abstract>
+            <Declaration>TKCalendarViewModeFlow</Declaration>
+            
+            <DeclaredIn>TKCalendar.h</DeclaredIn>
+            
+            <NodeRef refid="294"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

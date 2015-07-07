@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Chart-Structure Document</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../../../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../../../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../../../index.html">TelerikUI </a></h1>
+				<a id="developerHome" href="../../../index.html">Telerik</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode" id="pageTitleHeader">Chart-Structure Document</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<a title="Chart-Structure Document" name="top"></a>
+			<div id="overview_contents" role="main">
+				<div id="container">	
+					<h1>Chart: Structure</h1>
+
+<p><a href="../../../Classes/TKChart.html">TKChart</a> consists of the following elements:</p>
+
+<p><img src="../images/chart-overview006.png"/></p>
+
+<ul>
+<li><p>plot area - this is the area where chart data is drawn.</p></li>
+<li><p>series - chart data is represented by series objects. Each series object defines the chart type and contains a set of points to be drawn. The chart can display different series object simultaneously.</p></li>
+<li><p>axes - there are four axes areas that surround the plot area. The axes define the dimensions in which data is drawn inside the plot area. Each axis can be attached to a single or many series.</p></li>
+<li><p>title - this is the chart title. Its style and position can be customized. The chart title is hidden by default.</p></li>
+<li><p>legend - the chart legend displays additional information about series objects. Its style and position can be customized. The chart legend is hidden by default.</p></li>
+</ul>
+
+
+<p>In addition to these visual objects, <a href="../../../Classes/TKChart.html">TKChart</a> uses the following protocols:</p>
+
+<ul>
+<li><p>dataSource - The chart data source is used to supply the chart with data. Setting this property is optional, as you can assign data directly to the series object. In case you decide to use this property, you have to implement the <a href="../../../Protocols/TKChartDataSource.html">TKChartDataSource</a>* protocol.</p></li>
+<li><p>delegate - The chart delegate is an optional protocol that allows chart consumers to receive notifications from <a href="../../../Classes/TKChart.html">TKChart</a>. It allows also customizing chart appearance and animations.</p></li>
+</ul>
+
+
+<h2>Axes</h2>
+
+<p><a href="../../../Classes/TKChart.html">TKChart</a> renders its points in a coordinate system defined by its axes. To do this, axes specify the minimum and maximum values that can be presented on the plot area. There are a few different types of axes that can be used with <a href="../../../Classes/TKChart.html">TKChart</a>. They include: numeric, date/time and categoric. You can assign each axis to different series and you can show multiple axes in a chart. Axes contain various properties to control their position, style and behavior. All chart axes subclass from <a href="../../../Classes/TKChartAxis.html">TKChartAxis</a>.</p>
+
+<ul>
+<li>Use <a href="../../../Classes/TKChartNumericAxis.html">TKChartNumericAxis</a> to present numeric values.</li>
+<li>Use <a href="../../../Classes/TKChartDateTimeAxis.html">TKChartDateTimeAxis</a> to present date/time values.</li>
+<li>Use <a href="../../../Classes/TKChartCategoryAxis.html">TKChartCategoryAxis</a> to present categoric values.</li>
+</ul>
+
+
+<p>In order to show multiple axes in <a href="../../../Classes/TKChart.html">TKChart</a>, create several axes and customize their position. Then use the xAxis and yAxis properties of the series to assign them:</p>
+
+<p>Objective-C</p>
+
+<pre><code>    TKChartNumericAxis *xAxis = [[TKChartNumericAxis alloc] init];
+    xAxis.position = TKChartAxisPositionBottom;
+    [chart addAxis:xAxis];
+
+    TKChartNumericAxis *yAxis1 = [[TKChartNumericAxis alloc] initWithMinimum:@0 andMaximum:@100];
+    yAxis1.majorTickInterval = @50;
+    yAxis1.position = TKChartAxisPositionLeft;
+    yAxis1.style.lineHidden = NO;
+    [chart addAxis:yAxis1];
+
+    TKChartNumericAxis *yAxis2 = [[TKChartNumericAxis alloc] initWithMinimum:@0 andMaximum:@200];
+    yAxis2.majorTickInterval = @50;
+    yAxis2.position = TKChartAxisPositionRight;
+    yAxis2.style.lineHidden = NO;
+    [chart addAxis:yAxis2];
+
+    NSArray *values1 = @[@12, @10, @98, @64, @11, @27, @85, @72, @43, @39];
+    NSMutableArray *incomesData = [[NSMutableArray alloc] init];
+    for (int i = 0; i &lt; values1.count; i++) {
+        [incomesData addObject:[[TKChartDataPoint alloc] initWithX:@(i) Y:values1[i]]];
+    }
+
+    TKChartLineSeries *series = [[TKChartLineSeries alloc] initWithItems:incomesData];
+    series.xAxis = xAxis;
+    series.yAxis = yAxis1;
+    [chart addSeries:series];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>    let xAxis = TKChartNumericAxis()
+    xAxis.position = TKChartAxisPosition.Bottom
+    chart.addAxis(xAxis)
+
+    let yAxis1 = TKChartNumericAxis(minimum: 0, andMaximum: 100)
+    yAxis1.majorTickInterval = 50
+    yAxis1.position = TKChartAxisPosition.Left
+    yAxis1.style.lineHidden = false
+    chart.addAxis(yAxis1)
+
+    let yAxis2 = TKChartNumericAxis(minimum: 0, andMaximum: 200)
+    yAxis2.majorTickInterval = 50
+    yAxis2.position = TKChartAxisPosition.Right
+    yAxis2.style.lineHidden = false
+    chart.addAxis(yAxis2)
+
+    var incomesData = [TKChartDataPoint]()
+    let values1 = [12, 10, 98, 64, 11, 27, 85, 72, 43, 39]
+    for i in 0..&lt;10 {
+        incomesData.append(TKChartDataPoint(x: i, y: values1[i]))
+    }
+
+    let series = TKChartLineSeries(items: incomesData)
+    series.xAxis = xAxis
+    series.yAxis = yAxis1
+    chart.addSeries(series)
+</code></pre>
+
+<p>The result from this setup is:</p>
+
+<p><img src="../images/chart-overview007.png"/></p>
+
+<p>Find further details about chart axes in <a href="chart-axes-axes.html">this article</a>.</p>
+
+<h2>Series</h2>
+
+<p>Series define how data should be visually presented on the plot area. Each series has a collection of data points, which it displays according to the series type. <a href="../../../Classes/TKChart.html">TKChart</a> supports several series out of the box. These include: bar, column, line, area, scatter and pie. The base class for all series in <a href="../../../Classes/TKChart.html">TKChart</a> is <a href="../../../Classes/TKChartSeries.html">TKChartSeries</a>.</p>
+
+<ul>
+<li><a href="chart-series-area.html">TKChartAreaSeries</a> is used to present points in filled areas.</li>
+<li><a href="chart-series-bubble.html">TKChartBubbleSeries</a> is used to present points of various size.</li>
+<li><a href="chart-series-candlestick.html">TKChartCandlestickSeries</a> and <a href="chart-series-ohlc.html">TKChartOhlcSeries</a> are used to present stock market data.</li>
+<li><a href="chart-series-candlestick.html">Financial indicators</a> are used to present calculated summary of stock market data.</li>
+<li><a href="chart-series-bar.html">TKChartBarSeries</a> is used to present points as bars (horizontal rectangles).</li>
+<li><a href="chart-series-column.html">TKChartColumnSeries</a> is used to present points as columns (vertical rectangles).</li>
+<li><a href="chart-series-donut.html">TKChartDonutSeries</a> is used to present data as a pie.</li>
+<li><a href="chart-series-spline.html">TKChartSplineSeries</a> is used to present points as a spline.</li>
+<li><a href="chart-series-area.html">TKChartSplineAreaSeries</a> is used to present points in filled areas having a spline line at the top.</li>
+<li><a href="chart-series-line.html">TKChartLineSeries</a> is used to present points as line/spline.</li>
+<li><a href="chart-series-pie.html">TKChartPieSeries</a> is used to present data as pie.</li>
+<li><a href="chart-series-scatter.html">TKChartScatterSeries</a> is used to present data as separate points.</li>
+</ul>
+
+
+<p>When <a href="../../../Classes/TKChart.html">TKChart</a> contains more than one series of type bar or column, it clusters the series in groups. You can choose also to show the same information as stacked bars/columns. This is done by setting the stackInfo property of the series:</p>
+
+<p>Objective-C</p>
+
+<pre><code>NSArray *values1 = @[@12, @10, @98, @64, @11, @27, @85, @72, @43, @39];
+NSArray *values2 = @[@87, @22, @29, @87, @65, @99, @63, @12, @82, @87];
+NSMutableArray *expensesData = [[NSMutableArray alloc] init];
+NSMutableArray *incomesData = [[NSMutableArray alloc] init];
+for (int i = 0; i &lt; values1.count; i++) {
+    [expensesData addObject:[[TKChartDataPoint alloc] initWithX:@(i) Y:values2[i]]];
+    [incomesData addObject:[[TKChartDataPoint alloc] initWithX:@(i) Y:values1[i]]];
+}
+
+TKChartStackInfo *stackInfo = [[TKChartStackInfo alloc] initWithID:@(1) withStackMode:TKChartStackModeStack];
+TKChartSeries *series1 = [[TKChartColumnSeries alloc] initWithItems:expensesData];
+series1.title = @"Expenses";
+series1.stackInfo = stackInfo;
+[chart addSeries:series1];
+
+TKChartSeries *series2 = [[TKChartColumnSeries alloc] initWithItems:incomesData];
+series2.title = @"Incomes";
+series2.stackInfo = stackInfo;
+[chart addSeries:series2];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let values1 = [12, 10, 98, 64, 11, 27, 85, 72, 43, 39]
+let values2 = [87, 22, 29, 87, 65, 99, 63, 12, 82, 87]    
+var expensesData = [TKChartDataPoint]()
+var incomesData = [TKChartDataPoint]()
+for i in 0..&lt;10 {
+    expensesData.append(TKChartDataPoint(x: i, y: values2[i]))
+    incomesData.append(TKChartDataPoint(x: i, y: values1[i]))
+}
+
+let stackInfo = TKChartStackInfo(ID: 1, withStackMode: TKChartStackMode.Stack)
+let series1 = TKChartColumnSeries(items: expensesData)
+series1.title = "Expenses"
+series1.stackInfo = stackInfo
+chart.addSeries(series1)
+
+let series2 = TKChartColumnSeries(items: incomesData)
+series2.title = "Incomes"
+series2.stackInfo = stackInfo
+chart.addSeries(series2)
+</code></pre>
+
+<p>The result from this setup is:</p>
+
+<p><img src="../images/chart-overview008.png"/></p>
+
+<p>Line and area series also allow stacking by using the stackInfo property.</p>
+
+<p>Series appearance can be changed by using the style property.</p>
+
+<h2>Interaction</h2>
+
+<p><a href="../../../Classes/TKChart.html">TKChart</a> is an interactive component that supports gestures like touch, pan and rotate. The main actions that are supported are selection and pan/zoom interaction.</p>
+
+<p>The allowPan and allowZoom properties of <a href="../../../Classes/TKChartAxis.html">TKChartAxis</a> should be set to <em>YES</em> in order to allow pan/zoom functionality.</p>
+
+<p>The selectionMode property of <a href="../../../Classes/TKChartSeries.html">TKChartSeries</a> should be set to TKChartSelectionModeSeries or TKChartSelectionModeDataPoint in order to allow selection for the specified series.</p>
+
+<p>Find further details about selection and pan/zoom functionality in the corresponding articles.</p>
+
+<h2>Animations</h2>
+
+<p><a href="../../../Classes/TKChart.html">TKChart</a> allows animating chart points by using the CoreAnimation framework. There are built-in animations specific for every series type and you can define your own animations by implementing methods in the chart delegate.</p>
+
+<p>You can customize the default animation by implementing the <a href="../../../Protocols/TKChartDelegate.html">TKChartDelegate</a> interface and overriding its chart:animationForSeries:withState:inRect: method:</p>
+
+<p>The allowAnimations property of <a href="../../../Classes/TKChart.html">TKChart</a> should be set to <em>YES</em> in order to work with animations.</p>
+
+<p>Objective-C</p>
+
+<pre><code>- (CAAnimation *)chart:(TKChart *)chart animationForSeries:(TKChartSeries *)series withState:(TKChartSeriesRenderState *)state inRect:(CGRect)rect
+{
+    CFTimeInterval duration = 0;
+    NSMutableArray *animations = [[NSMutableArray alloc] init];
+
+    for (int i = 0; i&lt;state.points.count; i++) {
+        NSString *keyPath = [NSString stringWithFormat:@"%@.x", [state animationKeyPathForPointAtIndex:i]];
+        TKChartVisualPoint *point = [state.points objectAtIndex:i];
+        CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:keyPath];
+        animation.duration = (arc4random() % 100) / 100.;
+        animation.fromValue = @0;
+        animation.toValue = @(point.x);
+        [animations addObject:animation];
+        duration = MAX(animation.duration, duration);
+    }
+
+    CAAnimationGroup *group = [[CAAnimationGroup alloc] init];
+    group.duration = duration;
+    group.animations = animations;
+
+    return group;
+}
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>func chart(chart: TKChart!, animationForSeries series: TKChartSeries!, withState state: TKChartSeriesRenderState!, inRect rect: CGRect) -&gt; CAAnimation! {
+    var duration = 0.0
+    var animations = [CAAnimation]()
+    for i in 0..&lt;state.points.count() {
+        let pointKeyPath = state.animationKeyPathForPointAtIndex(i)
+        let keyPath = pointKeyPath + ".x"
+        let point: TKChartVisualPoint = state.points[i] as! TKChartVisualPoint
+        let animation = CABasicAnimation(keyPath: keyPath)
+        animation.duration = Double(arc4random_uniform(100)) / 100.0
+        animation.fromValue = 0
+        animation.toValue = point.x
+        animations.append(animation)
+        duration = max(animation.duration, duration)
+    }
+
+    let group = CAAnimationGroup()
+    group.duration = duration
+    group.animations = animations
+    return group
+}
+</code></pre>
+
+<p>This method returns a single animation, therefore if you create multiple animations, you should group them inside CAAnimationGroup.</p>
+
+<p>Besides the CoreAnimation framework, <a href="../../../Classes/TKChart.html">TKChart</a> allows animating its points by adding real world physics by using the new UIKitDynamics framework introduced in iOS 7. With this framework you can add different behaviors like gravity, elasticity and forces. Read further details about this advanced topic in <a href="chart-animations-custom-uikit-dynamics.html">this article</a>.</p>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Telerik. All rights reserved. (Last updated: 2015-06-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					
+					</div>
+				</div>
+			</div>
+		</article>
+	</body>
+</html>

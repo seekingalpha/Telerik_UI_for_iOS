@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKCalendarYearPresenter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKCalendarYearPresenter</TokenIdentifier>
+			<Abstract type="html">A calendar presenter responsible for rendering TKCalendar in year view mode.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="97"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenter/setColumns:</TokenIdentifier>
+			<Abstract type="html">Defines the number of columns.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger columns</Declaration>
+			
+			
+			<Anchor>//api/name/columns</Anchor>
+            <NodeRef refid="97"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenter/columns</TokenIdentifier>
+			<Abstract type="html">Defines the number of columns.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger columns</Declaration>
+			
+			
+			<Anchor>//api/name/columns</Anchor>
+            <NodeRef refid="97"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarYearPresenter/columns</TokenIdentifier>
+			<Abstract type="html">Defines the number of columns.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger columns</Declaration>
+			
+			
+			<Anchor>//api/name/columns</Anchor>
+            <NodeRef refid="97"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenter/setMonthCellClass:</TokenIdentifier>
+			<Abstract type="html">The class for the cell responsible for presenting a single month in TKCalendarYearPresenter. TKCalendarMonthCell by default.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) Class monthCellClass</Declaration>
+			
+			
+			<Anchor>//api/name/monthCellClass</Anchor>
+            <NodeRef refid="97"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenter/monthCellClass</TokenIdentifier>
+			<Abstract type="html">The class for the cell responsible for presenting a single month in TKCalendarYearPresenter. TKCalendarMonthCell by default.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) Class monthCellClass</Declaration>
+			
+			
+			<Anchor>//api/name/monthCellClass</Anchor>
+            <NodeRef refid="97"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarYearPresenter/monthCellClass</TokenIdentifier>
+			<Abstract type="html">The class for the cell responsible for presenting a single month in TKCalendarYearPresenter. TKCalendarMonthCell by default.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) Class monthCellClass</Declaration>
+			
+			
+			<Anchor>//api/name/monthCellClass</Anchor>
+            <NodeRef refid="97"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenter/setTitleViewClass:</TokenIdentifier>
+			<Abstract type="html">The class for the view responsible for presenting a year title in TKCalendarYearPresenter. TKCalendarYearTitleView by default.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) Class titleViewClass</Declaration>
+			
+			
+			<Anchor>//api/name/titleViewClass</Anchor>
+            <NodeRef refid="97"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenter/titleViewClass</TokenIdentifier>
+			<Abstract type="html">The class for the view responsible for presenting a year title in TKCalendarYearPresenter. TKCalendarYearTitleView by default.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) Class titleViewClass</Declaration>
+			
+			
+			<Anchor>//api/name/titleViewClass</Anchor>
+            <NodeRef refid="97"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarYearPresenter/titleViewClass</TokenIdentifier>
+			<Abstract type="html">The class for the view responsible for presenting a year title in TKCalendarYearPresenter. TKCalendarYearTitleView by default.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) Class titleViewClass</Declaration>
+			
+			
+			<Anchor>//api/name/titleViewClass</Anchor>
+            <NodeRef refid="97"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenter/style</TokenIdentifier>
+			<Abstract type="html">Returns the presenter style. Use the style properties to customize the visual appearance of TKCalendar in year view mode.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenter.h</DeclaredIn>
+			
+			<Declaration>- (TKCalendarYearPresenterStyle *)style</Declaration>
+			
+			
+			<Anchor>//api/name/style</Anchor>
+            <NodeRef refid="97"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearPresenter/collectionView</TokenIdentifier>
+			<Abstract type="html">Returns the collection view used by this presenter.</Abstract>
+			<DeclaredIn>TKCalendarYearPresenter.h</DeclaredIn>
+			
+			<Declaration>- (UICollectionView *)collectionView</Declaration>
+			
+			
+			<Anchor>//api/name/collectionView</Anchor>
+            <NodeRef refid="97"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

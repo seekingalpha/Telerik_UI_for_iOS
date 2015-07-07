@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKCalendarInlineViewTableViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKCalendarInlineViewTableViewCell</TokenIdentifier>
+			<Abstract type="html">A table view cell used to present events in TKCalendarMonthPresenter inline view.</Abstract>
+			<DeclaredIn>TKCalendarInlineViewTableViewCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="81"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarInlineViewTableViewCell/setStyle:</TokenIdentifier>
+			<Abstract type="html">Returns the cell style. Use the style property to customize the visual appearance of TKCalendarInlineViewTableViewCell.</Abstract>
+			<DeclaredIn>TKCalendarInlineViewTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKCalendarInlineViewTableViewCellStyle *style</Declaration>
+			
+			
+			<Anchor>//api/name/style</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarInlineViewTableViewCell/style</TokenIdentifier>
+			<Abstract type="html">Returns the cell style. Use the style property to customize the visual appearance of TKCalendarInlineViewTableViewCell.</Abstract>
+			<DeclaredIn>TKCalendarInlineViewTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKCalendarInlineViewTableViewCellStyle *style</Declaration>
+			
+			
+			<Anchor>//api/name/style</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarInlineViewTableViewCell/style</TokenIdentifier>
+			<Abstract type="html">Returns the cell style. Use the style property to customize the visual appearance of TKCalendarInlineViewTableViewCell.</Abstract>
+			<DeclaredIn>TKCalendarInlineViewTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKCalendarInlineViewTableViewCellStyle *style</Declaration>
+			
+			
+			<Anchor>//api/name/style</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarInlineViewTableViewCell/attachWithCell:eventIndex:</TokenIdentifier>
+			<Abstract type="html">Attaches a day cell and event index.</Abstract>
+			<DeclaredIn>TKCalendarInlineViewTableViewCell.h</DeclaredIn>
+			
+			<Declaration>- (void)attachWithCell:(TKCalendarDayCell *)cell eventIndex:(NSInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>cell</Name>
+					<Abstract type="html">The day cell to which the displayed event belongs.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index of the evnet inside the day cell events list.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/attachWithCell:eventIndex:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarInlineViewTableViewCell/updateTextForEvent:withCell:</TokenIdentifier>
+			<Abstract type="html">Called when the event text should be updated.</Abstract>
+			<DeclaredIn>TKCalendarInlineViewTableViewCell.h</DeclaredIn>
+			
+			<Declaration>- (void)updateTextForEvent:(id&lt;TKCalendarEventProtocol&gt;)event withCell:(TKCalendarDayCell *)cell</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>event</Name>
+					<Abstract type="html">The event associated with this cell.</Abstract>
+				</Parameter><Parameter>
+					<Name>cell</Name>
+					<Abstract type="html">The cell whose events should be displayed.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/updateTextForEvent:withCell:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

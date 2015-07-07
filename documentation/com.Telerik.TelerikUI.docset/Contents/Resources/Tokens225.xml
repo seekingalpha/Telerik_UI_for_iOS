@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKFeedbackItem.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKFeedbackItem</TokenIdentifier>
+			<Abstract type="html">The model of feedback item used to provide feedback service and storage.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+            
+			
+			<NodeRef refid="225"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKFeedbackItem/setKey:</TokenIdentifier>
+			<Abstract type="html">The feedback item key.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKFeedbackItem/key</TokenIdentifier>
+			<Abstract type="html">The feedback item key.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKFeedbackItem/key</TokenIdentifier>
+			<Abstract type="html">The feedback item key.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKFeedbackItem/setCreatedAt:</TokenIdentifier>
+			<Abstract type="html">The feedback item date of creation.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *createdAt</Declaration>
+			
+			
+			<Anchor>//api/name/createdAt</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKFeedbackItem/createdAt</TokenIdentifier>
+			<Abstract type="html">The feedback item date of creation.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *createdAt</Declaration>
+			
+			
+			<Anchor>//api/name/createdAt</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKFeedbackItem/createdAt</TokenIdentifier>
+			<Abstract type="html">The feedback item date of creation.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *createdAt</Declaration>
+			
+			
+			<Anchor>//api/name/createdAt</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKFeedbackItem/setModifiedAt:</TokenIdentifier>
+			<Abstract type="html">The feedback item date of modification.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *modifiedAt</Declaration>
+			
+			
+			<Anchor>//api/name/modifiedAt</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKFeedbackItem/modifiedAt</TokenIdentifier>
+			<Abstract type="html">The feedback item date of modification.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *modifiedAt</Declaration>
+			
+			
+			<Anchor>//api/name/modifiedAt</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKFeedbackItem/modifiedAt</TokenIdentifier>
+			<Abstract type="html">The feedback item date of modification.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *modifiedAt</Declaration>
+			
+			
+			<Anchor>//api/name/modifiedAt</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKFeedbackItem/setText:</TokenIdentifier>
+			<Abstract type="html">The feedback item description text.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKFeedbackItem/text</TokenIdentifier>
+			<Abstract type="html">The feedback item description text.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKFeedbackItem/text</TokenIdentifier>
+			<Abstract type="html">The feedback item description text.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKFeedbackItem/setAuthor:</TokenIdentifier>
+			<Abstract type="html">The feedback item author.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *author</Declaration>
+			
+			
+			<Anchor>//api/name/author</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKFeedbackItem/author</TokenIdentifier>
+			<Abstract type="html">The feedback item author.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *author</Declaration>
+			
+			
+			<Anchor>//api/name/author</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKFeedbackItem/author</TokenIdentifier>
+			<Abstract type="html">The feedback item author.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *author</Declaration>
+			
+			
+			<Anchor>//api/name/author</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKFeedbackItem/setImage:</TokenIdentifier>
+			<Abstract type="html">The feedback item screenshot image.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKFeedbackItem/image</TokenIdentifier>
+			<Abstract type="html">The feedback item screenshot image.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKFeedbackItem/image</TokenIdentifier>
+			<Abstract type="html">The feedback item screenshot image.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKFeedbackItem/setState:</TokenIdentifier>
+			<Abstract type="html">The feedback item state (&apos;Open&apos;, &apos;Resolved&apos;).</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKFeedbackItem/state</TokenIdentifier>
+			<Abstract type="html">The feedback item state (&apos;Open&apos;, &apos;Resolved&apos;).</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKFeedbackItem/state</TokenIdentifier>
+			<Abstract type="html">The feedback item state (&apos;Open&apos;, &apos;Resolved&apos;).</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKFeedbackItem/subItems</TokenIdentifier>
+			<Abstract type="html">The feedback item comments items.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)subItems</Declaration>
+			
+			
+			<Anchor>//api/name/subItems</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKFeedbackItem/addSubItem:</TokenIdentifier>
+			<Abstract type="html">Adds a comment feedback item to the subItems collection.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>- (void)addSubItem:(TKFeedbackItem *)item</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>item</Name>
+					<Abstract type="html">The comment feedback item</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addSubItem:</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKFeedbackItem/insertSubItem:atIndex:</TokenIdentifier>
+			<Abstract type="html">Inserts a comment feedback in the subItems collection at the specified index.</Abstract>
+			<DeclaredIn>TKFeedbackItem.h</DeclaredIn>
+			
+			<Declaration>- (void)insertSubItem:(TKFeedbackItem *)item atIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>item</Name>
+					<Abstract type="html">The comment feedback item</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/insertSubItem:atIndex:</Anchor>
+            <NodeRef refid="225"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

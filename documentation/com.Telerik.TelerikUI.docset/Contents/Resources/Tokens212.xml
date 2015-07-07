@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKDataSource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKDataSource</TokenIdentifier>
+			<Abstract type="html">TKDataSource is an adapter that consumes data from various sources and has functionality for data manipulations. It implements various data source protocols and can be used as a data source for TKChart, TKCalendar, TKListView, UITableView and UICollectionView.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+            
+			
+			<NodeRef refid="212"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/setItemSource:</TokenIdentifier>
+			<Abstract type="html">The item source for this class. It can be a simple array with value types, complex objects or a dictionary.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id itemSource</Declaration>
+			
+			
+			<Anchor>//api/name/itemSource</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/itemSource</TokenIdentifier>
+			<Abstract type="html">The item source for this class. It can be a simple array with value types, complex objects or a dictionary.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id itemSource</Declaration>
+			
+			
+			<Anchor>//api/name/itemSource</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKDataSource/itemSource</TokenIdentifier>
+			<Abstract type="html">The item source for this class. It can be a simple array with value types, complex objects or a dictionary.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id itemSource</Declaration>
+			
+			
+			<Anchor>//api/name/itemSource</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/setItems:</TokenIdentifier>
+			<Abstract type="html">An array view of the items contained in the itemSource after applying sorting, grouping and filtering operations.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/items</TokenIdentifier>
+			<Abstract type="html">An array view of the items contained in the itemSource after applying sorting, grouping and filtering operations.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKDataSource/items</TokenIdentifier>
+			<Abstract type="html">An array view of the items contained in the itemSource after applying sorting, grouping and filtering operations.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/setCurrentItem:</TokenIdentifier>
+			<Abstract type="html">The current item. It is syncronized among all consumers of this class.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id currentItem</Declaration>
+			
+			
+			<Anchor>//api/name/currentItem</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/currentItem</TokenIdentifier>
+			<Abstract type="html">The current item. It is syncronized among all consumers of this class.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id currentItem</Declaration>
+			
+			
+			<Anchor>//api/name/currentItem</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKDataSource/currentItem</TokenIdentifier>
+			<Abstract type="html">The current item. It is syncronized among all consumers of this class.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id currentItem</Declaration>
+			
+			
+			<Anchor>//api/name/currentItem</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/setDisplayKey:</TokenIdentifier>
+			<Abstract type="html">The display key used when extracting text from a single item.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *displayKey</Declaration>
+			
+			
+			<Anchor>//api/name/displayKey</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/displayKey</TokenIdentifier>
+			<Abstract type="html">The display key used when extracting text from a single item.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *displayKey</Declaration>
+			
+			
+			<Anchor>//api/name/displayKey</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKDataSource/displayKey</TokenIdentifier>
+			<Abstract type="html">The display key used when extracting text from a single item.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *displayKey</Declaration>
+			
+			
+			<Anchor>//api/name/displayKey</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/setValueKey:</TokenIdentifier>
+			<Abstract type="html">The value key used when extracting a value from a single item.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *valueKey</Declaration>
+			
+			
+			<Anchor>//api/name/valueKey</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/valueKey</TokenIdentifier>
+			<Abstract type="html">The value key used when extracting a value from a single item.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *valueKey</Declaration>
+			
+			
+			<Anchor>//api/name/valueKey</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKDataSource/valueKey</TokenIdentifier>
+			<Abstract type="html">The value key used when extracting a value from a single item.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *valueKey</Declaration>
+			
+			
+			<Anchor>//api/name/valueKey</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/setGroupItemSourceKey:</TokenIdentifier>
+			<Abstract type="html">The key used to extract items for specific group when grouping is applied. The key path is relative to the group object.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *groupItemSourceKey</Declaration>
+			
+			
+			<Anchor>//api/name/groupItemSourceKey</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/groupItemSourceKey</TokenIdentifier>
+			<Abstract type="html">The key used to extract items for specific group when grouping is applied. The key path is relative to the group object.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *groupItemSourceKey</Declaration>
+			
+			
+			<Anchor>//api/name/groupItemSourceKey</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKDataSource/groupItemSourceKey</TokenIdentifier>
+			<Abstract type="html">The key used to extract items for specific group when grouping is applied. The key path is relative to the group object.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *groupItemSourceKey</Declaration>
+			
+			
+			<Anchor>//api/name/groupItemSourceKey</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/setSettings:</TokenIdentifier>
+			<Abstract type="html">Provides the ability to customize the appearance of TKDataSource consumers. e.g. TKChart, TKCalendar, UITableView, etc.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKDataSourceSettings *settings</Declaration>
+			
+			
+			<Anchor>//api/name/settings</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/settings</TokenIdentifier>
+			<Abstract type="html">Provides the ability to customize the appearance of TKDataSource consumers. e.g. TKChart, TKCalendar, UITableView, etc.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKDataSourceSettings *settings</Declaration>
+			
+			
+			<Anchor>//api/name/settings</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKDataSource/settings</TokenIdentifier>
+			<Abstract type="html">Provides the ability to customize the appearance of TKDataSource consumers. e.g. TKChart, TKCalendar, UITableView, etc.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKDataSourceSettings *settings</Declaration>
+			
+			
+			<Anchor>//api/name/settings</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/setFormatter:</TokenIdentifier>
+			<Abstract type="html">A formatted that is applied when extracting text from an item by using the displayKey property.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSFormatter *formatter</Declaration>
+			
+			
+			<Anchor>//api/name/formatter</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/formatter</TokenIdentifier>
+			<Abstract type="html">A formatted that is applied when extracting text from an item by using the displayKey property.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSFormatter *formatter</Declaration>
+			
+			
+			<Anchor>//api/name/formatter</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKDataSource/formatter</TokenIdentifier>
+			<Abstract type="html">A formatted that is applied when extracting text from an item by using the displayKey property.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSFormatter *formatter</Declaration>
+			
+			
+			<Anchor>//api/name/formatter</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/setAllowItemsReorder:</TokenIdentifier>
+			<Abstract type="html">Determines whether items reordering is allowed or not.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL allowItemsReorder</Declaration>
+			
+			
+			<Anchor>//api/name/allowItemsReorder</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/allowItemsReorder</TokenIdentifier>
+			<Abstract type="html">Determines whether items reordering is allowed or not.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL allowItemsReorder</Declaration>
+			
+			
+			<Anchor>//api/name/allowItemsReorder</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKDataSource/allowItemsReorder</TokenIdentifier>
+			<Abstract type="html">Determines whether items reordering is allowed or not.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL allowItemsReorder</Declaration>
+			
+			
+			<Anchor>//api/name/allowItemsReorder</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/initWithItemSource:</TokenIdentifier>
+			<Abstract type="html">Initializes the data source with a value for the itemSource property.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithItemSource:(id)itemSource</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>itemSource</Name>
+					<Abstract type="html">The value for the itemSource property.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithItemSource:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/initWithArray:</TokenIdentifier>
+			<Abstract type="html">Initializes the data source with an array of items.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithArray:(NSArray *)items</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>items</Name>
+					<Abstract type="html">The array that is assigned to the itemSource property.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithArray:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/initWithArray:displayKey:</TokenIdentifier>
+			<Abstract type="html">Initializes the data source with an array of items and parameters.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithArray:(NSArray *)items displayKey:(NSString *)displayKey</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>items</Name>
+					<Abstract type="html">The array that is assigned to the itemSource property.</Abstract>
+				</Parameter><Parameter>
+					<Name>displayKey</Name>
+					<Abstract type="html">The display key to use.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithArray:displayKey:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/initWithArray:displayKey:valueKey:</TokenIdentifier>
+			<Abstract type="html">Initializes the data source with an array of items and parameters.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithArray:(NSArray *)items displayKey:(NSString *)displayKey valueKey:(NSString *)valueKey</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>items</Name>
+					<Abstract type="html">The array that is assigned to the itemSource property.</Abstract>
+				</Parameter><Parameter>
+					<Name>displayKey</Name>
+					<Abstract type="html">The display key to use.</Abstract>
+				</Parameter><Parameter>
+					<Name>valueKey</Name>
+					<Abstract type="html">The value key to use.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithArray:displayKey:valueKey:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/initWithJSONString:</TokenIdentifier>
+			<Abstract type="html">Initializes the data source with a JSON formatted string.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithJSONString:(NSString *)str</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>str</Name>
+					<Abstract type="html">The string containing JSON formatted data.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithJSONString:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/initWithDataFromURL:dataFormat:rootItemKeyPath:completion:</TokenIdentifier>
+			<Abstract type="html">Initializes the data source with data coming from a web service.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithDataFromURL:(NSString *)url dataFormat:(TKDataSourceDataFormat)dataFormat rootItemKeyPath:(NSString *)rootItemKeyPath completion:(void ( ^ ) ( NSError *error ))completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The url where the data is located.</Abstract>
+				</Parameter><Parameter>
+					<Name>dataFormat</Name>
+					<Abstract type="html">The format of the data coming from the web service.</Abstract>
+				</Parameter><Parameter>
+					<Name>rootItemKeyPath</Name>
+					<Abstract type="html">The key path to the item containing the items collection that will be used in this data source.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">The block that is called after the data is loaded.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithDataFromURL:dataFormat:rootItemKeyPath:completion:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/initWithDataFromJSONResource:ofType:rootItemKeyPath:</TokenIdentifier>
+			<Abstract type="html">Initializes the data source with data coming from a JSON formatted resource.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithDataFromJSONResource:(NSString *)name ofType:(NSString *)type rootItemKeyPath:(NSString *)rootItemKeyPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">The file name.</Abstract>
+				</Parameter><Parameter>
+					<Name>type</Name>
+					<Abstract type="html">The file type.</Abstract>
+				</Parameter><Parameter>
+					<Name>rootItemKeyPath</Name>
+					<Abstract type="html">The key path to the item containing the items collection that will be used in this data source.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithDataFromJSONResource:ofType:rootItemKeyPath:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/loadDataFromJSONString:rootItemKeyPath:</TokenIdentifier>
+			<Abstract type="html">Reads a JSON formatted string and loads the parsed data in the data source.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)loadDataFromJSONString:(NSString *)string rootItemKeyPath:(NSString *)rootItemKeyPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">The string containing JSON formatted data.</Abstract>
+				</Parameter><Parameter>
+					<Name>rootItemKeyPath</Name>
+					<Abstract type="html">The key path to the item containing the items collection that is used in this data source.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loadDataFromJSONString:rootItemKeyPath:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/loadDataFromJSONResource:ofType:rootItemKeyPath:</TokenIdentifier>
+			<Abstract type="html">Reads a JSON formatted resource and loads the parsed data in the data source.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)loadDataFromJSONResource:(NSString *)name ofType:(NSString *)type rootItemKeyPath:(NSString *)rootItemKeyPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">The file name.</Abstract>
+				</Parameter><Parameter>
+					<Name>type</Name>
+					<Abstract type="html">The file type.</Abstract>
+				</Parameter><Parameter>
+					<Name>rootItemKeyPath</Name>
+					<Abstract type="html">The key path to the item containing the items collection that is used in this data source.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loadDataFromJSONResource:ofType:rootItemKeyPath:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/loadDataFromURL:dataFormat:rootItemKeyPath:completion:</TokenIdentifier>
+			<Abstract type="html">Downloads data from a web service and initializes the data source with it.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)loadDataFromURL:(NSString *)url dataFormat:(TKDataSourceDataFormat)dataFormat rootItemKeyPath:(NSString *)rootItemKeyPath completion:(void ( ^ ) ( NSError *error ))completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The url where the data is located.</Abstract>
+				</Parameter><Parameter>
+					<Name>dataFormat</Name>
+					<Abstract type="html">The format of the data coming from the web service.</Abstract>
+				</Parameter><Parameter>
+					<Name>rootItemKeyPath</Name>
+					<Abstract type="html">The key path to the item containing the items collection that is used in this data source.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">A block that is called after the data is loaded.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loadDataFromURL:dataFormat:rootItemKeyPath:completion:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/filterDescriptors</TokenIdentifier>
+			<Abstract type="html">Returns a list with filter descriptors that is applied after the itemSource propety is set.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)filterDescriptors</Declaration>
+			
+			
+			<Anchor>//api/name/filterDescriptors</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/addFilterDescriptor:</TokenIdentifier>
+			<Abstract type="html">Adds a new filter descriptor.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)addFilterDescriptor:(TKDataSourceFilterDescriptor *)filterDescriptor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>filterDescriptor</Name>
+					<Abstract type="html">The filter descriptor to add.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addFilterDescriptor:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/removeFilterDescriptor:</TokenIdentifier>
+			<Abstract type="html">Removes a filter descriptor.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)removeFilterDescriptor:(TKDataSourceFilterDescriptor *)filterDescriptor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>filterDescriptor</Name>
+					<Abstract type="html">The filter descriptor to remove.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeFilterDescriptor:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/removeAllFilterDescriptors</TokenIdentifier>
+			<Abstract type="html">Removes all filter descriptors.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)removeAllFilterDescriptors</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllFilterDescriptors</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/sortDescriptors</TokenIdentifier>
+			<Abstract type="html">Returns a list with sort descriptors that is applied after the itemSource propety is set.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)sortDescriptors</Declaration>
+			
+			
+			<Anchor>//api/name/sortDescriptors</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/addSortDescriptor:</TokenIdentifier>
+			<Abstract type="html">Adds a new sort descriptor.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)addSortDescriptor:(TKDataSourceSortDescriptor *)sortDescriptor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sortDescriptor</Name>
+					<Abstract type="html">The sort descriptor to add.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addSortDescriptor:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/removeSortDescriptor:</TokenIdentifier>
+			<Abstract type="html">Removes a sort descriptor.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)removeSortDescriptor:(TKDataSourceSortDescriptor *)sortDescriptor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sortDescriptor</Name>
+					<Abstract type="html">The sort descriptor to remove.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeSortDescriptor:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/removeAllSortDescriptors</TokenIdentifier>
+			<Abstract type="html">Removes all sort descriptors.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)removeAllSortDescriptors</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllSortDescriptors</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/groupDescriptors</TokenIdentifier>
+			<Abstract type="html">Returns a list with group descriptors that will be applied when the itemSource propety is set.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)groupDescriptors</Declaration>
+			
+			
+			<Anchor>//api/name/groupDescriptors</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/addGroupDescriptor:</TokenIdentifier>
+			<Abstract type="html">Adds a new group descriptor.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)addGroupDescriptor:(TKDataSourceGroupDescriptor *)groupDescriptor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>groupDescriptor</Name>
+					<Abstract type="html">The group descriptor to be added.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addGroupDescriptor:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/removeGroupDescriptor:</TokenIdentifier>
+			<Abstract type="html">Removes a group descriptor.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)removeGroupDescriptor:(TKDataSourceGroupDescriptor *)groupDescriptor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>groupDescriptor</Name>
+					<Abstract type="html">The group descriptor to remove.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeGroupDescriptor:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/removeAllGroupDescriptors</TokenIdentifier>
+			<Abstract type="html">Removes all group descriptors.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)removeAllGroupDescriptors</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllGroupDescriptors</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/reloadData</TokenIdentifier>
+			<Abstract type="html">Reloads the data and applies again all descriptors. Call this method when the data has changed.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)reloadData</Declaration>
+			
+			
+			<Anchor>//api/name/reloadData</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/map:</TokenIdentifier>
+			<Abstract type="html">Apples the specified block to all items in the data source and allows changing their values.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)map:(TKDataSourceMapFunctionBlock)mapBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mapBlock</Name>
+					<Abstract type="html">The block function that is applied to all items.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/map:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/enumerate:</TokenIdentifier>
+			<Abstract type="html">Enumerates all items in the data source.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)enumerate:(TKDataSourceEnumerator)enumeratorBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>enumeratorBlock</Name>
+					<Abstract type="html">The block function that is called when enumerating data source items.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/enumerate:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/reduce:with:</TokenIdentifier>
+			<Abstract type="html">Reduces the items collection to a single value and returns it.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (id)reduce:(id)initialValue with:(TKDataSourceReduceFunctionBlock)reduceBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>initialValue</Name>
+					<Abstract type="html">The value to start with.</Abstract>
+				</Parameter><Parameter>
+					<Name>reduceBlock</Name>
+					<Abstract type="html">The block function that is called when reducing the items collection.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/reduce:with:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/filter:</TokenIdentifier>
+			<Abstract type="html">Filters the items in the data source.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)filter:(TKDataSourceFilterBlock)filterBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>filterBlock</Name>
+					<Abstract type="html">The block function that is used when filtering.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/filter:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/filterWithQuery:</TokenIdentifier>
+			<Abstract type="html">Filters the items in the data source by using a query.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)filterWithQuery:(NSString *)filterQuery</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>filterQuery</Name>
+					<Abstract type="html">The filter query that is used to filter the items.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/filterWithQuery:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/sort:</TokenIdentifier>
+			<Abstract type="html">Sorts the items in the data source.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)sort:(NSComparator)comparatorBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>comparatorBlock</Name>
+					<Abstract type="html">The comparator block function that is used when sorting.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sort:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/sortWithKey:ascending:</TokenIdentifier>
+			<Abstract type="html">Sorts the items in the data source by using a property name.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)sortWithKey:(NSString *)propertyName ascending:(BOOL)ascending</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>propertyName</Name>
+					<Abstract type="html">The property that is used to sort the items.</Abstract>
+				</Parameter><Parameter>
+					<Name>ascending</Name>
+					<Abstract type="html">The sort direction.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sortWithKey:ascending:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/group:</TokenIdentifier>
+			<Abstract type="html">Groups the items in the data source.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)group:(TKDataSourceMapFunctionBlock)keyForItem</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>keyForItem</Name>
+					<Abstract type="html">The group block function that is used to get a group key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/group:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/groupWithKey:</TokenIdentifier>
+			<Abstract type="html">Groups the items in the data source by using a property name.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)groupWithKey:(NSString *)propertyName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>propertyName</Name>
+					<Abstract type="html">The property that is used to group the items.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/groupWithKey:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/moveItemAtIndex:toIndex:</TokenIdentifier>
+			<Abstract type="html">Moves an item. This method is applicable only when grouping is not applied.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)moveItemAtIndex:(NSInteger)fromIndex toIndex:(NSInteger)toIndex</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>fromIndex</Name>
+					<Abstract type="html">The old item index.</Abstract>
+				</Parameter><Parameter>
+					<Name>toIndex</Name>
+					<Abstract type="html">The new item index.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/moveItemAtIndex:toIndex:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/valueForItem:inGroup:</TokenIdentifier>
+			<Abstract type="html">Returns the value of an item. Uses the valueKey property.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (id)valueForItem:(id)item inGroup:(TKDataSourceGroup *)group</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>item</Name>
+					<Abstract type="html">The item.</Abstract>
+				</Parameter><Parameter>
+					<Name>group</Name>
+					<Abstract type="html">The group which owns this item. Can be nil if there is no grouping applied.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/valueForItem:inGroup:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/textFromItem:inGroup:</TokenIdentifier>
+			<Abstract type="html">Returns the text for the item. Uses the displayKey property.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)textFromItem:(id)item inGroup:(TKDataSourceGroup *)group</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>item</Name>
+					<Abstract type="html">The item.</Abstract>
+				</Parameter><Parameter>
+					<Name>group</Name>
+					<Abstract type="html">The group which owns this item. Can be nil if there is no grouping applied.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/textFromItem:inGroup:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSource/formatText:</TokenIdentifier>
+			<Abstract type="html">Defines a textblock that is applied to get the text from an item when calling the textForItem method if specified.</Abstract>
+			<DeclaredIn>TKDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)formatText:(TKDataSourceFormatTextBlock)formatTextBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>formatTextBlock</Name>
+					<Abstract type="html">The block function that gets text from an item.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/formatText:</Anchor>
+            <NodeRef refid="212"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

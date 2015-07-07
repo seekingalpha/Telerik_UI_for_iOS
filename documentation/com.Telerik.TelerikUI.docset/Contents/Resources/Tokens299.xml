@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKChartAxisLabelFitMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKChartAxisLabelFitMode</TokenIdentifier>
+			<Abstract type="html">@enum TKChartAxisLabelFitMode</Abstract>
+			<DeclaredIn>TKChartAxisLabelStyle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="299"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartAxisLabelFitModeNone</TokenIdentifier>
+            <Abstract type="html">     Does not attempt to fit the axis labels.
+     </Abstract>
+            <Declaration>TKChartAxisLabelFitModeNone</Declaration>
+            
+            <DeclaredIn>TKChartAxisLabelStyle.h</DeclaredIn>
+            
+            <NodeRef refid="299"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartAxisLabelFitModeMultiline</TokenIdentifier>
+            <Abstract type="html">     Arranges the axis labels on multiple lines, so that there are no two neighbour labels on the same line.
+     </Abstract>
+            <Declaration>TKChartAxisLabelFitModeMultiline</Declaration>
+            
+            <DeclaredIn>TKChartAxisLabelStyle.h</DeclaredIn>
+            
+            <NodeRef refid="299"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartAxisLabelFitModeRotate</TokenIdentifier>
+            <Abstract type="html">     Arranges the axis labels, so that they are rotated around their top left corner.
+     </Abstract>
+            <Declaration>TKChartAxisLabelFitModeRotate</Declaration>
+            
+            <DeclaredIn>TKChartAxisLabelStyle.h</DeclaredIn>
+            
+            <NodeRef refid="299"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

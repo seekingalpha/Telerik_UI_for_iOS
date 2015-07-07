@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartAxisStyle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartAxisStyle</TokenIdentifier>
+			<Abstract type="html">Defines axis&apos; style</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="112"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAxisStyle/setLineStroke:</TokenIdentifier>
+			<Abstract type="html">The axis line stroke.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *lineStroke</Declaration>
+			
+			
+			<Anchor>//api/name/lineStroke</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAxisStyle/lineStroke</TokenIdentifier>
+			<Abstract type="html">The axis line stroke.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *lineStroke</Declaration>
+			
+			
+			<Anchor>//api/name/lineStroke</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartAxisStyle/lineStroke</TokenIdentifier>
+			<Abstract type="html">The axis line stroke.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *lineStroke</Declaration>
+			
+			
+			<Anchor>//api/name/lineStroke</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAxisStyle/setLineLocation:</TokenIdentifier>
+			<Abstract type="html">The location of the axis line from the bounds of the chart. By default is calculated automatically.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *lineLocation</Declaration>
+			
+			
+			<Anchor>//api/name/lineLocation</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAxisStyle/lineLocation</TokenIdentifier>
+			<Abstract type="html">The location of the axis line from the bounds of the chart. By default is calculated automatically.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *lineLocation</Declaration>
+			
+			
+			<Anchor>//api/name/lineLocation</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartAxisStyle/lineLocation</TokenIdentifier>
+			<Abstract type="html">The location of the axis line from the bounds of the chart. By default is calculated automatically.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *lineLocation</Declaration>
+			
+			
+			<Anchor>//api/name/lineLocation</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAxisStyle/setLineHidden:</TokenIdentifier>
+			<Abstract type="html">Defines whether the axis line is hidden.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL lineHidden</Declaration>
+			
+			
+			<Anchor>//api/name/lineHidden</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAxisStyle/lineHidden</TokenIdentifier>
+			<Abstract type="html">Defines whether the axis line is hidden.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL lineHidden</Declaration>
+			
+			
+			<Anchor>//api/name/lineHidden</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartAxisStyle/lineHidden</TokenIdentifier>
+			<Abstract type="html">Defines whether the axis line is hidden.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL lineHidden</Declaration>
+			
+			
+			<Anchor>//api/name/lineHidden</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAxisStyle/setBackgroundFill:</TokenIdentifier>
+			<Abstract type="html">The axis background fill.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *backgroundFill</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundFill</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAxisStyle/backgroundFill</TokenIdentifier>
+			<Abstract type="html">The axis background fill.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *backgroundFill</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundFill</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartAxisStyle/backgroundFill</TokenIdentifier>
+			<Abstract type="html">The axis background fill.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *backgroundFill</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundFill</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAxisStyle/setLabelStyle:</TokenIdentifier>
+			<Abstract type="html">The axis label style.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKChartAxisLabelStyle *labelStyle</Declaration>
+			
+			
+			<Anchor>//api/name/labelStyle</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAxisStyle/labelStyle</TokenIdentifier>
+			<Abstract type="html">The axis label style.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKChartAxisLabelStyle *labelStyle</Declaration>
+			
+			
+			<Anchor>//api/name/labelStyle</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartAxisStyle/labelStyle</TokenIdentifier>
+			<Abstract type="html">The axis label style.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKChartAxisLabelStyle *labelStyle</Declaration>
+			
+			
+			<Anchor>//api/name/labelStyle</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAxisStyle/setTitleStyle:</TokenIdentifier>
+			<Abstract type="html">The appaerance of the axis&apos; title.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKChartAxisTitleStyle *titleStyle</Declaration>
+			
+			
+			<Anchor>//api/name/titleStyle</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAxisStyle/titleStyle</TokenIdentifier>
+			<Abstract type="html">The appaerance of the axis&apos; title.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKChartAxisTitleStyle *titleStyle</Declaration>
+			
+			
+			<Anchor>//api/name/titleStyle</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartAxisStyle/titleStyle</TokenIdentifier>
+			<Abstract type="html">The appaerance of the axis&apos; title.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKChartAxisTitleStyle *titleStyle</Declaration>
+			
+			
+			<Anchor>//api/name/titleStyle</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAxisStyle/setMajorTickStyle:</TokenIdentifier>
+			<Abstract type="html">The appaerance of the major ticks.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKChartAxisMajorTickStyle *majorTickStyle</Declaration>
+			
+			
+			<Anchor>//api/name/majorTickStyle</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAxisStyle/majorTickStyle</TokenIdentifier>
+			<Abstract type="html">The appaerance of the major ticks.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKChartAxisMajorTickStyle *majorTickStyle</Declaration>
+			
+			
+			<Anchor>//api/name/majorTickStyle</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartAxisStyle/majorTickStyle</TokenIdentifier>
+			<Abstract type="html">The appaerance of the major ticks.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKChartAxisMajorTickStyle *majorTickStyle</Declaration>
+			
+			
+			<Anchor>//api/name/majorTickStyle</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAxisStyle/setMinorTickStyle:</TokenIdentifier>
+			<Abstract type="html">The appaerance of the minor ticks.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKChartAxisTickStyle *minorTickStyle</Declaration>
+			
+			
+			<Anchor>//api/name/minorTickStyle</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAxisStyle/minorTickStyle</TokenIdentifier>
+			<Abstract type="html">The appaerance of the minor ticks.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKChartAxisTickStyle *minorTickStyle</Declaration>
+			
+			
+			<Anchor>//api/name/minorTickStyle</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartAxisStyle/minorTickStyle</TokenIdentifier>
+			<Abstract type="html">The appaerance of the minor ticks.</Abstract>
+			<DeclaredIn>TKChartAxisStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKChartAxisTickStyle *minorTickStyle</Declaration>
+			
+			
+			<Anchor>//api/name/minorTickStyle</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartPaletteItem.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartPaletteItem</TokenIdentifier>
+			<Abstract type="html">Represents a single palette item used in TKChart.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+            
+			
+			<NodeRef refid="165"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKChartPaletteItem/paletteItemWithFill:</TokenIdentifier>
+			<Abstract type="html">Creates a palette item with a specified fill.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)paletteItemWithFill:(TKFill *)fill</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>fill</Name>
+					<Abstract type="html">The TKFill to set.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/paletteItemWithFill:</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKChartPaletteItem/paletteItemWithStroke:</TokenIdentifier>
+			<Abstract type="html">Creates a palette item with a specified stroke.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)paletteItemWithStroke:(TKStroke *)stroke</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>stroke</Name>
+					<Abstract type="html">The TKStroke to set.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/paletteItemWithStroke:</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKChartPaletteItem/paletteItemWithStroke:andFill:</TokenIdentifier>
+			<Abstract type="html">Creates a palette item with a specified stroke &amp;amp; fill.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)paletteItemWithStroke:(TKStroke *)stroke andFill:(TKFill *)fill</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>stroke</Name>
+					<Abstract type="html">The TKStroke to set.</Abstract>
+				</Parameter><Parameter>
+					<Name>fill</Name>
+					<Abstract type="html">The TKFill to set.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/paletteItemWithStroke:andFill:</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKChartPaletteItem/paletteItemWithDrawables:</TokenIdentifier>
+			<Abstract type="html">Creates a palette item with drawables. Drawing is performed in the order of the array elements.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)paletteItemWithDrawables:(NSArray *)drawables</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>drawables</Name>
+					<Abstract type="html">The Array of the TKDrawing implementations.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/paletteItemWithDrawables:</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPaletteItem/initWithFill:</TokenIdentifier>
+			<Abstract type="html">Initializes with a specified fill.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithFill:(TKFill *)fill</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>fill</Name>
+					<Abstract type="html">The TKFill to set.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithFill:</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPaletteItem/initWithStroke:</TokenIdentifier>
+			<Abstract type="html">Initializes with a specified stroke.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithStroke:(TKStroke *)stroke</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>stroke</Name>
+					<Abstract type="html">The TKStroke to set.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithStroke:</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPaletteItem/initWithStroke:andFill:</TokenIdentifier>
+			<Abstract type="html">Initializes with a specified stroke &amp;amp; fill.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithStroke:(TKStroke *)stroke andFill:(TKFill *)fill</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>stroke</Name>
+					<Abstract type="html">The TKStroke to set.</Abstract>
+				</Parameter><Parameter>
+					<Name>fill</Name>
+					<Abstract type="html">The TKFill to set.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithStroke:andFill:</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPaletteItem/initWithDrawables:</TokenIdentifier>
+			<Abstract type="html">Initializes with drawables. Drawing is performed in the order of the array elements.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithDrawables:(NSArray *)drawables</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>drawables</Name>
+					<Abstract type="html">The Array of the TKDrawing implementations.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithDrawables:</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPaletteItem/setTextColor:</TokenIdentifier>
+			<Abstract type="html">The palette&apos;s text color.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPaletteItem/textColor</TokenIdentifier>
+			<Abstract type="html">The palette&apos;s text color.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartPaletteItem/textColor</TokenIdentifier>
+			<Abstract type="html">The palette&apos;s text color.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPaletteItem/setFont:</TokenIdentifier>
+			<Abstract type="html">The palette&apos;s font.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPaletteItem/font</TokenIdentifier>
+			<Abstract type="html">The palette&apos;s font.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartPaletteItem/font</TokenIdentifier>
+			<Abstract type="html">The palette&apos;s font.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPaletteItem/setFill:</TokenIdentifier>
+			<Abstract type="html">The fill color of the palette item.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *fill</Declaration>
+			
+			<ReturnValue><Abstract type="html">An instance of UIColor representing the fill color.</Abstract></ReturnValue>
+			<Anchor>//api/name/fill</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPaletteItem/fill</TokenIdentifier>
+			<Abstract type="html">The fill color of the palette item.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *fill</Declaration>
+			
+			<ReturnValue><Abstract type="html">An instance of UIColor representing the fill color.</Abstract></ReturnValue>
+			<Anchor>//api/name/fill</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartPaletteItem/fill</TokenIdentifier>
+			<Abstract type="html">The fill color of the palette item.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *fill</Declaration>
+			
+			<ReturnValue><Abstract type="html">An instance of UIColor representing the fill color.</Abstract></ReturnValue>
+			<Anchor>//api/name/fill</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPaletteItem/setStroke:</TokenIdentifier>
+			<Abstract type="html">The stroke color of the palette item.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *stroke</Declaration>
+			
+			<ReturnValue><Abstract type="html">An instance of UIColor representing the stroke color.</Abstract></ReturnValue>
+			<Anchor>//api/name/stroke</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPaletteItem/stroke</TokenIdentifier>
+			<Abstract type="html">The stroke color of the palette item.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *stroke</Declaration>
+			
+			<ReturnValue><Abstract type="html">An instance of UIColor representing the stroke color.</Abstract></ReturnValue>
+			<Anchor>//api/name/stroke</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartPaletteItem/stroke</TokenIdentifier>
+			<Abstract type="html">The stroke color of the palette item.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *stroke</Declaration>
+			
+			<ReturnValue><Abstract type="html">An instance of UIColor representing the stroke color.</Abstract></ReturnValue>
+			<Anchor>//api/name/stroke</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPaletteItem/setDrawables:</TokenIdentifier>
+			<Abstract type="html">An array of the TKDrawing implementations.
+All is drawn in the order of the elements in the array.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *drawables</Declaration>
+			
+			
+			<Anchor>//api/name/drawables</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPaletteItem/drawables</TokenIdentifier>
+			<Abstract type="html">An array of the TKDrawing implementations.
+All is drawn in the order of the elements in the array.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *drawables</Declaration>
+			
+			
+			<Anchor>//api/name/drawables</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartPaletteItem/drawables</TokenIdentifier>
+			<Abstract type="html">An array of the TKDrawing implementations.
+All is drawn in the order of the elements in the array.</Abstract>
+			<DeclaredIn>TKChartPaletteItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *drawables</Declaration>
+			
+			
+			<Anchor>//api/name/drawables</Anchor>
+            <NodeRef refid="165"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

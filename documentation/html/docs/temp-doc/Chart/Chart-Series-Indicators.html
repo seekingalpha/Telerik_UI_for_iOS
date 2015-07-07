@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Chart-Series-Indicators Document</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../../../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../../../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../../../index.html">TelerikUI </a></h1>
+				<a id="developerHome" href="../../../index.html">Telerik</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode" id="pageTitleHeader">Chart-Series-Indicators Document</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<a title="Chart-Series-Indicators Document" name="top"></a>
+			<div id="overview_contents" role="main">
+				<div id="container">	
+					<h1>Chart Series: Financial Indicators</h1>
+
+<p>This article provides a brief description and a list of the impotant properties of each indicator supported by <a href="../../../Classes/TKChart.html">TKChart</a>. The indicators are divided in two groups - Technical Overlays and Technical Indicators. To set up a financial indicator, you have to initialize it with <a href="../../../Classes/TKChartCandlestickSeries.html">TKChartCandlestickSeries</a> or <a href="../../../Classes/TKChartOhlcSeries.html">TKChartOhlcSeries</a> containing financial data.</p>
+
+<h2>Technical Overlays</h2>
+
+<p>Here is an example how to create a <strong>Bollinger Band</strong> indicator:</p>
+
+<p>Objective-C</p>
+
+<pre><code>TKChartCandlestickSeries *candlesticks = [[TKChartCandlestickSeries alloc] initWithItems:financialData];
+TKChartBollingerBandIndicator *bollingerBands = [[TKChartBollingerBandIndicator alloc] initWithSeries:candlesticks];
+[financialChart addSeries:candlesticks];
+[financialChart addSeries:bollingerBands];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let candlesticks = TKChartCandlestickSeries(items: financialDataPoints)
+let bollingerBands = TKChartBollingerBandIndicator(series: candlesticks)
+financialChart.addSeries(candlesticks)
+financialChart.addSeries(bollingerBands)
+</code></pre>
+
+<p><img src="../../images/chart-series-indicators001.png" /></p>
+
+<p>And here are the rest of the available Technical Overlays</p>
+
+<ul>
+<li>Simple Moving Average (SMA)</li>
+<li>Exponential Moving Average (EMA)</li>
+<li>Weighted Moving Average</li>
+<li>Triangular Moving Average</li>
+<li>Modified Moving Average</li>
+<li>TKChartAdaptiveMovingAverage</li>
+<li>Bollinger Bands</li>
+<li>Moving Average Envelopes</li>
+<li>Typical Price</li>
+<li>Weighted Close</li>
+<li>Median Price</li>
+</ul>
+
+
+<h2>Technical Indicators</h2>
+
+<p>Here is an example how to set up <strong>Moving Average Convergence Divergence</strong> indicator:</p>
+
+<p>Objective-C</p>
+
+<pre><code>TKChartCandlestickSeries *candlesticks = [[TKChartCandlestickSeries alloc] initWithItems:_financialData];
+TKChartMACDIndicator *macdIndicator = [[TKChartMACDIndicator alloc] initWithSeries:candlesticks];
+macdIndicator.longPeriod = 26;
+macdIndicator.shortPeriod = 12;
+macdIndicator.signalPeriod = 9;
+[financialChart addSeries:macdIndicator];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let candlesticks = TKChartCandlestickSeries(items: financialDataPoints)
+let macdIndicator = TKChartMACDIndicator(series: candlesticks)
+macdIndicator.longPeriod = 26
+macdIndicator.shortPeriod = 12
+macdIndicator.signalPeriod = 9
+financialChart.addSeries(macdIndicator)
+</code></pre>
+
+<p><img src="../../images/chart-series-indicators002.png"/></p>
+
+<p>And here are the rest of the available Technical Indicators</p>
+
+<ul>
+<li>Moving Average Convergence Divergence</li>
+<li>Percentage Price Oscillator</li>
+<li>Percentage Volume Oscillator</li>
+<li>Absolute Volume Oscillator</li>
+<li>Relative Strength Index</li>
+<li>Relative Momentum Index</li>
+<li>Accumulation Distribution Line</li>
+<li>True Range</li>
+<li>Average True Range</li>
+<li>Commodity Channel Inde</li>
+<li>Fast Stochastic Indicator</li>
+<li>Slow Stochastic Indicator</li>
+<li>Full Stochastic Indicators</li>
+<li>Rate Of Change</li>
+<li>TRIX</li>
+<li>Williams %R Indicator</li>
+<li>Ease Of Movement</li>
+<li>Detrended Price Oscillator</li>
+<li>Force Index</li>
+<li>Rapid Adaptive Variance Indicator</li>
+<li>Standard Deviation</li>
+<li>On Balance Volume</li>
+<li>Price Volume Trend</li>
+<li>Positive Volume Index</li>
+<li>Negative Volume Index</li>
+<li>Money Flow Index</li>
+<li>Ultimate Oscillator</li>
+<li>Market Facilitation Index</li>
+<li>Chaikin Oscillator</li>
+</ul>
+
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Telerik. All rights reserved. (Last updated: 2015-06-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					
+					</div>
+				</div>
+			</div>
+		</article>
+	</body>
+</html>

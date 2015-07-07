@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKImageFill.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKImageFill</TokenIdentifier>
+			<Abstract type="html">Represents an image brush.</Abstract>
+			<DeclaredIn>TKImageFill.h</DeclaredIn>
+            
+			
+			<NodeRef refid="228"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKImageFill/imageFillWithImage:</TokenIdentifier>
+			<Abstract type="html">Initializes with an image.</Abstract>
+			<DeclaredIn>TKImageFill.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)imageFillWithImage:(UIImage *)image</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>image</Name>
+					<Abstract type="html">The image to draw.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/imageFillWithImage:</Anchor>
+            <NodeRef refid="228"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKImageFill/imageFillWithImage:cornerRadius:</TokenIdentifier>
+			<Abstract type="html">Initializes with an image.</Abstract>
+			<DeclaredIn>TKImageFill.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)imageFillWithImage:(UIImage *)image cornerRadius:(CGFloat)cornerRadius</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>image</Name>
+					<Abstract type="html">The image to draw.</Abstract>
+				</Parameter><Parameter>
+					<Name>cornerRadius</Name>
+					<Abstract type="html">The corner radius in points.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/imageFillWithImage:cornerRadius:</Anchor>
+            <NodeRef refid="228"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageFill/initWithImage:</TokenIdentifier>
+			<Abstract type="html">Initializes with an image.</Abstract>
+			<DeclaredIn>TKImageFill.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithImage:(UIImage *)image</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>image</Name>
+					<Abstract type="html">The image to draw.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithImage:</Anchor>
+            <NodeRef refid="228"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageFill/initWithImage:cornerRadius:</TokenIdentifier>
+			<Abstract type="html">Initializes with an image.</Abstract>
+			<DeclaredIn>TKImageFill.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithImage:(UIImage *)image cornerRadius:(CGFloat)cornerRadius</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>image</Name>
+					<Abstract type="html">The image to draw.</Abstract>
+				</Parameter><Parameter>
+					<Name>cornerRadius</Name>
+					<Abstract type="html">The corner radius in points.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithImage:cornerRadius:</Anchor>
+            <NodeRef refid="228"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageFill/setImage:</TokenIdentifier>
+			<Abstract type="html">An image to draw.</Abstract>
+			<DeclaredIn>TKImageFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="228"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageFill/image</TokenIdentifier>
+			<Abstract type="html">An image to draw.</Abstract>
+			<DeclaredIn>TKImageFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="228"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKImageFill/image</TokenIdentifier>
+			<Abstract type="html">An image to draw.</Abstract>
+			<DeclaredIn>TKImageFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="228"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageFill/setResizingMode:</TokenIdentifier>
+			<Abstract type="html">Defines the resizing mode of the image.</Abstract>
+			<DeclaredIn>TKImageFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKImageFillResizingMode resizingMode</Declaration>
+			
+			
+			<Anchor>//api/name/resizingMode</Anchor>
+            <NodeRef refid="228"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKImageFill/resizingMode</TokenIdentifier>
+			<Abstract type="html">Defines the resizing mode of the image.</Abstract>
+			<DeclaredIn>TKImageFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKImageFillResizingMode resizingMode</Declaration>
+			
+			
+			<Anchor>//api/name/resizingMode</Anchor>
+            <NodeRef refid="228"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKImageFill/resizingMode</TokenIdentifier>
+			<Abstract type="html">Defines the resizing mode of the image.</Abstract>
+			<DeclaredIn>TKImageFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKImageFillResizingMode resizingMode</Declaration>
+			
+			
+			<Anchor>//api/name/resizingMode</Anchor>
+            <NodeRef refid="228"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

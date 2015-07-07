@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKLayoutItem.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKLayoutItem</TokenIdentifier>
+			<Abstract type="html">Represents a base layout item that is used in TKStakLayout class.</Abstract>
+			<DeclaredIn>TKLayoutItem.h</DeclaredIn>
+            
+			
+			<NodeRef refid="230"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLayoutItem/initWithView:</TokenIdentifier>
+			<Abstract type="html">Initializes the class and associates it with a view.</Abstract>
+			<DeclaredIn>TKLayoutItem.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithView:(UIView *)aView</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>aView</Name>
+					<Abstract type="html">The view to be associated with this layout item.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of the class, if successfull.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithView:</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLayoutItem/initWithLayer:</TokenIdentifier>
+			<Abstract type="html">Initializes the class and associates it with a view.</Abstract>
+			<DeclaredIn>TKLayoutItem.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithLayer:(CALayer *)aLayer</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>aLayer</Name>
+					<Abstract type="html">The layer to be associated with this layout item.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of the class, if successfull.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithLayer:</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLayoutItem/initWithLayout:</TokenIdentifier>
+			<Abstract type="html">Initializes the class and associates it with a view.</Abstract>
+			<DeclaredIn>TKLayoutItem.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithLayout:(id&lt;TKLayout&gt;)aLayout</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>aLayout</Name>
+					<Abstract type="html">The layout to be associated with this layout item.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of the class, if successfull.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithLayout:</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLayoutItem/content</TokenIdentifier>
+			<Abstract type="html">Returns the item persisted in this class. It can be a view, a layer or any object implementing the TKLayout interface.</Abstract>
+			<DeclaredIn>TKLayoutItem.h</DeclaredIn>
+			
+			<Declaration>- (id)content</Declaration>
+			
+			
+			<Anchor>//api/name/content</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLayoutItem/itemWasRemoved</TokenIdentifier>
+			<Abstract type="html">This method is being called when the item is removed from its owner layout.</Abstract>
+			<DeclaredIn>TKLayoutItem.h</DeclaredIn>
+			
+			<Declaration>- (void)itemWasRemoved</Declaration>
+			
+			
+			<Anchor>//api/name/itemWasRemoved</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLayoutItem/setSizingMode:</TokenIdentifier>
+			<Abstract type="html">The sizing mode that will be used when arranging the view.</Abstract>
+			<DeclaredIn>TKLayoutItem.h</DeclaredIn>
+			
+			<Declaration>@property TKLayoutSizingMode sizingMode</Declaration>
+			
+			
+			<Anchor>//api/name/sizingMode</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLayoutItem/sizingMode</TokenIdentifier>
+			<Abstract type="html">The sizing mode that will be used when arranging the view.</Abstract>
+			<DeclaredIn>TKLayoutItem.h</DeclaredIn>
+			
+			<Declaration>@property TKLayoutSizingMode sizingMode</Declaration>
+			
+			
+			<Anchor>//api/name/sizingMode</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKLayoutItem/sizingMode</TokenIdentifier>
+			<Abstract type="html">The sizing mode that will be used when arranging the view.</Abstract>
+			<DeclaredIn>TKLayoutItem.h</DeclaredIn>
+			
+			<Declaration>@property TKLayoutSizingMode sizingMode</Declaration>
+			
+			
+			<Anchor>//api/name/sizingMode</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLayoutItem/setStretchMode:</TokenIdentifier>
+			<Abstract type="html">The streching mode that will be used when arranging the view.</Abstract>
+			<DeclaredIn>TKLayoutItem.h</DeclaredIn>
+			
+			<Declaration>@property TKLayoutStretchMode stretchMode</Declaration>
+			
+			
+			<Anchor>//api/name/stretchMode</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLayoutItem/stretchMode</TokenIdentifier>
+			<Abstract type="html">The streching mode that will be used when arranging the view.</Abstract>
+			<DeclaredIn>TKLayoutItem.h</DeclaredIn>
+			
+			<Declaration>@property TKLayoutStretchMode stretchMode</Declaration>
+			
+			
+			<Anchor>//api/name/stretchMode</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKLayoutItem/stretchMode</TokenIdentifier>
+			<Abstract type="html">The streching mode that will be used when arranging the view.</Abstract>
+			<DeclaredIn>TKLayoutItem.h</DeclaredIn>
+			
+			<Declaration>@property TKLayoutStretchMode stretchMode</Declaration>
+			
+			
+			<Anchor>//api/name/stretchMode</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLayoutItem/setAlignmentMode:</TokenIdentifier>
+			<Abstract type="html">The alignment mode that will be used when arranging the view.</Abstract>
+			<DeclaredIn>TKLayoutItem.h</DeclaredIn>
+			
+			<Declaration>@property TKLayoutAlignmentMode alignmentMode</Declaration>
+			
+			
+			<Anchor>//api/name/alignmentMode</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLayoutItem/alignmentMode</TokenIdentifier>
+			<Abstract type="html">The alignment mode that will be used when arranging the view.</Abstract>
+			<DeclaredIn>TKLayoutItem.h</DeclaredIn>
+			
+			<Declaration>@property TKLayoutAlignmentMode alignmentMode</Declaration>
+			
+			
+			<Anchor>//api/name/alignmentMode</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKLayoutItem/alignmentMode</TokenIdentifier>
+			<Abstract type="html">The alignment mode that will be used when arranging the view.</Abstract>
+			<DeclaredIn>TKLayoutItem.h</DeclaredIn>
+			
+			<Declaration>@property TKLayoutAlignmentMode alignmentMode</Declaration>
+			
+			
+			<Anchor>//api/name/alignmentMode</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLayoutItem/setMargin:</TokenIdentifier>
+			<Abstract type="html">The margin that will be used when arranging the view.</Abstract>
+			<DeclaredIn>TKLayoutItem.h</DeclaredIn>
+			
+			<Declaration>@property UIEdgeInsets margin</Declaration>
+			
+			
+			<Anchor>//api/name/margin</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKLayoutItem/margin</TokenIdentifier>
+			<Abstract type="html">The margin that will be used when arranging the view.</Abstract>
+			<DeclaredIn>TKLayoutItem.h</DeclaredIn>
+			
+			<Declaration>@property UIEdgeInsets margin</Declaration>
+			
+			
+			<Anchor>//api/name/margin</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKLayoutItem/margin</TokenIdentifier>
+			<Abstract type="html">The margin that will be used when arranging the view.</Abstract>
+			<DeclaredIn>TKLayoutItem.h</DeclaredIn>
+			
+			<Declaration>@property UIEdgeInsets margin</Declaration>
+			
+			
+			<Anchor>//api/name/margin</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

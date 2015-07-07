@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKListViewLinearLayout.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKListViewLinearLayout</TokenIdentifier>
+			<Abstract type="html">A base layout used to render cells in TKListView.</Abstract>
+			<DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+            
+			
+			<NodeRef refid="237"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewLinearLayout/setScrollDirection:</TokenIdentifier>
+			<Abstract type="html">The scroll direction.</Abstract>
+			<DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKListViewScrollDirection scrollDirection</Declaration>
+			
+			
+			<Anchor>//api/name/scrollDirection</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewLinearLayout/scrollDirection</TokenIdentifier>
+			<Abstract type="html">The scroll direction.</Abstract>
+			<DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKListViewScrollDirection scrollDirection</Declaration>
+			
+			
+			<Anchor>//api/name/scrollDirection</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListViewLinearLayout/scrollDirection</TokenIdentifier>
+			<Abstract type="html">The scroll direction.</Abstract>
+			<DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKListViewScrollDirection scrollDirection</Declaration>
+			
+			
+			<Anchor>//api/name/scrollDirection</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewLinearLayout/setItemAlignment:</TokenIdentifier>
+			<Abstract type="html">The desired cell alignment within a column.</Abstract>
+			<DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKListViewItemAlignment itemAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/itemAlignment</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewLinearLayout/itemAlignment</TokenIdentifier>
+			<Abstract type="html">The desired cell alignment within a column.</Abstract>
+			<DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKListViewItemAlignment itemAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/itemAlignment</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListViewLinearLayout/itemAlignment</TokenIdentifier>
+			<Abstract type="html">The desired cell alignment within a column.</Abstract>
+			<DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKListViewItemAlignment itemAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/itemAlignment</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewLinearLayout/setItemSpacing:</TokenIdentifier>
+			<Abstract type="html">The spacing between items.</Abstract>
+			<DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat itemSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/itemSpacing</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewLinearLayout/itemSpacing</TokenIdentifier>
+			<Abstract type="html">The spacing between items.</Abstract>
+			<DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat itemSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/itemSpacing</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListViewLinearLayout/itemSpacing</TokenIdentifier>
+			<Abstract type="html">The spacing between items.</Abstract>
+			<DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat itemSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/itemSpacing</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewLinearLayout/setItemSize:</TokenIdentifier>
+			<Abstract type="html">The item size.</Abstract>
+			<DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGSize itemSize</Declaration>
+			
+			
+			<Anchor>//api/name/itemSize</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewLinearLayout/itemSize</TokenIdentifier>
+			<Abstract type="html">The item size.</Abstract>
+			<DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGSize itemSize</Declaration>
+			
+			
+			<Anchor>//api/name/itemSize</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListViewLinearLayout/itemSize</TokenIdentifier>
+			<Abstract type="html">The item size.</Abstract>
+			<DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGSize itemSize</Declaration>
+			
+			
+			<Anchor>//api/name/itemSize</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewLinearLayout/setHeaderReferenceSize:</TokenIdentifier>
+			<Abstract type="html">The header reference size.</Abstract>
+			<DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGSize headerReferenceSize</Declaration>
+			
+			
+			<Anchor>//api/name/headerReferenceSize</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewLinearLayout/headerReferenceSize</TokenIdentifier>
+			<Abstract type="html">The header reference size.</Abstract>
+			<DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGSize headerReferenceSize</Declaration>
+			
+			
+			<Anchor>//api/name/headerReferenceSize</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListViewLinearLayout/headerReferenceSize</TokenIdentifier>
+			<Abstract type="html">The header reference size.</Abstract>
+			<DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGSize headerReferenceSize</Declaration>
+			
+			
+			<Anchor>//api/name/headerReferenceSize</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewLinearLayout/setFooterReferenceSize:</TokenIdentifier>
+			<Abstract type="html">The footer reference size.</Abstract>
+			<DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGSize footerReferenceSize</Declaration>
+			
+			
+			<Anchor>//api/name/footerReferenceSize</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewLinearLayout/footerReferenceSize</TokenIdentifier>
+			<Abstract type="html">The footer reference size.</Abstract>
+			<DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGSize footerReferenceSize</Declaration>
+			
+			
+			<Anchor>//api/name/footerReferenceSize</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListViewLinearLayout/footerReferenceSize</TokenIdentifier>
+			<Abstract type="html">The footer reference size.</Abstract>
+			<DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGSize footerReferenceSize</Declaration>
+			
+			
+			<Anchor>//api/name/footerReferenceSize</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

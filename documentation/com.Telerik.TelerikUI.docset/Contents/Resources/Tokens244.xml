@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKPredefinedShape.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKPredefinedShape</TokenIdentifier>
+			<Abstract type="html">Represents a shape class that allows presenting different shapes based on a list with predefined shapes</Abstract>
+			<DeclaredIn>TKPredefinedShape.h</DeclaredIn>
+            
+			
+			<NodeRef refid="244"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKPredefinedShape/shapeWithType:andSize:</TokenIdentifier>
+			<Abstract type="html">Creates a shape with specified type and size.</Abstract>
+			<DeclaredIn>TKPredefinedShape.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)shapeWithType:(TKShapeType)type andSize:(CGSize)size</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>type</Name>
+					<Abstract type="html">Specifies the type.</Abstract>
+				</Parameter><Parameter>
+					<Name>size</Name>
+					<Abstract type="html">Specifies the size in pixels.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/shapeWithType:andSize:</Anchor>
+            <NodeRef refid="244"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKPredefinedShape/initWithType:andSize:</TokenIdentifier>
+			<Abstract type="html">Creates a shape with specified form and size.</Abstract>
+			<DeclaredIn>TKPredefinedShape.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithType:(TKShapeType)type andSize:(CGSize)size</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>type</Name>
+					<Abstract type="html">Specifies the type.</Abstract>
+				</Parameter><Parameter>
+					<Name>size</Name>
+					<Abstract type="html">Specifies the size in pixels.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithType:andSize:</Anchor>
+            <NodeRef refid="244"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKPredefinedShape/setType:</TokenIdentifier>
+			<Abstract type="html">a
+The type of the shape.</Abstract>
+			<DeclaredIn>TKPredefinedShape.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) TKShapeType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="244"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKPredefinedShape/type</TokenIdentifier>
+			<Abstract type="html">a
+The type of the shape.</Abstract>
+			<DeclaredIn>TKPredefinedShape.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) TKShapeType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="244"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKPredefinedShape/type</TokenIdentifier>
+			<Abstract type="html">a
+The type of the shape.</Abstract>
+			<DeclaredIn>TKPredefinedShape.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) TKShapeType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="244"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

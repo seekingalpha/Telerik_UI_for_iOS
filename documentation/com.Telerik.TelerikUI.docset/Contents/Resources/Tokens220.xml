@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKDataSourceSettings.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKDataSourceSettings</TokenIdentifier>
+			<Abstract type="html">Contains various settings allowing appearance customizations of TKDataSource consumers. e.g. TKChart, TKCalendar, UITableView, etc.</Abstract>
+			<DeclaredIn>TKDataSourceSettings.h</DeclaredIn>
+            
+			
+			<NodeRef refid="220"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceSettings/setChart:</TokenIdentifier>
+			<Abstract type="html">Settings specific to TKChart.</Abstract>
+			<DeclaredIn>TKDataSourceSettings.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKDataSourceChartSettings *chart</Declaration>
+			
+			
+			<Anchor>//api/name/chart</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceSettings/chart</TokenIdentifier>
+			<Abstract type="html">Settings specific to TKChart.</Abstract>
+			<DeclaredIn>TKDataSourceSettings.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKDataSourceChartSettings *chart</Declaration>
+			
+			
+			<Anchor>//api/name/chart</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKDataSourceSettings/chart</TokenIdentifier>
+			<Abstract type="html">Settings specific to TKChart.</Abstract>
+			<DeclaredIn>TKDataSourceSettings.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKDataSourceChartSettings *chart</Declaration>
+			
+			
+			<Anchor>//api/name/chart</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceSettings/setCollectionView:</TokenIdentifier>
+			<Abstract type="html">Settings specific to UICollectionView.</Abstract>
+			<DeclaredIn>TKDataSourceSettings.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKDataSourceCollectionViewSettings *collectionView</Declaration>
+			
+			
+			<Anchor>//api/name/collectionView</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceSettings/collectionView</TokenIdentifier>
+			<Abstract type="html">Settings specific to UICollectionView.</Abstract>
+			<DeclaredIn>TKDataSourceSettings.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKDataSourceCollectionViewSettings *collectionView</Declaration>
+			
+			
+			<Anchor>//api/name/collectionView</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKDataSourceSettings/collectionView</TokenIdentifier>
+			<Abstract type="html">Settings specific to UICollectionView.</Abstract>
+			<DeclaredIn>TKDataSourceSettings.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKDataSourceCollectionViewSettings *collectionView</Declaration>
+			
+			
+			<Anchor>//api/name/collectionView</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceSettings/setTableView:</TokenIdentifier>
+			<Abstract type="html">Settings specific to UITableView.</Abstract>
+			<DeclaredIn>TKDataSourceSettings.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKDataSourceTableViewSettings *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceSettings/tableView</TokenIdentifier>
+			<Abstract type="html">Settings specific to UITableView.</Abstract>
+			<DeclaredIn>TKDataSourceSettings.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKDataSourceTableViewSettings *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKDataSourceSettings/tableView</TokenIdentifier>
+			<Abstract type="html">Settings specific to UITableView.</Abstract>
+			<DeclaredIn>TKDataSourceSettings.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKDataSourceTableViewSettings *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceSettings/setCalendar:</TokenIdentifier>
+			<Abstract type="html">Settings specific to TKCalendar.</Abstract>
+			<DeclaredIn>TKDataSourceSettings.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKDataSourceCalendarSettings *calendar</Declaration>
+			
+			
+			<Anchor>//api/name/calendar</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceSettings/calendar</TokenIdentifier>
+			<Abstract type="html">Settings specific to TKCalendar.</Abstract>
+			<DeclaredIn>TKDataSourceSettings.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKDataSourceCalendarSettings *calendar</Declaration>
+			
+			
+			<Anchor>//api/name/calendar</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKDataSourceSettings/calendar</TokenIdentifier>
+			<Abstract type="html">Settings specific to TKCalendar.</Abstract>
+			<DeclaredIn>TKDataSourceSettings.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKDataSourceCalendarSettings *calendar</Declaration>
+			
+			
+			<Anchor>//api/name/calendar</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceSettings/setListView:</TokenIdentifier>
+			<Abstract type="html">Settings specific to TKListView.</Abstract>
+			<DeclaredIn>TKDataSourceSettings.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKDataSourceListViewSettings *listView</Declaration>
+			
+			
+			<Anchor>//api/name/listView</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceSettings/listView</TokenIdentifier>
+			<Abstract type="html">Settings specific to TKListView.</Abstract>
+			<DeclaredIn>TKDataSourceSettings.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKDataSourceListViewSettings *listView</Declaration>
+			
+			
+			<Anchor>//api/name/listView</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKDataSourceSettings/listView</TokenIdentifier>
+			<Abstract type="html">Settings specific to TKListView.</Abstract>
+			<DeclaredIn>TKDataSourceSettings.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKDataSourceListViewSettings *listView</Declaration>
+			
+			
+			<Anchor>//api/name/listView</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="docs/temp-doc/Chart/Chart-PointLabels-Customization.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/doc/Chart-PointLabels-Customization</TokenIdentifier>
+			<Abstract type="html"># Point Labels: Customization</Abstract>
+			<DeclaredIn>Chart-PointLabels-Customization-template.html</DeclaredIn>
+            
+			
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

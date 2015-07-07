@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKChartAnnotationZPosition.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKChartAnnotationZPosition</TokenIdentifier>
+			<Abstract type="html">@enum TKChartAnnotationZPosition</Abstract>
+			<DeclaredIn>TKChartAnnotation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="296"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartAnnotationZPositionBelowSeries</TokenIdentifier>
+            <Abstract type="html">     The annotation is rendered below the series (default).
+     </Abstract>
+            <Declaration>TKChartAnnotationZPositionBelowSeries</Declaration>
+            
+            <DeclaredIn>TKChartAnnotation.h</DeclaredIn>
+            
+            <NodeRef refid="296"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartAnnotationZPositionAboveSeries</TokenIdentifier>
+            <Abstract type="html">     The annotation is rendered above the series.
+     </Abstract>
+            <Declaration>TKChartAnnotationZPositionAboveSeries</Declaration>
+            
+            <DeclaredIn>TKChartAnnotation.h</DeclaredIn>
+            
+            <NodeRef refid="296"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

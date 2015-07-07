@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartOhlcBar.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartOhlcBar</TokenIdentifier>
+			<Abstract type="html">A visual point rendered by TKChart OHLC series.</Abstract>
+			<DeclaredIn>TKChartOhlcBar.h</DeclaredIn>
+            
+			
+			<NodeRef refid="161"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartOhlcBar/setOpenValue:</TokenIdentifier>
+			<Abstract type="html">Offest from ohlc high point to open point.</Abstract>
+			<DeclaredIn>TKChartOhlcBar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat openValue</Declaration>
+			
+			
+			<Anchor>//api/name/openValue</Anchor>
+            <NodeRef refid="161"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartOhlcBar/openValue</TokenIdentifier>
+			<Abstract type="html">Offest from ohlc high point to open point.</Abstract>
+			<DeclaredIn>TKChartOhlcBar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat openValue</Declaration>
+			
+			
+			<Anchor>//api/name/openValue</Anchor>
+            <NodeRef refid="161"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartOhlcBar/openValue</TokenIdentifier>
+			<Abstract type="html">Offest from ohlc high point to open point.</Abstract>
+			<DeclaredIn>TKChartOhlcBar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat openValue</Declaration>
+			
+			
+			<Anchor>//api/name/openValue</Anchor>
+            <NodeRef refid="161"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartOhlcBar/setCloseValue:</TokenIdentifier>
+			<Abstract type="html">Offest from ohlc high point to close close point.</Abstract>
+			<DeclaredIn>TKChartOhlcBar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat closeValue</Declaration>
+			
+			
+			<Anchor>//api/name/closeValue</Anchor>
+            <NodeRef refid="161"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartOhlcBar/closeValue</TokenIdentifier>
+			<Abstract type="html">Offest from ohlc high point to close close point.</Abstract>
+			<DeclaredIn>TKChartOhlcBar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat closeValue</Declaration>
+			
+			
+			<Anchor>//api/name/closeValue</Anchor>
+            <NodeRef refid="161"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartOhlcBar/closeValue</TokenIdentifier>
+			<Abstract type="html">Offest from ohlc high point to close close point.</Abstract>
+			<DeclaredIn>TKChartOhlcBar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat closeValue</Declaration>
+			
+			
+			<Anchor>//api/name/closeValue</Anchor>
+            <NodeRef refid="161"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartOhlcBar/setLowValue:</TokenIdentifier>
+			<Abstract type="html">Offest from ohlc cener to low value.</Abstract>
+			<DeclaredIn>TKChartOhlcBar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat lowValue</Declaration>
+			
+			
+			<Anchor>//api/name/lowValue</Anchor>
+            <NodeRef refid="161"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartOhlcBar/lowValue</TokenIdentifier>
+			<Abstract type="html">Offest from ohlc cener to low value.</Abstract>
+			<DeclaredIn>TKChartOhlcBar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat lowValue</Declaration>
+			
+			
+			<Anchor>//api/name/lowValue</Anchor>
+            <NodeRef refid="161"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartOhlcBar/lowValue</TokenIdentifier>
+			<Abstract type="html">Offest from ohlc cener to low value.</Abstract>
+			<DeclaredIn>TKChartOhlcBar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat lowValue</Declaration>
+			
+			
+			<Anchor>//api/name/lowValue</Anchor>
+            <NodeRef refid="161"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartOhlcBar/setBodyWidth:</TokenIdentifier>
+			<Abstract type="html">OHLC bar&apos;s width.</Abstract>
+			<DeclaredIn>TKChartOhlcBar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat bodyWidth</Declaration>
+			
+			
+			<Anchor>//api/name/bodyWidth</Anchor>
+            <NodeRef refid="161"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartOhlcBar/bodyWidth</TokenIdentifier>
+			<Abstract type="html">OHLC bar&apos;s width.</Abstract>
+			<DeclaredIn>TKChartOhlcBar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat bodyWidth</Declaration>
+			
+			
+			<Anchor>//api/name/bodyWidth</Anchor>
+            <NodeRef refid="161"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartOhlcBar/bodyWidth</TokenIdentifier>
+			<Abstract type="html">OHLC bar&apos;s width.</Abstract>
+			<DeclaredIn>TKChartOhlcBar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat bodyWidth</Declaration>
+			
+			
+			<Anchor>//api/name/bodyWidth</Anchor>
+            <NodeRef refid="161"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartOhlcBar/setHighValue:</TokenIdentifier>
+			<Abstract type="html">Offest from ohlc cener to high value.</Abstract>
+			<DeclaredIn>TKChartOhlcBar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat highValue</Declaration>
+			
+			
+			<Anchor>//api/name/highValue</Anchor>
+            <NodeRef refid="161"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartOhlcBar/highValue</TokenIdentifier>
+			<Abstract type="html">Offest from ohlc cener to high value.</Abstract>
+			<DeclaredIn>TKChartOhlcBar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat highValue</Declaration>
+			
+			
+			<Anchor>//api/name/highValue</Anchor>
+            <NodeRef refid="161"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartOhlcBar/highValue</TokenIdentifier>
+			<Abstract type="html">Offest from ohlc cener to high value.</Abstract>
+			<DeclaredIn>TKChartOhlcBar.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat highValue</Declaration>
+			
+			
+			<Anchor>//api/name/highValue</Anchor>
+            <NodeRef refid="161"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartOhlcBar/initWithPoint:atIndex:series:render:</TokenIdentifier>
+			<Abstract type="html">Initiates TKChartOhlcBar.</Abstract>
+			<DeclaredIn>TKChartOhlcBar.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithPoint:(TKChartFinancialDataPoint *)data atIndex:(NSInteger)index series:(TKChartSeries *)series render:(TKChartSeriesRender *)render</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">Financial data point.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">Data point&apos;s index.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">Series that contains the point.</Abstract>
+				</Parameter><Parameter>
+					<Name>render</Name>
+					<Abstract type="html">The series render.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithPoint:atIndex:series:render:</Anchor>
+            <NodeRef refid="161"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

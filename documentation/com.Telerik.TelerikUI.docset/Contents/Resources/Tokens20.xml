@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="docs/temp-doc/Chart/Chart-Getting-Started.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/doc/Chart-Getting-Started</TokenIdentifier>
+			<Abstract type="html"># Chart: Getting Started</Abstract>
+			<DeclaredIn>Chart-Getting-Started-template.html</DeclaredIn>
+            
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>
