@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TKCalendarEventKitDataSourceDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TKCalendarEventKitDataSourceDelegate</TokenIdentifier>
+			<Abstract type="html">The methods declared by the TKCalendarEventKitDataSourceDelegate protocol allow customizing the process of importing events from EventKit.</Abstract>
+			<DeclaredIn>TKCalendarEventKitDataSource.h</DeclaredIn>
+            
+			
+			<NodeRef refid="270"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKCalendarEventKitDataSourceDelegate/shouldImportEventsFromCalendar:</TokenIdentifier>
+			<Abstract type="html">Defines whether events from the specified EKCalendar should be imported.</Abstract>
+			<DeclaredIn>TKCalendarEventKitDataSource.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)shouldImportEventsFromCalendar:(EKCalendar *)calendar</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>calendar</Name>
+					<Abstract type="html">The calendar to import.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns YES if events should be imported.</Abstract></ReturnValue>
+			<Anchor>//api/name/shouldImportEventsFromCalendar:</Anchor>
+            <NodeRef refid="270"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKCalendarEventKitDataSourceDelegate/shouldImportEvent:</TokenIdentifier>
+			<Abstract type="html">Determines whether the specified EKEvent should be imported.</Abstract>
+			<DeclaredIn>TKCalendarEventKitDataSource.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)shouldImportEvent:(EKEvent *)event</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>event</Name>
+					<Abstract type="html">The event to import.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns YES if the event should be imported.</Abstract></ReturnValue>
+			<Anchor>//api/name/shouldImportEvent:</Anchor>
+            <NodeRef refid="270"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

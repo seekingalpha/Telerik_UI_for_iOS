@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TKSideDrawerDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TKSideDrawerDelegate</TokenIdentifier>
+			<Abstract type="html">The methods declared by the TKSideDrawerDelegate protocol allow the adopting delegate to respond to messages from the TKSideDrawer class and thus respond to different operations such as showing and dismissing TKSideDrawer.</Abstract>
+			<DeclaredIn>TKSideDrawer.h</DeclaredIn>
+            
+			
+			<NodeRef refid="283"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKSideDrawerDelegate/sideDrawer:didSelectItemAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">Called when an item inside TKSideDrawer is selected.</Abstract>
+			<DeclaredIn>TKSideDrawer.h</DeclaredIn>
+			
+			<Declaration>- (void)sideDrawer:(TKSideDrawer *)sideDrawer didSelectItemAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sideDrawer</Name>
+					<Abstract type="html">TKSideDrawer instance which item is selected.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path of the selected item.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sideDrawer:didSelectItemAtIndexPath:</Anchor>
+            <NodeRef refid="283"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKSideDrawerDelegate/willShowSideDrawer:</TokenIdentifier>
+			<Abstract type="html">Called just before TKSideDrawer instance becomes visible.</Abstract>
+			<DeclaredIn>TKSideDrawer.h</DeclaredIn>
+			
+			<Declaration>- (void)willShowSideDrawer:(TKSideDrawer *)sideDrawer</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sideDrawer</Name>
+					<Abstract type="html">The TKSideDrawer instance which is presented.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/willShowSideDrawer:</Anchor>
+            <NodeRef refid="283"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKSideDrawerDelegate/didShowSideDrawer:</TokenIdentifier>
+			<Abstract type="html">Called when TKSideDrawer is already visible.</Abstract>
+			<DeclaredIn>TKSideDrawer.h</DeclaredIn>
+			
+			<Declaration>- (void)didShowSideDrawer:(TKSideDrawer *)sideDrawer</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sideDrawer</Name>
+					<Abstract type="html">The TKSideDrawer instance which is presented.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didShowSideDrawer:</Anchor>
+            <NodeRef refid="283"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKSideDrawerDelegate/willDismissSideDrawer:</TokenIdentifier>
+			<Abstract type="html">Called just before TKSideDrawer is dismissed.</Abstract>
+			<DeclaredIn>TKSideDrawer.h</DeclaredIn>
+			
+			<Declaration>- (void)willDismissSideDrawer:(TKSideDrawer *)sideDrawer</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sideDrawer</Name>
+					<Abstract type="html">The TKSideDrawer that will be dismissed.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/willDismissSideDrawer:</Anchor>
+            <NodeRef refid="283"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKSideDrawerDelegate/didDismissSideDrawer:</TokenIdentifier>
+			<Abstract type="html">Called after TKSideDrawer is dismissed.</Abstract>
+			<DeclaredIn>TKSideDrawer.h</DeclaredIn>
+			
+			<Declaration>- (void)didDismissSideDrawer:(TKSideDrawer *)sideDrawer</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sideDrawer</Name>
+					<Abstract type="html">The TKSideDrawer instance that was dismissed.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didDismissSideDrawer:</Anchor>
+            <NodeRef refid="283"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKSideDrawerDelegate/sideDrawer:viewForHeaderInSection:</TokenIdentifier>
+			<Abstract type="html">Returns a UIView that is used as header for section in TKSideDrawer.</Abstract>
+			<DeclaredIn>TKSideDrawer.h</DeclaredIn>
+			
+			<Declaration>- (UIView *)sideDrawer:(TKSideDrawer *)sideDrawer viewForHeaderInSection:(NSInteger)sectionIndex</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sideDrawer</Name>
+					<Abstract type="html">The TKSideDrawer instance that requeres section view.</Abstract>
+				</Parameter><Parameter>
+					<Name>sectionIndex</Name>
+					<Abstract type="html">The index of the section in TKSideDrawer.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The UIView is used for the header of the specified section.</Abstract></ReturnValue>
+			<Anchor>//api/name/sideDrawer:viewForHeaderInSection:</Anchor>
+            <NodeRef refid="283"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKSideDrawerDelegate/sideDrawer:heightForItemAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">Returns the height for a specific item in TKSideDrawer.</Abstract>
+			<DeclaredIn>TKSideDrawer.h</DeclaredIn>
+			
+			<Declaration>- (CGFloat)sideDrawer:(TKSideDrawer *)sideDrawer heightForItemAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sideDrawer</Name>
+					<Abstract type="html">The TKSideDrawer instance that requires the height for its items.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path of the item.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The height of the specified item.</Abstract></ReturnValue>
+			<Anchor>//api/name/sideDrawer:heightForItemAtIndexPath:</Anchor>
+            <NodeRef refid="283"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKSideDrawerDelegate/sideDrawer:updateVisualsForItemAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">Called just before an item is rendered.</Abstract>
+			<DeclaredIn>TKSideDrawer.h</DeclaredIn>
+			
+			<Declaration>- (void)sideDrawer:(TKSideDrawer *)sideDrawer updateVisualsForItemAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sideDrawer</Name>
+					<Abstract type="html">The TKSideDrawer instance that is presented.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path of the item to be updated.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sideDrawer:updateVisualsForItemAtIndexPath:</Anchor>
+            <NodeRef refid="283"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKSideDrawerDelegate/sideDrawer:updateVisualsForSection:</TokenIdentifier>
+			<Abstract type="html">Called just before a section is rendered.</Abstract>
+			<DeclaredIn>TKSideDrawer.h</DeclaredIn>
+			
+			<Declaration>- (void)sideDrawer:(TKSideDrawer *)sideDrawer updateVisualsForSection:(NSInteger)sectionIndex</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sideDrawer</Name>
+					<Abstract type="html">The TKSideDrawer instance that is presented.</Abstract>
+				</Parameter><Parameter>
+					<Name>sectionIndex</Name>
+					<Abstract type="html">The index of the section to be updated.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sideDrawer:updateVisualsForSection:</Anchor>
+            <NodeRef refid="283"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKSideDrawerDelegate/sideDrawer:cellForItemAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">Returns the TKSideDrawerTableViewCell that is used to display a specified item.</Abstract>
+			<DeclaredIn>TKSideDrawer.h</DeclaredIn>
+			
+			<Declaration>- (TKSideDrawerTableViewCell *)sideDrawer:(TKSideDrawer *)sideDrawer cellForItemAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sideDrawer</Name>
+					<Abstract type="html">The TKSideDrawer instance that requests the cell.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path of the item that the cell visualizes.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sideDrawer:cellForItemAtIndexPath:</Anchor>
+            <NodeRef refid="283"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

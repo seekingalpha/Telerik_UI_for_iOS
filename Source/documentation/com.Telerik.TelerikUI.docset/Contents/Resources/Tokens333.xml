@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKListViewItemAlignment.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKListViewItemAlignment</TokenIdentifier>
+			<Abstract type="html">@enum TKListViewItemAlignment</Abstract>
+			<DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+            
+			
+			<NodeRef refid="333"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKListViewItemAlignmentStretch</TokenIdentifier>
+            <Abstract type="html">     Visually stretch items.
+     </Abstract>
+            <Declaration>TKListViewItemAlignmentStretch</Declaration>
+            
+            <DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+            
+            <NodeRef refid="333"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKListViewItemAlignmentLeft</TokenIdentifier>
+            <Abstract type="html">     Visually left align items.
+     </Abstract>
+            <Declaration>TKListViewItemAlignmentLeft</Declaration>
+            
+            <DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+            
+            <NodeRef refid="333"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKListViewItemAlignmentCenter</TokenIdentifier>
+            <Abstract type="html">     Visually center items.
+     </Abstract>
+            <Declaration>TKListViewItemAlignmentCenter</Declaration>
+            
+            <DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+            
+            <NodeRef refid="333"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKListViewItemAlignmentRight</TokenIdentifier>
+            <Abstract type="html">     Visually right align items.
+     </Abstract>
+            <Declaration>TKListViewItemAlignmentRight</Declaration>
+            
+            <DeclaredIn>TKListViewLinearLayout.h</DeclaredIn>
+            
+            <NodeRef refid="333"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

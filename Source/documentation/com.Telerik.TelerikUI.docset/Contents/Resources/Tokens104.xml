@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartAdaptiveMovingAverageIndicator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartAdaptiveMovingAverageIndicator</TokenIdentifier>
+			<Abstract type="html">Represents Adaptive Moving Average indicator.</Abstract>
+			<DeclaredIn>TKChartAdaptiveMovingAverageIndicator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="104"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAdaptiveMovingAverageIndicator/setPeriod:</TokenIdentifier>
+			<Abstract type="html">The period for which the indicator will be calculated. Default value is 10.</Abstract>
+			<DeclaredIn>TKChartAdaptiveMovingAverageIndicator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAdaptiveMovingAverageIndicator/period</TokenIdentifier>
+			<Abstract type="html">The period for which the indicator will be calculated. Default value is 10.</Abstract>
+			<DeclaredIn>TKChartAdaptiveMovingAverageIndicator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartAdaptiveMovingAverageIndicator/period</TokenIdentifier>
+			<Abstract type="html">The period for which the indicator will be calculated. Default value is 10.</Abstract>
+			<DeclaredIn>TKChartAdaptiveMovingAverageIndicator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAdaptiveMovingAverageIndicator/setSlowPerod:</TokenIdentifier>
+			<Abstract type="html">Indicator&apos;s slow period that will be used for the calculations. Default values is 30.</Abstract>
+			<DeclaredIn>TKChartAdaptiveMovingAverageIndicator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger slowPerod</Declaration>
+			
+			
+			<Anchor>//api/name/slowPerod</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAdaptiveMovingAverageIndicator/slowPerod</TokenIdentifier>
+			<Abstract type="html">Indicator&apos;s slow period that will be used for the calculations. Default values is 30.</Abstract>
+			<DeclaredIn>TKChartAdaptiveMovingAverageIndicator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger slowPerod</Declaration>
+			
+			
+			<Anchor>//api/name/slowPerod</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartAdaptiveMovingAverageIndicator/slowPerod</TokenIdentifier>
+			<Abstract type="html">Indicator&apos;s slow period that will be used for the calculations. Default values is 30.</Abstract>
+			<DeclaredIn>TKChartAdaptiveMovingAverageIndicator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger slowPerod</Declaration>
+			
+			
+			<Anchor>//api/name/slowPerod</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAdaptiveMovingAverageIndicator/setFastPeriod:</TokenIdentifier>
+			<Abstract type="html">Indicator&apos;s fast period that will be used for the calculations. Default value is 2.</Abstract>
+			<DeclaredIn>TKChartAdaptiveMovingAverageIndicator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger fastPeriod</Declaration>
+			
+			
+			<Anchor>//api/name/fastPeriod</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartAdaptiveMovingAverageIndicator/fastPeriod</TokenIdentifier>
+			<Abstract type="html">Indicator&apos;s fast period that will be used for the calculations. Default value is 2.</Abstract>
+			<DeclaredIn>TKChartAdaptiveMovingAverageIndicator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger fastPeriod</Declaration>
+			
+			
+			<Anchor>//api/name/fastPeriod</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartAdaptiveMovingAverageIndicator/fastPeriod</TokenIdentifier>
+			<Abstract type="html">Indicator&apos;s fast period that will be used for the calculations. Default value is 2.</Abstract>
+			<DeclaredIn>TKChartAdaptiveMovingAverageIndicator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger fastPeriod</Declaration>
+			
+			
+			<Anchor>//api/name/fastPeriod</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

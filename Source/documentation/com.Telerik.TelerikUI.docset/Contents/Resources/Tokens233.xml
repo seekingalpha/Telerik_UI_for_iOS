@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKListViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKListViewCell</TokenIdentifier>
+			<Abstract type="html">A cell in a list view.</Abstract>
+			<DeclaredIn>TKListViewCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="233"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewCell/setSwipeBackgroundView:</TokenIdentifier>
+			<Abstract type="html">The background view that becomes visible after the user swipes the content view.</Abstract>
+			<DeclaredIn>TKListViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIView *swipeBackgroundView</Declaration>
+			
+			
+			<Anchor>//api/name/swipeBackgroundView</Anchor>
+            <NodeRef refid="233"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewCell/swipeBackgroundView</TokenIdentifier>
+			<Abstract type="html">The background view that becomes visible after the user swipes the content view.</Abstract>
+			<DeclaredIn>TKListViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIView *swipeBackgroundView</Declaration>
+			
+			
+			<Anchor>//api/name/swipeBackgroundView</Anchor>
+            <NodeRef refid="233"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListViewCell/swipeBackgroundView</TokenIdentifier>
+			<Abstract type="html">The background view that becomes visible after the user swipes the content view.</Abstract>
+			<DeclaredIn>TKListViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIView *swipeBackgroundView</Declaration>
+			
+			
+			<Anchor>//api/name/swipeBackgroundView</Anchor>
+            <NodeRef refid="233"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewCell/setImageView:</TokenIdentifier>
+			<Abstract type="html">A default view in the cell that may be used to display an image.</Abstract>
+			<DeclaredIn>TKListViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImageView *imageView</Declaration>
+			
+			
+			<Anchor>//api/name/imageView</Anchor>
+            <NodeRef refid="233"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewCell/imageView</TokenIdentifier>
+			<Abstract type="html">A default view in the cell that may be used to display an image.</Abstract>
+			<DeclaredIn>TKListViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImageView *imageView</Declaration>
+			
+			
+			<Anchor>//api/name/imageView</Anchor>
+            <NodeRef refid="233"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListViewCell/imageView</TokenIdentifier>
+			<Abstract type="html">A default view in the cell that may be used to display an image.</Abstract>
+			<DeclaredIn>TKListViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImageView *imageView</Declaration>
+			
+			
+			<Anchor>//api/name/imageView</Anchor>
+            <NodeRef refid="233"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewCell/setReorderHandle:</TokenIdentifier>
+			<Abstract type="html">A visual glyph used as hint that cell can be dragged when cell reorder is enabled.</Abstract>
+			<DeclaredIn>TKListViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIView *reorderHandle</Declaration>
+			
+			
+			<Anchor>//api/name/reorderHandle</Anchor>
+            <NodeRef refid="233"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewCell/reorderHandle</TokenIdentifier>
+			<Abstract type="html">A visual glyph used as hint that cell can be dragged when cell reorder is enabled.</Abstract>
+			<DeclaredIn>TKListViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIView *reorderHandle</Declaration>
+			
+			
+			<Anchor>//api/name/reorderHandle</Anchor>
+            <NodeRef refid="233"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListViewCell/reorderHandle</TokenIdentifier>
+			<Abstract type="html">A visual glyph used as hint that cell can be dragged when cell reorder is enabled.</Abstract>
+			<DeclaredIn>TKListViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIView *reorderHandle</Declaration>
+			
+			
+			<Anchor>//api/name/reorderHandle</Anchor>
+            <NodeRef refid="233"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewCell/setDetailTextLabel:</TokenIdentifier>
+			<Abstract type="html">A text label that may be used to display detailed text below the main text label in the cell.</Abstract>
+			<DeclaredIn>TKListViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) UILabel *detailTextLabel</Declaration>
+			
+			
+			<Anchor>//api/name/detailTextLabel</Anchor>
+            <NodeRef refid="233"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewCell/detailTextLabel</TokenIdentifier>
+			<Abstract type="html">A text label that may be used to display detailed text below the main text label in the cell.</Abstract>
+			<DeclaredIn>TKListViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) UILabel *detailTextLabel</Declaration>
+			
+			
+			<Anchor>//api/name/detailTextLabel</Anchor>
+            <NodeRef refid="233"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListViewCell/detailTextLabel</TokenIdentifier>
+			<Abstract type="html">A text label that may be used to display detailed text below the main text label in the cell.</Abstract>
+			<DeclaredIn>TKListViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) UILabel *detailTextLabel</Declaration>
+			
+			
+			<Anchor>//api/name/detailTextLabel</Anchor>
+            <NodeRef refid="233"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewCell/setContentInsets:</TokenIdentifier>
+			<Abstract type="html">Defines insets that are applied to the content of the contentView.</Abstract>
+			<DeclaredIn>TKListViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIEdgeInsets contentInsets</Declaration>
+			
+			
+			<Anchor>//api/name/contentInsets</Anchor>
+            <NodeRef refid="233"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewCell/contentInsets</TokenIdentifier>
+			<Abstract type="html">Defines insets that are applied to the content of the contentView.</Abstract>
+			<DeclaredIn>TKListViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIEdgeInsets contentInsets</Declaration>
+			
+			
+			<Anchor>//api/name/contentInsets</Anchor>
+            <NodeRef refid="233"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListViewCell/contentInsets</TokenIdentifier>
+			<Abstract type="html">Defines insets that are applied to the content of the contentView.</Abstract>
+			<DeclaredIn>TKListViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIEdgeInsets contentInsets</Declaration>
+			
+			
+			<Anchor>//api/name/contentInsets</Anchor>
+            <NodeRef refid="233"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

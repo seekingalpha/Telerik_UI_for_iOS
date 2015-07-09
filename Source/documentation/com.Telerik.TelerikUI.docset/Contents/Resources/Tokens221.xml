@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKDataSourceSortDescriptor.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKDataSourceSortDescriptor</TokenIdentifier>
+			<Abstract type="html">A sort descriptor that is used in TKDataSource to sort items.</Abstract>
+			<DeclaredIn>TKDataSourceSortDescriptor.h</DeclaredIn>
+            
+			
+			<NodeRef refid="221"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceSortDescriptor/setPropertyName:</TokenIdentifier>
+			<Abstract type="html">The name of the property by which values sorted. The name of this property is ignored when the comparator property is set.</Abstract>
+			<DeclaredIn>TKDataSourceSortDescriptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *propertyName</Declaration>
+			
+			
+			<Anchor>//api/name/propertyName</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceSortDescriptor/propertyName</TokenIdentifier>
+			<Abstract type="html">The name of the property by which values sorted. The name of this property is ignored when the comparator property is set.</Abstract>
+			<DeclaredIn>TKDataSourceSortDescriptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *propertyName</Declaration>
+			
+			
+			<Anchor>//api/name/propertyName</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKDataSourceSortDescriptor/propertyName</TokenIdentifier>
+			<Abstract type="html">The name of the property by which values sorted. The name of this property is ignored when the comparator property is set.</Abstract>
+			<DeclaredIn>TKDataSourceSortDescriptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *propertyName</Declaration>
+			
+			
+			<Anchor>//api/name/propertyName</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceSortDescriptor/setComparator:</TokenIdentifier>
+			<Abstract type="html">A comparison block function that is used to sort items. This property has higher priority than the propertyName.</Abstract>
+			<DeclaredIn>TKDataSourceSortDescriptor.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSComparator comparator</Declaration>
+			
+			
+			<Anchor>//api/name/comparator</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceSortDescriptor/comparator</TokenIdentifier>
+			<Abstract type="html">A comparison block function that is used to sort items. This property has higher priority than the propertyName.</Abstract>
+			<DeclaredIn>TKDataSourceSortDescriptor.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSComparator comparator</Declaration>
+			
+			
+			<Anchor>//api/name/comparator</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKDataSourceSortDescriptor/comparator</TokenIdentifier>
+			<Abstract type="html">A comparison block function that is used to sort items. This property has higher priority than the propertyName.</Abstract>
+			<DeclaredIn>TKDataSourceSortDescriptor.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSComparator comparator</Declaration>
+			
+			
+			<Anchor>//api/name/comparator</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceSortDescriptor/setAscending:</TokenIdentifier>
+			<Abstract type="html">Defines the sort direction. Ignored when using a comparator function.</Abstract>
+			<DeclaredIn>TKDataSourceSortDescriptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL ascending</Declaration>
+			
+			
+			<Anchor>//api/name/ascending</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceSortDescriptor/ascending</TokenIdentifier>
+			<Abstract type="html">Defines the sort direction. Ignored when using a comparator function.</Abstract>
+			<DeclaredIn>TKDataSourceSortDescriptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL ascending</Declaration>
+			
+			
+			<Anchor>//api/name/ascending</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKDataSourceSortDescriptor/ascending</TokenIdentifier>
+			<Abstract type="html">Defines the sort direction. Ignored when using a comparator function.</Abstract>
+			<DeclaredIn>TKDataSourceSortDescriptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL ascending</Declaration>
+			
+			
+			<Anchor>//api/name/ascending</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceSortDescriptor/initWithProperty:ascending:</TokenIdentifier>
+			<Abstract type="html">Initializes the sort descriptor with a property name and sort direction.</Abstract>
+			<DeclaredIn>TKDataSourceSortDescriptor.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithProperty:(NSString *)propertyName ascending:(BOOL)ascending</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>propertyName</Name>
+					<Abstract type="html">The name of the property that is sorted.</Abstract>
+				</Parameter><Parameter>
+					<Name>ascending</Name>
+					<Abstract type="html">The sort direction.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithProperty:ascending:</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceSortDescriptor/initWithComparator:</TokenIdentifier>
+			<Abstract type="html">Initializes the sort descriptor with a comparator.</Abstract>
+			<DeclaredIn>TKDataSourceSortDescriptor.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithComparator:(NSComparator)comparator</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>comparator</Name>
+					<Abstract type="html">The comparator function to use when sorting items.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithComparator:</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceSortDescriptor/descriptor</TokenIdentifier>
+			<Abstract type="html">Returns an instance of NSSortDescriptor based on the settings of the group descriptor.</Abstract>
+			<DeclaredIn>TKDataSourceSortDescriptor.h</DeclaredIn>
+			
+			<Declaration>- (NSSortDescriptor *)descriptor</Declaration>
+			
+			
+			<Anchor>//api/name/descriptor</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

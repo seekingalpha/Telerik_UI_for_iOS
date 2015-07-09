@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartPalette.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartPalette</TokenIdentifier>
+			<Abstract type="html">Represents a palette of palette items. When colors are less than the requested index, the count starts over.</Abstract>
+			<DeclaredIn>TKChartPalette.h</DeclaredIn>
+            
+			
+			<NodeRef refid="164"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPalette/addPaletteItem:</TokenIdentifier>
+			<Abstract type="html">Adds a palette item to the palette.</Abstract>
+			<DeclaredIn>TKChartPalette.h</DeclaredIn>
+			
+			<Declaration>- (void)addPaletteItem:(TKChartPaletteItem *)item</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>item</Name>
+					<Abstract type="html">The item to add.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addPaletteItem:</Anchor>
+            <NodeRef refid="164"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPalette/addPaletteItems:</TokenIdentifier>
+			<Abstract type="html">Adds an array of palette items to the palette.</Abstract>
+			<DeclaredIn>TKChartPalette.h</DeclaredIn>
+			
+			<Declaration>- (void)addPaletteItems:(NSArray *)items</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>items</Name>
+					<Abstract type="html">The items to add.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addPaletteItems:</Anchor>
+            <NodeRef refid="164"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPalette/insertPaletteItem:atIndex:</TokenIdentifier>
+			<Abstract type="html">Inserts an item at a specified index.</Abstract>
+			<DeclaredIn>TKChartPalette.h</DeclaredIn>
+			
+			<Declaration>- (void)insertPaletteItem:(TKChartPaletteItem *)item atIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>item</Name>
+					<Abstract type="html">The item to insert.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index to insert the item at.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/insertPaletteItem:atIndex:</Anchor>
+            <NodeRef refid="164"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPalette/replacePaletteItem:atIndex:</TokenIdentifier>
+			<Abstract type="html">Replaces an item at a specified index.</Abstract>
+			<DeclaredIn>TKChartPalette.h</DeclaredIn>
+			
+			<Declaration>- (void)replacePaletteItem:(TKChartPaletteItem *)item atIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>item</Name>
+					<Abstract type="html">The item to replace with.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The Index of the item to be replaced.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/replacePaletteItem:atIndex:</Anchor>
+            <NodeRef refid="164"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPalette/clearPalette</TokenIdentifier>
+			<Abstract type="html">Removes all items from the palette.</Abstract>
+			<DeclaredIn>TKChartPalette.h</DeclaredIn>
+			
+			<Declaration>- (void)clearPalette</Declaration>
+			
+			
+			<Anchor>//api/name/clearPalette</Anchor>
+            <NodeRef refid="164"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPalette/paletteItemAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a palette item at a specified index.</Abstract>
+			<DeclaredIn>TKChartPalette.h</DeclaredIn>
+			
+			<Declaration>- (TKChartPaletteItem *)paletteItemAtIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index of the palette item. If this index is bigger than the current items count, the count starts over.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The requested palette item. If there are no items in the palette, returns nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/paletteItemAtIndex:</Anchor>
+            <NodeRef refid="164"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPalette/items</TokenIdentifier>
+			<Abstract type="html">Returns palette items as an immutable array.</Abstract>
+			<DeclaredIn>TKChartPalette.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+            <NodeRef refid="164"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPalette/itemsCount</TokenIdentifier>
+			<Abstract type="html">Returns the current palette items count.</Abstract>
+			<DeclaredIn>TKChartPalette.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)itemsCount</Declaration>
+			
+			
+			<Anchor>//api/name/itemsCount</Anchor>
+            <NodeRef refid="164"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

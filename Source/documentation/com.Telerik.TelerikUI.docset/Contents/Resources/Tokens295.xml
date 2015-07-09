@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKCalendarYearNumberState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKCalendarYearNumberState</TokenIdentifier>
+			<Abstract type="html">@enum TKCalendarYearNumberState</Abstract>
+			<DeclaredIn>TKCalendarYearNumberCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="295"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarYearNumberStateSelected</TokenIdentifier>
+            <Abstract type="html">The year is selected.
+     </Abstract>
+            <Declaration>TKCalendarYearNumberStateSelected</Declaration>
+            
+            <DeclaredIn>TKCalendarYearNumberCell.h</DeclaredIn>
+            
+            <NodeRef refid="295"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarYearNumberStateDisabled</TokenIdentifier>
+            <Abstract type="html">The year is disabled (it is outside of the selectable range)
+     </Abstract>
+            <Declaration>TKCalendarYearNumberStateDisabled</Declaration>
+            
+            <DeclaredIn>TKCalendarYearNumberCell.h</DeclaredIn>
+            
+            <NodeRef refid="295"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

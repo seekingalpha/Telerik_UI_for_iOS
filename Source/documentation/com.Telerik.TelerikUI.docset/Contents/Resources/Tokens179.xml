@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartRelativeStrengthIndex.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartRelativeStrengthIndex</TokenIdentifier>
+			<Abstract type="html">Represents Relative Strength Index indicator.</Abstract>
+			<DeclaredIn>TKChartRelativeStrengthIndex.h</DeclaredIn>
+            
+			
+			<NodeRef refid="179"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartRelativeStrengthIndex/setPeriod:</TokenIdentifier>
+			<Abstract type="html">The period for which the indicator will be calculated. Default value is 14.</Abstract>
+			<DeclaredIn>TKChartRelativeStrengthIndex.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+            <NodeRef refid="179"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartRelativeStrengthIndex/period</TokenIdentifier>
+			<Abstract type="html">The period for which the indicator will be calculated. Default value is 14.</Abstract>
+			<DeclaredIn>TKChartRelativeStrengthIndex.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+            <NodeRef refid="179"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartRelativeStrengthIndex/period</TokenIdentifier>
+			<Abstract type="html">The period for which the indicator will be calculated. Default value is 14.</Abstract>
+			<DeclaredIn>TKChartRelativeStrengthIndex.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+            <NodeRef refid="179"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

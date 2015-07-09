@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKChartSeriesSelectionMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKChartSeriesSelectionMode</TokenIdentifier>
+			<Abstract type="html">@enum TKChartSelectionMode</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="318"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartSeriesSelectionModeNone</TokenIdentifier>
+            <Abstract type="html">     No selection.
+     </Abstract>
+            <Declaration>TKChartSeriesSelectionModeNone</Declaration>
+            
+            <DeclaredIn>TKChartSeries.h</DeclaredIn>
+            
+            <NodeRef refid="318"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartSeriesSelectionModeSeries</TokenIdentifier>
+            <Abstract type="html">     Selects a whole series.
+     </Abstract>
+            <Declaration>TKChartSeriesSelectionModeSeries</Declaration>
+            
+            <DeclaredIn>TKChartSeries.h</DeclaredIn>
+            
+            <NodeRef refid="318"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartSeriesSelectionModeDataPoint</TokenIdentifier>
+            <Abstract type="html">     Selects a data point.
+     </Abstract>
+            <Declaration>TKChartSeriesSelectionModeDataPoint</Declaration>
+            
+            <DeclaredIn>TKChartSeries.h</DeclaredIn>
+            
+            <NodeRef refid="318"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKChartStackMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKChartStackMode</TokenIdentifier>
+			<Abstract type="html">@enum TKChartStackMode</Abstract>
+			<DeclaredIn>TKChartStackInfo.h</DeclaredIn>
+            
+			
+			<NodeRef refid="321"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartStackModeStack</TokenIdentifier>
+            <Abstract type="html">     Stack series.
+     </Abstract>
+            <Declaration>TKChartStackModeStack</Declaration>
+            
+            <DeclaredIn>TKChartStackInfo.h</DeclaredIn>
+            
+            <NodeRef refid="321"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartStackModeStack100</TokenIdentifier>
+            <Abstract type="html">     Stack series up to 100%.
+     </Abstract>
+            <Declaration>TKChartStackModeStack100</Declaration>
+            
+            <DeclaredIn>TKChartStackInfo.h</DeclaredIn>
+            
+            <NodeRef refid="321"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

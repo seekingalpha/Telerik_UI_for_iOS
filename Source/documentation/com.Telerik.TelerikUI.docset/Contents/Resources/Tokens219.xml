@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKDataSourceListViewSettings.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKDataSourceListViewSettings</TokenIdentifier>
+			<Abstract type="html">The settings that can be customized when using TKDataSource with TKListView.</Abstract>
+			<DeclaredIn>TKDataSourceListViewSettings.h</DeclaredIn>
+            
+			
+			<NodeRef refid="219"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceListViewSettings/createCell:</TokenIdentifier>
+			<Abstract type="html">A block function that is called when creating a new cell in TKListView.</Abstract>
+			<DeclaredIn>TKDataSourceListViewSettings.h</DeclaredIn>
+			
+			<Declaration>- (void)createCell:(TKDataSourceListViewSettings_CreateCellItemBlock)createCellBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>createCellBlock</Name>
+					<Abstract type="html">The block method that will be called.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/createCell:</Anchor>
+            <NodeRef refid="219"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceListViewSettings/initCell:</TokenIdentifier>
+			<Abstract type="html">A block function that is called when initializing the cell properties.</Abstract>
+			<DeclaredIn>TKDataSourceListViewSettings.h</DeclaredIn>
+			
+			<Declaration>- (void)initCell:(TKDataSourceListViewSettings_InitCellWithItemBlock)initCellBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>initCellBlock</Name>
+					<Abstract type="html">The block method that will be called.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initCell:</Anchor>
+            <NodeRef refid="219"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceListViewSettings/createSupplementaryView:</TokenIdentifier>
+			<Abstract type="html">A block function that is called when creating a supplementary view in TKListView.</Abstract>
+			<DeclaredIn>TKDataSourceListViewSettings.h</DeclaredIn>
+			
+			<Declaration>- (void)createSupplementaryView:(TKDataSourceListViewSettings_CreateViewBlock)createViewBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>createViewBlock</Name>
+					<Abstract type="html">The block method that will be called.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/createSupplementaryView:</Anchor>
+            <NodeRef refid="219"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceListViewSettings/initHeader:</TokenIdentifier>
+			<Abstract type="html">A block function that is called when initializing a header cell in TKListView.</Abstract>
+			<DeclaredIn>TKDataSourceListViewSettings.h</DeclaredIn>
+			
+			<Declaration>- (void)initHeader:(TKDataSourceListViewSettings_InitHeaderCellWithItemBlock)initHeaderBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>initHeaderBlock</Name>
+					<Abstract type="html">The block method that will be called.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initHeader:</Anchor>
+            <NodeRef refid="219"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceListViewSettings/initFooter:</TokenIdentifier>
+			<Abstract type="html">A block function that is called when initializing a footer cell in TKListView.</Abstract>
+			<DeclaredIn>TKDataSourceListViewSettings.h</DeclaredIn>
+			
+			<Declaration>- (void)initFooter:(TKDataSourceListViewSettings_InitFooterCellWithItemBlock)initFooterBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>initFooterBlock</Name>
+					<Abstract type="html">The block method that will be called.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initFooter:</Anchor>
+            <NodeRef refid="219"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

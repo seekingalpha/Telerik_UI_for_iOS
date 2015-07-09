@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartGridLineAnnotationStyle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartGridLineAnnotationStyle</TokenIdentifier>
+			<Abstract type="html">A grid line&apos;s style.</Abstract>
+			<DeclaredIn>TKChartGridLineAnnotationStyle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="143"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridLineAnnotationStyle/setStroke:</TokenIdentifier>
+			<Abstract type="html">The horizontal line stroke.</Abstract>
+			<DeclaredIn>TKChartGridLineAnnotationStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *stroke</Declaration>
+			
+			
+			<Anchor>//api/name/stroke</Anchor>
+            <NodeRef refid="143"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridLineAnnotationStyle/stroke</TokenIdentifier>
+			<Abstract type="html">The horizontal line stroke.</Abstract>
+			<DeclaredIn>TKChartGridLineAnnotationStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *stroke</Declaration>
+			
+			
+			<Anchor>//api/name/stroke</Anchor>
+            <NodeRef refid="143"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartGridLineAnnotationStyle/stroke</TokenIdentifier>
+			<Abstract type="html">The horizontal line stroke.</Abstract>
+			<DeclaredIn>TKChartGridLineAnnotationStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *stroke</Declaration>
+			
+			
+			<Anchor>//api/name/stroke</Anchor>
+            <NodeRef refid="143"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

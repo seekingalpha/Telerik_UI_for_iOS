@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TKChartDataSource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TKChartDataSource</TokenIdentifier>
+			<Abstract type="html">The TKChartDataSource protocol is adopted by an object that mediates the application&apos;s data model for a TKChart object.
+The data source provides the chart-view object with the information it needs to construct and modify a chart view.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+            
+			
+			<NodeRef refid="276"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDataSource/numberOfSeriesForChart:</TokenIdentifier>
+			<Abstract type="html">Asks the data-source to return the number of series in the chart.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)numberOfSeriesForChart:(TKChart *)chart</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">An object representing the chart requesting this information.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/numberOfSeriesForChart:</Anchor>
+            <NodeRef refid="276"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDataSource/seriesForChart:atIndex:</TokenIdentifier>
+			<Abstract type="html">Asks the data-source to return a series for the chart at a particular index.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (TKChartSeries *)seriesForChart:(TKChart *)chart atIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart instance requesting this information.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index of the series.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/seriesForChart:atIndex:</Anchor>
+            <NodeRef refid="276"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDataSource/chart:numberOfDataPointsForSeriesAtIndex:</TokenIdentifier>
+			<Abstract type="html">Asks the data-source to return the number of data point in series for the chart.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)chart:(TKChart *)chart numberOfDataPointsForSeriesAtIndex:(NSUInteger)seriesIndex</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The object representing the chart requesting this information.</Abstract>
+				</Parameter><Parameter>
+					<Name>seriesIndex</Name>
+					<Abstract type="html">The index of series.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chart:numberOfDataPointsForSeriesAtIndex:</Anchor>
+            <NodeRef refid="276"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDataSource/chart:dataPointAtIndex:forSeriesAtIndex:</TokenIdentifier>
+			<Abstract type="html">Asks the data-source to return a data point from a specified series.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (id&lt;TKChartData&gt;)chart:(TKChart *)chart dataPointAtIndex:(NSUInteger)dataIndex forSeriesAtIndex:(NSUInteger)seriesIndex</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart instance requesting this information.</Abstract>
+				</Parameter><Parameter>
+					<Name>dataIndex</Name>
+					<Abstract type="html">The index of data point.</Abstract>
+				</Parameter><Parameter>
+					<Name>seriesIndex</Name>
+					<Abstract type="html">The index of the series.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chart:dataPointAtIndex:forSeriesAtIndex:</Anchor>
+            <NodeRef refid="276"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKChartDataSource/chart:dataPointsForSeriesAtIndex:</TokenIdentifier>
+			<Abstract type="html">Asks the data-source to return an array of data points from a specified series.</Abstract>
+			<DeclaredIn>TKChart.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)chart:(TKChart *)chart dataPointsForSeriesAtIndex:(NSUInteger)seriesIndex</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The TKChart instance requesting this information.</Abstract>
+				</Parameter><Parameter>
+					<Name>seriesIndex</Name>
+					<Abstract type="html">The series index.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/chart:dataPointsForSeriesAtIndex:</Anchor>
+            <NodeRef refid="276"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

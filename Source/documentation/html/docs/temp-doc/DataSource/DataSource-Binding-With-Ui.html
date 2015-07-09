@@ -1,0 +1,388 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>DataSource-Binding-With-Ui Document</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../../../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../../../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../../../index.html">TelerikUI </a></h1>
+				<a id="developerHome" href="../../../index.html">Telerik</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode" id="pageTitleHeader">DataSource-Binding-With-Ui Document</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<a title="DataSource-Binding-With-Ui Document" name="top"></a>
+			<div id="overview_contents" role="main">
+				<div id="container">	
+					<h1>DataSource: Binding with UI Controls</h1>
+
+<p><a href="../../../Classes/TKDataSource.html">TKDataSource</a> works well with data enabled controls and provides an easy way to shape and present your data. The currently supported UI controls are:</p>
+
+<ul>
+<li>UITableView</li>
+<li>UICollectionView</li>
+<li><a href="../../../Classes/TKListView.html">TKListView</a></li>
+<li><a href="../../../Classes/TKChart.html">TKChart</a></li>
+<li><a href="../../../Classes/TKCalendar.html">TKCalendar</a></li>
+</ul>
+
+
+<p>This article describes how to bind <a href="../../../Classes/TKDataSource.html">TKDataSource</a> and customize those controls.</p>
+
+<h2>UITableView</h2>
+
+<p><img width="300" src="../images/datasource-binding-with-ui001.png"/></p>
+
+<p>Setting the dataSource property is enough in order to present data in UITableView. <a href="../../../Classes/TKDataSource.html">TKDataSource</a> will take care of the implementation of all methods in UITableViewDataSource protocol:</p>
+
+<p>Objective-C</p>
+
+<pre><code>self.dataSource = [[TKDataSource alloc] initWithArray:@[ @10, @5, @12, @13, @7, @44 ]];
+
+UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectInset(self.view.bounds, 0, 30)];
+tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+tableView.dataSource = self.dataSource;
+[self.view addSubview:tableView];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>self.dataSource = TKDataSource(array: [ 10, 5, 12, 13, 7, 44 ])
+
+let tableView = UITableView(frame: CGRectInset(self.view.bounds, 0, 30))
+tableView.autoresizingMask = UIViewAutoresizing.FlexibleWidth | UIViewAutoresizing.FlexibleHeight
+tableView.dataSource = self.dataSource
+self.view.addSubview(tableView)
+</code></pre>
+
+<p>You can specify displayKey and valueKey properties to specify what to display in table view cells:</p>
+
+<p>Objective-C</p>
+
+<pre><code>NSMutableArray *items = [NSMutableArray new];
+[items addObject:[[DataSourceItem alloc] initWithName:@"John" value:50 group:@"A"]];
+[items addObject:[[DataSourceItem alloc] initWithName:@"Abby" value:33 group:@"A"]];
+[items addObject:[[DataSourceItem alloc] initWithName:@"Smith" value:42 group:@"B"]];
+[items addObject:[[DataSourceItem alloc] initWithName:@"Peter" value:28 group:@"B"]];
+[items addObject:[[DataSourceItem alloc] initWithName:@"Paula" value:25 group:@"B"]];
+
+self.dataSource.displayKey = @"name";
+self.dataSource.valueKey = @"value";
+self.dataSource.itemSource = items;
+
+NSLog(@"%@", [self.dataSource textFromItem:self.dataSource.items[0] inGroup:nil]);
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>var items = [DataSourceItem]()
+items.append(DataSourceItem(name: "John", value: 50, group:"A"))
+items.append(DataSourceItem(name: "Abby", value: 33, group:"A"))
+items.append(DataSourceItem(name: "Smith", value: 42, group:"B"))
+items.append(DataSourceItem(name: "Peter", value: 28, group:"B"))
+items.append(DataSourceItem(name: "Paula", value: 25, group:"B"))
+
+if let dataSource = self.dataSource {
+    dataSource.displayKey = "name"
+    dataSource.valueKey = "value"
+    dataSource.itemSource = items
+}
+
+println(self.dataSource?.textFromItem(self.dataSource?.items[0], inGroup: nil))
+</code></pre>
+
+<p>In the majority of the scenarios you will also need to customize the cells. In this case you can implement the initCell block from <a href="../../../Classes/TKDataSourceTableViewSettings.html">TKDataSourceTableViewSettings</a> class:</p>
+
+<p>Objective-C</p>
+
+<pre><code>[self.dataSource.settings.tableView initCell:^(UITableView *tableView, NSIndexPath *indexPath, UITableViewCell *cell, id item) {
+    cell.textLabel.text = @"Item:";
+    cell.detailTextLabel.text = [self.dataSource textFromItem:item inGroup:nil];
+}];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>self.dataSource?.settings.tableView .initCell({ (UITableView tableView, NSIndexPath indexPath, UITableViewCell cell, id item) -&gt; Void in
+    cell.textLabel?.text = "Item:"
+    cell.detailTextLabel?.text = self.dataSource?.textFromItem(item, inGroup: nil)
+});
+</code></pre>
+
+<p>If this is not enough to achieve to look you want, you can create your custom cells by using the createCell block function:</p>
+
+<p>Objective-C</p>
+
+<pre><code>[self.dataSource.settings.tableView createCell:^UITableViewCell *(UITableView *tableView, NSIndexPath *indexPath, id item) {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"cell"];
+    }
+    return cell;
+}];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>self.dataSource?.settings.tableView.createCell { (UITableView tableView, NSIndexPath indexPath, AnyObject item) -&gt; UITableViewCell in
+    var cell = tableView.dequeueReusableCellWithIdentifier("cell") as! UITableViewCell?
+    if cell == nil {
+        cell = UITableViewCell(style:UITableViewCellStyle.Value1, reuseIdentifier:"cell")
+    }
+    return cell!
+}
+</code></pre>
+
+<p>TKDataSource will take care of everything and no code is necessary even when your data is grouped:</p>
+
+<p><img></p>
+
+<p>Objective-C</p>
+
+<pre><code>[self.dataSource group:^id(id item) {
+    return @([item intValue] % 2 == 0);
+}];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>self.dataSource?.group({ (NSNumber item) -&gt; AnyObject! in
+    return item.intValue % 2 == 0;
+})
+</code></pre>
+
+<h2>UICollectionView</h2>
+
+<p><img width="300" src="../images/datasource-binding-with-ui002.png"/></p>
+
+<p><a href="../../../Classes/TKDataSource.html">TKDataSource</a> integrates well with UICollectionView. Just set the dataSource property and prepare the collection view:</p>
+
+<p>Objective-C</p>
+
+<pre><code>UICollectionViewFlowLayout *layout = [UICollectionViewFlowLayout new];
+layout.itemSize = CGSizeMake(140, 140);
+
+UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectInset(self.view.bounds, 0, 30) collectionViewLayout:layout];
+collectionView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+collectionView.dataSource = self.dataSource;
+collectionView.backgroundColor = [UIColor whiteColor];
+[self.view addSubview:collectionView];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let layout = UICollectionViewFlowLayout()
+layout.itemSize = CGSizeMake(140, 140)
+
+let collectionView = UICollectionView(frame:CGRectInset(self.view.bounds, 0, 30), collectionViewLayout:layout)
+collectionView.autoresizingMask = UIViewAutoresizing.FlexibleWidth | UIViewAutoresizing.FlexibleHeight
+collectionView.dataSource = self.dataSource
+collectionView.backgroundColor = UIColor.whiteColor()
+self.view.addSubview(collectionView)
+</code></pre>
+
+<p>Use the collection view settings class and its initCell in case you want to customize the cell appearance:</p>
+
+<p>Objective-C</p>
+
+<pre><code>[self.dataSource.settings.collectionView initCell:^(UICollectionView *collectionView, NSIndexPath *indexPath, UICollectionViewCell *cell, id item) {
+    TKCollectionViewCell *tkcell = (TKCollectionViewCell*)cell;
+    tkcell.label.text = [self.dataSource textFromItem:item inGroup:nil];
+    tkcell.backgroundColor = [UIColor yellowColor];
+}];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>self.dataSource?.settings.collectionView.initCell({ (UICollectionView collectionView, NSIndexPath indexPath,
+    UICollectionViewCell cell, AnyObject item) -&gt; Void in
+    let tkCell = cell as! TKCollectionViewCell
+    tkCell.label.text = self.dataSource?.textFromItem(item, inGroup: nil)
+    tkCell.backgroundColor = UIColor.yellowColor()
+})
+</code></pre>
+
+<h2><a href="../../../Classes/TKListView.html">TKListView</a></h2>
+
+<p><img width="300" src="../images/datasource-binding-with-ui003.png"/></p>
+
+<p>You can also easily use <a href="../../../Classes/TKListView.html">TKListView</a> with <a href="../../../Classes/TKDataSource.html">TKDataSource</a>:</p>
+
+<p>Objective-C</p>
+
+<pre><code>TKListView *listView = [[TKListView alloc] initWithFrame:CGRectInset(self.view.bounds, 0, 30)];
+listView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+listView.dataSource = self.dataSource;
+[self.view addSubview:listView];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let listView = TKListView(frame:CGRectInset(self.view.bounds, 0, 30))
+listView.autoresizingMask = UIViewAutoresizing.FlexibleWidth | UIViewAutoresizing.FlexibleHeight
+listView.dataSource = self.dataSource
+self.view.addSubview(listView)
+</code></pre>
+
+<p>The initCell and createCell methods can be used to customize the cell appearance:</p>
+
+<p>Objective-C</p>
+
+<pre><code>[self.dataSource.settings.listView createCell:^TKListViewCell *(TKListView *listView, NSIndexPath *indexPath, id item) {
+    return [listView dequeueReusableCellWithReuseIdentifier:@"myCustomCell" forIndexPath:indexPath];
+}];
+
+[self.dataSource.settings.listView initCell:^(TKListView *listView, NSIndexPath *indexPath, TKListViewCell *cell, id item) {
+    cell.textLabel.text = [self.dataSource textFromItem:item inGroup:nil];
+    ((TKView*)cell.backgroundView).fill = [TKSolidFill solidFillWithColor:[UIColor colorWithWhite:0.1 alpha:0.1]];
+}];
+
+//...
+
+[listView registerClass:[CustomListViewCell class] forCellWithReuseIdentifier:@"myCustomCell"];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>self.dataSource?.settings.listView.createCell({ (TKListView listView, NSIndexPath indexPath, AnyObject item) -&gt; TKListViewCell! in
+    return listView.dequeueReusableCellWithReuseIdentifier("myCustomCell", forIndexPath:indexPath) as! TKListViewCell
+})
+
+self.dataSource?.settings.listView.initCell({ (TKListView listView, NSIndexPath indexPath, TKListViewCell cell, AnyObject item) -&gt; Void in
+    cell.textLabel.text = self.dataSource?.textFromItem(item, inGroup:nil)
+    (cell.backgroundView as! TKView).fill = TKSolidFill(color: UIColor(white: 0.1, alpha: 0.1))
+})
+
+//...
+
+listView.registerClass(CustomListViewCell.self, forCellWithReuseIdentifier: "myCustomCell")
+</code></pre>
+
+<h2><a href="../../../Classes/TKChart.html">TKChart</a></h2>
+
+<p><img width="300" src="../images/datasource-binding-with-ui004.png"/></p>
+
+<p>In order to present data in <a href="../../../Classes/TKChart.html">TKChart</a>, you need to set the displayKey and valueKey properties. The displayKey defines the x-axis values, and the valueKey defines the y-axis values:</p>
+
+<p>Objective-C</p>
+
+<pre><code>NSMutableArray *items = [NSMutableArray new];
+
+[items addObject:[[DataSourceItem alloc] initWithName:@"John" value:50 group:@"A"]];
+[items addObject:[[DataSourceItem alloc] initWithName:@"Abby" value:33 group:@"A"]];
+[items addObject:[[DataSourceItem alloc] initWithName:@"Paula" value:33 group:@"A"]];
+
+[items addObject:[[DataSourceItem alloc] initWithName:@"John" value:42 group:@"B"]];
+[items addObject:[[DataSourceItem alloc] initWithName:@"Abby" value:28 group:@"B"]];
+[items addObject:[[DataSourceItem alloc] initWithName:@"Paula" value:25 group:@"B"]];
+
+self.dataSource.displayKey = @"name";
+self.dataSource.valueKey = @"value";
+self.dataSource.itemSource = items;
+
+TKChart *chart = [[TKChart alloc] initWithFrame:self.view.bounds];
+chart.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+chart.dataSource = self.dataSource;
+[self.view addSubview:chart];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>items.append(DataSourceItem(name: "John", value: 50, group:"A"))
+items.append(DataSourceItem(name: "Abby", value: 33, group:"A"))
+items.append(DataSourceItem(name: "Paula", value: 33, group:"A"))
+
+items.append(DataSourceItem(name: "John", value: 42, group:"B"))
+items.append(DataSourceItem(name: "Abby", value: 28, group:"B"))
+items.append(DataSourceItem(name: "Paula", value: 25, group:"B"))
+
+self.dataSource?.displayKey = "name"
+self.dataSource?.valueKey = "value"
+self.dataSource?.itemSource = items
+
+let chart = TKChart(frame:self.view.bounds)
+chart.autoresizingMask = UIViewAutoresizing.FlexibleWidth | UIViewAutoresizing.FlexibleHeight
+chart.dataSource = self.dataSource
+self.view.addSubview(chart)
+</code></pre>
+
+<p>In order to present different series the data should be grouped. When this is done the createSeries method can be used to customize the series that should be created:</p>
+
+<p>Objective-C</p>
+
+<pre><code>[self.dataSource groupWithKey:@"group"];
+
+[self.dataSource.settings.chart createSeries:^TKChartSeries *(TKDataSourceGroup *group) {
+    TKChartColumnSeries *series = [TKChartColumnSeries new];
+    return series;
+}];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>self.dataSource?.groupWithKey("group")
+
+self.dataSource?.settings.chart.createSeries({ (TKDataSourceGroup group) -&gt; TKChartSeries! in
+    let series = TKChartColumnSeries()
+    return series
+})
+</code></pre>
+
+<h2>TKCalendar</h2>
+
+<p><img width="300" src="../images/datasource-binding-with-ui005.png"/></p>
+
+<p>TKDataSource is able to represent your data as calendar events. In this scenario you should set the startDateKey and endDateKey properties:</p>
+
+<p>Objective-C</p>
+
+<pre><code>self.dataSource.displayKey = @"name";
+self.dataSource.settings.calendar.startDateKey = @"startDate";
+self.dataSource.settings.calendar.endDateKey = @"endDate";
+self.dataSource.settings.calendar.defaultEventColor = [UIColor redColor];
+self.dataSource.itemSource = items;
+
+TKCalendar *calendar = [[TKCalendar alloc] initWithFrame:CGRectInset(self.view.bounds, 0, 30)];
+calendar.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+calendar.dataSource = self.dataSource;
+[self.view addSubview:calendar];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>self.dataSource?.displayKey = "name"
+self.dataSource?.settings.calendar.startDateKey = "startDate"
+self.dataSource?.settings.calendar.endDateKey = "endDate"
+self.dataSource?.settings.calendar.defaultEventColor = UIColor.redColor()
+self.dataSource?.itemSource = items
+
+let calendar = TKCalendar(frame:CGRectInset(self.view.bounds, 0, 30))
+calendar.autoresizingMask = UIViewAutoresizing.FlexibleWidth | UIViewAutoresizing.FlexibleHeight
+calendar.dataSource = self.dataSource
+self.view.addSubview(calendar)
+</code></pre>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Telerik. All rights reserved. (Last updated: 2015-06-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					
+					</div>
+				</div>
+			</div>
+		</article>
+	</body>
+</html>

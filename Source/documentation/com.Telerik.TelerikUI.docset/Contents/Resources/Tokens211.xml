@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKCollectionViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKCollectionViewCell</TokenIdentifier>
+			<Abstract type="html">Represents the collection view cell used by default when binding a TKDataSource with UICollectionView.</Abstract>
+			<DeclaredIn>TKCollectionViewCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="211"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCollectionViewCell/setLabel:</TokenIdentifier>
+			<Abstract type="html">A text label.</Abstract>
+			<DeclaredIn>TKCollectionViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UILabel *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCollectionViewCell/label</TokenIdentifier>
+			<Abstract type="html">A text label.</Abstract>
+			<DeclaredIn>TKCollectionViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UILabel *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCollectionViewCell/label</TokenIdentifier>
+			<Abstract type="html">A text label.</Abstract>
+			<DeclaredIn>TKCollectionViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UILabel *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

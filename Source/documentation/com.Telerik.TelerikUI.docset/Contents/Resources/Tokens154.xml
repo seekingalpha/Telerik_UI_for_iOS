@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartMarketFacilitationIndex.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartMarketFacilitationIndex</TokenIdentifier>
+			<Abstract type="html">Represnts Market Facilitation Index indicator.</Abstract>
+			<DeclaredIn>TKChartMarketFacilitationIndex.h</DeclaredIn>
+            
+			
+			<NodeRef refid="154"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartMarketFacilitationIndex/setRange:</TokenIdentifier>
+			<Abstract type="html">The range multiplier that is used to calculate the indicator&apos;s value. Default value is 1000000.</Abstract>
+			<DeclaredIn>TKChartMarketFacilitationIndex.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger range</Declaration>
+			
+			
+			<Anchor>//api/name/range</Anchor>
+            <NodeRef refid="154"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartMarketFacilitationIndex/range</TokenIdentifier>
+			<Abstract type="html">The range multiplier that is used to calculate the indicator&apos;s value. Default value is 1000000.</Abstract>
+			<DeclaredIn>TKChartMarketFacilitationIndex.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger range</Declaration>
+			
+			
+			<Anchor>//api/name/range</Anchor>
+            <NodeRef refid="154"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartMarketFacilitationIndex/range</TokenIdentifier>
+			<Abstract type="html">The range multiplier that is used to calculate the indicator&apos;s value. Default value is 1000000.</Abstract>
+			<DeclaredIn>TKChartMarketFacilitationIndex.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger range</Declaration>
+			
+			
+			<Anchor>//api/name/range</Anchor>
+            <NodeRef refid="154"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartMarketFacilitationIndex/setGapLength:</TokenIdentifier>
+			<Abstract type="html">The value which controls the distance between bar groups as percent. Note that the value should be between 0 and 1,
+where a value of 0 means that a bar would take the entire space between two ticks, while a value of 1 means the bar will have
+* zero width as all the space should appear as gap.</Abstract>
+			<DeclaredIn>TKChartMarketFacilitationIndex.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat gapLength</Declaration>
+			
+			
+			<Anchor>//api/name/gapLength</Anchor>
+            <NodeRef refid="154"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartMarketFacilitationIndex/gapLength</TokenIdentifier>
+			<Abstract type="html">The value which controls the distance between bar groups as percent. Note that the value should be between 0 and 1,
+where a value of 0 means that a bar would take the entire space between two ticks, while a value of 1 means the bar will have
+* zero width as all the space should appear as gap.</Abstract>
+			<DeclaredIn>TKChartMarketFacilitationIndex.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat gapLength</Declaration>
+			
+			
+			<Anchor>//api/name/gapLength</Anchor>
+            <NodeRef refid="154"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartMarketFacilitationIndex/gapLength</TokenIdentifier>
+			<Abstract type="html">The value which controls the distance between bar groups as percent. Note that the value should be between 0 and 1,
+where a value of 0 means that a bar would take the entire space between two ticks, while a value of 1 means the bar will have
+* zero width as all the space should appear as gap.</Abstract>
+			<DeclaredIn>TKChartMarketFacilitationIndex.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat gapLength</Declaration>
+			
+			
+			<Anchor>//api/name/gapLength</Anchor>
+            <NodeRef refid="154"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartMarketFacilitationIndex/setMaxColumnWidth:</TokenIdentifier>
+			<Abstract type="html">Value for maximum possible column width.</Abstract>
+			<DeclaredIn>TKChartMarketFacilitationIndex.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxColumnWidth</Declaration>
+			
+			
+			<Anchor>//api/name/maxColumnWidth</Anchor>
+            <NodeRef refid="154"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartMarketFacilitationIndex/maxColumnWidth</TokenIdentifier>
+			<Abstract type="html">Value for maximum possible column width.</Abstract>
+			<DeclaredIn>TKChartMarketFacilitationIndex.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxColumnWidth</Declaration>
+			
+			
+			<Anchor>//api/name/maxColumnWidth</Anchor>
+            <NodeRef refid="154"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartMarketFacilitationIndex/maxColumnWidth</TokenIdentifier>
+			<Abstract type="html">Value for maximum possible column width.</Abstract>
+			<DeclaredIn>TKChartMarketFacilitationIndex.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxColumnWidth</Declaration>
+			
+			
+			<Anchor>//api/name/maxColumnWidth</Anchor>
+            <NodeRef refid="154"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartMarketFacilitationIndex/setMinColumnWidth:</TokenIdentifier>
+			<Abstract type="html">Value for minimum column width.</Abstract>
+			<DeclaredIn>TKChartMarketFacilitationIndex.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minColumnWidth</Declaration>
+			
+			
+			<Anchor>//api/name/minColumnWidth</Anchor>
+            <NodeRef refid="154"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartMarketFacilitationIndex/minColumnWidth</TokenIdentifier>
+			<Abstract type="html">Value for minimum column width.</Abstract>
+			<DeclaredIn>TKChartMarketFacilitationIndex.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minColumnWidth</Declaration>
+			
+			
+			<Anchor>//api/name/minColumnWidth</Anchor>
+            <NodeRef refid="154"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartMarketFacilitationIndex/minColumnWidth</TokenIdentifier>
+			<Abstract type="html">Value for minimum column width.</Abstract>
+			<DeclaredIn>TKChartMarketFacilitationIndex.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minColumnWidth</Declaration>
+			
+			
+			<Anchor>//api/name/minColumnWidth</Anchor>
+            <NodeRef refid="154"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

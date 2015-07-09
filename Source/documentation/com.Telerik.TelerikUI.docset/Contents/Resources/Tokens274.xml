@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TKCalendarPresenterDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TKCalendarPresenterDelegate</TokenIdentifier>
+			<Abstract type="html">The methods declared by the TKCalendarPresenterDelegate protocol allow the adopting delegate to handle notifications from the calendar presenter.</Abstract>
+			<DeclaredIn>TKCalendarPresenterBase.h</DeclaredIn>
+            
+			
+			<NodeRef refid="274"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKCalendarPresenterDelegate/presenter:beginTransition:</TokenIdentifier>
+			<Abstract type="html">Called when the presenter is about to start a transition.
+*</Abstract>
+			<DeclaredIn>TKCalendarPresenterBase.h</DeclaredIn>
+			
+			<Declaration>- (void)presenter:(id&lt;TKCalendarPresenter&gt;)presenter beginTransition:(TKViewTransition *)transition</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>presenter</Name>
+					<Abstract type="html">The presenter in which this event occurred.</Abstract>
+				</Parameter><Parameter>
+					<Name>transition</Name>
+					<Abstract type="html">The transition that is about to start.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/presenter:beginTransition:</Anchor>
+            <NodeRef refid="274"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKCalendarPresenterDelegate/presenter:finishTransition:</TokenIdentifier>
+			<Abstract type="html">Called when the presenter finished a transition.</Abstract>
+			<DeclaredIn>TKCalendarPresenterBase.h</DeclaredIn>
+			
+			<Declaration>- (void)presenter:(id&lt;TKCalendarPresenter&gt;)presenter finishTransition:(BOOL)canceled</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>presenter</Name>
+					<Abstract type="html">The presenter in which this event occurred.</Abstract>
+				</Parameter><Parameter>
+					<Name>canceled</Name>
+					<Abstract type="html">A value indicating whether the transition was canceled.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/presenter:finishTransition:</Anchor>
+            <NodeRef refid="274"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

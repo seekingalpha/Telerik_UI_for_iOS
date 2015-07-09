@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartForceIndexIndicator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartForceIndexIndicator</TokenIdentifier>
+			<Abstract type="html">Represents Force Index indicator.</Abstract>
+			<DeclaredIn>TKChartForceIndexIndicator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="140"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartForceIndexIndicator/setPeriod:</TokenIdentifier>
+			<Abstract type="html">The period for which the indicator will be calculated. Default value is 13.</Abstract>
+			<DeclaredIn>TKChartForceIndexIndicator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+            <NodeRef refid="140"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartForceIndexIndicator/period</TokenIdentifier>
+			<Abstract type="html">The period for which the indicator will be calculated. Default value is 13.</Abstract>
+			<DeclaredIn>TKChartForceIndexIndicator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+            <NodeRef refid="140"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartForceIndexIndicator/period</TokenIdentifier>
+			<Abstract type="html">The period for which the indicator will be calculated. Default value is 13.</Abstract>
+			<DeclaredIn>TKChartForceIndexIndicator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+            <NodeRef refid="140"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

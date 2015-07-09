@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartAreaSeries.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartAreaSeries</TokenIdentifier>
+			<Abstract type="html">Represents a TKChart area series. It doesn&apos;t have any specific properties. See TKChartLineSeries for more information. Also check this Guide.</Abstract>
+			<DeclaredIn>TKChartAreaSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="107"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

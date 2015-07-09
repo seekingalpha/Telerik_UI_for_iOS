@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="docs/temp-doc/Chart/Chart-Series-Bar.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/doc/Chart-Series-Bar</TokenIdentifier>
+			<Abstract type="html"># Chart Series: Bar</Abstract>
+			<DeclaredIn>Chart-Series-Bar-template.html</DeclaredIn>
+            
+			
+			<NodeRef refid="29"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

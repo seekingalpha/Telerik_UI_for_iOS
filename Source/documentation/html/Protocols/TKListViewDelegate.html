@@ -1,0 +1,1227 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>TKListViewDelegate Protocol Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">TelerikUI </a></h1>
+				<a id="developerHome" href="../index.html">Telerik</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">TKListViewDelegate Protocol Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/listView:didDeselectItemAtIndexPath:">&nbsp;&nbsp;&nbsp;&nbsp;- listView:didDeselectItemAtIndexPath:</option>
+	
+	<option value="//api/name/listView:didFinishSwipeCell:atIndexPath:withOffset:">&nbsp;&nbsp;&nbsp;&nbsp;- listView:didFinishSwipeCell:atIndexPath:withOffset:</option>
+	
+	<option value="//api/name/listView:didHighlightItemAtIndexPath:">&nbsp;&nbsp;&nbsp;&nbsp;- listView:didHighlightItemAtIndexPath:</option>
+	
+	<option value="//api/name/listView:didLongPressCell:atIndexPath:">&nbsp;&nbsp;&nbsp;&nbsp;- listView:didLongPressCell:atIndexPath:</option>
+	
+	<option value="//api/name/listView:didPullWithOffset:">&nbsp;&nbsp;&nbsp;&nbsp;- listView:didPullWithOffset:</option>
+	
+	<option value="//api/name/listView:didReorderItemFromIndexPath:toIndexPath:">&nbsp;&nbsp;&nbsp;&nbsp;- listView:didReorderItemFromIndexPath:toIndexPath:</option>
+	
+	<option value="//api/name/listView:didSelectItemAtIndexPath:">&nbsp;&nbsp;&nbsp;&nbsp;- listView:didSelectItemAtIndexPath:</option>
+	
+	<option value="//api/name/listView:didSwipeCell:atIndexPath:withOffset:">&nbsp;&nbsp;&nbsp;&nbsp;- listView:didSwipeCell:atIndexPath:withOffset:</option>
+	
+	<option value="//api/name/listView:didUnhighlightItemAtIndexPath:">&nbsp;&nbsp;&nbsp;&nbsp;- listView:didUnhighlightItemAtIndexPath:</option>
+	
+	<option value="//api/name/listView:shouldDeselectItemAtIndexPath:">&nbsp;&nbsp;&nbsp;&nbsp;- listView:shouldDeselectItemAtIndexPath:</option>
+	
+	<option value="//api/name/listView:shouldHighlightItemAtIndexPath:">&nbsp;&nbsp;&nbsp;&nbsp;- listView:shouldHighlightItemAtIndexPath:</option>
+	
+	<option value="//api/name/listView:shouldLoadMoreDataAtIndexPath:">&nbsp;&nbsp;&nbsp;&nbsp;- listView:shouldLoadMoreDataAtIndexPath:</option>
+	
+	<option value="//api/name/listView:shouldSelectItemAtIndexPath:">&nbsp;&nbsp;&nbsp;&nbsp;- listView:shouldSelectItemAtIndexPath:</option>
+	
+	<option value="//api/name/listView:shouldSwipeCell:atIndexPath:">&nbsp;&nbsp;&nbsp;&nbsp;- listView:shouldSwipeCell:atIndexPath:</option>
+	
+	<option value="//api/name/listViewShouldRefreshOnPull:">&nbsp;&nbsp;&nbsp;&nbsp;- listViewShouldRefreshOnPull:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listView:didDeselectItemAtIndexPath:">listView:didDeselectItemAtIndexPath:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listView:didFinishSwipeCell:atIndexPath:withOffset:">listView:didFinishSwipeCell:atIndexPath:withOffset:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listView:didHighlightItemAtIndexPath:">listView:didHighlightItemAtIndexPath:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listView:didLongPressCell:atIndexPath:">listView:didLongPressCell:atIndexPath:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listView:didPullWithOffset:">listView:didPullWithOffset:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listView:didReorderItemFromIndexPath:toIndexPath:">listView:didReorderItemFromIndexPath:toIndexPath:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listView:didSelectItemAtIndexPath:">listView:didSelectItemAtIndexPath:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listView:didSwipeCell:atIndexPath:withOffset:">listView:didSwipeCell:atIndexPath:withOffset:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listView:didUnhighlightItemAtIndexPath:">listView:didUnhighlightItemAtIndexPath:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listView:shouldDeselectItemAtIndexPath:">listView:shouldDeselectItemAtIndexPath:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listView:shouldHighlightItemAtIndexPath:">listView:shouldHighlightItemAtIndexPath:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listView:shouldLoadMoreDataAtIndexPath:">listView:shouldLoadMoreDataAtIndexPath:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listView:shouldSelectItemAtIndexPath:">listView:shouldSelectItemAtIndexPath:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listView:shouldSwipeCell:atIndexPath:">listView:shouldSwipeCell:atIndexPath:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listViewShouldRefreshOnPull:">listViewShouldRefreshOnPull:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="TKListViewDelegate Protocol Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">TKListViewDelegate Protocol Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">UIScrollViewDelegate</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">TKListView.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>The TKListViewDelegate protocol defines methods that allow you to manage the selection of items in <a href="../Classes/TKListView.html">TKListView</a>, to perform actions on those items, and respond to interaction with those items.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listView:shouldHighlightItemAtIndexPath:">&ndash;&nbsp;listView:shouldHighlightItemAtIndexPath:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listView:didHighlightItemAtIndexPath:">&ndash;&nbsp;listView:didHighlightItemAtIndexPath:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listView:didUnhighlightItemAtIndexPath:">&ndash;&nbsp;listView:didUnhighlightItemAtIndexPath:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listView:shouldSelectItemAtIndexPath:">&ndash;&nbsp;listView:shouldSelectItemAtIndexPath:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listView:shouldDeselectItemAtIndexPath:">&ndash;&nbsp;listView:shouldDeselectItemAtIndexPath:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listView:didSelectItemAtIndexPath:">&ndash;&nbsp;listView:didSelectItemAtIndexPath:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listView:didDeselectItemAtIndexPath:">&ndash;&nbsp;listView:didDeselectItemAtIndexPath:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listView:didReorderItemFromIndexPath:toIndexPath:">&ndash;&nbsp;listView:didReorderItemFromIndexPath:toIndexPath:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listView:shouldSwipeCell:atIndexPath:">&ndash;&nbsp;listView:shouldSwipeCell:atIndexPath:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listView:didSwipeCell:atIndexPath:withOffset:">&ndash;&nbsp;listView:didSwipeCell:atIndexPath:withOffset:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listView:didFinishSwipeCell:atIndexPath:withOffset:">&ndash;&nbsp;listView:didFinishSwipeCell:atIndexPath:withOffset:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listView:didPullWithOffset:">&ndash;&nbsp;listView:didPullWithOffset:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listView:didLongPressCell:atIndexPath:">&ndash;&nbsp;listView:didLongPressCell:atIndexPath:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listView:shouldLoadMoreDataAtIndexPath:">&ndash;&nbsp;listView:shouldLoadMoreDataAtIndexPath:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/listViewShouldRefreshOnPull:">&ndash;&nbsp;listViewShouldRefreshOnPull:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/listView:didDeselectItemAtIndexPath:" title="listView:didDeselectItemAtIndexPath:"></a>
+	<h3 class="subsubtitle method-title">listView:didDeselectItemAtIndexPath:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This method is called after deselecting an item.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)listView:(TKListView *)<em>listView</em> didDeselectItemAtIndexPath:(NSIndexPath *)<em>indexPath</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listView</em></dt>
+			<dd><p>The <a href="../Classes/TKListView.html">TKListView</a> instance.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>The index path of the deselected item.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listView:didFinishSwipeCell:atIndexPath:withOffset:" title="listView:didFinishSwipeCell:atIndexPath:withOffset:"></a>
+	<h3 class="subsubtitle method-title">listView:didFinishSwipeCell:atIndexPath:withOffset:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This method is called after the user has finished swiping a cell.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)listView:(TKListView *)<em>listView</em> didFinishSwipeCell:(TKListViewCell *)<em>cell</em> atIndexPath:(NSIndexPath *)<em>indexPath</em> withOffset:(CGPoint)<em>offset</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listView</em></dt>
+			<dd><p>The <a href="../Classes/TKListView.html">TKListView</a> instance.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>cell</em></dt>
+			<dd><p>The <a href="../Classes/TKListViewCell.html">TKListViewCell</a> instance being swiped.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>The index path of the cell being swiped.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>offset</em></dt>
+			<dd><p>The swipe offset.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listView:didHighlightItemAtIndexPath:" title="listView:didHighlightItemAtIndexPath:"></a>
+	<h3 class="subsubtitle method-title">listView:didHighlightItemAtIndexPath:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This method is called after highliting an item.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)listView:(TKListView *)<em>listView</em> didHighlightItemAtIndexPath:(NSIndexPath *)<em>indexPath</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listView</em></dt>
+			<dd><p>The <a href="../Classes/TKListView.html">TKListView</a> instance.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>The index path of the highlighted item.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listView:didLongPressCell:atIndexPath:" title="listView:didLongPressCell:atIndexPath:"></a>
+	<h3 class="subsubtitle method-title">listView:didLongPressCell:atIndexPath:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This method is called after the user long pressed a cell.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)listView:(TKListView *)<em>listView</em> didLongPressCell:(TKListViewCell *)<em>cell</em> atIndexPath:(NSIndexPath *)<em>indexPath</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listView</em></dt>
+			<dd><p>The <a href="../Classes/TKListView.html">TKListView</a> instance.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>cell</em></dt>
+			<dd><p>The <a href="../Classes/TKListViewCell.html">TKListViewCell</a> instance being long pressed.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>The index path of the cell being long pressed.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listView:didPullWithOffset:" title="listView:didPullWithOffset:"></a>
+	<h3 class="subsubtitle method-title">listView:didPullWithOffset:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This method is called when the user pulls the list view to refresh its data.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)listView:(TKListView *)<em>listView</em> didPullWithOffset:(CGFloat)<em>offset</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listView</em></dt>
+			<dd><p>The <a href="../Classes/TKListView.html">TKListView</a> instance.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>offset</em></dt>
+			<dd><p>The pull offset.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listView:didReorderItemFromIndexPath:toIndexPath:" title="listView:didReorderItemFromIndexPath:toIndexPath:"></a>
+	<h3 class="subsubtitle method-title">listView:didReorderItemFromIndexPath:toIndexPath:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This method is called after reordering an item an item.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)listView:(TKListView *)<em>listView</em> didReorderItemFromIndexPath:(NSIndexPath *)<em>originalIndexPath</em> toIndexPath:(NSIndexPath *)<em>targetIndexPath</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listView</em></dt>
+			<dd><p>The <a href="../Classes/TKListView.html">TKListView</a> instance.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>originalIndexPath</em></dt>
+			<dd><p>The index path we move the item from.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>targetIndexPath</em></dt>
+			<dd><p>The index path we move the item to.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listView:didSelectItemAtIndexPath:" title="listView:didSelectItemAtIndexPath:"></a>
+	<h3 class="subsubtitle method-title">listView:didSelectItemAtIndexPath:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This method is called after selecting an item.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)listView:(TKListView *)<em>listView</em> didSelectItemAtIndexPath:(NSIndexPath *)<em>indexPath</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listView</em></dt>
+			<dd><p>The <a href="../Classes/TKListView.html">TKListView</a> instance.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>The index path of the selected item.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listView:didSwipeCell:atIndexPath:withOffset:" title="listView:didSwipeCell:atIndexPath:withOffset:"></a>
+	<h3 class="subsubtitle method-title">listView:didSwipeCell:atIndexPath:withOffset:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This method is called when the user swipes a cell. This method is called after shouldSwipeCell and before didFinishSwipingCell.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)listView:(TKListView *)<em>listView</em> didSwipeCell:(TKListViewCell *)<em>cell</em> atIndexPath:(NSIndexPath *)<em>indexPath</em> withOffset:(CGPoint)<em>offset</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listView</em></dt>
+			<dd><p>The <a href="../Classes/TKListView.html">TKListView</a> instance.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>cell</em></dt>
+			<dd><p>The <a href="../Classes/TKListViewCell.html">TKListViewCell</a> instance being swiped.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>The index path of the cell being swiped.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>offset</em></dt>
+			<dd><p>The swipe offset.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listView:didUnhighlightItemAtIndexPath:" title="listView:didUnhighlightItemAtIndexPath:"></a>
+	<h3 class="subsubtitle method-title">listView:didUnhighlightItemAtIndexPath:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This method is called after unhighliting an item.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)listView:(TKListView *)<em>listView</em> didUnhighlightItemAtIndexPath:(NSIndexPath *)<em>indexPath</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listView</em></dt>
+			<dd><p>The <a href="../Classes/TKListView.html">TKListView</a> instance.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>The index path of the unhighlighted item.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listView:shouldDeselectItemAtIndexPath:" title="listView:shouldDeselectItemAtIndexPath:"></a>
+	<h3 class="subsubtitle method-title">listView:shouldDeselectItemAtIndexPath:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a boolean value indicating whether the specified item should be deselected.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)listView:(TKListView *)<em>listView</em> shouldDeselectItemAtIndexPath:(NSIndexPath *)<em>indexPath</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listView</em></dt>
+			<dd><p>The <a href="../Classes/TKListView.html">TKListView</a> instance requesting this information.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>The index path of the item about to be deselected.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>YES if the item should be selected.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listView:shouldHighlightItemAtIndexPath:" title="listView:shouldHighlightItemAtIndexPath:"></a>
+	<h3 class="subsubtitle method-title">listView:shouldHighlightItemAtIndexPath:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<ul>
+<li>Returns a boolean value indicating whether the specified item should be highlighted.</li>
+</ul>
+
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)listView:(TKListView *)<em>listView</em> shouldHighlightItemAtIndexPath:(NSIndexPath *)<em>indexPath</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listView</em></dt>
+			<dd><p>The <a href="../Classes/TKListView.html">TKListView</a> instance requesting this information.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>The index path of the item about to be highlighted.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>YES if the item should be highlighted.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listView:shouldLoadMoreDataAtIndexPath:" title="listView:shouldLoadMoreDataAtIndexPath:"></a>
+	<h3 class="subsubtitle method-title">listView:shouldLoadMoreDataAtIndexPath:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a boolean value indicating whether more data will be loaded.
+Called after the user requested loading more data on demand by scrolling over the cellBuffer limit size.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)listView:(TKListView *)<em>listView</em> shouldLoadMoreDataAtIndexPath:(NSIndexPath *)<em>indexPath</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listView</em></dt>
+			<dd><p>The <a href="../Classes/TKListView.html">TKListView</a> instance.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>The index path where the buffer limit size was reached.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listView:shouldSelectItemAtIndexPath:" title="listView:shouldSelectItemAtIndexPath:"></a>
+	<h3 class="subsubtitle method-title">listView:shouldSelectItemAtIndexPath:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a boolean value indicating whether the specified item should be selected.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)listView:(TKListView *)<em>listView</em> shouldSelectItemAtIndexPath:(NSIndexPath *)<em>indexPath</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listView</em></dt>
+			<dd><p>The <a href="../Classes/TKListView.html">TKListView</a> instance requesting this information.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>The index path of the item about to be selected.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>YES if the item should be selected.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listView:shouldSwipeCell:atIndexPath:" title="listView:shouldSwipeCell:atIndexPath:"></a>
+	<h3 class="subsubtitle method-title">listView:shouldSwipeCell:atIndexPath:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This method is called when the user starts swiping a cell.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)listView:(TKListView *)<em>listView</em> shouldSwipeCell:(TKListViewCell *)<em>cell</em> atIndexPath:(NSIndexPath *)<em>indexPath</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listView</em></dt>
+			<dd><p>The <a href="../Classes/TKListView.html">TKListView</a> instance.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>cell</em></dt>
+			<dd><p>The <a href="../Classes/TKListViewCell.html">TKListViewCell</a> instance being swiped.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indexPath</em></dt>
+			<dd><p>The index path of the cell being swiped.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/listViewShouldRefreshOnPull:" title="listViewShouldRefreshOnPull:"></a>
+	<h3 class="subsubtitle method-title">listViewShouldRefreshOnPull:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a boolean value indicating whether listView should display activity indicator and wait for fresh data.
+Called after user performs pull-to-refresh gesture.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)listViewShouldRefreshOnPull:(TKListView *)<em>listView</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listView</em></dt>
+			<dd><p>The listview component instance requesting the fresh data.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKListView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Telerik. All rights reserved. (Last updated: 2015-06-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

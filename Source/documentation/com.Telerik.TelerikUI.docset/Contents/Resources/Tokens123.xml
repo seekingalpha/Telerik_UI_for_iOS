@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartBubbleSeries.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartBubbleSeries</TokenIdentifier>
+			<Abstract type="html">Represents a TKChart bubble series. See TKChartScatterSeries for more information. Also check this Guide.</Abstract>
+			<DeclaredIn>TKChartBubbleSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="123"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBubbleSeries/setScale:</TokenIdentifier>
+			<Abstract type="html">A scale that will be used when calculating bubbles diameter.</Abstract>
+			<DeclaredIn>TKChartBubbleSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *scale</Declaration>
+			
+			
+			<Anchor>//api/name/scale</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBubbleSeries/scale</TokenIdentifier>
+			<Abstract type="html">A scale that will be used when calculating bubbles diameter.</Abstract>
+			<DeclaredIn>TKChartBubbleSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *scale</Declaration>
+			
+			
+			<Anchor>//api/name/scale</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartBubbleSeries/scale</TokenIdentifier>
+			<Abstract type="html">A scale that will be used when calculating bubbles diameter.</Abstract>
+			<DeclaredIn>TKChartBubbleSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *scale</Declaration>
+			
+			
+			<Anchor>//api/name/scale</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBubbleSeries/setBiggestBubbleDiameterForAutoscale:</TokenIdentifier>
+			<Abstract type="html">A value that represents the diameter of the biggest bubble when scale property is not set.</Abstract>
+			<DeclaredIn>TKChartBubbleSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *biggestBubbleDiameterForAutoscale</Declaration>
+			
+			
+			<Anchor>//api/name/biggestBubbleDiameterForAutoscale</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBubbleSeries/biggestBubbleDiameterForAutoscale</TokenIdentifier>
+			<Abstract type="html">A value that represents the diameter of the biggest bubble when scale property is not set.</Abstract>
+			<DeclaredIn>TKChartBubbleSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *biggestBubbleDiameterForAutoscale</Declaration>
+			
+			
+			<Anchor>//api/name/biggestBubbleDiameterForAutoscale</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartBubbleSeries/biggestBubbleDiameterForAutoscale</TokenIdentifier>
+			<Abstract type="html">A value that represents the diameter of the biggest bubble when scale property is not set.</Abstract>
+			<DeclaredIn>TKChartBubbleSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *biggestBubbleDiameterForAutoscale</Declaration>
+			
+			
+			<Anchor>//api/name/biggestBubbleDiameterForAutoscale</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

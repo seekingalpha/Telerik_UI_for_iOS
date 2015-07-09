@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>DataSource-Data-Shaping Document</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../../../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../../../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../../../index.html">TelerikUI </a></h1>
+				<a id="developerHome" href="../../../index.html">Telerik</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode" id="pageTitleHeader">DataSource-Data-Shaping Document</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<a title="DataSource-Data-Shaping Document" name="top"></a>
+			<div id="overview_contents" role="main">
+				<div id="container">	
+					<h1>DataSource: Data Shaping Operations</h1>
+
+<p><a href="../../../Classes/TKDataSource.html">TKDataSource</a> supports a full range of data shaping operations with APIs specific for your scenario.</p>
+
+<p>The simplest way to shape your data is to use the block API. Just specify the block function responsible for the data operation:</p>
+
+<p>Objective-C</p>
+
+<pre><code>[dataSource filter:^BOOL(id item) { return [item intValue] &gt; 5; }];
+
+[dataSource sort:^NSComparisonResult(id obj1, id obj2) {
+    int a = [obj1 intValue];
+    int b = [obj2 intValue];
+    if (a &lt; b) { return NSOrderedAscending; }
+    else if (a &gt; b) { return NSOrderedDescending; }
+    return NSOrderedSame;
+}];
+
+[dataSource group:^id(id item) { return @([item intValue] % 2 == 0); }];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>dataSource.filter { $0 as Int &gt; 5 }
+
+dataSource.sort {
+    let a = $0 as Int
+    let b = $1 as Int
+    if a &lt; b { return NSComparisonResult.OrderedDescending }
+    else if a &gt; b { return NSComparisonResult.OrderedAscending }
+    return NSComparisonResult.OrderedSame
+}
+
+dataSource.group { ($0 as Int) % 2 == 0 }
+</code></pre>
+
+<p>The block API is not limited to sorting, filtering, and grouping. A range of functional methods like map, reduce and enumerate are also available:</p>
+
+<p>Objective-C</p>
+
+<pre><code>TKDataSource *dataSource = [[TKDataSource alloc] initWithArray:@[ @10, @5, @12, @13, @7, @44 ]];
+
+[dataSource map:^id(id item) {
+    return @([item intValue] * 10);
+}];
+
+NSNumber *maxValue = [dataSource reduce:@0 with:^id(id item, id value) {
+    NSInteger a = [item intValue];
+    NSInteger b = [value intValue];
+    if (a&gt;b) { return @(a); }
+    return @(b);
+}];
+
+[dataSource enumerate:^(id item) {
+    NSLog(@"%@", item);
+}];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let dataSource = TKDataSource(array: [ 10, 5, 12, 13, 7, 44 ])
+
+dataSource.map { (AnyObject item) -&gt; AnyObject! in
+    return (item as! Int) * 10
+}
+
+let maxValue = dataSource.reduce(0, with: { (AnyObject item, AnyObject value) -&gt; AnyObject! in
+    let a = item as! Int
+    let b = value as! Int
+    if a&gt;b { return a }
+    return b
+}) as! Int
+
+dataSource.enumerate { (AnyObject item) -&gt; Void in
+    println(item)
+}
+</code></pre>
+
+<p><a href="../../../Classes/TKDataSource.html">TKDataSource</a> supports also NSPredicate style queries. The following methods use queries and property names instead of block methods:</p>
+
+<p>Objective-C</p>
+
+<pre><code>NSMutableArray *items = [NSMutableArray new];
+[items addObject:[[DataSourceItem alloc] initWithName:@"John" value:50 group:@"A"]];
+[items addObject:[[DataSourceItem alloc] initWithName:@"Abby" value:33 group:@"A"]];
+[items addObject:[[DataSourceItem alloc] initWithName:@"Smith" value:42 group:@"B"]];
+[items addObject:[[DataSourceItem alloc] initWithName:@"Peter" value:28 group:@"B"]];
+[items addObject:[[DataSourceItem alloc] initWithName:@"Paula" value:25 group:@"B"]];
+
+TKDataSource *dataSource = [TKDataSource new];
+dataSource.itemSource = items;
+[dataSource filterWithQuery:@"value &gt; 30"];
+[dataSource sortWithKey:@"value" ascending:true];
+[dataSource groupWithKey:@"group"];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>var items = [DataSourceItem]()
+items.append(DataSourceItem(name: "John", value: 50, group: "A"))
+items.append(DataSourceItem(name: "Abby", value: 33, group: "A"))
+items.append(DataSourceItem(name: "Smith", value: 42, group: "B"))
+items.append(DataSourceItem(name: "Peter", value: 28, group: "B"))
+items.append(DataSourceItem(name: "Paula", value: 25, group: "B"))
+
+let dataSource = TKDataSource()
+dataSource.itemSource = items
+dataSource.filterWithQuery("value &gt; 30")
+dataSource.sortWithKey("value", ascending: true)
+dataSource.groupWithKey("group")
+</code></pre>
+
+<p>All the methods mentioned above execute immediately when called. They operate directly on the current items view in <a href="../../../Classes/TKDataSource.html">TKDataSource</a>. <a href="../../../Classes/TKDataSource.html">TKDataSource</a> extends its API by supporting three collections with sorting, filtering and group descriptors.</p>
+
+<p>The descriptors API supports both code blocks and queries with property names. This allows for specifying the data shaping operations before loading the data. In this scenario all descriptors are applied after the data is actually loaded in <a href="../../../Classes/TKDataSource.html">TKDataSource</a>. This data-loading operation can happen on setting the itemSource property. The following code demonstrates this API:</p>
+
+<p>Objective-C</p>
+
+<pre><code>TKDataSource *dataSource = [TKDataSource new];
+[dataSource addFilterDescriptor:[[TKDataSourceFilterDescriptor alloc] initWithQuery:@"value &gt; 30"]];
+[dataSource addSortDescriptor:[[TKDataSourceSortDescriptor alloc] initWithProperty:@"value" ascending:true]];
+[dataSource addGroupDescriptor:[[TKDataSourceGroupDescriptor alloc] initWithProperty:@"group"]];
+
+//...
+
+dataSource.itemSource = items;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let dataSource = TKDataSource()
+dataSource.addFilterDescriptor(TKDataSourceFilterDescriptor(query: "value &gt; 30"))
+dataSource.addSortDescriptor(TKDataSourceSortDescriptor(property: "value", ascending: true))
+dataSource.addGroupDescriptor(TKDataSourceGroupDescriptor(property: "group"))
+
+//...
+
+dataSource.itemSource = items
+</code></pre>
+
+<p>You can modify descriptor collections by using the corresponding add and remove methods. You can reaplly all descriptors when data has changed by calling the reloadData method:</p>
+
+<p>Objective-C</p>
+
+<pre><code>[dataSource reloadData];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>dataSource.reloadData()
+</code></pre>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Telerik. All rights reserved. (Last updated: 2015-06-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					
+					</div>
+				</div>
+			</div>
+		</article>
+	</body>
+</html>

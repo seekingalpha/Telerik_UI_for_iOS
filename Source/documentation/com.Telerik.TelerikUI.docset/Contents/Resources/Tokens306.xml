@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKChartCrossLineAnnotationOrientation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKChartCrossLineAnnotationOrientation</TokenIdentifier>
+			<Abstract type="html">The orientation of line annotation.</Abstract>
+			<DeclaredIn>TKChartCrossLineAnnotationStyle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="306"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartCrossLineAnnotationOrientationHorizontal</TokenIdentifier>
+            <Abstract type="html">     Horizontal annotation orientation.
+     </Abstract>
+            <Declaration>TKChartCrossLineAnnotationOrientationHorizontal</Declaration>
+            
+            <DeclaredIn>TKChartCrossLineAnnotationStyle.h</DeclaredIn>
+            
+            <NodeRef refid="306"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartCrossLineAnnotationOrientationVertical</TokenIdentifier>
+            <Abstract type="html">     Vertical annotation orientation.
+     </Abstract>
+            <Declaration>TKChartCrossLineAnnotationOrientationVertical</Declaration>
+            
+            <DeclaredIn>TKChartCrossLineAnnotationStyle.h</DeclaredIn>
+            
+            <NodeRef refid="306"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

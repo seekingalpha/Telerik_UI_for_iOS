@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKPlatformFeedbackSource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKPlatformFeedbackSource</TokenIdentifier>
+			<Abstract type="html">The feedback data source implementation for the Telerik Platform AppFeedback service.</Abstract>
+			<DeclaredIn>TKPlatformFeedbackSource.h</DeclaredIn>
+            
+			
+			<NodeRef refid="243"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKPlatformFeedbackSource/initWithKey:</TokenIdentifier>
+			<Abstract type="html">Initializes a new instnace of the object.</Abstract>
+			<DeclaredIn>TKPlatformFeedbackSource.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithKey:(NSString *)apiKey</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>apiKey</Name>
+					<Abstract type="html">The apiKey used to connect with Telerik platform.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithKey:</Anchor>
+            <NodeRef refid="243"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKPlatformFeedbackSource/initWithKey:uid:</TokenIdentifier>
+			<Abstract type="html">Initializes a new instnace of the object.</Abstract>
+			<DeclaredIn>TKPlatformFeedbackSource.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithKey:(NSString *)apiKey uid:(NSString *)uid</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>apiKey</Name>
+					<Abstract type="html">The apiKey used to connect with Telerik platform.</Abstract>
+				</Parameter><Parameter>
+					<Name>uid</Name>
+					<Abstract type="html">The user id used to connect with Telerik platform.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithKey:uid:</Anchor>
+            <NodeRef refid="243"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKPlatformFeedbackSource/setApiKey:</TokenIdentifier>
+			<Abstract type="html">The API key created in the Telerik AppFeedback service for your application.</Abstract>
+			<DeclaredIn>TKPlatformFeedbackSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *apiKey</Declaration>
+			
+			
+			<Anchor>//api/name/apiKey</Anchor>
+            <NodeRef refid="243"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKPlatformFeedbackSource/apiKey</TokenIdentifier>
+			<Abstract type="html">The API key created in the Telerik AppFeedback service for your application.</Abstract>
+			<DeclaredIn>TKPlatformFeedbackSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *apiKey</Declaration>
+			
+			
+			<Anchor>//api/name/apiKey</Anchor>
+            <NodeRef refid="243"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKPlatformFeedbackSource/apiKey</TokenIdentifier>
+			<Abstract type="html">The API key created in the Telerik AppFeedback service for your application.</Abstract>
+			<DeclaredIn>TKPlatformFeedbackSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *apiKey</Declaration>
+			
+			
+			<Anchor>//api/name/apiKey</Anchor>
+            <NodeRef refid="243"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKPlatformFeedbackSource/setUID:</TokenIdentifier>
+			<Abstract type="html">The user ID used to send feedback.</Abstract>
+			<DeclaredIn>TKPlatformFeedbackSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *UID</Declaration>
+			
+			
+			<Anchor>//api/name/UID</Anchor>
+            <NodeRef refid="243"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKPlatformFeedbackSource/UID</TokenIdentifier>
+			<Abstract type="html">The user ID used to send feedback.</Abstract>
+			<DeclaredIn>TKPlatformFeedbackSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *UID</Declaration>
+			
+			
+			<Anchor>//api/name/UID</Anchor>
+            <NodeRef refid="243"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKPlatformFeedbackSource/UID</TokenIdentifier>
+			<Abstract type="html">The user ID used to send feedback.</Abstract>
+			<DeclaredIn>TKPlatformFeedbackSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *UID</Declaration>
+			
+			
+			<Anchor>//api/name/UID</Anchor>
+            <NodeRef refid="243"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKPlatformFeedbackSource/setBaseURL:</TokenIdentifier>
+			<Abstract type="html">The base URL to use when connecting to the server</Abstract>
+			<DeclaredIn>TKPlatformFeedbackSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *baseURL</Declaration>
+			
+			
+			<Anchor>//api/name/baseURL</Anchor>
+            <NodeRef refid="243"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKPlatformFeedbackSource/baseURL</TokenIdentifier>
+			<Abstract type="html">The base URL to use when connecting to the server</Abstract>
+			<DeclaredIn>TKPlatformFeedbackSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *baseURL</Declaration>
+			
+			
+			<Anchor>//api/name/baseURL</Anchor>
+            <NodeRef refid="243"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKPlatformFeedbackSource/baseURL</TokenIdentifier>
+			<Abstract type="html">The base URL to use when connecting to the server</Abstract>
+			<DeclaredIn>TKPlatformFeedbackSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *baseURL</Declaration>
+			
+			
+			<Anchor>//api/name/baseURL</Anchor>
+            <NodeRef refid="243"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKPlatformFeedbackSource/setParameters:</TokenIdentifier>
+			<Abstract type="html">A dictionary containing additional parameters to sent to the server with every request.</Abstract>
+			<DeclaredIn>TKPlatformFeedbackSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *parameters</Declaration>
+			
+			
+			<Anchor>//api/name/parameters</Anchor>
+            <NodeRef refid="243"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKPlatformFeedbackSource/parameters</TokenIdentifier>
+			<Abstract type="html">A dictionary containing additional parameters to sent to the server with every request.</Abstract>
+			<DeclaredIn>TKPlatformFeedbackSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *parameters</Declaration>
+			
+			
+			<Anchor>//api/name/parameters</Anchor>
+            <NodeRef refid="243"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKPlatformFeedbackSource/parameters</TokenIdentifier>
+			<Abstract type="html">A dictionary containing additional parameters to sent to the server with every request.</Abstract>
+			<DeclaredIn>TKPlatformFeedbackSource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *parameters</Declaration>
+			
+			
+			<Anchor>//api/name/parameters</Anchor>
+            <NodeRef refid="243"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

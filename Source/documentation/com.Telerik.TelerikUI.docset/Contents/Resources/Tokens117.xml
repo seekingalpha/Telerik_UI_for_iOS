@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartBandAnnotation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartBandAnnotation</TokenIdentifier>
+			<Abstract type="html">A band annotation. The band specifies a horizontal or vertical range of specific axis.</Abstract>
+			<DeclaredIn>TKChartBandAnnotation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="117"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBandAnnotation/initWithRange:forAxis:</TokenIdentifier>
+			<Abstract type="html">Initializes the annotation with a range.</Abstract>
+			<DeclaredIn>TKChartBandAnnotation.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithRange:(TKRange *)aRange forAxis:(TKChartAxis *)anAxis</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>aRange</Name>
+					<Abstract type="html">The range where to locate the annotation.</Abstract>
+				</Parameter><Parameter>
+					<Name>anAxis</Name>
+					<Abstract type="html">The axis to which the value belongs.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithRange:forAxis:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBandAnnotation/initWithRange:forAxis:withFill:withStroke:</TokenIdentifier>
+			<Abstract type="html">Initializes the annotation with a value.</Abstract>
+			<DeclaredIn>TKChartBandAnnotation.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithRange:(TKRange *)aRange forAxis:(TKChartAxis *)anAxis withFill:(TKFill *)fill withStroke:(TKStroke *)stroke</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>aRange</Name>
+					<Abstract type="html">The range where to locate the annotation.</Abstract>
+				</Parameter><Parameter>
+					<Name>anAxis</Name>
+					<Abstract type="html">The axis to which the value belongs.</Abstract>
+				</Parameter><Parameter>
+					<Name>fill</Name>
+					<Abstract type="html">The fill to use when rendering the annotation.</Abstract>
+				</Parameter><Parameter>
+					<Name>stroke</Name>
+					<Abstract type="html">The stroke to use when rendering the annotation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithRange:forAxis:withFill:withStroke:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBandAnnotation/setRange:</TokenIdentifier>
+			<Abstract type="html">The range used when positioning the annotation.</Abstract>
+			<DeclaredIn>TKChartBandAnnotation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKRange *range</Declaration>
+			
+			
+			<Anchor>//api/name/range</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBandAnnotation/range</TokenIdentifier>
+			<Abstract type="html">The range used when positioning the annotation.</Abstract>
+			<DeclaredIn>TKChartBandAnnotation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKRange *range</Declaration>
+			
+			
+			<Anchor>//api/name/range</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartBandAnnotation/range</TokenIdentifier>
+			<Abstract type="html">The range used when positioning the annotation.</Abstract>
+			<DeclaredIn>TKChartBandAnnotation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKRange *range</Declaration>
+			
+			
+			<Anchor>//api/name/range</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBandAnnotation/setAxis:</TokenIdentifier>
+			<Abstract type="html">The axis to which this annotation belongs.</Abstract>
+			<DeclaredIn>TKChartBandAnnotation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartAxis *axis</Declaration>
+			
+			
+			<Anchor>//api/name/axis</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBandAnnotation/axis</TokenIdentifier>
+			<Abstract type="html">The axis to which this annotation belongs.</Abstract>
+			<DeclaredIn>TKChartBandAnnotation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartAxis *axis</Declaration>
+			
+			
+			<Anchor>//api/name/axis</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartBandAnnotation/axis</TokenIdentifier>
+			<Abstract type="html">The axis to which this annotation belongs.</Abstract>
+			<DeclaredIn>TKChartBandAnnotation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartAxis *axis</Declaration>
+			
+			
+			<Anchor>//api/name/axis</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBandAnnotation/setStyle:</TokenIdentifier>
+			<Abstract type="html">The annotation style. It can be used to customize the annotation appearance.</Abstract>
+			<DeclaredIn>TKChartBandAnnotation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKChartBandAnnotationStyle *style</Declaration>
+			
+			
+			<Anchor>//api/name/style</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartBandAnnotation/style</TokenIdentifier>
+			<Abstract type="html">The annotation style. It can be used to customize the annotation appearance.</Abstract>
+			<DeclaredIn>TKChartBandAnnotation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKChartBandAnnotationStyle *style</Declaration>
+			
+			
+			<Anchor>//api/name/style</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartBandAnnotation/style</TokenIdentifier>
+			<Abstract type="html">The annotation style. It can be used to customize the annotation appearance.</Abstract>
+			<DeclaredIn>TKChartBandAnnotation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKChartBandAnnotationStyle *style</Declaration>
+			
+			
+			<Anchor>//api/name/style</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

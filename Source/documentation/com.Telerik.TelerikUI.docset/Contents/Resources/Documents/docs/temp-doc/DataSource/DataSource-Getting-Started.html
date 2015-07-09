@@ -1,0 +1,270 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>DataSource-Getting-Started Document</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../../../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../../../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../../../index.html">TelerikUI </a></h1>
+				<a id="developerHome" href="../../../index.html">Telerik</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode" id="pageTitleHeader">DataSource-Getting-Started Document</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<a title="DataSource-Getting-Started Document" name="top"></a>
+			<div id="overview_contents" role="main">
+				<div id="container">	
+					<h1>DataSource: Getting Started</h1>
+
+<p>This quick start tutorial demonstrates how to create a simple iOS application with <a href="../../../Classes/TKDataSource.html">TKDataSource</a>.</p>
+
+<p><img width="500" src="../images/datasource-getting-started001.png"/></p>
+
+<h2>Prerequisites</h2>
+
+<p>This article assumes that you have followed the <em>Downloading UI for iOS</em>, <em>Installing UI for iOS</em> and <em>Setting Up the project</em> steps from <a href="datasource-getting-started.html">the common Getting Started article</a>.</p>
+
+<h2>Setting up <a href="../../../Classes/TKDataSource.html">TKDataSource</a></h2>
+
+<p>Now that our project is created and the TelerikUI.framework is added, we can start referencing and using the TelerikUI types:</p>
+
+<p>Open your <strong>ViewController.m</strong> file and add a reference to the chart header file:</p>
+
+<pre><code>#import &lt;TelerikUI/TelerikUI.h&gt;
+</code></pre>
+
+<p>Note that starting with Xcode 6 Apple doesn&rsquo;t generate the precompiled headers file automatically. That is why you should add import the UIKit framework before importing TelerikUI:</p>
+
+<pre><code>#import &lt;UIKit/UIKit.h&gt;
+</code></pre>
+
+<p>If you are writing Swift, add the same line in your bridging header.</p>
+
+<p>If you are using Xamarin, add a reference to TelerikUI.dll in your project and use the using directive:</p>
+
+<pre><code>using TelerikUI;
+</code></pre>
+
+<p>The simplest way to use <a href="../../../Classes/TKDataSource.html">TKDataSource</a> is to initialize it with an array. The following code creates a new instance of <a href="../../../Classes/TKDataSource.html">TKDataSource</a> and loads it with a numeric array:</p>
+
+<p>Objective-C</p>
+
+<pre><code>TKDataSource *dataSource = [[TKDataSource alloc] initWithArray:@[ @10, @5, @12, @13, @7, @44 ]];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let dataSource = TKDataSource(array: [ 10, 5, 12, 13, 7, 44 ])
+</code></pre>
+
+<p><br>
+TKDataSource supports a full range of data shaping operations including filtering, sorting and grouping. In the code snippet below, we first filter the numbers smaller than 5, then sort the rest and finally group the sorted values depending on whether they are even or odd:</p>
+
+<p>Objective-C</p>
+
+<pre><code>[dataSource filter:^BOOL(id item) { return [item intValue] &gt; 5; }];
+
+[dataSource sort:^NSComparisonResult(id obj1, id obj2) {
+    int a = [obj1 intValue];
+    int b = [obj2 intValue];
+    if (a &lt; b) { return NSOrderedAscending; }
+    else if (a &gt; b) { return NSOrderedDescending; }
+    return NSOrderedSame;
+}];
+
+[dataSource group:^id(id item) { return @([item intValue] % 2 == 0); }];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>dataSource.filter { $0 as! Int &gt; 5 }
+
+dataSource.sort {
+    let a = $0 as! Int
+    let b = $1 as! Int
+    if a &lt; b { return NSComparisonResult.OrderedDescending }
+    else if a &gt; b { return NSComparisonResult.OrderedAscending }
+    return NSComparisonResult.OrderedSame
+}
+
+dataSource.group { ($0 as! Int) % 2 == 0 }
+</code></pre>
+
+<p><br>
+TKDataSource is an independent component and you can use it without connecting it to a UI control. To show the result just iterate the items:</p>
+
+<p>Objective-C</p>
+
+<pre><code>[dataSource enumerate:^(id item) {
+    if ([item isKindOfClass:[TKDataSourceGroup class]]) {
+        NSLog(@"Group: %@", ((TKDataSourceGroup*)item).key);
+    }
+    else {
+        NSLog(@"%d", [item intValue]);
+    }
+}];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>dataSource.enumerate {
+    if $0.isKindOfClass(TKDataSourceGroup) {
+        let group = $0 as! TKDataSourceGroup
+        println("Group: \(group.key)")
+    }
+    else {
+        println($0)
+    }
+}
+</code></pre>
+
+<p><br>
+Or, you can create a table view and set its data source property:</p>
+
+<p>Objective-C</p>
+
+<pre><code>UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
+tableView.dataSource = dataSource;
+[self.view addSubview:tableView];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let tableView = UITableView(frame: self.view.bounds)
+self.view.addSubview(tableView)
+tableView.dataSource = dataSource
+</code></pre>
+
+<p>Note that the dataSource property of UITableView is weak and you should assign the dataSource instance to a class variable in order to persist its value!</p>
+
+<p>Objective-C</p>
+
+<pre><code>_dataSource = dataSource;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>self.dataSource = dataSource
+</code></pre>
+
+<p><br>
+Here is the full code of this example:</p>
+
+<p><img width="300" src="../images/datasource-getting-started002.png"/></p>
+
+<p>Objective-C</p>
+
+<pre><code>{
+    TKDataSource *_dataSource;
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+
+    TKDataSource *dataSource = [[TKDataSource alloc] initWithArray:@[ @10, @5, @12, @13, @7, @44 ]];
+
+    [dataSource filter:^BOOL(id item) { return [item intValue] &gt; 5; }];
+
+    [dataSource sort:^NSComparisonResult(id obj1, id obj2) {
+        int a = [obj1 intValue];
+        int b = [obj2 intValue];
+        if (a &lt; b) { return NSOrderedAscending; }
+        else if (a &gt; b) { return NSOrderedDescending; }
+        return NSOrderedSame;
+    }];
+
+    [dataSource group:^id(id item) { return @([item intValue] % 2 == 0); }];
+
+    [dataSource enumerate:^(id item) {
+        if ([item isKindOfClass:[TKDataSourceGroup class]]) {
+            NSLog(@"Group: %@", ((TKDataSourceGroup*)item).key);
+        }
+        else {
+            NSLog(@"%d", [item intValue]);
+        }
+    }];
+
+    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
+    tableView.dataSource = dataSource;
+    [self.view addSubview:tableView];
+
+    _dataSource = dataSource;
+}
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>var dataSource: TKDataSource?
+
+override func viewDidLoad() {
+    super.viewDidLoad()
+
+    // Do any additional setup after loading the view.
+
+    let dataSource = TKDataSource(array: [ 10, 5, 12, 13, 7, 44 ])
+
+    dataSource.filter { $0 as Int &gt; 5 }
+
+    dataSource.sort {
+        let a = $0 as Int
+        let b = $1 as Int
+        if a &lt; b { return NSComparisonResult.OrderedDescending }
+        else if a &gt; b { return NSComparisonResult.OrderedAscending }
+        return NSComparisonResult.OrderedSame
+    }
+
+    dataSource.group { ($0 as Int) % 2 == 0 }
+
+    dataSource.enumerate {
+        if $0.isKindOfClass(TKDataSourceGroup) {
+            let group = $0 as TKDataSourceGroup
+            println("Group: \(group.key)")
+        }
+        else {
+            println($0)
+        }
+    }
+
+    let tableView = UITableView(frame: self.view.bounds)
+    self.view.addSubview(tableView)
+    tableView.dataSource = dataSource
+
+    self.dataSource = dataSource
+}
+</code></pre>
+
+<p><br>
+You can easily switch the UI control used to present data coming from <a href="../../../Classes/TKDataSource.html">TKDataSource</a>. It supports the most common data enabled UI controls, so you can use it the same way with UICollectionView, <a href="../../../Classes/TKChart.html">TKChart</a>, <a href="../../../Classes/TKListView.html">TKListView</a>, or <a href="../../../Classes/TKCalendar.html">TKCalendar</a>. The following article demonstates how to initialize and customize the UI controls supported by <a href="../../../Classes/TKDataSource.html">TKDataSource</a>:
+<a href="datasource-binding-with-ui.html">Binding with UI controls</a></p>
+
+<p><a href="../../../Classes/TKDataSource.html">TKDataSource</a> supports also different data inputs. This article demonstrates how to load data comming from files or a web service.
+<a href="datasource-populating-with-data.html">Loading with data</a></p>
+
+<p>Data shaping operations are described in detail in this article:
+<a href="datasource-data-shaping.html">Data shaping operations</a></p>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Telerik. All rights reserved. (Last updated: 2015-06-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					
+					</div>
+				</div>
+			</div>
+		</article>
+	</body>
+</html>

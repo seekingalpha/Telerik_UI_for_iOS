@@ -1,0 +1,325 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Chart-Grid-Customization Document</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../../../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../../../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../../../index.html">TelerikUI </a></h1>
+				<a id="developerHome" href="../../../index.html">Telerik</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode" id="pageTitleHeader">Chart-Grid-Customization Document</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<a title="Chart-Grid-Customization Document" name="top"></a>
+			<div id="overview_contents" role="main">
+				<div id="container">	
+					<h1>Chart: Grid Customization</h1>
+
+<p><a href="../../../Classes/TKChart.html">TKChart</a> series, which support axes, can render a grid that facilitates the process of determining the values of points afar from the axes. Since Pie area does not use axes, the grid is valid only in the context of Cartesian series. Grid consists of horizontal and vertical lines matching axes major ticks and fills between them. You can alternate fills to create zebra like effect both horizontally and vertically.</p>
+
+<p>The essential properties of <a href="../../../Classes/TKChartGridStyle.html">TKChartGridStyle</a> are the following:</p>
+
+<ul>
+<li>verticalLineStroke - defines the vertical line stroke.</li>
+<li>verticalLineAlternateStroke - defines the vertical alternate line stroke.</li>
+<li>verticalLinesHidden - determines whether the vertical line is hidden.</li>
+<li>verticalFill - defines the background pattern of fill among vertical lines.</li>
+<li>verticalAlternateFill - defines the background pattern of alternate fill among vertical lines.</li>
+<li>horizontalLineStroke - defines the horizontal line stroke.</li>
+<li>horizontalLineAlternateStroke - defines the horizontal alternate line stroke</li>
+<li>horizontalLinesHidden - determines whether the hidden line is hidden.</li>
+<li>horizontalFill - defines the background pattern of fill among horizontal lines</li>
+<li>horizontalAlternateFill - defines the background pattern of alternate fill among horizontal lines</li>
+<li>backgroundFill - sets the background fill color. By default, it is nil (no background color is drawn).</li>
+<li>drawOrder - sets the draw order. By default, it is TKGridDrawModeHorizontalFirst.</li>
+<li>zPosition - defines the grid position according to the series.</li>
+</ul>
+
+
+<h2>Customizing grid appearance</h2>
+
+<p>Working with grid style properties is easy. Here is a way to make colorful grid lines:</p>
+
+<p>Objective-C</p>
+
+<pre><code>TKChartGridStyle* gridStyle = chart.gridStyle;
+
+gridStyle.verticalLineStroke = [TKStroke strokeWithColor:[UIColor blackColor]];
+gridStyle.verticalLineAlternateStroke = [TKStroke strokeWithColor:[UIColor blackColor]];
+gridStyle.verticalLinesHidden = NO;
+gridStyle.verticalFill = nil;
+gridStyle.verticalAlternateFill = nil;
+
+gridStyle.horizontalLineStroke = [TKStroke strokeWithColor:[UIColor redColor]];
+gridStyle.horizontalLineAlternateStroke = [TKStroke strokeWithColor:[UIColor blueColor]];
+gridStyle.horizontalFill = nil;
+gridStyle.horizontalAlternateFill = nil;
+gridStyle.horizontalLinesHidden = NO;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let gridStyle = chart.gridStyle()
+
+gridStyle.verticalLineStroke = TKStroke(color: UIColor.blackColor())
+gridStyle.verticalLineAlternateStroke = TKStroke(color: UIColor.blackColor())
+gridStyle.verticalLinesHidden = false
+gridStyle.verticalFill = nil
+gridStyle.verticalAlternateFill = nil     
+
+gridStyle.horizontalLineStroke = TKStroke(color: UIColor.redColor())
+gridStyle.horizontalLineAlternateStroke = TKStroke(color: UIColor.blueColor())
+gridStyle.horizontalFill = nil
+gridStyle.horizontalAlternateFill = nil
+gridStyle.horizontalLinesHidden = false
+</code></pre>
+
+<p><img src="../images/chart-grid-customization001.png"/></p>
+
+<p>You can remove vertical lines altogether:</p>
+
+<p>Objective-C</p>
+
+<pre><code>TKChartGridStyle* gridStyle = chart.gridStyle;  
+
+gridStyle.verticalLinesHidden = YES;
+gridStyle.verticalFill = nil;
+gridStyle.verticalAlternateFill = nil;
+
+gridStyle.horizontalLineStroke = [TKStroke strokeWithColor:[UIColor redColor]];
+gridStyle.horizontalLineAlternateStroke = [TKStroke strokeWithColor:[UIColor blueColor]];
+gridStyle.horizontalFill = nil;
+gridStyle.horizontalAlternateFill = nil;
+gridStyle.horizontalLinesHidden = NO;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let gridStyle = chart.gridStyle()
+
+gridStyle.verticalLinesHidden = true
+gridStyle.verticalFill = nil
+gridStyle.verticalAlternateFill = nil     
+
+gridStyle.horizontalLineStroke = TKStroke(color: UIColor.redColor())
+gridStyle.horizontalLineAlternateStroke = TKStroke(color: UIColor.blueColor())
+gridStyle.horizontalFill = nil
+gridStyle.horizontalAlternateFill = nil
+gridStyle.horizontalLinesHidden = false
+</code></pre>
+
+<p><img src="../images/chart-grid-customization002.png"/></p>
+
+<p>Now add some style using alternative fills:</p>
+
+<p>Objective-C</p>
+
+<pre><code>TKChartGridStyle* gridStyle = chart.gridStyle;
+
+gridStyle.horizontalLineStroke = [TKStroke strokeWithColor:[UIColor colorWithWhite:215.f/255.f alpha:1.f]];
+gridStyle.horizontalLineAlternateStroke = [TKStroke strokeWithColor:[UIColor colorWithWhite:215.f/255.f alpha:1.f]];
+gridStyle.horizontalLinesHidden = NO;
+gridStyle.horizontalFill = [TKSolidFill solidFillWithColor:[UIColor colorWithWhite:228.f/255.f alpha:1.f]];
+gridStyle.horizontalAlternateFill = [TKSolidFill solidFillWithColor:[UIColor whiteColor]];
+
+gridStyle.verticalFill = nil;
+gridStyle.verticalAlternateFill = nil;
+gridStyle.verticalLinesHidden = YES;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let gridStyle = chart.gridStyle()
+
+gridStyle.horizontalLineStroke = TKStroke(color: UIColor(white: 215.0 / 255.0, alpha: 1.0))
+gridStyle.horizontalLineAlternateStroke = TKStroke(color: UIColor(white: 215.0 / 255.0, alpha: 1.0))
+gridStyle.horizontalLinesHidden = false
+gridStyle.horizontalFill = TKSolidFill(color: UIColor(white: 228.0 / 255.0, alpha: 1.0))
+gridStyle.horizontalAlternateFill = TKSolidFill(color: UIColor.whiteColor())
+
+gridStyle.verticalFill = nil
+gridStyle.verticalAlternateFill = nil
+gridStyle.verticalLinesHidden = true        
+</code></pre>
+
+<p><img src="../images/chart-grid-customization003.png"/></p>
+
+<p>Here is how to switching to alternative vertical fills:</p>
+
+<p>Objective-C</p>
+
+<pre><code>TKChartGridStyle* gridStyle = chart.gridStyle;
+
+gridStyle.verticalLineStroke = [TKStroke strokeWithColor:[UIColor colorWithWhite:215.f/255.f alpha:1.f]];
+gridStyle.verticalLineAlternateStroke = [TKStroke strokeWithColor:[UIColor colorWithWhite:215.f/255.f alpha:1.f]];
+gridStyle.verticalLinesHidden = NO;
+gridStyle.verticalFill = [TKSolidFill solidFillWithColor:[UIColor colorWithWhite:228.f/255.f alpha:1.f]];
+gridStyle.verticalAlternateFill = [TKSolidFill solidFillWithColor:[UIColor whiteColor]];
+
+gridStyle.horizontalFill = nil;
+gridStyle.horizontalAlternateFill = nil;
+gridStyle.horizontalLinesHidden = YES;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let gridStyle = chart.gridStyle()
+
+gridStyle.verticalLineStroke = TKStroke(color: UIColor(white: 215.0 / 255.0, alpha: 1.0))
+gridStyle.verticalLineAlternateStroke = TKStroke(color: UIColor(white: 215.0 / 255.0, alpha: 1.0))
+gridStyle.verticalLinesHidden = false
+gridStyle.verticalFill = TKSolidFill(color: UIColor(white: 228.0 / 255.0, alpha: 1.0))
+gridStyle.verticalAlternateFill = TKSolidFill(color: UIColor.whiteColor())
+
+gridStyle.horizontalFill = nil
+gridStyle.horizontalAlternateFill = nil
+gridStyle.horizontalLinesHidden = true
+</code></pre>
+
+<p><img src="../images/chart-grid-customization004.png"/></p>
+
+<h2>Combining it together</h2>
+
+<p>Objective-C</p>
+
+<pre><code>TKChartGridStyle* gridStyle = chart.gridStyle;
+
+gridStyle.horizontalLineStroke = [TKStroke strokeWithColor:[UIColor colorWithWhite:215.f/255.f alpha:1.f]];
+gridStyle.horizontalLineAlternateStroke = [TKStroke strokeWithColor:[UIColor colorWithWhite:215.f/255.f alpha:1.f]];
+gridStyle.horizontalFill = [TKSolidFill solidFillWithColor:[UIColor colorWithWhite:228.f/255.f alpha:1.f]];
+gridStyle.horizontalAlternateFill = [TKSolidFill solidFillWithColor:[UIColor whiteColor]];
+gridStyle.horizontalLinesHidden = NO;
+
+gridStyle.verticalLineStroke = [TKStroke strokeWithColor:[UIColor colorWithWhite:215.f/255.f alpha:1.f]];
+gridStyle.verticalLineAlternateStroke = [TKStroke strokeWithColor:[UIColor colorWithWhite:215.f/255.f alpha:1.f]];
+gridStyle.verticalLinesHidden = NO;
+gridStyle.verticalFill = [TKSolidFill solidFillWithColor:[UIColor colorWithRed:1.f green:1.f blue:0.f alpha:0.1f]];
+gridStyle.verticalAlternateFill = [TKSolidFill solidFillWithColor:[UIColor colorWithRed:0.f green:1.f blue:0.f alpha:0.1f]];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let gridStyle = chart.gridStyle()
+
+gridStyle.horizontalLineStroke = TKStroke(color: UIColor(white: 215.0 / 255.0, alpha: 1.0))
+gridStyle.horizontalLineAlternateStroke = TKStroke(color: UIColor(white: 215.0 / 255.0, alpha: 1.0))
+gridStyle.horizontalFill = TKSolidFill(color: UIColor(white: 228.0 / 255.0, alpha: 0.7))
+gridStyle.horizontalAlternateFill = TKSolidFill(color: UIColor.whiteColor())
+gridStyle.horizontalLinesHidden = false
+
+gridStyle.verticalLineStroke = TKStroke(color: UIColor(white: 215.0 / 255.0, alpha: 1.0))
+gridStyle.verticalLineAlternateStroke = TKStroke(color: UIColor(white: 215.0 / 255.0, alpha: 1.0))
+gridStyle.verticalLinesHidden = false
+gridStyle.verticalFill = TKSolidFill(color: UIColor(red: 1.0, green: 1.0, blue:0.0 , alpha: 0.1))
+gridStyle.verticalAlternateFill = TKSolidFill(color: UIColor(red: 0.0, green: 1.0, blue: 0.0, alpha: 0.1))
+</code></pre>
+
+<p><img src="../images/chart-grid-customization005.png"/></p>
+
+<p>Note how vertical fills are transparent. This is because in default mode horizontal fills are drawn first. However you can change the drawing order. Adding a single line of code to the snippet above will produce the effect below:</p>
+
+<p>Objective-C</p>
+
+<pre><code>gridStyle.drawOrder = TKGridDrawModeVerticalFirst;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>gridStyle.drawOrder = TKChartGridDrawMode.VerticalFirst
+</code></pre>
+
+<p><img src="../images/chart-grid-customization006.png"/></p>
+
+<p>As you can see vertical fills are missing. The reason is that in TKGridDrawModeVerticalFirst mode they are drawn first and then the non-transparent horizontal fills got drawn above. On order to address this, the fills which are drawn last always need to have some transparency. You can also draw all the fills with transparency, but in this case you might need to set:</p>
+
+<p>Objective-C</p>
+
+<pre><code>gridStyle.backgroundFill = [TKSolidFill solidFillWithColor:[UIColor whiteColor]];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>gridStyle.backgroundFill = TKSolidFill(color: UIColor.whiteColor())
+</code></pre>
+
+<p>This will create a predictable background for the grid and plot area.</p>
+
+<p>You can also use grid&rsquo;s background to set an image:</p>
+
+<p>Objective-C</p>
+
+<pre><code>gridStyle.backgroundFill = [TKSolidFill solidFillWithColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"telerik_logo"]]];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>gridStyle.backgroundFill = TKSolidFill(color: UIColor(patternImage: UIImage(named: "telerk_logo")!))
+</code></pre>
+
+<p><img src="../images/chart-grid-customization007.png"/></p>
+
+<h2>Using zPosition</h2>
+
+<p>zPosition property specifies the Z order of the grid. Grid is drawn below series by default. However you can change it so grid is above series:</p>
+
+<p>Objective-C</p>
+
+<pre><code>TKChartGridStyle* gridStyle = chart.gridStyle;
+
+gridStyle.horizontalLineStroke = [TKStroke strokeWithColor:[UIColor colorWithWhite:215.f/255.f alpha:1.f]];
+gridStyle.horizontalLineAlternateStroke = [TKStroke strokeWithColor:[UIColor colorWithWhite:215.f/255.f alpha:1.f]];
+gridStyle.horizontalLinesHidden = NO;
+gridStyle.horizontalFill = [TKSolidFill solidFillWithColor:[UIColor colorWithWhite:228.f/255.f alpha:0.7f]];
+gridStyle.horizontalAlternateFill = [TKSolidFill solidFillWithColor:[UIColor clearColor]];
+
+gridStyle.verticalFill = nil;
+gridStyle.verticalAlternateFill = nil;
+gridStyle.verticalLinesHidden = YES;
+
+gridStyle.zPosition = TKChartGridZPositionAboveSeries;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let gridStyle = chart.gridStyle()
+
+gridStyle.horizontalLineStroke = TKStroke(color: UIColor(white: 215.0 / 255.0, alpha: 1.0))
+gridStyle.horizontalLineAlternateStroke = TKStroke(color: UIColor(white: 215.0 / 255.0, alpha: 1.0))
+gridStyle.horizontalLinesHidden = false
+gridStyle.horizontalFill = TKSolidFill(color: UIColor(white: 228.0 / 255.0, alpha: 0.7))
+gridStyle.horizontalAlternateFill = TKSolidFill(color: UIColor.clearColor())
+
+gridStyle.verticalFill = nil
+gridStyle.verticalAlternateFill = nil
+gridStyle.verticalLinesHidden = true
+
+gridStyle.zPosition = TKChartGridZPosition.AboveSeries
+</code></pre>
+
+<p><img src="../images/chart-grid-customization008.png"/></p>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Telerik. All rights reserved. (Last updated: 2015-06-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					
+					</div>
+				</div>
+			</div>
+		</article>
+	</body>
+</html>

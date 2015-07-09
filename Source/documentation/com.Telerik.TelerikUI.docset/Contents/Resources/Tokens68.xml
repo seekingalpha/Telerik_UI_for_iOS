@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKBalloonShape.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKBalloonShape</TokenIdentifier>
+			<Abstract type="html">Represents a balloon shape with arrow</Abstract>
+			<DeclaredIn>TKBalloonShape.h</DeclaredIn>
+            
+			
+			<NodeRef refid="68"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKBalloonShape/initWithArrowPosition:size:</TokenIdentifier>
+			<Abstract type="html">Initializes the balloon shape</Abstract>
+			<DeclaredIn>TKBalloonShape.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithArrowPosition:(TKBalloonShapeArrowPosition)arrowPosition size:(CGSize)size</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>arrowPosition</Name>
+					<Abstract type="html">The arrow position</Abstract>
+				</Parameter><Parameter>
+					<Name>size</Name>
+					<Abstract type="html">The size position</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithArrowPosition:size:</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKBalloonShape/setArrowPosition:</TokenIdentifier>
+			<Abstract type="html">Gets or sets the arrow position</Abstract>
+			<DeclaredIn>TKBalloonShape.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKBalloonShapeArrowPosition arrowPosition</Declaration>
+			
+			
+			<Anchor>//api/name/arrowPosition</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKBalloonShape/arrowPosition</TokenIdentifier>
+			<Abstract type="html">Gets or sets the arrow position</Abstract>
+			<DeclaredIn>TKBalloonShape.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKBalloonShapeArrowPosition arrowPosition</Declaration>
+			
+			
+			<Anchor>//api/name/arrowPosition</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKBalloonShape/arrowPosition</TokenIdentifier>
+			<Abstract type="html">Gets or sets the arrow position</Abstract>
+			<DeclaredIn>TKBalloonShape.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKBalloonShapeArrowPosition arrowPosition</Declaration>
+			
+			
+			<Anchor>//api/name/arrowPosition</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKBalloonShape/setArrowSize:</TokenIdentifier>
+			<Abstract type="html">Gets or sets the arrow size</Abstract>
+			<DeclaredIn>TKBalloonShape.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGSize arrowSize</Declaration>
+			
+			
+			<Anchor>//api/name/arrowSize</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKBalloonShape/arrowSize</TokenIdentifier>
+			<Abstract type="html">Gets or sets the arrow size</Abstract>
+			<DeclaredIn>TKBalloonShape.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGSize arrowSize</Declaration>
+			
+			
+			<Anchor>//api/name/arrowSize</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKBalloonShape/arrowSize</TokenIdentifier>
+			<Abstract type="html">Gets or sets the arrow size</Abstract>
+			<DeclaredIn>TKBalloonShape.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGSize arrowSize</Declaration>
+			
+			
+			<Anchor>//api/name/arrowSize</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKBalloonShape/setCornerRadius:</TokenIdentifier>
+			<Abstract type="html">Gets or sets the corner radius of shape</Abstract>
+			<DeclaredIn>TKBalloonShape.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat cornerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/cornerRadius</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKBalloonShape/cornerRadius</TokenIdentifier>
+			<Abstract type="html">Gets or sets the corner radius of shape</Abstract>
+			<DeclaredIn>TKBalloonShape.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat cornerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/cornerRadius</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKBalloonShape/cornerRadius</TokenIdentifier>
+			<Abstract type="html">Gets or sets the corner radius of shape</Abstract>
+			<DeclaredIn>TKBalloonShape.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat cornerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/cornerRadius</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKBalloonShape/setArrowOffset:</TokenIdentifier>
+			<Abstract type="html">Gets or sets an offset which will be used when calculating the arrow position when it is centered.</Abstract>
+			<DeclaredIn>TKBalloonShape.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat arrowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/arrowOffset</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKBalloonShape/arrowOffset</TokenIdentifier>
+			<Abstract type="html">Gets or sets an offset which will be used when calculating the arrow position when it is centered.</Abstract>
+			<DeclaredIn>TKBalloonShape.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat arrowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/arrowOffset</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKBalloonShape/arrowOffset</TokenIdentifier>
+			<Abstract type="html">Gets or sets an offset which will be used when calculating the arrow position when it is centered.</Abstract>
+			<DeclaredIn>TKBalloonShape.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat arrowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/arrowOffset</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKBalloonShape/setUseStrictArrowPosition:</TokenIdentifier>
+			<Abstract type="html">Gets or sets a value which determines how to align the arrow when a corner arrow position is selected</Abstract>
+			<DeclaredIn>TKBalloonShape.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL useStrictArrowPosition</Declaration>
+			
+			
+			<Anchor>//api/name/useStrictArrowPosition</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKBalloonShape/useStrictArrowPosition</TokenIdentifier>
+			<Abstract type="html">Gets or sets a value which determines how to align the arrow when a corner arrow position is selected</Abstract>
+			<DeclaredIn>TKBalloonShape.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL useStrictArrowPosition</Declaration>
+			
+			
+			<Anchor>//api/name/useStrictArrowPosition</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKBalloonShape/useStrictArrowPosition</TokenIdentifier>
+			<Abstract type="html">Gets or sets a value which determines how to align the arrow when a corner arrow position is selected</Abstract>
+			<DeclaredIn>TKBalloonShape.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL useStrictArrowPosition</Declaration>
+			
+			
+			<Anchor>//api/name/useStrictArrowPosition</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

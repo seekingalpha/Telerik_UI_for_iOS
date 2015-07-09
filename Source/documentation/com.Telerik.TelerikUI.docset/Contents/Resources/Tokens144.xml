@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartGridStyle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartGridStyle</TokenIdentifier>
+			<Abstract type="html">Represents a grid style of chart.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="144"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/setZPosition:</TokenIdentifier>
+			<Abstract type="html">The grid position according to the series.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartGridZPosition zPosition</Declaration>
+			
+			
+			<Anchor>//api/name/zPosition</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/zPosition</TokenIdentifier>
+			<Abstract type="html">The grid position according to the series.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartGridZPosition zPosition</Declaration>
+			
+			
+			<Anchor>//api/name/zPosition</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartGridStyle/zPosition</TokenIdentifier>
+			<Abstract type="html">The grid position according to the series.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartGridZPosition zPosition</Declaration>
+			
+			
+			<Anchor>//api/name/zPosition</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/setVerticalLineStroke:</TokenIdentifier>
+			<Abstract type="html">The vertical line stroke.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *verticalLineStroke</Declaration>
+			
+			
+			<Anchor>//api/name/verticalLineStroke</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/verticalLineStroke</TokenIdentifier>
+			<Abstract type="html">The vertical line stroke.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *verticalLineStroke</Declaration>
+			
+			
+			<Anchor>//api/name/verticalLineStroke</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartGridStyle/verticalLineStroke</TokenIdentifier>
+			<Abstract type="html">The vertical line stroke.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *verticalLineStroke</Declaration>
+			
+			
+			<Anchor>//api/name/verticalLineStroke</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/setVerticalLineAlternateStroke:</TokenIdentifier>
+			<Abstract type="html">The vertical alternate line stroke.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *verticalLineAlternateStroke</Declaration>
+			
+			
+			<Anchor>//api/name/verticalLineAlternateStroke</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/verticalLineAlternateStroke</TokenIdentifier>
+			<Abstract type="html">The vertical alternate line stroke.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *verticalLineAlternateStroke</Declaration>
+			
+			
+			<Anchor>//api/name/verticalLineAlternateStroke</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartGridStyle/verticalLineAlternateStroke</TokenIdentifier>
+			<Abstract type="html">The vertical alternate line stroke.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *verticalLineAlternateStroke</Declaration>
+			
+			
+			<Anchor>//api/name/verticalLineAlternateStroke</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/setVerticalLinesHidden:</TokenIdentifier>
+			<Abstract type="html">Determines whether the vertical line is hidden.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL verticalLinesHidden</Declaration>
+			
+			
+			<Anchor>//api/name/verticalLinesHidden</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/verticalLinesHidden</TokenIdentifier>
+			<Abstract type="html">Determines whether the vertical line is hidden.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL verticalLinesHidden</Declaration>
+			
+			
+			<Anchor>//api/name/verticalLinesHidden</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartGridStyle/verticalLinesHidden</TokenIdentifier>
+			<Abstract type="html">Determines whether the vertical line is hidden.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL verticalLinesHidden</Declaration>
+			
+			
+			<Anchor>//api/name/verticalLinesHidden</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/setVerticalFill:</TokenIdentifier>
+			<Abstract type="html">The background pattern of the fill among vertical lines.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *verticalFill</Declaration>
+			
+			
+			<Anchor>//api/name/verticalFill</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/verticalFill</TokenIdentifier>
+			<Abstract type="html">The background pattern of the fill among vertical lines.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *verticalFill</Declaration>
+			
+			
+			<Anchor>//api/name/verticalFill</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartGridStyle/verticalFill</TokenIdentifier>
+			<Abstract type="html">The background pattern of the fill among vertical lines.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *verticalFill</Declaration>
+			
+			
+			<Anchor>//api/name/verticalFill</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/setVerticalAlternateFill:</TokenIdentifier>
+			<Abstract type="html">The background pattern of alternate fill among vertical lines.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *verticalAlternateFill</Declaration>
+			
+			
+			<Anchor>//api/name/verticalAlternateFill</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/verticalAlternateFill</TokenIdentifier>
+			<Abstract type="html">The background pattern of alternate fill among vertical lines.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *verticalAlternateFill</Declaration>
+			
+			
+			<Anchor>//api/name/verticalAlternateFill</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartGridStyle/verticalAlternateFill</TokenIdentifier>
+			<Abstract type="html">The background pattern of alternate fill among vertical lines.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *verticalAlternateFill</Declaration>
+			
+			
+			<Anchor>//api/name/verticalAlternateFill</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/setHorizontalLineStroke:</TokenIdentifier>
+			<Abstract type="html">The horizontal line stroke.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *horizontalLineStroke</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalLineStroke</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/horizontalLineStroke</TokenIdentifier>
+			<Abstract type="html">The horizontal line stroke.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *horizontalLineStroke</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalLineStroke</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartGridStyle/horizontalLineStroke</TokenIdentifier>
+			<Abstract type="html">The horizontal line stroke.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *horizontalLineStroke</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalLineStroke</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/setHorizontalLineAlternateStroke:</TokenIdentifier>
+			<Abstract type="html">The horizontal alternate line stroke.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *horizontalLineAlternateStroke</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalLineAlternateStroke</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/horizontalLineAlternateStroke</TokenIdentifier>
+			<Abstract type="html">The horizontal alternate line stroke.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *horizontalLineAlternateStroke</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalLineAlternateStroke</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartGridStyle/horizontalLineAlternateStroke</TokenIdentifier>
+			<Abstract type="html">The horizontal alternate line stroke.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *horizontalLineAlternateStroke</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalLineAlternateStroke</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/setHorizontalLinesHidden:</TokenIdentifier>
+			<Abstract type="html">Determines whether the hidden line is hidden.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL horizontalLinesHidden</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalLinesHidden</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/horizontalLinesHidden</TokenIdentifier>
+			<Abstract type="html">Determines whether the hidden line is hidden.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL horizontalLinesHidden</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalLinesHidden</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartGridStyle/horizontalLinesHidden</TokenIdentifier>
+			<Abstract type="html">Determines whether the hidden line is hidden.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL horizontalLinesHidden</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalLinesHidden</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/setHorizontalFill:</TokenIdentifier>
+			<Abstract type="html">The background pattern of the fill among horizontal lines.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *horizontalFill</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalFill</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/horizontalFill</TokenIdentifier>
+			<Abstract type="html">The background pattern of the fill among horizontal lines.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *horizontalFill</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalFill</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartGridStyle/horizontalFill</TokenIdentifier>
+			<Abstract type="html">The background pattern of the fill among horizontal lines.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *horizontalFill</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalFill</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/setHorizontalAlternateFill:</TokenIdentifier>
+			<Abstract type="html">The background pattern of the alternate fill among horizontal lines.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *horizontalAlternateFill</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalAlternateFill</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/horizontalAlternateFill</TokenIdentifier>
+			<Abstract type="html">The background pattern of the alternate fill among horizontal lines.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *horizontalAlternateFill</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalAlternateFill</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartGridStyle/horizontalAlternateFill</TokenIdentifier>
+			<Abstract type="html">The background pattern of the alternate fill among horizontal lines.</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *horizontalAlternateFill</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalAlternateFill</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/setBackgroundFill:</TokenIdentifier>
+			<Abstract type="html">The background fill color. By default, it is nil (no background color is drawn).</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *backgroundFill</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundFill</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/backgroundFill</TokenIdentifier>
+			<Abstract type="html">The background fill color. By default, it is nil (no background color is drawn).</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *backgroundFill</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundFill</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartGridStyle/backgroundFill</TokenIdentifier>
+			<Abstract type="html">The background fill color. By default, it is nil (no background color is drawn).</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *backgroundFill</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundFill</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/setDrawOrder:</TokenIdentifier>
+			<Abstract type="html">The draw order. By default, it is TKGridDrawModeHorizontalFirst</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartGridDrawMode drawOrder</Declaration>
+			
+			
+			<Anchor>//api/name/drawOrder</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartGridStyle/drawOrder</TokenIdentifier>
+			<Abstract type="html">The draw order. By default, it is TKGridDrawModeHorizontalFirst</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartGridDrawMode drawOrder</Declaration>
+			
+			
+			<Anchor>//api/name/drawOrder</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartGridStyle/drawOrder</TokenIdentifier>
+			<Abstract type="html">The draw order. By default, it is TKGridDrawModeHorizontalFirst</Abstract>
+			<DeclaredIn>TKChartGridStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartGridDrawMode drawOrder</Declaration>
+			
+			
+			<Anchor>//api/name/drawOrder</Anchor>
+            <NodeRef refid="144"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

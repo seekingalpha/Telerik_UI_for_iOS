@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartUltimateOscillator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartUltimateOscillator</TokenIdentifier>
+			<Abstract type="html">Represents Ultimate Volume oscillator.</Abstract>
+			<DeclaredIn>TKChartUltimateOscillator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="204"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartUltimateOscillator/setShortPeriod:</TokenIdentifier>
+			<Abstract type="html">The short period used to calculate the indicator&apos;s value. Default value is 7.</Abstract>
+			<DeclaredIn>TKChartUltimateOscillator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger shortPeriod</Declaration>
+			
+			
+			<Anchor>//api/name/shortPeriod</Anchor>
+            <NodeRef refid="204"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartUltimateOscillator/shortPeriod</TokenIdentifier>
+			<Abstract type="html">The short period used to calculate the indicator&apos;s value. Default value is 7.</Abstract>
+			<DeclaredIn>TKChartUltimateOscillator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger shortPeriod</Declaration>
+			
+			
+			<Anchor>//api/name/shortPeriod</Anchor>
+            <NodeRef refid="204"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartUltimateOscillator/shortPeriod</TokenIdentifier>
+			<Abstract type="html">The short period used to calculate the indicator&apos;s value. Default value is 7.</Abstract>
+			<DeclaredIn>TKChartUltimateOscillator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger shortPeriod</Declaration>
+			
+			
+			<Anchor>//api/name/shortPeriod</Anchor>
+            <NodeRef refid="204"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartUltimateOscillator/setMiddlePeriod:</TokenIdentifier>
+			<Abstract type="html">The middle period used to calculate the indicator&apos;s value. Default value is 14.</Abstract>
+			<DeclaredIn>TKChartUltimateOscillator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger middlePeriod</Declaration>
+			
+			
+			<Anchor>//api/name/middlePeriod</Anchor>
+            <NodeRef refid="204"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartUltimateOscillator/middlePeriod</TokenIdentifier>
+			<Abstract type="html">The middle period used to calculate the indicator&apos;s value. Default value is 14.</Abstract>
+			<DeclaredIn>TKChartUltimateOscillator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger middlePeriod</Declaration>
+			
+			
+			<Anchor>//api/name/middlePeriod</Anchor>
+            <NodeRef refid="204"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartUltimateOscillator/middlePeriod</TokenIdentifier>
+			<Abstract type="html">The middle period used to calculate the indicator&apos;s value. Default value is 14.</Abstract>
+			<DeclaredIn>TKChartUltimateOscillator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger middlePeriod</Declaration>
+			
+			
+			<Anchor>//api/name/middlePeriod</Anchor>
+            <NodeRef refid="204"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartUltimateOscillator/setLongPeriod:</TokenIdentifier>
+			<Abstract type="html">The long period used to calculate the indicator&apos;s value. Default value is 28.</Abstract>
+			<DeclaredIn>TKChartUltimateOscillator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger longPeriod</Declaration>
+			
+			
+			<Anchor>//api/name/longPeriod</Anchor>
+            <NodeRef refid="204"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartUltimateOscillator/longPeriod</TokenIdentifier>
+			<Abstract type="html">The long period used to calculate the indicator&apos;s value. Default value is 28.</Abstract>
+			<DeclaredIn>TKChartUltimateOscillator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger longPeriod</Declaration>
+			
+			
+			<Anchor>//api/name/longPeriod</Anchor>
+            <NodeRef refid="204"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartUltimateOscillator/longPeriod</TokenIdentifier>
+			<Abstract type="html">The long period used to calculate the indicator&apos;s value. Default value is 28.</Abstract>
+			<DeclaredIn>TKChartUltimateOscillator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger longPeriod</Declaration>
+			
+			
+			<Anchor>//api/name/longPeriod</Anchor>
+            <NodeRef refid="204"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

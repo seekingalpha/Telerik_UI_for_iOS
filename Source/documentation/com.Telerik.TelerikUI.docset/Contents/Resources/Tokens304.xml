@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKChartBalloonHorizontalAlignment.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKChartBalloonHorizontalAlignment</TokenIdentifier>
+			<Abstract type="html">The Horizontal alignment options available for a balloon annotation.</Abstract>
+			<DeclaredIn>TKChartBalloonAnnotationStyle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="304"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartBalloonHorizontalAlignmentCenter</TokenIdentifier>
+            <Abstract type="html">     The balloon should appear horizontally centered to the balloon location.
+     </Abstract>
+            <Declaration>TKChartBalloonHorizontalAlignmentCenter</Declaration>
+            
+            <DeclaredIn>TKChartBalloonAnnotationStyle.h</DeclaredIn>
+            
+            <NodeRef refid="304"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartBalloonHorizontalAlignmentLeft</TokenIdentifier>
+            <Abstract type="html">     The balloon should appear at the left of the balloon location.
+     </Abstract>
+            <Declaration>TKChartBalloonHorizontalAlignmentLeft</Declaration>
+            
+            <DeclaredIn>TKChartBalloonAnnotationStyle.h</DeclaredIn>
+            
+            <NodeRef refid="304"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartBalloonHorizontalAlignmentRight</TokenIdentifier>
+            <Abstract type="html">     The balloon should appear at the right of the balloon location.
+     </Abstract>
+            <Declaration>TKChartBalloonHorizontalAlignmentRight</Declaration>
+            
+            <DeclaredIn>TKChartBalloonAnnotationStyle.h</DeclaredIn>
+            
+            <NodeRef refid="304"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

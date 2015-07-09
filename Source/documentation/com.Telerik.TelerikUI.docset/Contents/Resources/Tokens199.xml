@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartTrackballLineAnnotation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartTrackballLineAnnotation</TokenIdentifier>
+			<Abstract type="html">A crossed line annotation that is used with a trackball.</Abstract>
+			<DeclaredIn>TKChartTrackballLineAnnotation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="199"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackballLineAnnotation/initWithTrackball:</TokenIdentifier>
+			<Abstract type="html">Initializes the annotation with a trackball.</Abstract>
+			<DeclaredIn>TKChartTrackballLineAnnotation.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithTrackball:(TKChartTrackball *)trackball</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>trackball</Name>
+					<Abstract type="html">The trackball which owns the annotation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithTrackball:</Anchor>
+            <NodeRef refid="199"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackballLineAnnotation/updateContent</TokenIdentifier>
+			<Abstract type="html">This method is called by the trackball when its visibility changes.</Abstract>
+			<DeclaredIn>TKChartTrackballLineAnnotation.h</DeclaredIn>
+			
+			<Declaration>- (void)updateContent</Declaration>
+			
+			
+			<Anchor>//api/name/updateContent</Anchor>
+            <NodeRef refid="199"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackballLineAnnotation/setSelectedPoints:</TokenIdentifier>
+			<Abstract type="html">The selected points that will be presented with this annotation.</Abstract>
+			<DeclaredIn>TKChartTrackballLineAnnotation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *selectedPoints</Declaration>
+			
+			
+			<Anchor>//api/name/selectedPoints</Anchor>
+            <NodeRef refid="199"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackballLineAnnotation/selectedPoints</TokenIdentifier>
+			<Abstract type="html">The selected points that will be presented with this annotation.</Abstract>
+			<DeclaredIn>TKChartTrackballLineAnnotation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *selectedPoints</Declaration>
+			
+			
+			<Anchor>//api/name/selectedPoints</Anchor>
+            <NodeRef refid="199"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartTrackballLineAnnotation/selectedPoints</TokenIdentifier>
+			<Abstract type="html">The selected points that will be presented with this annotation.</Abstract>
+			<DeclaredIn>TKChartTrackballLineAnnotation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *selectedPoints</Declaration>
+			
+			
+			<Anchor>//api/name/selectedPoints</Anchor>
+            <NodeRef refid="199"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackballLineAnnotation/setStyle:</TokenIdentifier>
+			<Abstract type="html">  The annotation style. It can be used to customize the annotation appearance.</Abstract>
+			<DeclaredIn>TKChartTrackballLineAnnotation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartCrossLineAnnotationStyle *style</Declaration>
+			
+			
+			<Anchor>//api/name/style</Anchor>
+            <NodeRef refid="199"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackballLineAnnotation/style</TokenIdentifier>
+			<Abstract type="html">  The annotation style. It can be used to customize the annotation appearance.</Abstract>
+			<DeclaredIn>TKChartTrackballLineAnnotation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartCrossLineAnnotationStyle *style</Declaration>
+			
+			
+			<Anchor>//api/name/style</Anchor>
+            <NodeRef refid="199"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartTrackballLineAnnotation/style</TokenIdentifier>
+			<Abstract type="html">  The annotation style. It can be used to customize the annotation appearance.</Abstract>
+			<DeclaredIn>TKChartTrackballLineAnnotation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartCrossLineAnnotationStyle *style</Declaration>
+			
+			
+			<Anchor>//api/name/style</Anchor>
+            <NodeRef refid="199"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

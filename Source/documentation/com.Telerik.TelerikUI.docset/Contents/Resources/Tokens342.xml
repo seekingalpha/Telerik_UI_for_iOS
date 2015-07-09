@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKSideDrawerPosition.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKSideDrawerPosition</TokenIdentifier>
+			<Abstract type="html">@enum TKSideDrawerPosition</Abstract>
+			<DeclaredIn>TKSideDrawer.h</DeclaredIn>
+            
+			
+			<NodeRef refid="342"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKSideDrawerPositionLeft</TokenIdentifier>
+            <Abstract type="html">     Left postion.
+     </Abstract>
+            <Declaration>TKSideDrawerPositionLeft</Declaration>
+            
+            <DeclaredIn>TKSideDrawer.h</DeclaredIn>
+            
+            <NodeRef refid="342"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKSideDrawerPositionRight</TokenIdentifier>
+            <Abstract type="html">     Right postion.
+     </Abstract>
+            <Declaration>TKSideDrawerPositionRight</Declaration>
+            
+            <DeclaredIn>TKSideDrawer.h</DeclaredIn>
+            
+            <NodeRef refid="342"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKSideDrawerPositionTop</TokenIdentifier>
+            <Abstract type="html">     Top postion.
+     </Abstract>
+            <Declaration>TKSideDrawerPositionTop</Declaration>
+            
+            <DeclaredIn>TKSideDrawer.h</DeclaredIn>
+            
+            <NodeRef refid="342"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKSideDrawerPositionBottom</TokenIdentifier>
+            <Abstract type="html">     Bottom postion.
+     </Abstract>
+            <Declaration>TKSideDrawerPositionBottom</Declaration>
+            
+            <DeclaredIn>TKSideDrawer.h</DeclaredIn>
+            
+            <NodeRef refid="342"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Listview-Populating-With-Data Document</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../../../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../../../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../../../index.html">TelerikUI </a></h1>
+				<a id="developerHome" href="../../../index.html">Telerik</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode" id="pageTitleHeader">Listview-Populating-With-Data Document</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<a title="Listview-Populating-With-Data Document" name="top"></a>
+			<div id="overview_contents" role="main">
+				<div id="container">	
+					<h1>ListView: Populating with data</h1>
+
+<p>There are two ways to feed <a href="../../../Classes/TKListView.html">TKListView</a> data you need to display. You can do that by implementing several methods from the <a href="../../../Protocols/TKListViewDataSource.html">TKListViewDataSource</a> protocol or you could let the  <a href="../../../Classes/TKDataSource.html">TKDataSource</a> component do the dirty work for you.</p>
+
+<h2>Populating with data using <a href="../../../Classes/TKDataSource.html">TKDataSource</a></h2>
+
+<p><a href="../../../Classes/TKDataSource.html">TKDataSource</a> contains implementation of the <a href="../../../Protocols/TKListViewDataSource.html">TKListViewDataSource</a> protocol that you may use out-of-the box. In addition <a href="../../../Classes/TKDataSource.html">TKDataSource</a> provides handy data shaping capabilities such as sorting and filtering.</p>
+
+<p>The following example shows how to initialise <a href="../../../Classes/TKDataSource.html">TKDataSource</a> with data and feed that data to <a href="../../../Classes/TKListView.html">TKListView</a>.</p>
+
+<p>Objective-C</p>
+
+<pre><code>_sampleArrayOfStrings =@[
+    @"Kristina Wolfe",
+    @"Freda Curtis",
+    @"Jeffery Francis",
+    @"Eva Lawson",
+    @"Emmett Santos",
+    @"Theresa Bryan", 
+    @"Jenny Fuller", 
+    @"Terrell Norris", 
+    @"Eric Wheeler", 
+    @"Julius Clayton", 
+    @"Alfredo Thornton", 
+    @"Roberto Romero",
+    @"Orlando Mathis",
+    @"Eduardo Thomas",
+    @"Harry Douglas"];
+
+_dataSource = [[TKDataSource alloc] initWithArray:_sampleArrayOfStrings];
+
+TKListView *_listView = [[TKListView alloc] initWithFrame: self.view.bounds];
+_listView.dataSource = _dataSource;
+[self.view addSubview:_listView];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>self.sampleArrayOfStrings = [
+    "Kristina Wolfe",
+    "Freda Curtis",
+    "Jeffery Francis",
+    "Eva Lawson",
+    "Emmett Santos",
+    "Theresa Bryan",
+    "Jenny Fuller",
+    "Terrell Norris",
+    "Eric Wheeler",
+    "Julius Clayton",
+    "Alfredo Thornton",
+    "Roberto Romero",
+    "Orlando Mathis",
+    "Eduardo Thomas",
+    "Harry Douglas"]
+
+dataSource = TKDataSource(array:sampleArrayOfStrings)
+
+let listView = TKListView(frame: self.view.bounds)
+listView.dataSource = dataSource
+self.view.addSubview(listView)
+</code></pre>
+
+<h2>Populating with data using TKListViewDataSource protocol</h2>
+
+<p>Alternatively TKListView may be populated with data by manually implementing several methods from the TKListViewDataSource protocol. This way requires a bit more code but gives more flexibility.
+First we need to set the datasource property of TKListView to a class adopting the TKListViewDatasource protocol. In the sample code bellow it is our view controller.</p>
+
+<p>Objective-C</p>
+
+<pre><code>- (void)viewDidLoad
+{
+    [super viewDidLoad];
+
+    _sampleArrayOfStrings =@[@"Kristina Wolfe",@"Freda Curtis",@"Jeffery Francis",@"Eva     Lawson",@"Emmett Santos", @"Theresa Bryan", @"Jenny Fuller", @"Terrell Norris",     @"Eric Wheeler", @"Julius Clayton", @"Alfredo Thornton", @"Roberto Romero",@"Orlando    Mathis",@"Eduardo Thomas",@"Harry Douglas"];
+
+    TKListView *_listView = [[TKListView alloc] initWithFrame: self.view.bounds];
+    [_listView registerClass:[TKListViewCell class] forCellWithReuseIdentifier:@"cell"];
+    _listView.dataSource = self;
+
+    [self.view addSubview:_listView];
+}
+
+-(NSInteger)listView:(TKListView *)listView numberOfItemsInSection:(NSInteger)section  {
+    return _sampleArrayOfStrings.count;
+}
+
+-(NSInteger)numberOfSectionsInListView:(TKListView *)listView
+{
+    return 1;
+}
+
+- (TKListViewCell *)listView:(TKListView *)listView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    TKListViewCell *cell = [listView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
+    cell.textLabel.text = _sampleArrayOfStrings[indexPath.row];
+
+    return cell;
+}
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>override func viewDidLoad() {
+    super.viewDidLoad()
+    self.sampleArrayOfStrings = ["Kristina Wolfe","Freda Curtis","Jeffery Francis","Eva Lawson","Emmett Santos", "Theresa Bryan", "Jenny Fuller", "Terrell Norris", "Eric Wheeler", "Julius Clayton", "Alfredo Thornton", "Roberto Romero","Orlando Mathis","Eduardo Thomas","Harry Douglas"]
+    let listView = TKListView(frame:  self.view.bounds)
+    listView.registerClass(TKListViewCell.self, forCellWithReuseIdentifier: "cell")
+    listView.dataSource = self
+    listView.selectionBehavior = TKListViewSelectionBehavior.None
+    self.view.addSubview(listView)
+}
+
+func  listView(listView: TKListView!, cellForItemAtIndexPath indexPath: NSIndexPath!) -&gt; TKListViewCell! {
+    let cell = listView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath)  as! TKListViewCell
+
+    cell.textLabel.text = self.sampleArrayOfStrings[indexPath.row]
+
+    return cell
+}
+
+func listView(listView: TKListView!, numberOfItemsInSection section: Int) -&gt; Int {
+    return self.sampleArrayOfStrings.count
+}
+
+func numberOfSectionsInListView(listView: TKListView!) -&gt; Int {
+    return 1
+}
+</code></pre>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Telerik. All rights reserved. (Last updated: 2015-06-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					
+					</div>
+				</div>
+			</div>
+		</article>
+	</body>
+</html>

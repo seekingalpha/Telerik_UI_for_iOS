@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKCalendarYearViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKCalendarYearViewController</TokenIdentifier>
+			<Abstract type="html">A view controller containing TKCalendar in year view mode. Use this controller to create iOS 7 calendar style user experience.</Abstract>
+			<DeclaredIn>TKCalendarYearViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="100"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearViewController/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarYearViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id&lt;TKCalendarYearViewControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="100"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearViewController/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarYearViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id&lt;TKCalendarYearViewControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="100"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarYearViewController/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCalendarYearViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id&lt;TKCalendarYearViewControllerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="100"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearViewController/todayButton</TokenIdentifier>
+			<Abstract type="html">The today button used in the navigation bar for this view controller.</Abstract>
+			<DeclaredIn>TKCalendarYearViewController.h</DeclaredIn>
+			
+			<Declaration>- (UIBarButtonItem *)todayButton</Declaration>
+			
+			
+			<Anchor>//api/name/todayButton</Anchor>
+            <NodeRef refid="100"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearViewController/contentView</TokenIdentifier>
+			<Abstract type="html">The calendar view contained in this view controller.</Abstract>
+			<DeclaredIn>TKCalendarYearViewController.h</DeclaredIn>
+			
+			<Declaration>- (TKCalendar *)contentView</Declaration>
+			
+			
+			<Anchor>//api/name/contentView</Anchor>
+            <NodeRef refid="100"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarYearViewController/selectedItemRect</TokenIdentifier>
+			<Abstract type="html">Returns the frame which represents the currently selected month (read-only).</Abstract>
+			<DeclaredIn>TKCalendarYearViewController.h</DeclaredIn>
+			
+			<Declaration>- (CGRect)selectedItemRect</Declaration>
+			
+			
+			<Anchor>//api/name/selectedItemRect</Anchor>
+            <NodeRef refid="100"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Calendar-Populating-With-Data Document</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../../../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../../../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../../../index.html">TelerikUI </a></h1>
+				<a id="developerHome" href="../../../index.html">Telerik</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode" id="pageTitleHeader">Calendar-Populating-With-Data Document</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<a title="Calendar-Populating-With-Data Document" name="top"></a>
+			<div id="overview_contents" role="main">
+				<div id="container">	
+					<h1>Calendar: Populating with Data</h1>
+
+<p>Following the Model-View-Controller design pattern, the data source mediates between the application&rsquo;s data model (that is, its model objects) and the calendar view. The data source provides the calendar view object with the information it needs to display events.</p>
+
+<p> <img src="../images/calendar-populating-with-data001.png" /></p>
+
+<p>Following this approach, the <a href="../../../Protocols/TKCalendarDataSource.html">TKCalendarDataSource</a> protocol should be implemnted in order to bind <a href="../../../Classes/TKCalendar.html">TKCalendar</a> with data. This is easy because this protocol contains a single method calendar:eventsForDate:. The adopter should provide the events specific for the provided date. Here is a sample implementation of this method:</p>
+
+<p>Objective-C</p>
+
+<pre><code>- (NSArray *)calendar:(TKCalendar *)calendar eventsForDate:(NSDate *)date
+{
+    NSDateComponents *components = [self.calendarView.calendar components:NSCalendarUnitYear|NSCalendarUnitMonth|NSCalendarUnitDay fromDate:date];
+    components.hour = 23;
+    components.minute = 59;
+    components.second = 59;
+    NSDate *endDate = [self.calendarView.calendar dateFromComponents:components];
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"(startDate &lt;= %@) AND (endDate &gt;= %@)", endDate, date];
+    return [self.events filteredArrayUsingPredicate:predicate];
+}
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>func calendar(calendar: TKCalendar!, eventsForDate date: NSDate!) -&gt; [AnyObject]! {
+    let components = self.calendarView.calendar.components(NSCalendarUnit.YearCalendarUnit | NSCalendarUnit.MonthCalendarUnit | NSCalendarUnit.DayCalendarUnit, fromDate: date)
+    components.hour = 23
+    components.minute = 59
+    components.second = 59
+    let endDate = self.calendarView.calendar.dateFromComponents(components)
+    let predicate = NSPredicate(format: "(startDate &lt;= %@) AND (endDate &gt;= %@)", endDate, date)
+    return self.evets.filteredArrayUsingPredicate(predicate)
+}
+</code></pre>
+
+<p>In most cases <a href="../../../Classes/TKCalendar.html">TKCalendar</a> accesses events stored on the device where the application executes. In this scenario the <em>EventKit</em> framework should be used. <a href="../../../Classes/TKCalendar.html">TKCalendar</a> provides a helper data source class which loads the events from device by using the <em>EventKit API</em>.</p>
+
+<p>As a prerequisite, the <em>EventKit</em> and <em>EventKitUI</em> frameworks should be added to the application. Now, you are ready to use the <em>EventKit</em> data source helper class for <a href="../../../Classes/TKCalendar.html">TKCalendar</a>.</p>
+
+<p>The simplest scenario is to create a new instance of <a href="../../../Classes/TKCalendarEventKitDataSource.html">TKCalendarEventKitDataSource</a> class and set it as a data source for <a href="../../../Classes/TKCalendar.html">TKCalendar</a>:</p>
+
+<p>Objective-C</p>
+
+<pre><code>TKCalendarEventKitDataSource *dataSource = [TKCalendarEventKitDataSource new];
+
+self.calendarView = [[TKCalendar alloc] initWithFrame:self.view.bounds];
+self.calendarView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+self.calendarView.dataSource = dataSource;
+[self.view addSubview:self.calendarView];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let dataSource = TKCalendarEventKitDataSource()
+
+self.calendarView.frame = self.view.bounds
+self.calendarView.autoresizingMask = UIViewAutoresizing.FlexibleHeight | UIViewAutoresizing.FlexibleWidth
+self.calendarView.dataSource = dataSource
+self.view.addSubview(self.calendarView)
+</code></pre>
+
+<p>However, <a href="../../../Classes/TKCalendarEventKitDataSource.html">TKCalendarEventKitDataSource</a> supports event filtering. Adopt its <a href="../../../Protocols/TKCalendarEventKitDataSourceDelegate.html">TKCalendarEventKitDataSourceDelegate</a> protocol to enable this feature:</p>
+
+<p>Objective-C</p>
+
+<pre><code>@interface ViewController () TKCalendarEventKitDataSourceDelegate
+//..
+dataSource.delegate = self;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>class ViewController: UIViewController, TKCalendarEventKitDataSourceDelegate
+//..
+dataSource.delegate = self
+</code></pre>
+
+<p>In order to import only events from calendars local for the device, handle the shouldImportEventsFromCalendar: method:</p>
+
+<p>Objective-C</p>
+
+<pre><code>- (BOOL)shouldImportEventsFromCalendar:(EKCalendar *)calendar
+{
+    if (calendar.type == EKCalendarTypeLocal)
+        return YES;
+    return NO;
+}
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>func shouldImportEventsFromCalendar(calendar: EKCalendar!) -&gt; Bool {
+    var a = calendar.type
+    if calendar.type.value == EKCalendarTypeLocal.value {
+        return true
+    }
+    return false
+}
+</code></pre>
+
+<p>In the cases when you want to filter only specific events, use the shouldImportEvent: method.</p>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Telerik. All rights reserved. (Last updated: 2015-06-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					
+					</div>
+				</div>
+			</div>
+		</article>
+	</body>
+</html>

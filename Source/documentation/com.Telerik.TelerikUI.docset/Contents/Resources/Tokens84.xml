@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKCalendarMonthNameCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKCalendarMonthNameCell</TokenIdentifier>
+			<Abstract type="html">A calendar cell used to present month names.</Abstract>
+			<DeclaredIn>TKCalendarMonthNameCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="84"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthNameCell/setState:</TokenIdentifier>
+			<Abstract type="html">*  The cell state.
+*  @discussion The available cell states are specified below:</Abstract>
+			<DeclaredIn>TKCalendarMonthNameCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarMonthNameState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthNameCell/state</TokenIdentifier>
+			<Abstract type="html">*  The cell state.
+*  @discussion The available cell states are specified below:</Abstract>
+			<DeclaredIn>TKCalendarMonthNameCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarMonthNameState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCalendarMonthNameCell/state</TokenIdentifier>
+			<Abstract type="html">*  The cell state.
+*  @discussion The available cell states are specified below:</Abstract>
+			<DeclaredIn>TKCalendarMonthNameCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKCalendarMonthNameState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthNameCell/attachWithCalendar:withDate:</TokenIdentifier>
+			<Abstract type="html">Attaches an owner and date to the cell.</Abstract>
+			<DeclaredIn>TKCalendarMonthNameCell.h</DeclaredIn>
+			
+			<Declaration>- (void)attachWithCalendar:(TKCalendar *)owner withDate:(NSDate *)date</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>owner</Name>
+					<Abstract type="html">The owner, an instance of TKCalendar.</Abstract>
+				</Parameter><Parameter>
+					<Name>date</Name>
+					<Abstract type="html">The date for the cell.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/attachWithCalendar:withDate:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCalendarMonthNameCell/date</TokenIdentifier>
+			<Abstract type="html">Returns the date for this cell.</Abstract>
+			<DeclaredIn>TKCalendarMonthNameCell.h</DeclaredIn>
+			
+			<Declaration>- (NSDate *)date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

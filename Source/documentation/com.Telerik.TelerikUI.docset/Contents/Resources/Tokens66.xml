@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="docs/temp-doc/Xamarin.iOS/Xamarin.iOS-Overview.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/doc/Xamarin.iOS-Overview</TokenIdentifier>
+			<Abstract type="html"># UI for Xamarin.iOS: Overview</Abstract>
+			<DeclaredIn>Xamarin.iOS-Overview-template.html</DeclaredIn>
+            
+			
+			<NodeRef refid="66"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

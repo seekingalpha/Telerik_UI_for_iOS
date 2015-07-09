@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartSelectionInfo.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartSelectionInfo</TokenIdentifier>
+			<Abstract type="html">Represents a class that contains selection and hit test information.</Abstract>
+			<DeclaredIn>TKChartSelectionInfo.h</DeclaredIn>
+            
+			
+			<NodeRef refid="182"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKChartSelectionInfo/hitTestInfoWithSeries:dataPointIndex:</TokenIdentifier>
+			<Abstract type="html">Creates a TKChartSelectionInfo instance.</Abstract>
+			<DeclaredIn>TKChartSelectionInfo.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)hitTestInfoWithSeries:(TKChartSeries *)series dataPointIndex:(NSInteger)dataPointIndex</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series for this hit test.</Abstract>
+				</Parameter><Parameter>
+					<Name>dataPointIndex</Name>
+					<Abstract type="html">The index of the point for this hit test.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hitTestInfoWithSeries:dataPointIndex:</Anchor>
+            <NodeRef refid="182"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKChartSelectionInfo/hitTestInfoWithSeries:dataPointIndex:distance:</TokenIdentifier>
+			<Abstract type="html">Creates a TKChartSelectionInfo instance.</Abstract>
+			<DeclaredIn>TKChartSelectionInfo.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)hitTestInfoWithSeries:(TKChartSeries *)series dataPointIndex:(NSInteger)dataPointIndex distance:(CGFloat)distance</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series for this hit test.</Abstract>
+				</Parameter><Parameter>
+					<Name>dataPointIndex</Name>
+					<Abstract type="html">The index of the point for this hit test.</Abstract>
+				</Parameter><Parameter>
+					<Name>distance</Name>
+					<Abstract type="html">The distance.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hitTestInfoWithSeries:dataPointIndex:distance:</Anchor>
+            <NodeRef refid="182"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSelectionInfo/initWithSeries:dataPointIndex:</TokenIdentifier>
+			<Abstract type="html">Initializes a TKChartSelectionInfo instance.</Abstract>
+			<DeclaredIn>TKChartSelectionInfo.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithSeries:(TKChartSeries *)series dataPointIndex:(NSInteger)dataPointIndex</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series for this hit test.</Abstract>
+				</Parameter><Parameter>
+					<Name>dataPointIndex</Name>
+					<Abstract type="html">The index of the point for this hit test.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithSeries:dataPointIndex:</Anchor>
+            <NodeRef refid="182"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSelectionInfo/initWithSeries:dataPointIndex:distance:</TokenIdentifier>
+			<Abstract type="html">Initializes a TKChartSelectionInfo.</Abstract>
+			<DeclaredIn>TKChartSelectionInfo.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithSeries:(TKChartSeries *)series dataPointIndex:(NSInteger)dataPointIndex distance:(CGFloat)distance</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series for this hit test.</Abstract>
+				</Parameter><Parameter>
+					<Name>dataPointIndex</Name>
+					<Abstract type="html">The index of the point for this hit test.</Abstract>
+				</Parameter><Parameter>
+					<Name>distance</Name>
+					<Abstract type="html">The distance between the touch origin and data point origin.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithSeries:dataPointIndex:distance:</Anchor>
+            <NodeRef refid="182"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSelectionInfo/setSeries:</TokenIdentifier>
+			<Abstract type="html">Returns the underlying series.</Abstract>
+			<DeclaredIn>TKChartSelectionInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak, readonly) TKChartSeries *series</Declaration>
+			
+			
+			<Anchor>//api/name/series</Anchor>
+            <NodeRef refid="182"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSelectionInfo/series</TokenIdentifier>
+			<Abstract type="html">Returns the underlying series.</Abstract>
+			<DeclaredIn>TKChartSelectionInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak, readonly) TKChartSeries *series</Declaration>
+			
+			
+			<Anchor>//api/name/series</Anchor>
+            <NodeRef refid="182"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartSelectionInfo/series</TokenIdentifier>
+			<Abstract type="html">Returns the underlying series.</Abstract>
+			<DeclaredIn>TKChartSelectionInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak, readonly) TKChartSeries *series</Declaration>
+			
+			
+			<Anchor>//api/name/series</Anchor>
+            <NodeRef refid="182"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSelectionInfo/setDataPointIndex:</TokenIdentifier>
+			<Abstract type="html">Returns the index of the underlying data point.</Abstract>
+			<DeclaredIn>TKChartSelectionInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) NSInteger dataPointIndex</Declaration>
+			
+			
+			<Anchor>//api/name/dataPointIndex</Anchor>
+            <NodeRef refid="182"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSelectionInfo/dataPointIndex</TokenIdentifier>
+			<Abstract type="html">Returns the index of the underlying data point.</Abstract>
+			<DeclaredIn>TKChartSelectionInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) NSInteger dataPointIndex</Declaration>
+			
+			
+			<Anchor>//api/name/dataPointIndex</Anchor>
+            <NodeRef refid="182"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartSelectionInfo/dataPointIndex</TokenIdentifier>
+			<Abstract type="html">Returns the index of the underlying data point.</Abstract>
+			<DeclaredIn>TKChartSelectionInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) NSInteger dataPointIndex</Declaration>
+			
+			
+			<Anchor>//api/name/dataPointIndex</Anchor>
+            <NodeRef refid="182"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSelectionInfo/dataPoint</TokenIdentifier>
+			<Abstract type="html">Returns the underlying data point.</Abstract>
+			<DeclaredIn>TKChartSelectionInfo.h</DeclaredIn>
+			
+			<Declaration>- (id&lt;TKChartData&gt;)dataPoint</Declaration>
+			
+			
+			<Anchor>//api/name/dataPoint</Anchor>
+            <NodeRef refid="182"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSelectionInfo/setDistance:</TokenIdentifier>
+			<Abstract type="html">Returns the distance between the touch origin and data point origin.</Abstract>
+			<DeclaredIn>TKChartSelectionInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) CGFloat distance</Declaration>
+			
+			
+			<Anchor>//api/name/distance</Anchor>
+            <NodeRef refid="182"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSelectionInfo/distance</TokenIdentifier>
+			<Abstract type="html">Returns the distance between the touch origin and data point origin.</Abstract>
+			<DeclaredIn>TKChartSelectionInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) CGFloat distance</Declaration>
+			
+			
+			<Anchor>//api/name/distance</Anchor>
+            <NodeRef refid="182"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartSelectionInfo/distance</TokenIdentifier>
+			<Abstract type="html">Returns the distance between the touch origin and data point origin.</Abstract>
+			<DeclaredIn>TKChartSelectionInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) CGFloat distance</Declaration>
+			
+			
+			<Anchor>//api/name/distance</Anchor>
+            <NodeRef refid="182"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSelectionInfo/location</TokenIdentifier>
+			<Abstract type="html">Returns the location in view coordinates</Abstract>
+			<DeclaredIn>TKChartSelectionInfo.h</DeclaredIn>
+			
+			<Declaration>- (CGPoint)location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="182"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

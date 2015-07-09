@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKSideDrawerSection.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKSideDrawerSection</TokenIdentifier>
+			<Abstract type="html">Defines a section that holds a collection of TKSideDrawerItem instances.</Abstract>
+			<DeclaredIn>TKSideDrawerSection.h</DeclaredIn>
+            
+			
+			<NodeRef refid="254"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerSection/items</TokenIdentifier>
+			<Abstract type="html">Returns the items of the current section.</Abstract>
+			<DeclaredIn>TKSideDrawerSection.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerSection/addItem:</TokenIdentifier>
+			<Abstract type="html">Adds an item inside the current section.</Abstract>
+			<DeclaredIn>TKSideDrawerSection.h</DeclaredIn>
+			
+			<Declaration>- (void)addItem:(TKSideDrawerItem *)item</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>item</Name>
+					<Abstract type="html">The TKSideDrawerItem that is added.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addItem:</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerSection/addItemWithTitle:</TokenIdentifier>
+			<Abstract type="html">Creates and adds an item inside the current section.</Abstract>
+			<DeclaredIn>TKSideDrawerSection.h</DeclaredIn>
+			
+			<Declaration>- (TKSideDrawerItem *)addItemWithTitle:(NSString *)title</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>title</Name>
+					<Abstract type="html">The title of the TKSideDrawerItem that is added.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The added TKSideDrawerItem.</Abstract></ReturnValue>
+			<Anchor>//api/name/addItemWithTitle:</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerSection/addItemWithTitle:image:</TokenIdentifier>
+			<Abstract type="html">Creates and adds an item inside the current section.</Abstract>
+			<DeclaredIn>TKSideDrawerSection.h</DeclaredIn>
+			
+			<Declaration>- (TKSideDrawerItem *)addItemWithTitle:(NSString *)title image:(UIImage *)image</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>title</Name>
+					<Abstract type="html">The title of the TKSideDrawerItem that is added.</Abstract>
+				</Parameter><Parameter>
+					<Name>image</Name>
+					<Abstract type="html">The image of the TKSideDrawerItem that is added.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The added TKSideDrawerItem.</Abstract></ReturnValue>
+			<Anchor>//api/name/addItemWithTitle:image:</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerSection/removeItem:</TokenIdentifier>
+			<Abstract type="html">Removes an item from the current section.</Abstract>
+			<DeclaredIn>TKSideDrawerSection.h</DeclaredIn>
+			
+			<Declaration>- (void)removeItem:(TKSideDrawerItem *)item</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>item</Name>
+					<Abstract type="html">The TKSideDrawerItem that is removed.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeItem:</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerSection/removeAllItems</TokenIdentifier>
+			<Abstract type="html">Removes all items from the current section.</Abstract>
+			<DeclaredIn>TKSideDrawerSection.h</DeclaredIn>
+			
+			<Declaration>- (void)removeAllItems</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllItems</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerSection/insertItem:atIndex:</TokenIdentifier>
+			<Abstract type="html">Inserts an item at a specified index.</Abstract>
+			<DeclaredIn>TKSideDrawerSection.h</DeclaredIn>
+			
+			<Declaration>- (void)insertItem:(TKSideDrawerItem *)item atIndex:(NSInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>item</Name>
+					<Abstract type="html">TKSideDrawerItem that is insterted.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index at which the item is inserted.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/insertItem:atIndex:</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

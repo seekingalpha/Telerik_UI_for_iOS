@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Chart-Getting-Started Document</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../../../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../../../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../../../index.html">TelerikUI </a></h1>
+				<a id="developerHome" href="../../../index.html">Telerik</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode" id="pageTitleHeader">Chart-Getting-Started Document</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<a title="Chart-Getting-Started Document" name="top"></a>
+			<div id="overview_contents" role="main">
+				<div id="container">	
+					<h1>Chart: Getting Started</h1>
+
+<hr />
+
+<p>This quick start tutorial demonstrates how to create a simple iOS application with <a href="../../../Classes/TKChart.html">TKChart</a>.</p>
+
+<p><img src="../images/chart-overview002.png"/></p>
+
+<h2>Prerequisites</h2>
+
+<p>This article assumes that you have followed the <em>Downloading UI for iOS</em>, <em>Installing UI for iOS</em> and <em>Setting Up the project</em> steps from <a href="chart-getting-started.html">the common Getting Started article</a>.</p>
+
+<h2>Setting up <a href="../../../Classes/TKChart.html">TKChart</a></h2>
+
+<p>Now that our project is created and the TelerikUI.framework is added, we can start referencing and using the TelerikUI types:</p>
+
+<p>Open your <strong>ViewController.m</strong> file and add a reference to the chart header file:</p>
+
+<pre><code>#import &lt;TelerikUI/TelerikUI.h&gt;
+</code></pre>
+
+<p>Note that starting with Xcode 6 Apple doesn&rsquo;t generate the precompiled headers file automatically. That is why you should add import the UIKit framework before importing TelerikUI:</p>
+
+<pre><code>#import &lt;UIKit/UIKit.h&gt;
+</code></pre>
+
+<p>If you are writing Swift, add the same line in your bridging header.</p>
+
+<p>If you are using Xamarin, add a reference to TelerikUI.dll in your project and use the using directive:</p>
+
+<pre><code>using TelerikUI;
+</code></pre>
+
+<p>Type the following code in viewDidLoad method:</p>
+
+<p>Objective-C</p>
+
+<pre><code>TKChart *chart = [[TKChart alloc] initWithFrame:CGRectInset(self.view.bounds, 15, 15)];
+chart.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+[self.view addSubview:chart];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let chart = TKChart(frame: CGRectInset(self.view.bounds, 15, 15))
+chart.autoresizingMask = UIViewAutoresizing.FlexibleWidth | UIViewAutoresizing.FlexibleHeight
+self.view.addSubview(chart)
+</code></pre>
+
+<p>This code creates a new instance of <a href="../../../Classes/TKChart.html">TKChart</a> and adds it as a subview of the ViewController&rsquo;s main view. The autoresizingMask property is set in order to allow correct resizing of the chart when the device is rotated in landscape mode.</p>
+
+<p>The next step is to create some random data that will be consumed by the chart. You can use the following code:</p>
+
+<p>Objective-C</p>
+
+<pre><code>NSMutableArray *randomNumericData = [[NSMutableArray alloc] init];
+for (int i=0; i&lt;10; i++) {
+    [randomNumericData addObject:[[TKChartDataPoint alloc] initWithX:@(i) Y:@(arc4random()%100)]];
+}
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>var randomNumericData = [TKChartDataPoint]()
+for i in 0..&lt;10 {
+    randomNumericData.append(TKChartDataPoint(x: i, y: Double(arc4random() % 100)))
+}
+</code></pre>
+
+<p>In this case we use the <em>i</em> variable as an x value, and we generate a random number in the range between 0 and 100 as an y value.</p>
+
+<p>Now let&rsquo;s add this random data to the chart and present it. This is done by the following code:</p>
+
+<p>Objective-C</p>
+
+<pre><code>[chart addSeries:[[TKChartLineSeries alloc] initWithItems:randomNumericData]];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>chart.addSeries(TKChartLineSeries(items: randomNumericData))
+</code></pre>
+
+<p>For more information about populating <a href="../../../Classes/TKChart.html">TKChart</a> with data, please refer to the following article:</p>
+
+<ul>
+<li><a href="chart-populating-with-data.html">Populating with Data</a></li>
+</ul>
+
+
+<p>The <a href="../../../Classes/TKChartLineSeries.html">TKChartLineSeries</a> tells the chart to present its data as a line chart and initializes it with the already created points.</p>
+
+<p>Let&rsquo;s add a title and a legend to our chart. We can do so by setting the corresponding properties to NO:</p>
+
+<p>Objective-C</p>
+
+<pre><code>chart.title.hidden = NO;
+chart.title.text = @"This is a chart demo";
+chart.legend.hidden = NO;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>chart.title().hidden = false
+chart.title().text = "This is a chart demo"
+chart.legend().hidden = false
+</code></pre>
+
+<p>Finally, we can easily employ the built-in animations support to create some fancy animations. To do so, we should set the allowAnimations property to <em>YES</em>:</p>
+
+<p>Objective-C</p>
+
+<pre><code>chart.allowAnimations = YES;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>chart.allowAnimations = true
+</code></pre>
+
+<p>For more information about customizing animations, please refer to the following articles:</p>
+
+<ul>
+<li><a href="chart-animations-custom.html">Custom Animations</a></li>
+<li><a href="chart-animations-custom-uikit-dynamics.html">Custom UIKit Dynamics Animations</a></li>
+</ul>
+
+
+<p>Here is the full code of this example:</p>
+
+<p>Objective-C</p>
+
+<pre><code>#import "ViewController.h"
+#import &lt;TelerikUI/TelerikUI.h&gt;
+
+@implementation ViewController
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+
+    TKChart *chart = [[TKChart alloc] initWithFrame:CGRectInset(self.view.bounds, 15, 15)];
+    chart.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    [self.view addSubview:chart];
+
+    NSMutableArray *randomNumericData = [[NSMutableArray alloc] init];
+    for (int i=0; i&lt;10; i++) {
+       [randomNumericData addObject:[[TKChartDataPoint alloc] initWithX:@(i) Y:@(arc4random()%100)]];
+    }
+
+    [chart addSeries:[[TKChartLineSeries alloc] initWithItems:randomNumericData]];
+
+    chart.title.hidden = NO;
+    chart.title.text = @"This is a chart demo";
+    chart.legend.hidden = NO;
+
+    chart.allowAnimations = YES;
+}
+
+@end
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        let chart = TKChart(frame: CGRectInset(self.view.bounds, 15, 15))
+        chart.autoresizingMask = UIViewAutoresizing.FlexibleWidth | UIViewAutoresizing.FlexibleHeight
+        self.view.addSubview(chart)
+
+        var randomNumericData = [TKChartDataPoint]()
+        for i in 0..&lt;10 {
+            randomNumericData += TKChartDataPoint(x: i, y: Double(arc4random() % 100))
+        }
+
+        chart.addSeries(TKChartLineSeries(items: randomNumericData))
+
+        chart.title().hidden = false
+        chart.title().text = "This is a chart demo"
+        chart.legend().hidden = false
+
+        chart.allowAnimations = true    
+    }
+}
+</code></pre>
+
+<p>You can easily change the way data is presented in chart by changing the series type:</p>
+
+<p>Objective-C</p>
+
+<pre><code>[chart addSeries:[[TKChartColumnSeries alloc] initWithItems:randomNumericData]];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>chart.addSeries(TKChartColumnSeries(items: randomNumericData))
+</code></pre>
+
+<p>For more information about series types, please refer to the following articles: <a href="chart-structure.html">Chart Structure</a>.</p>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Telerik. All rights reserved. (Last updated: 2015-06-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					
+					</div>
+				</div>
+			</div>
+		</article>
+	</body>
+</html>

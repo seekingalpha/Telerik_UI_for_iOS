@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartDateTimeAxis.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartDateTimeAxis</TokenIdentifier>
+			<Abstract type="html">The date-time axis of TKChart.</Abstract>
+			<DeclaredIn>TKChartDateTimeAxis.h</DeclaredIn>
+            
+			
+			<NodeRef refid="132"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartDateTimeAxis/setMajorTickInterval:</TokenIdentifier>
+			<Abstract type="html">The major tick mark frequency.
+The interpretation of the value for this property is determined by the majorTickIntervalUnit property.</Abstract>
+			<DeclaredIn>TKChartDateTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTimeInterval majorTickInterval</Declaration>
+			
+			
+			<Anchor>//api/name/majorTickInterval</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartDateTimeAxis/majorTickInterval</TokenIdentifier>
+			<Abstract type="html">The major tick mark frequency.
+The interpretation of the value for this property is determined by the majorTickIntervalUnit property.</Abstract>
+			<DeclaredIn>TKChartDateTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTimeInterval majorTickInterval</Declaration>
+			
+			
+			<Anchor>//api/name/majorTickInterval</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartDateTimeAxis/majorTickInterval</TokenIdentifier>
+			<Abstract type="html">The major tick mark frequency.
+The interpretation of the value for this property is determined by the majorTickIntervalUnit property.</Abstract>
+			<DeclaredIn>TKChartDateTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTimeInterval majorTickInterval</Declaration>
+			
+			
+			<Anchor>//api/name/majorTickInterval</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartDateTimeAxis/setMajorTickIntervalUnit:</TokenIdentifier>
+			<Abstract type="html">The major tick mark frequency using predefined values for a period.</Abstract>
+			<DeclaredIn>TKChartDateTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKChartDateTimeAxisIntervalUnit majorTickIntervalUnit</Declaration>
+			
+			
+			<Anchor>//api/name/majorTickIntervalUnit</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartDateTimeAxis/majorTickIntervalUnit</TokenIdentifier>
+			<Abstract type="html">The major tick mark frequency using predefined values for a period.</Abstract>
+			<DeclaredIn>TKChartDateTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKChartDateTimeAxisIntervalUnit majorTickIntervalUnit</Declaration>
+			
+			
+			<Anchor>//api/name/majorTickIntervalUnit</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartDateTimeAxis/majorTickIntervalUnit</TokenIdentifier>
+			<Abstract type="html">The major tick mark frequency using predefined values for a period.</Abstract>
+			<DeclaredIn>TKChartDateTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKChartDateTimeAxisIntervalUnit majorTickIntervalUnit</Declaration>
+			
+			
+			<Anchor>//api/name/majorTickIntervalUnit</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartDateTimeAxis/setBaseline:</TokenIdentifier>
+			<Abstract type="html">The value to which the series data is aligned to.</Abstract>
+			<DeclaredIn>TKChartDateTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *baseline</Declaration>
+			
+			
+			<Anchor>//api/name/baseline</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartDateTimeAxis/baseline</TokenIdentifier>
+			<Abstract type="html">The value to which the series data is aligned to.</Abstract>
+			<DeclaredIn>TKChartDateTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *baseline</Declaration>
+			
+			
+			<Anchor>//api/name/baseline</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartDateTimeAxis/baseline</TokenIdentifier>
+			<Abstract type="html">The value to which the series data is aligned to.</Abstract>
+			<DeclaredIn>TKChartDateTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *baseline</Declaration>
+			
+			
+			<Anchor>//api/name/baseline</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartDateTimeAxis/setOffset:</TokenIdentifier>
+			<Abstract type="html">The value where the axis will be crossed by the other.</Abstract>
+			<DeclaredIn>TKChartDateTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartDateTimeAxis/offset</TokenIdentifier>
+			<Abstract type="html">The value where the axis will be crossed by the other.</Abstract>
+			<DeclaredIn>TKChartDateTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartDateTimeAxis/offset</TokenIdentifier>
+			<Abstract type="html">The value where the axis will be crossed by the other.</Abstract>
+			<DeclaredIn>TKChartDateTimeAxis.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartDateTimeAxis/setPlotMode:</TokenIdentifier>
+			<Abstract type="html">The plot mode of the axis.</Abstract>
+			<DeclaredIn>TKChartDateTimeAxis.h</DeclaredIn>
+			
+			<Declaration>- (void)setPlotMode:(TKChartAxisPlotMode)plotMode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>plotMode</Name>
+					<Abstract type="html">The plot mode.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setPlotMode:</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartDateTimeAxis/setMajorTickCount:</TokenIdentifier>
+			<Abstract type="html">Sets the tick count for this axis.</Abstract>
+			<DeclaredIn>TKChartDateTimeAxis.h</DeclaredIn>
+			
+			<Declaration>- (void)setMajorTickCount:(NSInteger)tickCount</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tickCount</Name>
+					<Abstract type="html">The number of ticks to be displayed</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setMajorTickCount:</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartDateTimeAxis/initWithMinimumDate:andMaximumDate:</TokenIdentifier>
+			<Abstract type="html">Initializes a new axis with minimum and maximum date.</Abstract>
+			<DeclaredIn>TKChartDateTimeAxis.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithMinimumDate:(NSDate *)minDate andMaximumDate:(NSDate *)maxDate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>minDate</Name>
+					<Abstract type="html">The minimum date that specifies the start of the range.</Abstract>
+				</Parameter><Parameter>
+					<Name>maxDate</Name>
+					<Abstract type="html">The maximum date that specifies the end of the rangee.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithMinimumDate:andMaximumDate:</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

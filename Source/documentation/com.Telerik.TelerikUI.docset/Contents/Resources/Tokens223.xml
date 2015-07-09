@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKDateRange.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKDateRange</TokenIdentifier>
+			<Abstract type="html">A class that represents a range between two dates.</Abstract>
+			<DeclaredIn>TKDateRange.h</DeclaredIn>
+            
+			
+			<NodeRef refid="223"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDateRange/setStartDate:</TokenIdentifier>
+			<Abstract type="html">Gets or sets the start date.</Abstract>
+			<DeclaredIn>TKDateRange.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *startDate</Declaration>
+			
+			
+			<Anchor>//api/name/startDate</Anchor>
+            <NodeRef refid="223"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDateRange/startDate</TokenIdentifier>
+			<Abstract type="html">Gets or sets the start date.</Abstract>
+			<DeclaredIn>TKDateRange.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *startDate</Declaration>
+			
+			
+			<Anchor>//api/name/startDate</Anchor>
+            <NodeRef refid="223"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKDateRange/startDate</TokenIdentifier>
+			<Abstract type="html">Gets or sets the start date.</Abstract>
+			<DeclaredIn>TKDateRange.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *startDate</Declaration>
+			
+			
+			<Anchor>//api/name/startDate</Anchor>
+            <NodeRef refid="223"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDateRange/setEndDate:</TokenIdentifier>
+			<Abstract type="html">Gets or sets the end date.</Abstract>
+			<DeclaredIn>TKDateRange.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *endDate</Declaration>
+			
+			
+			<Anchor>//api/name/endDate</Anchor>
+            <NodeRef refid="223"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDateRange/endDate</TokenIdentifier>
+			<Abstract type="html">Gets or sets the end date.</Abstract>
+			<DeclaredIn>TKDateRange.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *endDate</Declaration>
+			
+			
+			<Anchor>//api/name/endDate</Anchor>
+            <NodeRef refid="223"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKDateRange/endDate</TokenIdentifier>
+			<Abstract type="html">Gets or sets the end date.</Abstract>
+			<DeclaredIn>TKDateRange.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *endDate</Declaration>
+			
+			
+			<Anchor>//api/name/endDate</Anchor>
+            <NodeRef refid="223"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDateRange/initWithStart:end:</TokenIdentifier>
+			<Abstract type="html">Initializes a new instance of TKDateRange with start and end dates</Abstract>
+			<DeclaredIn>TKDateRange.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithStart:(NSDate *)startDate end:(NSDate *)endDate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>startDate</Name>
+					<Abstract type="html">The start date.</Abstract>
+				</Parameter><Parameter>
+					<Name>endDate</Name>
+					<Abstract type="html">The end date.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of TKDateRange.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithStart:end:</Anchor>
+            <NodeRef refid="223"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDateRange/normalize</TokenIdentifier>
+			<Abstract type="html">Normalizes the range by swiping the dates if necessary.</Abstract>
+			<DeclaredIn>TKDateRange.h</DeclaredIn>
+			
+			<Declaration>- (void)normalize</Declaration>
+			
+			
+			<Anchor>//api/name/normalize</Anchor>
+            <NodeRef refid="223"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDateRange/containsDate:</TokenIdentifier>
+			<Abstract type="html">Returns YES if the specified date is contained within the range.</Abstract>
+			<DeclaredIn>TKDateRange.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)containsDate:(NSDate *)date</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>date</Name>
+					<Abstract type="html">The date to be tested.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the date is contained within the range.</Abstract></ReturnValue>
+			<Anchor>//api/name/containsDate:</Anchor>
+            <NodeRef refid="223"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

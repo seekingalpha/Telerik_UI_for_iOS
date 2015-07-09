@@ -1,0 +1,987 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>TKFeedbackDataSource Protocol Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">TelerikUI </a></h1>
+				<a id="developerHome" href="../index.html">Telerik</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">TKFeedbackDataSource Protocol Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/userEmail">&nbsp;&nbsp;&nbsp;&nbsp;userEmail</option>
+	
+	<option value="//api/name/userName">&nbsp;&nbsp;&nbsp;&nbsp;userName</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addFeedback:completionHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- addFeedback:completionHandler:</option>
+	
+	<option value="//api/name/addFeedbackItems:completionHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- addFeedbackItems:completionHandler:</option>
+	
+	<option value="//api/name/addSubItemForKey:subItem:completionHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- addSubItemForKey:subItem:completionHandler:</option>
+	
+	<option value="//api/name/deleteWithKey:completionHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteWithKey:completionHandler:</option>
+	
+	<option value="//api/name/editWithKey:state:completionHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- editWithKey:state:completionHandler:</option>
+	
+	<option value="//api/name/feedbackItems:">&nbsp;&nbsp;&nbsp;&nbsp;- feedbackItems:</option>
+	
+	<option value="//api/name/feedbackItemsByState:completionHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- feedbackItemsByState:completionHandler:</option>
+	
+	<option value="//api/name/feedbackItemsByState:skip:completionHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- feedbackItemsByState:skip:completionHandler:</option>
+	
+	<option value="//api/name/imageForKey:completionHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- imageForKey:completionHandler:</option>
+	
+	<option value="//api/name/subItemsForKey:completionHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- subItemsForKey:completionHandler:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/userEmail">userEmail</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/userName">userName</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addFeedback:completionHandler:">addFeedback:completionHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addFeedbackItems:completionHandler:">addFeedbackItems:completionHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addSubItemForKey:subItem:completionHandler:">addSubItemForKey:subItem:completionHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteWithKey:completionHandler:">deleteWithKey:completionHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/editWithKey:state:completionHandler:">editWithKey:state:completionHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/feedbackItems:">feedbackItems:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/feedbackItemsByState:completionHandler:">feedbackItemsByState:completionHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/feedbackItemsByState:skip:completionHandler:">feedbackItemsByState:skip:completionHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/imageForKey:completionHandler:">imageForKey:completionHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/subItemsForKey:completionHandler:">subItemsForKey:completionHandler:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="TKFeedbackDataSource Protocol Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">TKFeedbackDataSource Protocol Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">TKFeedbackDataSource.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>The data source protocol used to provide feedback service and storage.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/userName">&nbsp;&nbsp;userName</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/feedbackItems:">&ndash;&nbsp;feedbackItems:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addFeedback:completionHandler:">&ndash;&nbsp;addFeedback:completionHandler:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addFeedbackItems:completionHandler:">&ndash;&nbsp;addFeedbackItems:completionHandler:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/editWithKey:state:completionHandler:">&ndash;&nbsp;editWithKey:state:completionHandler:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteWithKey:completionHandler:">&ndash;&nbsp;deleteWithKey:completionHandler:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/userEmail">&nbsp;&nbsp;userEmail</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/feedbackItemsByState:completionHandler:">&ndash;&nbsp;feedbackItemsByState:completionHandler:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/feedbackItemsByState:skip:completionHandler:">&ndash;&nbsp;feedbackItemsByState:skip:completionHandler:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/imageForKey:completionHandler:">&ndash;&nbsp;imageForKey:completionHandler:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/subItemsForKey:completionHandler:">&ndash;&nbsp;subItemsForKey:completionHandler:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addSubItemForKey:subItem:completionHandler:">&ndash;&nbsp;addSubItemForKey:subItem:completionHandler:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/userEmail" title="userEmail"></a>
+	<h3 class="subsubtitle method-title">userEmail</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Contains the user email.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *userEmail</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKFeedbackDataSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/userName" title="userName"></a>
+	<h3 class="subsubtitle method-title">userName</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Contains the user name.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *userName</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKFeedbackDataSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addFeedback:completionHandler:" title="addFeedback:completionHandler:"></a>
+	<h3 class="subsubtitle method-title">addFeedback:completionHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds async the feedback item to the data source provider.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addFeedback:(TKFeedbackItem *)<em>item</em> completionHandler:(void ( ^ ) ( NSError *error ))<em>handler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>item</em></dt>
+			<dd><p>The feedback item</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>handler</em></dt>
+			<dd><p>The completion handler to call when the add operation is complete.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKFeedbackDataSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addFeedbackItems:completionHandler:" title="addFeedbackItems:completionHandler:"></a>
+	<h3 class="subsubtitle method-title">addFeedbackItems:completionHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds async the specified feedback items to the data source provider.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addFeedbackItems:(NSArray *)<em>feedbackItems</em> completionHandler:(void ( ^ ) ( NSError *))<em>handler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>feedbackItems</em></dt>
+			<dd><p>The feedback item list</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>handler</em></dt>
+			<dd><p>The completion handler to call when the add operation is complete.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKFeedbackDataSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addSubItemForKey:subItem:completionHandler:" title="addSubItemForKey:subItem:completionHandler:"></a>
+	<h3 class="subsubtitle method-title">addSubItemForKey:subItem:completionHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds async the comment feedback item using a key of item to the data source provider.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addSubItemForKey:(NSString *)<em>key</em> subItem:(TKFeedbackItem *)<em>item</em> completionHandler:(void ( ^ ) ( NSError *error ))<em>handler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>key</em></dt>
+			<dd><p>The parent feedback item key</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>item</em></dt>
+			<dd><p>The comment feedback item</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>handler</em></dt>
+			<dd><p>The completion handler to call when the add operation for comment is complete.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKFeedbackDataSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteWithKey:completionHandler:" title="deleteWithKey:completionHandler:"></a>
+	<h3 class="subsubtitle method-title">deleteWithKey:completionHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Deletes async the feedback item from the data source provider.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)deleteWithKey:(NSString *)<em>key</em> completionHandler:(void ( ^ ) ( NSError *error ))<em>handler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>key</em></dt>
+			<dd><p>The feedback item key</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>handler</em></dt>
+			<dd><p>The completion handler to call when the delete operation is complete.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKFeedbackDataSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/editWithKey:state:completionHandler:" title="editWithKey:state:completionHandler:"></a>
+	<h3 class="subsubtitle method-title">editWithKey:state:completionHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Edits async the feedback item in the data source provider.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)editWithKey:(NSString *)<em>key</em> state:(NSString *)<em>state</em> completionHandler:(void ( ^ ) ( NSError *error ))<em>handler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>key</em></dt>
+			<dd><p>The feedback item key</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>state</em></dt>
+			<dd><p>The feedback item state</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>handler</em></dt>
+			<dd><p>The completion handler to call when the edit operation is complete.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKFeedbackDataSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/feedbackItems:" title="feedbackItems:"></a>
+	<h3 class="subsubtitle method-title">feedbackItems:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns async the feedback items from the data source provider.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)feedbackItems:(void ( ^ ) ( NSArray *items , NSError *error ))<em>handler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>handler</em></dt>
+			<dd><p>The completion handler to call when the get operation is complete.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKFeedbackDataSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/feedbackItemsByState:completionHandler:" title="feedbackItemsByState:completionHandler:"></a>
+	<h3 class="subsubtitle method-title">feedbackItemsByState:completionHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns async the feedback items filtered by state.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)feedbackItemsByState:(NSString *)<em>state</em> completionHandler:(void ( ^ ) ( NSArray *items , NSError *error ))<em>handler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>state</em></dt>
+			<dd><p>The feedback item state used to filter data</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>handler</em></dt>
+			<dd><p>The completion handler to call when the get operation is complete.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKFeedbackDataSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/feedbackItemsByState:skip:completionHandler:" title="feedbackItemsByState:skip:completionHandler:"></a>
+	<h3 class="subsubtitle method-title">feedbackItemsByState:skip:completionHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns async the feedback items filtered by state and skip number of items.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)feedbackItemsByState:(NSString *)<em>state</em> skip:(NSInteger)<em>skip</em> completionHandler:(void ( ^ ) ( NSArray *, NSError *))<em>handler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>state</em></dt>
+			<dd><p>The feedback item state used to filter data</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>skip</em></dt>
+			<dd><p>The number of skipped items</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>handler</em></dt>
+			<dd><p>The completion handler to call when the get operation is complete.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKFeedbackDataSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/imageForKey:completionHandler:" title="imageForKey:completionHandler:"></a>
+	<h3 class="subsubtitle method-title">imageForKey:completionHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns screenshot image of the feedback item using key.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)imageForKey:(NSString *)<em>key</em> completionHandler:(void ( ^ ) ( UIImage *image , NSError *error ))<em>handler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>key</em></dt>
+			<dd><p>The feedback item key</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>handler</em></dt>
+			<dd><p>The completion handler to call when the image download is complete.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKFeedbackDataSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/subItemsForKey:completionHandler:" title="subItemsForKey:completionHandler:"></a>
+	<h3 class="subsubtitle method-title">subItemsForKey:completionHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns async the comment feedback items using a key of item from the data source provider.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)subItemsForKey:(NSString *)<em>key</em> completionHandler:(void ( ^ ) ( NSArray *items , NSError *error ))<em>handler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>key</em></dt>
+			<dd><p>The parent feedback item key</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>handler</em></dt>
+			<dd><p>The completion handler to call when the get operation for comments is complete.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKFeedbackDataSource.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Telerik. All rights reserved. (Last updated: 2015-06-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

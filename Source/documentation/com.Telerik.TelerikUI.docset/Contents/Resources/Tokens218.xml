@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKDataSourceGroupDescriptor.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKDataSourceGroupDescriptor</TokenIdentifier>
+			<Abstract type="html">Represents a group descriptor that is used in TKDataSource to group items.</Abstract>
+			<DeclaredIn>TKDataSourceGroupDescriptor.h</DeclaredIn>
+            
+			
+			<NodeRef refid="218"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceGroupDescriptor/setPropertyName:</TokenIdentifier>
+			<Abstract type="html">The name of the property by which values are grouped. The value of this property is ignored when the keyForItemBlock property is set.</Abstract>
+			<DeclaredIn>TKDataSourceGroupDescriptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *propertyName</Declaration>
+			
+			
+			<Anchor>//api/name/propertyName</Anchor>
+            <NodeRef refid="218"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceGroupDescriptor/propertyName</TokenIdentifier>
+			<Abstract type="html">The name of the property by which values are grouped. The value of this property is ignored when the keyForItemBlock property is set.</Abstract>
+			<DeclaredIn>TKDataSourceGroupDescriptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *propertyName</Declaration>
+			
+			
+			<Anchor>//api/name/propertyName</Anchor>
+            <NodeRef refid="218"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKDataSourceGroupDescriptor/propertyName</TokenIdentifier>
+			<Abstract type="html">The name of the property by which values are grouped. The value of this property is ignored when the keyForItemBlock property is set.</Abstract>
+			<DeclaredIn>TKDataSourceGroupDescriptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *propertyName</Declaration>
+			
+			
+			<Anchor>//api/name/propertyName</Anchor>
+            <NodeRef refid="218"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceGroupDescriptor/setKeyForItemBlock:</TokenIdentifier>
+			<Abstract type="html">The block function that is used to define the group key. This property has higher priority than the propertyName.</Abstract>
+			<DeclaredIn>TKDataSourceGroupDescriptor.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) TKDataSourceMapFunctionBlock keyForItemBlock</Declaration>
+			
+			
+			<Anchor>//api/name/keyForItemBlock</Anchor>
+            <NodeRef refid="218"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceGroupDescriptor/keyForItemBlock</TokenIdentifier>
+			<Abstract type="html">The block function that is used to define the group key. This property has higher priority than the propertyName.</Abstract>
+			<DeclaredIn>TKDataSourceGroupDescriptor.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) TKDataSourceMapFunctionBlock keyForItemBlock</Declaration>
+			
+			
+			<Anchor>//api/name/keyForItemBlock</Anchor>
+            <NodeRef refid="218"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKDataSourceGroupDescriptor/keyForItemBlock</TokenIdentifier>
+			<Abstract type="html">The block function that is used to define the group key. This property has higher priority than the propertyName.</Abstract>
+			<DeclaredIn>TKDataSourceGroupDescriptor.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) TKDataSourceMapFunctionBlock keyForItemBlock</Declaration>
+			
+			
+			<Anchor>//api/name/keyForItemBlock</Anchor>
+            <NodeRef refid="218"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceGroupDescriptor/initWithProperty:</TokenIdentifier>
+			<Abstract type="html">Initializes the group descriptor with a property name.</Abstract>
+			<DeclaredIn>TKDataSourceGroupDescriptor.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithProperty:(NSString *)propertyName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>propertyName</Name>
+					<Abstract type="html">The name of the property by which values are grouped.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithProperty:</Anchor>
+            <NodeRef refid="218"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceGroupDescriptor/initWithBlock:</TokenIdentifier>
+			<Abstract type="html">Initializes the group descriptor with a block function.</Abstract>
+			<DeclaredIn>TKDataSourceGroupDescriptor.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithBlock:(TKDataSourceMapFunctionBlock)keyForItemBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>keyForItemBlock</Name>
+					<Abstract type="html">The block function that is used to define the group key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithBlock:</Anchor>
+            <NodeRef refid="218"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKDataSourceGroupDescriptor/keyForItem:</TokenIdentifier>
+			<Abstract type="html">Returns the group key based on a specified item.</Abstract>
+			<DeclaredIn>TKDataSourceGroupDescriptor.h</DeclaredIn>
+			
+			<Declaration>- (id)keyForItem:(id)item</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>item</Name>
+					<Abstract type="html">The item&apos;s group key that is requested.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/keyForItem:</Anchor>
+            <NodeRef refid="218"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

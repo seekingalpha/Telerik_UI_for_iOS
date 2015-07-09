@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKSideDrawerHeaderButtonPosition.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKSideDrawerHeaderButtonPosition</TokenIdentifier>
+			<Abstract type="html">@enum TKSideDrawerHeaderButtonPosition</Abstract>
+			<DeclaredIn>TKSideDrawerHeader.h</DeclaredIn>
+            
+			
+			<NodeRef refid="340"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKSideDrawerHeaderButtonPositionLeft</TokenIdentifier>
+            <Abstract type="html">     The button is positioned on the left.
+     </Abstract>
+            <Declaration>TKSideDrawerHeaderButtonPositionLeft</Declaration>
+            
+            <DeclaredIn>TKSideDrawerHeader.h</DeclaredIn>
+            
+            <NodeRef refid="340"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKSideDrawerHeaderButtonPositionRight</TokenIdentifier>
+            <Abstract type="html">     The button is positioned on the right.
+     </Abstract>
+            <Declaration>TKSideDrawerHeaderButtonPositionRight</Declaration>
+            
+            <DeclaredIn>TKSideDrawerHeader.h</DeclaredIn>
+            
+            <NodeRef refid="340"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKSideDrawerHeaderButtonPositionTop</TokenIdentifier>
+            <Abstract type="html">     The button is positioned at the top.
+     </Abstract>
+            <Declaration>TKSideDrawerHeaderButtonPositionTop</Declaration>
+            
+            <DeclaredIn>TKSideDrawerHeader.h</DeclaredIn>
+            
+            <NodeRef refid="340"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKSideDrawerHeaderButtonPositionBottom</TokenIdentifier>
+            <Abstract type="html">     The button is positioned at the bottom.
+     </Abstract>
+            <Declaration>TKSideDrawerHeaderButtonPositionBottom</Declaration>
+            
+            <DeclaredIn>TKSideDrawerHeader.h</DeclaredIn>
+            
+            <NodeRef refid="340"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

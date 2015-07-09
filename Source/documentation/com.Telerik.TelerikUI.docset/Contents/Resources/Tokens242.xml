@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKMutableArray.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKMutableArray</TokenIdentifier>
+			<Abstract type="html">Represents a mutable array that supports keyValuePath access to its items.</Abstract>
+			<DeclaredIn>TKMutableArray.h</DeclaredIn>
+            
+			
+			<NodeRef refid="242"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKMutableArray/count</TokenIdentifier>
+			<Abstract type="html">Returns the count of objects.</Abstract>
+			<DeclaredIn>TKMutableArray.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)count</Declaration>
+			
+			<ReturnValue><Abstract type="html">The count.</Abstract></ReturnValue>
+			<Anchor>//api/name/count</Anchor>
+            <NodeRef refid="242"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKMutableArray/firstObject</TokenIdentifier>
+			<Abstract type="html">Retruns the first object in the array.</Abstract>
+			<DeclaredIn>TKMutableArray.h</DeclaredIn>
+			
+			<Declaration>- (id)firstObject</Declaration>
+			
+			
+			<Anchor>//api/name/firstObject</Anchor>
+            <NodeRef refid="242"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKMutableArray/lastObject</TokenIdentifier>
+			<Abstract type="html">Returns the last object in the array.</Abstract>
+			<DeclaredIn>TKMutableArray.h</DeclaredIn>
+			
+			<Declaration>- (id)lastObject</Declaration>
+			
+			
+			<Anchor>//api/name/lastObject</Anchor>
+            <NodeRef refid="242"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKMutableArray/array</TokenIdentifier>
+			<Abstract type="html">Returns a NSArray representation of the object.</Abstract>
+			<DeclaredIn>TKMutableArray.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)array</Declaration>
+			
+			
+			<Anchor>//api/name/array</Anchor>
+            <NodeRef refid="242"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKMutableArray/initWithArray:</TokenIdentifier>
+			<Abstract type="html">Initializes a mutable array from an array.</Abstract>
+			<DeclaredIn>TKMutableArray.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithArray:(NSArray *)array</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>array</Name>
+					<Abstract type="html">The array used for initialization.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithArray:</Anchor>
+            <NodeRef refid="242"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKMutableArray/addObject:</TokenIdentifier>
+			<Abstract type="html">Adds an object to the array.</Abstract>
+			<DeclaredIn>TKMutableArray.h</DeclaredIn>
+			
+			<Declaration>- (void)addObject:(id)object</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>object</Name>
+					<Abstract type="html">The object which will be added to the array.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addObject:</Anchor>
+            <NodeRef refid="242"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKMutableArray/removeObject:</TokenIdentifier>
+			<Abstract type="html">Removes object from the array</Abstract>
+			<DeclaredIn>TKMutableArray.h</DeclaredIn>
+			
+			<Declaration>- (void)removeObject:(id)object</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>object</Name>
+					<Abstract type="html">The object which will be removed from the array.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeObject:</Anchor>
+            <NodeRef refid="242"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKMutableArray/removeObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Removes an object at a specified index.</Abstract>
+			<DeclaredIn>TKMutableArray.h</DeclaredIn>
+			
+			<Declaration>- (void)removeObjectAtIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index of the object that will be removed.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeObjectAtIndex:</Anchor>
+            <NodeRef refid="242"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKMutableArray/objectAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a object at an index.</Abstract>
+			<DeclaredIn>TKMutableArray.h</DeclaredIn>
+			
+			<Declaration>- (id)objectAtIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The object&apos;s index.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A object</Abstract></ReturnValue>
+			<Anchor>//api/name/objectAtIndex:</Anchor>
+            <NodeRef refid="242"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKMutableArray/objectAtIndexedSubscript:</TokenIdentifier>
+			<Abstract type="html">Returns the object at the specified index.</Abstract>
+			<DeclaredIn>TKMutableArray.h</DeclaredIn>
+			
+			<Declaration>- (id)objectAtIndexedSubscript:(NSUInteger)idx</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>idx</Name>
+					<Abstract type="html">The object&apos;s index in the array</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/objectAtIndexedSubscript:</Anchor>
+            <NodeRef refid="242"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKMutableArray/setObject:atIndexedSubscript:</TokenIdentifier>
+			<Abstract type="html">Sets an object at specific index</Abstract>
+			<DeclaredIn>TKMutableArray.h</DeclaredIn>
+			
+			<Declaration>- (void)setObject:(id)obj atIndexedSubscript:(NSUInteger)idx</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>obj</Name>
+					<Abstract type="html">The object</Abstract>
+				</Parameter><Parameter>
+					<Name>idx</Name>
+					<Abstract type="html">The index position</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setObject:atIndexedSubscript:</Anchor>
+            <NodeRef refid="242"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

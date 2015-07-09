@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartSeries.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartSeries</TokenIdentifier>
+			<Abstract type="html">Represents a base class for all TKChart series. It is a grouping container for data points of given types. Different kinds of series
+represent different kinds of charts:</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="183"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/initWithItems:</TokenIdentifier>
+			<Abstract type="html">Initializes the series with items.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithItems:(NSArray *)items</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>items</Name>
+					<Abstract type="html">The array of items that obeys the TKChartData protocol.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithItems:</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/initWithItems:reuseIdentifier:</TokenIdentifier>
+			<Abstract type="html">Initializes the series with items.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithItems:(NSArray *)items reuseIdentifier:(NSString *)reuseIdentifier</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>items</Name>
+					<Abstract type="html">The array of items that obeys the TKChartData protocol.</Abstract>
+				</Parameter><Parameter>
+					<Name>reuseIdentifier</Name>
+					<Abstract type="html">The unique identifier used when series are reused.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithItems:reuseIdentifier:</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/initWithItems:forKeys:</TokenIdentifier>
+			<Abstract type="html">Initializes the series with items with specific key value paths.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithItems:(NSArray *)items forKeys:(NSDictionary *)keys</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>items</Name>
+					<Abstract type="html">The items that supply data for the series.</Abstract>
+				</Parameter><Parameter>
+					<Name>keys</Name>
+					<Abstract type="html">The items key path.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithItems:forKeys:</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/initWithItems:forKeys:reuseIdentifier:</TokenIdentifier>
+			<Abstract type="html">Initializes the series with items with specific key value paths.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithItems:(NSArray *)items forKeys:(NSDictionary *)keys reuseIdentifier:(NSString *)reuseIdentifier</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>items</Name>
+					<Abstract type="html">The items that supply data for the series.</Abstract>
+				</Parameter><Parameter>
+					<Name>keys</Name>
+					<Abstract type="html">The items key path.</Abstract>
+				</Parameter><Parameter>
+					<Name>reuseIdentifier</Name>
+					<Abstract type="html">The unique identifier used when series are reused.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithItems:forKeys:reuseIdentifier:</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/initWithItems:xValueKey:yValueKey:</TokenIdentifier>
+			<Abstract type="html">Initializes the series with items with specific key value paths for dataXValue and dataYValue.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithItems:(NSArray *)items xValueKey:(NSString *)xValueKey yValueKey:(NSString *)yValueKey</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>items</Name>
+					<Abstract type="html">The items that supply data for the series.</Abstract>
+				</Parameter><Parameter>
+					<Name>xValueKey</Name>
+					<Abstract type="html">The key path to the dataXValue property.</Abstract>
+				</Parameter><Parameter>
+					<Name>yValueKey</Name>
+					<Abstract type="html">The key path to the dataYValue property.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithItems:xValueKey:yValueKey:</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/items</TokenIdentifier>
+			<Abstract type="html">The items collection associated with this series.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/visiblePoints</TokenIdentifier>
+			<Abstract type="html">The series&apos; visible data points related to series axes pan and zoom values.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)visiblePoints</Declaration>
+			
+			
+			<Anchor>//api/name/visiblePoints</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/setDataView:</TokenIdentifier>
+			<Abstract type="html">The series&apos; data view.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartDataView *dataView</Declaration>
+			
+			
+			<Anchor>//api/name/dataView</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/dataView</TokenIdentifier>
+			<Abstract type="html">The series&apos; data view.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartDataView *dataView</Declaration>
+			
+			
+			<Anchor>//api/name/dataView</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartSeries/dataView</TokenIdentifier>
+			<Abstract type="html">The series&apos; data view.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartDataView *dataView</Declaration>
+			
+			
+			<Anchor>//api/name/dataView</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/setStackInfo:</TokenIdentifier>
+			<Abstract type="html">The series stack information.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartStackInfo *stackInfo</Declaration>
+			
+			
+			<Anchor>//api/name/stackInfo</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/stackInfo</TokenIdentifier>
+			<Abstract type="html">The series stack information.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartStackInfo *stackInfo</Declaration>
+			
+			
+			<Anchor>//api/name/stackInfo</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartSeries/stackInfo</TokenIdentifier>
+			<Abstract type="html">The series stack information.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartStackInfo *stackInfo</Declaration>
+			
+			
+			<Anchor>//api/name/stackInfo</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/setReuseIdentifier:</TokenIdentifier>
+			<Abstract type="html">The series unique identifier.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *reuseIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/reuseIdentifier</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/reuseIdentifier</TokenIdentifier>
+			<Abstract type="html">The series unique identifier.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *reuseIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/reuseIdentifier</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartSeries/reuseIdentifier</TokenIdentifier>
+			<Abstract type="html">The series unique identifier.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSString *reuseIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/reuseIdentifier</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/prepareForReuse</TokenIdentifier>
+			<Abstract type="html">Prepares the series for being reused.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>- (void)prepareForReuse</Declaration>
+			
+			
+			<Anchor>//api/name/prepareForReuse</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/setStyle:</TokenIdentifier>
+			<Abstract type="html">The series style.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartSeriesStyle *style</Declaration>
+			
+			
+			<Anchor>//api/name/style</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/style</TokenIdentifier>
+			<Abstract type="html">The series style.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartSeriesStyle *style</Declaration>
+			
+			
+			<Anchor>//api/name/style</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartSeries/style</TokenIdentifier>
+			<Abstract type="html">The series style.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartSeriesStyle *style</Declaration>
+			
+			
+			<Anchor>//api/name/style</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/setSelectionMode:</TokenIdentifier>
+			<Abstract type="html">The series&apos; selection mode of type TKChartSeriesSelectionMode</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartSeriesSelectionMode selectionMode</Declaration>
+			
+			
+			<Anchor>//api/name/selectionMode</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/selectionMode</TokenIdentifier>
+			<Abstract type="html">The series&apos; selection mode of type TKChartSeriesSelectionMode</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartSeriesSelectionMode selectionMode</Declaration>
+			
+			
+			<Anchor>//api/name/selectionMode</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartSeries/selectionMode</TokenIdentifier>
+			<Abstract type="html">The series&apos; selection mode of type TKChartSeriesSelectionMode</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartSeriesSelectionMode selectionMode</Declaration>
+			
+			
+			<Anchor>//api/name/selectionMode</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/setTitle:</TokenIdentifier>
+			<Abstract type="html">The series title. Used by the legend.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/title</TokenIdentifier>
+			<Abstract type="html">The series title. Used by the legend.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartSeries/title</TokenIdentifier>
+			<Abstract type="html">The series title. Used by the legend.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/setXAxis:</TokenIdentifier>
+			<Abstract type="html">The associated x-axis.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartAxis *xAxis</Declaration>
+			
+			
+			<Anchor>//api/name/xAxis</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/xAxis</TokenIdentifier>
+			<Abstract type="html">The associated x-axis.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartAxis *xAxis</Declaration>
+			
+			
+			<Anchor>//api/name/xAxis</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartSeries/xAxis</TokenIdentifier>
+			<Abstract type="html">The associated x-axis.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartAxis *xAxis</Declaration>
+			
+			
+			<Anchor>//api/name/xAxis</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/setYAxis:</TokenIdentifier>
+			<Abstract type="html">The associated y-axis.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartAxis *yAxis</Declaration>
+			
+			
+			<Anchor>//api/name/yAxis</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/yAxis</TokenIdentifier>
+			<Abstract type="html">The associated y-axis.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartAxis *yAxis</Declaration>
+			
+			
+			<Anchor>//api/name/yAxis</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartSeries/yAxis</TokenIdentifier>
+			<Abstract type="html">The associated y-axis.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKChartAxis *yAxis</Declaration>
+			
+			
+			<Anchor>//api/name/yAxis</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/setTag:</TokenIdentifier>
+			<Abstract type="html">The series tag. You can use it as a way to recognize a series.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger tag</Declaration>
+			
+			
+			<Anchor>//api/name/tag</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/tag</TokenIdentifier>
+			<Abstract type="html">The series tag. You can use it as a way to recognize a series.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger tag</Declaration>
+			
+			
+			<Anchor>//api/name/tag</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartSeries/tag</TokenIdentifier>
+			<Abstract type="html">The series tag. You can use it as a way to recognize a series.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger tag</Declaration>
+			
+			
+			<Anchor>//api/name/tag</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/setIndex:</TokenIdentifier>
+			<Abstract type="html">The series index in a chart.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) NSUInteger index</Declaration>
+			
+			
+			<Anchor>//api/name/index</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/index</TokenIdentifier>
+			<Abstract type="html">The series index in a chart.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) NSUInteger index</Declaration>
+			
+			
+			<Anchor>//api/name/index</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartSeries/index</TokenIdentifier>
+			<Abstract type="html">The series index in a chart.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) NSUInteger index</Declaration>
+			
+			
+			<Anchor>//api/name/index</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/dataPointAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns an idTKChartData data point at the given index.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>- (id&lt;TKChartData&gt;)dataPointAtIndex:(NSUInteger)dataIndex</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataIndex</Name>
+					<Abstract type="html">The data point index.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/dataPointAtIndex:</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/renderForChart:</TokenIdentifier>
+			<Abstract type="html">Creates a renderer for the partical series.</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>- (TKChartSeriesRender *)renderForChart:(TKChart *)chart</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The chart.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/renderForChart:</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeries/pointIsSelected:</TokenIdentifier>
+			<Abstract type="html">Returns trye if the point at the specified index is selected</Abstract>
+			<DeclaredIn>TKChartSeries.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)pointIsSelected:(NSInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The point index.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/pointIsSelected:</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

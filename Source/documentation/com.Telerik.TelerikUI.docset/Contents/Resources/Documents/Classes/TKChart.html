@@ -1,0 +1,2593 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>TKChart Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">TelerikUI </a></h1>
+				<a id="developerHome" href="../index.html">Telerik</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">TKChart Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/allowAnimations">&nbsp;&nbsp;&nbsp;&nbsp;allowAnimations</option>
+	
+	<option value="//api/name/allowPanDeceleration">&nbsp;&nbsp;&nbsp;&nbsp;allowPanDeceleration</option>
+	
+	<option value="//api/name/allowTrackball">&nbsp;&nbsp;&nbsp;&nbsp;allowTrackball</option>
+	
+	<option value="//api/name/animationDuration">&nbsp;&nbsp;&nbsp;&nbsp;animationDuration</option>
+	
+	<option value="//api/name/dataSource">&nbsp;&nbsp;&nbsp;&nbsp;dataSource</option>
+	
+	<option value="//api/name/delegate">&nbsp;&nbsp;&nbsp;&nbsp;delegate</option>
+	
+	<option value="//api/name/handleDoubleTap">&nbsp;&nbsp;&nbsp;&nbsp;handleDoubleTap</option>
+	
+	<option value="//api/name/insets">&nbsp;&nbsp;&nbsp;&nbsp;insets</option>
+	
+	<option value="//api/name/plotViewInsets">&nbsp;&nbsp;&nbsp;&nbsp;plotViewInsets</option>
+	
+	<option value="//api/name/selectionMode">&nbsp;&nbsp;&nbsp;&nbsp;selectionMode</option>
+	
+	<option value="//api/name/theme">&nbsp;&nbsp;&nbsp;&nbsp;theme</option>
+	
+	<option value="//api/name/trackball">&nbsp;&nbsp;&nbsp;&nbsp;trackball</option>
+	
+	<option value="//api/name/xAxis">&nbsp;&nbsp;&nbsp;&nbsp;xAxis</option>
+	
+	<option value="//api/name/yAxis">&nbsp;&nbsp;&nbsp;&nbsp;yAxis</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addAnnotation:">&nbsp;&nbsp;&nbsp;&nbsp;- addAnnotation:</option>
+	
+	<option value="//api/name/addAxis:">&nbsp;&nbsp;&nbsp;&nbsp;- addAxis:</option>
+	
+	<option value="//api/name/addSeries:">&nbsp;&nbsp;&nbsp;&nbsp;- addSeries:</option>
+	
+	<option value="//api/name/animate">&nbsp;&nbsp;&nbsp;&nbsp;- animate</option>
+	
+	<option value="//api/name/annotations">&nbsp;&nbsp;&nbsp;&nbsp;- annotations</option>
+	
+	<option value="//api/name/axes">&nbsp;&nbsp;&nbsp;&nbsp;- axes</option>
+	
+	<option value="//api/name/beginUpdates">&nbsp;&nbsp;&nbsp;&nbsp;- beginUpdates</option>
+	
+	<option value="//api/name/dequeueReusableSeriesWithIdentifier:">&nbsp;&nbsp;&nbsp;&nbsp;- dequeueReusableSeriesWithIdentifier:</option>
+	
+	<option value="//api/name/deselect:">&nbsp;&nbsp;&nbsp;&nbsp;- deselect:</option>
+	
+	<option value="//api/name/endUpdates">&nbsp;&nbsp;&nbsp;&nbsp;- endUpdates</option>
+	
+	<option value="//api/name/gridStyle">&nbsp;&nbsp;&nbsp;&nbsp;- gridStyle</option>
+	
+	<option value="//api/name/hitTestForPoint:">&nbsp;&nbsp;&nbsp;&nbsp;- hitTestForPoint:</option>
+	
+	<option value="//api/name/legend">&nbsp;&nbsp;&nbsp;&nbsp;- legend</option>
+	
+	<option value="//api/name/paletteItemForPoint:inSeries:">&nbsp;&nbsp;&nbsp;&nbsp;- paletteItemForPoint:inSeries:</option>
+	
+	<option value="//api/name/paletteItemForSeries:atIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- paletteItemForSeries:atIndex:</option>
+	
+	<option value="//api/name/plotView">&nbsp;&nbsp;&nbsp;&nbsp;- plotView</option>
+	
+	<option value="//api/name/reloadData">&nbsp;&nbsp;&nbsp;&nbsp;- reloadData</option>
+	
+	<option value="//api/name/removeAllAnnotations">&nbsp;&nbsp;&nbsp;&nbsp;- removeAllAnnotations</option>
+	
+	<option value="//api/name/removeAllData">&nbsp;&nbsp;&nbsp;&nbsp;- removeAllData</option>
+	
+	<option value="//api/name/removeAnnotation:">&nbsp;&nbsp;&nbsp;&nbsp;- removeAnnotation:</option>
+	
+	<option value="//api/name/removeAxis:">&nbsp;&nbsp;&nbsp;&nbsp;- removeAxis:</option>
+	
+	<option value="//api/name/removeSeries:">&nbsp;&nbsp;&nbsp;&nbsp;- removeSeries:</option>
+	
+	<option value="//api/name/select:">&nbsp;&nbsp;&nbsp;&nbsp;- select:</option>
+	
+	<option value="//api/name/selectedPoints">&nbsp;&nbsp;&nbsp;&nbsp;- selectedPoints</option>
+	
+	<option value="//api/name/selectedSeries">&nbsp;&nbsp;&nbsp;&nbsp;- selectedSeries</option>
+	
+	<option value="//api/name/series">&nbsp;&nbsp;&nbsp;&nbsp;- series</option>
+	
+	<option value="//api/name/title">&nbsp;&nbsp;&nbsp;&nbsp;- title</option>
+	
+	<option value="//api/name/update">&nbsp;&nbsp;&nbsp;&nbsp;- update</option>
+	
+	<option value="//api/name/updateAnnotations">&nbsp;&nbsp;&nbsp;&nbsp;- updateAnnotations</option>
+	
+	<option value="//api/name/visualPointForSeries:dataPointIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- visualPointForSeries:dataPointIndex:</option>
+	
+	<option value="//api/name/visualPointsForSeries:">&nbsp;&nbsp;&nbsp;&nbsp;- visualPointsForSeries:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Accessing Views and Styling">Accessing Views and Styling</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Selection">Selection</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Configuring TKChart Animations">Configuring TKChart Animations</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Managing the Delegate and the Data Source">Managing the Delegate and the Data Source</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Configuring Axes">Configuring Axes</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Configuring Series">Configuring Series</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Configuring Annotations">Configuring Annotations</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Data manipulation">Data manipulation</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/allowAnimations">allowAnimations</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/allowPanDeceleration">allowPanDeceleration</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/allowTrackball">allowTrackball</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/animationDuration">animationDuration</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dataSource">dataSource</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/delegate">delegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/handleDoubleTap">handleDoubleTap</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insets">insets</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotViewInsets">plotViewInsets</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/selectionMode">selectionMode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/theme">theme</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/trackball">trackball</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/xAxis">xAxis</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/yAxis">yAxis</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addAnnotation:">addAnnotation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addAxis:">addAxis:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addSeries:">addSeries:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/animate">animate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/annotations">annotations</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/axes">axes</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/beginUpdates">beginUpdates</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dequeueReusableSeriesWithIdentifier:">dequeueReusableSeriesWithIdentifier:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deselect:">deselect:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/endUpdates">endUpdates</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/gridStyle">gridStyle</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hitTestForPoint:">hitTestForPoint:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/legend">legend</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paletteItemForPoint:inSeries:">paletteItemForPoint:inSeries:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paletteItemForSeries:atIndex:">paletteItemForSeries:atIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotView">plotView</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/reloadData">reloadData</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeAllAnnotations">removeAllAnnotations</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeAllData">removeAllData</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeAnnotation:">removeAnnotation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeAxis:">removeAxis:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeSeries:">removeSeries:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/select:">select:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/selectedPoints">selectedPoints</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/selectedSeries">selectedSeries</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/series">series</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/title">title</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/update">update</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateAnnotations">updateAnnotations</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/visualPointForSeries:dataPointIndex:">visualPointForSeries:dataPointIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/visualPointsForSeries:">visualPointsForSeries:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="TKChart Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">TKChart Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/TKView.html">TKView</a> : UIView</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">TKChart.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>TKChart is a versatile charting component that offers great performance, drawing capabilities and intuitive object model. Thanks to the public API you can set up complex charts with stunning animations and appearance easily through code. TKChart supports various <a href="#//api/name/series">series</a> types: bar, column, line, spline, area, pie, donut and scatter. These <a href="#//api/name/series">series</a> can also be stacked where appropriate. Among its supported features are pan/zoom funcionality, multiple <a href="#//api/name/axes">axes</a> and animations that use CoreAnimations and UIKit dynamics.
+  <img src="../docs/images/chart-overview001.png"></p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Accessing Views and Styling" name="task_Accessing Views and Styling"></a>
+						<h3 class="subsubtitle task-title">Accessing Views and Styling</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/legend">&ndash;&nbsp;legend</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/title">&ndash;&nbsp;title</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotView">&ndash;&nbsp;plotView</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/gridStyle">&ndash;&nbsp;gridStyle</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insets">&nbsp;&nbsp;insets</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotViewInsets">&nbsp;&nbsp;plotViewInsets</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/theme">&nbsp;&nbsp;theme</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/handleDoubleTap">&nbsp;&nbsp;handleDoubleTap</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/allowPanDeceleration">&nbsp;&nbsp;allowPanDeceleration</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Selection" name="task_Selection"></a>
+						<h3 class="subsubtitle task-title">Selection</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/selectionMode">&nbsp;&nbsp;selectionMode</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/selectedSeries">&ndash;&nbsp;selectedSeries</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/selectedPoints">&ndash;&nbsp;selectedPoints</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/select:">&ndash;&nbsp;select:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deselect:">&ndash;&nbsp;deselect:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Configuring TKChart Animations" name="task_Configuring TKChart Animations"></a>
+						<h3 class="subsubtitle task-title">Configuring TKChart Animations</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/allowAnimations">&nbsp;&nbsp;allowAnimations</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/animationDuration">&nbsp;&nbsp;animationDuration</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/animate">&ndash;&nbsp;animate</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Managing the Delegate and the Data Source" name="task_Managing the Delegate and the Data Source"></a>
+						<h3 class="subsubtitle task-title">Managing the Delegate and the Data Source</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dataSource">&nbsp;&nbsp;dataSource</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Configuring Axes" name="task_Configuring Axes"></a>
+						<h3 class="subsubtitle task-title">Configuring Axes</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/xAxis">&nbsp;&nbsp;xAxis</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/yAxis">&nbsp;&nbsp;yAxis</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/axes">&ndash;&nbsp;axes</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addAxis:">&ndash;&nbsp;addAxis:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeAxis:">&ndash;&nbsp;removeAxis:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Configuring Series" name="task_Configuring Series"></a>
+						<h3 class="subsubtitle task-title">Configuring Series</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/series">&ndash;&nbsp;series</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addSeries:">&ndash;&nbsp;addSeries:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dequeueReusableSeriesWithIdentifier:">&ndash;&nbsp;dequeueReusableSeriesWithIdentifier:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeSeries:">&ndash;&nbsp;removeSeries:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/trackball">&nbsp;&nbsp;trackball</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/allowTrackball">&nbsp;&nbsp;allowTrackball</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Configuring Annotations" name="task_Configuring Annotations"></a>
+						<h3 class="subsubtitle task-title">Configuring Annotations</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/annotations">&ndash;&nbsp;annotations</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addAnnotation:">&ndash;&nbsp;addAnnotation:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeAnnotation:">&ndash;&nbsp;removeAnnotation:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeAllAnnotations">&ndash;&nbsp;removeAllAnnotations</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateAnnotations">&ndash;&nbsp;updateAnnotations</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Data manipulation" name="task_Data manipulation"></a>
+						<h3 class="subsubtitle task-title">Data manipulation</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/reloadData">&ndash;&nbsp;reloadData</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/update">&ndash;&nbsp;update</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeAllData">&ndash;&nbsp;removeAllData</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/beginUpdates">&ndash;&nbsp;beginUpdates</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/endUpdates">&ndash;&nbsp;endUpdates</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hitTestForPoint:">&ndash;&nbsp;hitTestForPoint:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/visualPointsForSeries:">&ndash;&nbsp;visualPointsForSeries:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/visualPointForSeries:dataPointIndex:">&ndash;&nbsp;visualPointForSeries:dataPointIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paletteItemForSeries:atIndex:">&ndash;&nbsp;paletteItemForSeries:atIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paletteItemForPoint:inSeries:">&ndash;&nbsp;paletteItemForPoint:inSeries:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/allowAnimations" title="allowAnimations"></a>
+	<h3 class="subsubtitle method-title">allowAnimations</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Determines whether TKChart allows animations.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL allowAnimations</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/allowPanDeceleration" title="allowPanDeceleration"></a>
+	<h3 class="subsubtitle method-title">allowPanDeceleration</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Determines whether an inertia should be added when panning the chart.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL allowPanDeceleration</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/allowTrackball" title="allowTrackball"></a>
+	<h3 class="subsubtitle method-title">allowTrackball</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Determines whether TKChart allows the <a href="#//api/name/trackball">trackball</a> behavior.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL allowTrackball</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/animationDuration" title="animationDuration"></a>
+	<h3 class="subsubtitle method-title">animationDuration</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Determines the animation duration. This value is used by default animations in TKChart.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) CFTimeInterval animationDuration</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dataSource" title="dataSource"></a>
+	<h3 class="subsubtitle method-title">dataSource</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sets data-source <a href="#//api/name/delegate">delegate</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;TKChartDataSource&gt; dataSource</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The data-source <a href="#//api/name/delegate">delegate</a>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/delegate" title="delegate"></a>
+	<h3 class="subsubtitle method-title">delegate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A delegate for styling the chart and receiving notifications.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) id&lt;TKChartDelegate&gt; delegate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/handleDoubleTap" title="handleDoubleTap"></a>
+	<h3 class="subsubtitle method-title">handleDoubleTap</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Determines whether a Double-tap gesture will be handled by the chart to reset the current Zoom and Pan values.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL handleDoubleTap</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insets" title="insets"></a>
+	<h3 class="subsubtitle method-title">insets</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>TKChart content insets relative to its view size.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) UIEdgeInsets insets</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plotViewInsets" title="plotViewInsets"></a>
+	<h3 class="subsubtitle method-title">plotViewInsets</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The chart&rsquo;s plot view <a href="#//api/name/insets">insets</a> relative to size.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) UIEdgeInsets plotViewInsets</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/selectionMode" title="selectionMode"></a>
+	<h3 class="subsubtitle method-title">selectionMode</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a value indicating whether the user can select single or multiple series/data points.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) TKChartSelectionMode selectionMode</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/theme" title="theme"></a>
+	<h3 class="subsubtitle method-title">theme</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>TKChart theme.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) TKTheme *theme</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>TKChart theme.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/trackball" title="trackball"></a>
+	<h3 class="subsubtitle method-title">trackball</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the chart&rsquo;s crosshair</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) TKChartTrackball *trackball</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/xAxis" title="xAxis"></a>
+	<h3 class="subsubtitle method-title">xAxis</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>TKChart main x-axis.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) TKChartAxis *xAxis</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/yAxis" title="yAxis"></a>
+	<h3 class="subsubtitle method-title">yAxis</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>TKChart y-Axis.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) TKChartAxis *yAxis</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addAnnotation:" title="addAnnotation:"></a>
+	<h3 class="subsubtitle method-title">addAnnotation:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds annotation to the chart</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addAnnotation:(TKChartAnnotation *)<em>annotation</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>annotation</em></dt>
+			<dd><p>The annotation that will be added.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addAxis:" title="addAxis:"></a>
+	<h3 class="subsubtitle method-title">addAxis:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds an axis to the chart.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addAxis:(TKChartAxis *)<em>axis</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>axis</em></dt>
+			<dd><p>The axis that should be added to the chart.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addSeries:" title="addSeries:"></a>
+	<h3 class="subsubtitle method-title">addSeries:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a <a href="#//api/name/series">series</a> to the chart.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addSeries:(TKChartSeries *)<em>series</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>series</em></dt>
+			<dd><p>The <a href="#//api/name/series">series</a> that should be added to the chart.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/animate" title="animate"></a>
+	<h3 class="subsubtitle method-title">animate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Causes the chart to animate its content. The <a href="#//api/name/allowAnimations">allowAnimations</a> property should be set to true before calling this method.
+You can customise TKChart animations by handling the chart:animationForSeries:withState:inRect: method of <a href="../Protocols/TKChartDelegate.html">TKChartDelegate</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)animate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/annotations" title="annotations"></a>
+	<h3 class="subsubtitle method-title">annotations</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the chart annotations</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)annotations</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/axes" title="axes"></a>
+	<h3 class="subsubtitle method-title">axes</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>An array that contains the axes of the chart.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)axes</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>All axes of the chart.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/beginUpdates" title="beginUpdates"></a>
+	<h3 class="subsubtitle method-title">beginUpdates</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Begins a <a href="#//api/name/series">series</a> of method calls that insert, delete, or select dataPoints and <a href="#//api/name/series">series</a> of the receiver.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)beginUpdates</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dequeueReusableSeriesWithIdentifier:" title="dequeueReusableSeriesWithIdentifier:"></a>
+	<h3 class="subsubtitle method-title">dequeueReusableSeriesWithIdentifier:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a reusable chart-view <a href="#//api/name/series">series</a> object located by its identifier.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)dequeueReusableSeriesWithIdentifier:(NSString *)<em>identifier</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>identifier</em></dt>
+			<dd><p>The string identifying the cell object to be reused. This parameter must not be nil.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deselect:" title="deselect:"></a>
+	<h3 class="subsubtitle method-title">deselect:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Deselect a <a href="#//api/name/series">series</a> or data point depending on the <a href="#//api/name/series">series</a> <a href="#//api/name/selectionMode">selectionMode</a> property.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)deselect:(TKChartSelectionInfo *)<em>info</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>info</em></dt>
+			<dd><p>The selection information object.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/endUpdates" title="endUpdates"></a>
+	<h3 class="subsubtitle method-title">endUpdates</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Concludes a <a href="#//api/name/series">series</a> of method calls that insert, delete, select, or reload dataPoints and <a href="#//api/name/series">series</a> of the receiver.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)endUpdates</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/gridStyle" title="gridStyle"></a>
+	<h3 class="subsubtitle method-title">gridStyle</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns TKChart style.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (TKChartGridStyle *)gridStyle</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hitTestForPoint:" title="hitTestForPoint:"></a>
+	<h3 class="subsubtitle method-title">hitTestForPoint:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the data point located at specified coordinates.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (TKChartSelectionInfo *)hitTestForPoint:(CGPoint)<em>point</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>point</em></dt>
+			<dd><p>The point to be used for hit testing.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/legend" title="legend"></a>
+	<h3 class="subsubtitle method-title">legend</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns TKChart legend view.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (TKChartLegendView *)legend</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paletteItemForPoint:inSeries:" title="paletteItemForPoint:inSeries:"></a>
+	<h3 class="subsubtitle method-title">paletteItemForPoint:inSeries:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a palette item that should be used to present specific point</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (TKChartPaletteItem *)paletteItemForPoint:(NSUInteger)<em>index</em> inSeries:(TKChartSeries *)<em>series</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>index</em></dt>
+			<dd><p>The data point index</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>series</em></dt>
+			<dd><p>The <a href="#//api/name/series">series</a> that contains the specified point.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paletteItemForSeries:atIndex:" title="paletteItemForSeries:atIndex:"></a>
+	<h3 class="subsubtitle method-title">paletteItemForSeries:atIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a palette item that should be used to present specific <a href="#//api/name/series">series</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (TKChartPaletteItem *)paletteItemForSeries:(TKChartSeries *)<em>series</em> atIndex:(NSUInteger)<em>index</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>series</em></dt>
+			<dd><p>The <a href="#//api/name/series">series</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>index</em></dt>
+			<dd><p>The <a href="#//api/name/series">series</a> index</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plotView" title="plotView"></a>
+	<h3 class="subsubtitle method-title">plotView</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns TKChart plot view.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (UIView *)plotView</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/reloadData" title="reloadData"></a>
+	<h3 class="subsubtitle method-title">reloadData</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Reloads the data-source and rebuilds the UI. Call this method to reload all the data that is used to construct the chart.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)reloadData</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeAllAnnotations" title="removeAllAnnotations"></a>
+	<h3 class="subsubtitle method-title">removeAllAnnotations</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes all <a href="#//api/name/annotations">annotations</a> from the chart</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeAllAnnotations</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeAllData" title="removeAllData"></a>
+	<h3 class="subsubtitle method-title">removeAllData</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes all <a href="#//api/name/series">series</a> &amp; <a href="#//api/name/axes">axes</a> from the chart.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeAllData</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeAnnotation:" title="removeAnnotation:"></a>
+	<h3 class="subsubtitle method-title">removeAnnotation:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes annotation from the chart</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeAnnotation:(TKChartAnnotation *)<em>annotation</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>annotation</em></dt>
+			<dd><p>The annotation that will be removed.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeAxis:" title="removeAxis:"></a>
+	<h3 class="subsubtitle method-title">removeAxis:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes an axis from the chart.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)removeAxis:(TKChartAxis *)<em>axis</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>axis</em></dt>
+			<dd><p>The axis that should be removed from the chart.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeSeries:" title="removeSeries:"></a>
+	<h3 class="subsubtitle method-title">removeSeries:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes the specified <a href="#//api/name/series">series</a> from the chart.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeSeries:(TKChartSeries *)<em>series</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>series</em></dt>
+			<dd><p>The <a href="#//api/name/series">series</a> that should be removed from the chart.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/select:" title="select:"></a>
+	<h3 class="subsubtitle method-title">select:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Selects a <a href="#//api/name/series">series</a> or data point depending on the <a href="#//api/name/series">series</a> <a href="#//api/name/selectionMode">selectionMode</a> property.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)select:(TKChartSelectionInfo *)<em>info</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>info</em></dt>
+			<dd><p>The selection information object.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/selectedPoints" title="selectedPoints"></a>
+	<h3 class="subsubtitle method-title">selectedPoints</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns an array containing instances of <a href="../Classes/TKChartSelectionInfo.html">TKChartSelectionInfo</a> containing the selected points in the chart;</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)selectedPoints</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/selectedSeries" title="selectedSeries"></a>
+	<h3 class="subsubtitle method-title">selectedSeries</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the selected <a href="#//api/name/series">series</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)selectedSeries</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/series" title="series"></a>
+	<h3 class="subsubtitle method-title">series</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>A read-only array of the <a href="../Classes/TKChartSeries.html">TKChartSeries</a> objecs displayed on the chart.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)series</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/title" title="title"></a>
+	<h3 class="subsubtitle method-title">title</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns TKChart title view.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (TKChartTitleView *)title</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/update" title="update"></a>
+	<h3 class="subsubtitle method-title">update</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Updates the UI only.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)update</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateAnnotations" title="updateAnnotations"></a>
+	<h3 class="subsubtitle method-title">updateAnnotations</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Forces <a href="#//api/name/annotations">annotations</a> to <a href="#//api/name/update">update</a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)updateAnnotations</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/visualPointForSeries:dataPointIndex:" title="visualPointForSeries:dataPointIndex:"></a>
+	<h3 class="subsubtitle method-title">visualPointForSeries:dataPointIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a visual point element at a specific point index and <a href="#//api/name/series">series</a>.
+Visual points can be modified only when animations are allowed.
+The <a href="#//api/name/animate">animate</a> method should be called to reflect all changes made in visual points.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (TKChartVisualPoint *)visualPointForSeries:(TKChartSeries *)<em>series</em> dataPointIndex:(NSInteger)<em>dataPointIndex</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>series</em></dt>
+			<dd><p>The <a href="#//api/name/series">series</a> that contains the requested point.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>dataPointIndex</em></dt>
+			<dd><p>The point index of the requested point.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/visualPointsForSeries:" title="visualPointsForSeries:"></a>
+	<h3 class="subsubtitle method-title">visualPointsForSeries:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns an array containing the visual point elements for a given <a href="#//api/name/series">series</a>.
+Visual points can be modified only when animations are allowed.
+The <a href="#//api/name/animate">animate</a> method should be called to reflect all changes made in visual points.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)visualPointsForSeries:(TKChartSeries *)<em>series</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>series</em></dt>
+			<dd><p>The <a href="#//api/name/series">series</a> that contains the requested points.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Telerik. All rights reserved. (Last updated: 2015-06-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

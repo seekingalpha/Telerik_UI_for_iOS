@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKSideDrawerItemStyle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKSideDrawerItemStyle</TokenIdentifier>
+			<Abstract type="html">Represents TKSideDrawerItem&apos;s styles.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="253"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerItemStyle/setFont:</TokenIdentifier>
+			<Abstract type="html">Title&apos;s font.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerItemStyle/font</TokenIdentifier>
+			<Abstract type="html">Title&apos;s font.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKSideDrawerItemStyle/font</TokenIdentifier>
+			<Abstract type="html">Title&apos;s font.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerItemStyle/setTextColor:</TokenIdentifier>
+			<Abstract type="html">Title&apos;s color.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerItemStyle/textColor</TokenIdentifier>
+			<Abstract type="html">Title&apos;s color.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKSideDrawerItemStyle/textColor</TokenIdentifier>
+			<Abstract type="html">Title&apos;s color.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerItemStyle/setTextAlignment:</TokenIdentifier>
+			<Abstract type="html">Title&apos;s alignment.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTextAlignment textAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/textAlignment</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerItemStyle/textAlignment</TokenIdentifier>
+			<Abstract type="html">Title&apos;s alignment.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTextAlignment textAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/textAlignment</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKSideDrawerItemStyle/textAlignment</TokenIdentifier>
+			<Abstract type="html">Title&apos;s alignment.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTextAlignment textAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/textAlignment</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerItemStyle/setFill:</TokenIdentifier>
+			<Abstract type="html">Fill.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *fill</Declaration>
+			
+			
+			<Anchor>//api/name/fill</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerItemStyle/fill</TokenIdentifier>
+			<Abstract type="html">Fill.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *fill</Declaration>
+			
+			
+			<Anchor>//api/name/fill</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKSideDrawerItemStyle/fill</TokenIdentifier>
+			<Abstract type="html">Fill.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *fill</Declaration>
+			
+			
+			<Anchor>//api/name/fill</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerItemStyle/setStroke:</TokenIdentifier>
+			<Abstract type="html">Stroke.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *stroke</Declaration>
+			
+			
+			<Anchor>//api/name/stroke</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerItemStyle/stroke</TokenIdentifier>
+			<Abstract type="html">Stroke.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *stroke</Declaration>
+			
+			
+			<Anchor>//api/name/stroke</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKSideDrawerItemStyle/stroke</TokenIdentifier>
+			<Abstract type="html">Stroke.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *stroke</Declaration>
+			
+			
+			<Anchor>//api/name/stroke</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerItemStyle/setSeparatorColor:</TokenIdentifier>
+			<Abstract type="html">Separator&apos;s color.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *separatorColor</Declaration>
+			
+			
+			<Anchor>//api/name/separatorColor</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerItemStyle/separatorColor</TokenIdentifier>
+			<Abstract type="html">Separator&apos;s color.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *separatorColor</Declaration>
+			
+			
+			<Anchor>//api/name/separatorColor</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKSideDrawerItemStyle/separatorColor</TokenIdentifier>
+			<Abstract type="html">Separator&apos;s color.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *separatorColor</Declaration>
+			
+			
+			<Anchor>//api/name/separatorColor</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerItemStyle/setImagePosition:</TokenIdentifier>
+			<Abstract type="html">Position of the image.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKSideDrawerItemImagePosition imagePosition</Declaration>
+			
+			
+			<Anchor>//api/name/imagePosition</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerItemStyle/imagePosition</TokenIdentifier>
+			<Abstract type="html">Position of the image.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKSideDrawerItemImagePosition imagePosition</Declaration>
+			
+			
+			<Anchor>//api/name/imagePosition</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKSideDrawerItemStyle/imagePosition</TokenIdentifier>
+			<Abstract type="html">Position of the image.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKSideDrawerItemImagePosition imagePosition</Declaration>
+			
+			
+			<Anchor>//api/name/imagePosition</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerItemStyle/setContentInsets:</TokenIdentifier>
+			<Abstract type="html">Content margins.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIEdgeInsets contentInsets</Declaration>
+			
+			
+			<Anchor>//api/name/contentInsets</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKSideDrawerItemStyle/contentInsets</TokenIdentifier>
+			<Abstract type="html">Content margins.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIEdgeInsets contentInsets</Declaration>
+			
+			
+			<Anchor>//api/name/contentInsets</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKSideDrawerItemStyle/contentInsets</TokenIdentifier>
+			<Abstract type="html">Content margins.</Abstract>
+			<DeclaredIn>TKSideDrawerItemStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIEdgeInsets contentInsets</Declaration>
+			
+			
+			<Anchor>//api/name/contentInsets</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

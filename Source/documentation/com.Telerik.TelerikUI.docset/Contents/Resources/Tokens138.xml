@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartFinancialDataPoint.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartFinancialDataPoint</TokenIdentifier>
+			<Abstract type="html">Represents a data point for financial series.</Abstract>
+			<DeclaredIn>TKChartFinancialDataPoint.h</DeclaredIn>
+            
+			
+			<NodeRef refid="138"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartFinancialDataPoint/setOpen:</TokenIdentifier>
+			<Abstract type="html">Open price value.</Abstract>
+			<DeclaredIn>TKChartFinancialDataPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *open</Declaration>
+			
+			
+			<Anchor>//api/name/open</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartFinancialDataPoint/open</TokenIdentifier>
+			<Abstract type="html">Open price value.</Abstract>
+			<DeclaredIn>TKChartFinancialDataPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *open</Declaration>
+			
+			
+			<Anchor>//api/name/open</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartFinancialDataPoint/open</TokenIdentifier>
+			<Abstract type="html">Open price value.</Abstract>
+			<DeclaredIn>TKChartFinancialDataPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *open</Declaration>
+			
+			
+			<Anchor>//api/name/open</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartFinancialDataPoint/setHigh:</TokenIdentifier>
+			<Abstract type="html">High price value.</Abstract>
+			<DeclaredIn>TKChartFinancialDataPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *high</Declaration>
+			
+			
+			<Anchor>//api/name/high</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartFinancialDataPoint/high</TokenIdentifier>
+			<Abstract type="html">High price value.</Abstract>
+			<DeclaredIn>TKChartFinancialDataPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *high</Declaration>
+			
+			
+			<Anchor>//api/name/high</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartFinancialDataPoint/high</TokenIdentifier>
+			<Abstract type="html">High price value.</Abstract>
+			<DeclaredIn>TKChartFinancialDataPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *high</Declaration>
+			
+			
+			<Anchor>//api/name/high</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartFinancialDataPoint/setLow:</TokenIdentifier>
+			<Abstract type="html">Low price value.</Abstract>
+			<DeclaredIn>TKChartFinancialDataPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *low</Declaration>
+			
+			
+			<Anchor>//api/name/low</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartFinancialDataPoint/low</TokenIdentifier>
+			<Abstract type="html">Low price value.</Abstract>
+			<DeclaredIn>TKChartFinancialDataPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *low</Declaration>
+			
+			
+			<Anchor>//api/name/low</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartFinancialDataPoint/low</TokenIdentifier>
+			<Abstract type="html">Low price value.</Abstract>
+			<DeclaredIn>TKChartFinancialDataPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *low</Declaration>
+			
+			
+			<Anchor>//api/name/low</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartFinancialDataPoint/setClose:</TokenIdentifier>
+			<Abstract type="html">Close price value.</Abstract>
+			<DeclaredIn>TKChartFinancialDataPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *close</Declaration>
+			
+			
+			<Anchor>//api/name/close</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartFinancialDataPoint/close</TokenIdentifier>
+			<Abstract type="html">Close price value.</Abstract>
+			<DeclaredIn>TKChartFinancialDataPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *close</Declaration>
+			
+			
+			<Anchor>//api/name/close</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartFinancialDataPoint/close</TokenIdentifier>
+			<Abstract type="html">Close price value.</Abstract>
+			<DeclaredIn>TKChartFinancialDataPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *close</Declaration>
+			
+			
+			<Anchor>//api/name/close</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartFinancialDataPoint/setVolume:</TokenIdentifier>
+			<Abstract type="html">Volume value.</Abstract>
+			<DeclaredIn>TKChartFinancialDataPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *volume</Declaration>
+			
+			
+			<Anchor>//api/name/volume</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartFinancialDataPoint/volume</TokenIdentifier>
+			<Abstract type="html">Volume value.</Abstract>
+			<DeclaredIn>TKChartFinancialDataPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *volume</Declaration>
+			
+			
+			<Anchor>//api/name/volume</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartFinancialDataPoint/volume</TokenIdentifier>
+			<Abstract type="html">Volume value.</Abstract>
+			<DeclaredIn>TKChartFinancialDataPoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *volume</Declaration>
+			
+			
+			<Anchor>//api/name/volume</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKChartFinancialDataPoint/dataPointWithX:open:high:low:close:volume:</TokenIdentifier>
+			<Abstract type="html">Creates a financial data point.</Abstract>
+			<DeclaredIn>TKChartFinancialDataPoint.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)dataPointWithX:(id)xValue open:(NSNumber *)open high:(NSNumber *)high low:(NSNumber *)low close:(NSNumber *)close volume:(NSNumber *)volume</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>xValue</Name>
+					<Abstract type="html">X axis value.</Abstract>
+				</Parameter><Parameter>
+					<Name>open</Name>
+					<Abstract type="html">Open price value.</Abstract>
+				</Parameter><Parameter>
+					<Name>high</Name>
+					<Abstract type="html">High price value.</Abstract>
+				</Parameter><Parameter>
+					<Name>low</Name>
+					<Abstract type="html">Low price value.</Abstract>
+				</Parameter><Parameter>
+					<Name>close</Name>
+					<Abstract type="html">Close price value.</Abstract>
+				</Parameter><Parameter>
+					<Name>volume</Name>
+					<Abstract type="html">Volume value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/dataPointWithX:open:high:low:close:volume:</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKChartFinancialDataPoint/dataPointWithX:open:high:low:close:</TokenIdentifier>
+			<Abstract type="html">Creates a financial data point.</Abstract>
+			<DeclaredIn>TKChartFinancialDataPoint.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)dataPointWithX:(id)xValue open:(NSNumber *)open high:(NSNumber *)high low:(NSNumber *)low close:(NSNumber *)close</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>xValue</Name>
+					<Abstract type="html">X axis value.</Abstract>
+				</Parameter><Parameter>
+					<Name>open</Name>
+					<Abstract type="html">Open price value.</Abstract>
+				</Parameter><Parameter>
+					<Name>high</Name>
+					<Abstract type="html">High price value.</Abstract>
+				</Parameter><Parameter>
+					<Name>low</Name>
+					<Abstract type="html">Low price value.</Abstract>
+				</Parameter><Parameter>
+					<Name>close</Name>
+					<Abstract type="html">Close price value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/dataPointWithX:open:high:low:close:</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartFinancialDataPoint/initWithX:open:high:low:close:volume:</TokenIdentifier>
+			<Abstract type="html">Creates a financial data point.</Abstract>
+			<DeclaredIn>TKChartFinancialDataPoint.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithX:(id)xValue open:(NSNumber *)open high:(NSNumber *)high low:(NSNumber *)low close:(NSNumber *)close volume:(NSNumber *)volume</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>xValue</Name>
+					<Abstract type="html">X axis value.</Abstract>
+				</Parameter><Parameter>
+					<Name>open</Name>
+					<Abstract type="html">Open price value.</Abstract>
+				</Parameter><Parameter>
+					<Name>high</Name>
+					<Abstract type="html">High price value.</Abstract>
+				</Parameter><Parameter>
+					<Name>low</Name>
+					<Abstract type="html">Low price value.</Abstract>
+				</Parameter><Parameter>
+					<Name>close</Name>
+					<Abstract type="html">Close price value.</Abstract>
+				</Parameter><Parameter>
+					<Name>volume</Name>
+					<Abstract type="html">Volume value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithX:open:high:low:close:volume:</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

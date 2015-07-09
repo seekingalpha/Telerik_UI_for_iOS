@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKRadialGradientFill.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKRadialGradientFill</TokenIdentifier>
+			<Abstract type="html">Represents a radial fill.</Abstract>
+			<DeclaredIn>TKRadialGradientFill.h</DeclaredIn>
+            
+			
+			<NodeRef refid="245"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKRadialGradientFill/radialGradientFillWithColors:</TokenIdentifier>
+			<Abstract type="html">Creates a radial gradient fill with colors.</Abstract>
+			<DeclaredIn>TKRadialGradientFill.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)radialGradientFillWithColors:(NSArray *)colors</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>colors</Name>
+					<Abstract type="html">The array of UIColor containing gradient colors.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/radialGradientFillWithColors:</Anchor>
+            <NodeRef refid="245"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKRadialGradientFill/reverse:</TokenIdentifier>
+			<Abstract type="html">Reverses a radial gradient fill.</Abstract>
+			<DeclaredIn>TKRadialGradientFill.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)reverse:(TKRadialGradientFill *)fill</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>fill</Name>
+					<Abstract type="html">The radial gradient fill.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The reversed fill.</Abstract></ReturnValue>
+			<Anchor>//api/name/reverse:</Anchor>
+            <NodeRef refid="245"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKRadialGradientFill/initWithColors:startCenter:startRadius:endCenter:endRadius:</TokenIdentifier>
+			<Abstract type="html">Initializes a radial gradient fill.</Abstract>
+			<DeclaredIn>TKRadialGradientFill.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithColors:(NSArray *)colors startCenter:(CGPoint)startCenter startRadius:(CGFloat)startRadius endCenter:(CGPoint)endCenter endRadius:(CGFloat)endRadius</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>colors</Name>
+					<Abstract type="html">The array of UIColor containing gradient colors.</Abstract>
+				</Parameter><Parameter>
+					<Name>startCenter</Name>
+					<Abstract type="html">The center point for gradient drawing. Both values are in the interval of 0 to 1.</Abstract>
+				</Parameter><Parameter>
+					<Name>startRadius</Name>
+					<Abstract type="html">The radius of start circle.</Abstract>
+				</Parameter><Parameter>
+					<Name>endCenter</Name>
+					<Abstract type="html">The end point for gradient drawing. Both values are in the interval of 0 to 1.</Abstract>
+				</Parameter><Parameter>
+					<Name>endRadius</Name>
+					<Abstract type="html">The radius of end circle.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithColors:startCenter:startRadius:endCenter:endRadius:</Anchor>
+            <NodeRef refid="245"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKRadialGradientFill/initWithColors:startCenter:startRadius:endCenter:endRadius:radiusType:</TokenIdentifier>
+			<Abstract type="html">Initializes a radial gradient fill.</Abstract>
+			<DeclaredIn>TKRadialGradientFill.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithColors:(NSArray *)colors startCenter:(CGPoint)startCenter startRadius:(CGFloat)startRadius endCenter:(CGPoint)endCenter endRadius:(CGFloat)endRadius radiusType:(TKGradientRadiusType)radiusType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>colors</Name>
+					<Abstract type="html">The array of UIColor containing gradient colors.</Abstract>
+				</Parameter><Parameter>
+					<Name>startCenter</Name>
+					<Abstract type="html">The center point for gradient drawing. Both values are in the interval of 0 to 1.</Abstract>
+				</Parameter><Parameter>
+					<Name>startRadius</Name>
+					<Abstract type="html">The radius of start circle.</Abstract>
+				</Parameter><Parameter>
+					<Name>endCenter</Name>
+					<Abstract type="html">The end point for gradient drawing. Both values are in the interval of 0 to 1.</Abstract>
+				</Parameter><Parameter>
+					<Name>endRadius</Name>
+					<Abstract type="html">The radius of end circle.</Abstract>
+				</Parameter><Parameter>
+					<Name>radiusType</Name>
+					<Abstract type="html">The radius type.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithColors:startCenter:startRadius:endCenter:endRadius:radiusType:</Anchor>
+            <NodeRef refid="245"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKRadialGradientFill/setGradientRadiusType:</TokenIdentifier>
+			<Abstract type="html">The units used for startRadius and endRadius. The default value is TKGradientRadiusTypeRectMin.</Abstract>
+			<DeclaredIn>TKRadialGradientFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKGradientRadiusType gradientRadiusType</Declaration>
+			
+			
+			<Anchor>//api/name/gradientRadiusType</Anchor>
+            <NodeRef refid="245"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKRadialGradientFill/gradientRadiusType</TokenIdentifier>
+			<Abstract type="html">The units used for startRadius and endRadius. The default value is TKGradientRadiusTypeRectMin.</Abstract>
+			<DeclaredIn>TKRadialGradientFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKGradientRadiusType gradientRadiusType</Declaration>
+			
+			
+			<Anchor>//api/name/gradientRadiusType</Anchor>
+            <NodeRef refid="245"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKRadialGradientFill/gradientRadiusType</TokenIdentifier>
+			<Abstract type="html">The units used for startRadius and endRadius. The default value is TKGradientRadiusTypeRectMin.</Abstract>
+			<DeclaredIn>TKRadialGradientFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKGradientRadiusType gradientRadiusType</Declaration>
+			
+			
+			<Anchor>//api/name/gradientRadiusType</Anchor>
+            <NodeRef refid="245"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKRadialGradientFill/setStartRadius:</TokenIdentifier>
+			<Abstract type="html">The radius of a start circle with center at the start point. Used only for radial gradients. The default value is 0.5 (with TKGradientRadiusType = TKGradientRadiusTypeRectMin).</Abstract>
+			<DeclaredIn>TKRadialGradientFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat startRadius</Declaration>
+			
+			
+			<Anchor>//api/name/startRadius</Anchor>
+            <NodeRef refid="245"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKRadialGradientFill/startRadius</TokenIdentifier>
+			<Abstract type="html">The radius of a start circle with center at the start point. Used only for radial gradients. The default value is 0.5 (with TKGradientRadiusType = TKGradientRadiusTypeRectMin).</Abstract>
+			<DeclaredIn>TKRadialGradientFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat startRadius</Declaration>
+			
+			
+			<Anchor>//api/name/startRadius</Anchor>
+            <NodeRef refid="245"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKRadialGradientFill/startRadius</TokenIdentifier>
+			<Abstract type="html">The radius of a start circle with center at the start point. Used only for radial gradients. The default value is 0.5 (with TKGradientRadiusType = TKGradientRadiusTypeRectMin).</Abstract>
+			<DeclaredIn>TKRadialGradientFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat startRadius</Declaration>
+			
+			
+			<Anchor>//api/name/startRadius</Anchor>
+            <NodeRef refid="245"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKRadialGradientFill/setEndRadius:</TokenIdentifier>
+			<Abstract type="html">The radius of a end circle with center at the end point. Used only for radial gradients. The default value is 0.5 (with TKGradientRadiusType = TKGradientRadiusTypeRectMin).</Abstract>
+			<DeclaredIn>TKRadialGradientFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat endRadius</Declaration>
+			
+			
+			<Anchor>//api/name/endRadius</Anchor>
+            <NodeRef refid="245"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKRadialGradientFill/endRadius</TokenIdentifier>
+			<Abstract type="html">The radius of a end circle with center at the end point. Used only for radial gradients. The default value is 0.5 (with TKGradientRadiusType = TKGradientRadiusTypeRectMin).</Abstract>
+			<DeclaredIn>TKRadialGradientFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat endRadius</Declaration>
+			
+			
+			<Anchor>//api/name/endRadius</Anchor>
+            <NodeRef refid="245"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKRadialGradientFill/endRadius</TokenIdentifier>
+			<Abstract type="html">The radius of a end circle with center at the end point. Used only for radial gradients. The default value is 0.5 (with TKGradientRadiusType = TKGradientRadiusTypeRectMin).</Abstract>
+			<DeclaredIn>TKRadialGradientFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat endRadius</Declaration>
+			
+			
+			<Anchor>//api/name/endRadius</Anchor>
+            <NodeRef refid="245"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKRadialGradientFill/setStartCenter:</TokenIdentifier>
+			<Abstract type="html">The start center for radial gradients. The default value is (0.5f, 0.0f).</Abstract>
+			<DeclaredIn>TKRadialGradientFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint startCenter</Declaration>
+			
+			
+			<Anchor>//api/name/startCenter</Anchor>
+            <NodeRef refid="245"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKRadialGradientFill/startCenter</TokenIdentifier>
+			<Abstract type="html">The start center for radial gradients. The default value is (0.5f, 0.0f).</Abstract>
+			<DeclaredIn>TKRadialGradientFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint startCenter</Declaration>
+			
+			
+			<Anchor>//api/name/startCenter</Anchor>
+            <NodeRef refid="245"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKRadialGradientFill/startCenter</TokenIdentifier>
+			<Abstract type="html">The start center for radial gradients. The default value is (0.5f, 0.0f).</Abstract>
+			<DeclaredIn>TKRadialGradientFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint startCenter</Declaration>
+			
+			
+			<Anchor>//api/name/startCenter</Anchor>
+            <NodeRef refid="245"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKRadialGradientFill/setEndCenter:</TokenIdentifier>
+			<Abstract type="html">  The end center for radial gradients. The default value is (0.5f, 1.0f).</Abstract>
+			<DeclaredIn>TKRadialGradientFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint endCenter</Declaration>
+			
+			
+			<Anchor>//api/name/endCenter</Anchor>
+            <NodeRef refid="245"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKRadialGradientFill/endCenter</TokenIdentifier>
+			<Abstract type="html">  The end center for radial gradients. The default value is (0.5f, 1.0f).</Abstract>
+			<DeclaredIn>TKRadialGradientFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint endCenter</Declaration>
+			
+			
+			<Anchor>//api/name/endCenter</Anchor>
+            <NodeRef refid="245"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKRadialGradientFill/endCenter</TokenIdentifier>
+			<Abstract type="html">  The end center for radial gradients. The default value is (0.5f, 1.0f).</Abstract>
+			<DeclaredIn>TKRadialGradientFill.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint endCenter</Declaration>
+			
+			
+			<Anchor>//api/name/endCenter</Anchor>
+            <NodeRef refid="245"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

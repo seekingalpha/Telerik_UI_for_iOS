@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKCalendarDayCellEventOrientation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKCalendarDayCellEventOrientation</TokenIdentifier>
+			<Abstract type="html">@enum TKCalendarDayCellEventOrientation</Abstract>
+			<DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="287"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarDayCellEventOrientationHorizontal</TokenIdentifier>
+            <Abstract type="html">     Events are placed horizontally.
+     </Abstract>
+            <Declaration>TKCalendarDayCellEventOrientationHorizontal</Declaration>
+            
+            <DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+            
+            <NodeRef refid="287"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarDayCellEventOrientationVertical</TokenIdentifier>
+            <Abstract type="html">     Events are placed vertically.
+     </Abstract>
+            <Declaration>TKCalendarDayCellEventOrientationVertical</Declaration>
+            
+            <DeclaredIn>TKCalendarDayCellStyle.h</DeclaredIn>
+            
+            <NodeRef refid="287"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

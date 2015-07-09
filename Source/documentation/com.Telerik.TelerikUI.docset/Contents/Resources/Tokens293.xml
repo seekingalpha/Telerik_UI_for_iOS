@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKCalendarTransitionMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKCalendarTransitionMode</TokenIdentifier>
+			<Abstract type="html">@enum TKCalendarTransition</Abstract>
+			<DeclaredIn>TKCalendarPresenterBase.h</DeclaredIn>
+            
+			
+			<NodeRef refid="293"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarTransitionModeNone</TokenIdentifier>
+            <Abstract type="html">     No tranisition effect.
+     </Abstract>
+            <Declaration>TKCalendarTransitionModeNone</Declaration>
+            
+            <DeclaredIn>TKCalendarPresenterBase.h</DeclaredIn>
+            
+            <NodeRef refid="293"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarTransitionModeFlip</TokenIdentifier>
+            <Abstract type="html">     Flip transition effect.
+     </Abstract>
+            <Declaration>TKCalendarTransitionModeFlip</Declaration>
+            
+            <DeclaredIn>TKCalendarPresenterBase.h</DeclaredIn>
+            
+            <NodeRef refid="293"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarTransitionModeFold</TokenIdentifier>
+            <Abstract type="html">     Fold transition effect.
+     </Abstract>
+            <Declaration>TKCalendarTransitionModeFold</Declaration>
+            
+            <DeclaredIn>TKCalendarPresenterBase.h</DeclaredIn>
+            
+            <NodeRef refid="293"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarTransitionModeFloat</TokenIdentifier>
+            <Abstract type="html">     Float transition effect.
+     </Abstract>
+            <Declaration>TKCalendarTransitionModeFloat</Declaration>
+            
+            <DeclaredIn>TKCalendarPresenterBase.h</DeclaredIn>
+            
+            <NodeRef refid="293"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarTransitionModeCard</TokenIdentifier>
+            <Abstract type="html">     Card transition effect.
+     </Abstract>
+            <Declaration>TKCalendarTransitionModeCard</Declaration>
+            
+            <DeclaredIn>TKCalendarPresenterBase.h</DeclaredIn>
+            
+            <NodeRef refid="293"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarTransitionModeRotate</TokenIdentifier>
+            <Abstract type="html">     Rotate transition effect.
+     </Abstract>
+            <Declaration>TKCalendarTransitionModeRotate</Declaration>
+            
+            <DeclaredIn>TKCalendarPresenterBase.h</DeclaredIn>
+            
+            <NodeRef refid="293"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarTransitionModeScroll</TokenIdentifier>
+            <Abstract type="html">     Scroll transition effect.
+     </Abstract>
+            <Declaration>TKCalendarTransitionModeScroll</Declaration>
+            
+            <DeclaredIn>TKCalendarPresenterBase.h</DeclaredIn>
+            
+            <NodeRef refid="293"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

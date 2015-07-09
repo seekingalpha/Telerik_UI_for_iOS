@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKListView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKListView</TokenIdentifier>
+			<Abstract type="html">TKListView provides means for displaying lists of data. The items of the list can be arranged in a columns layout or wrap layout. It provides UI virtualization, pull-to-refresh, load-on-demand, cells swipe, cell reorder, single/multiple selection, grouping.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="232"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/setDelegate:</TokenIdentifier>
+			<Abstract type="html">A delegate used to manage the selection of items in TKListView, perform actions on those items and respond to interaction with those items.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;TKListViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/delegate</TokenIdentifier>
+			<Abstract type="html">A delegate used to manage the selection of items in TKListView, perform actions on those items and respond to interaction with those items.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;TKListViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListView/delegate</TokenIdentifier>
+			<Abstract type="html">A delegate used to manage the selection of items in TKListView, perform actions on those items and respond to interaction with those items.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;TKListViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/setDataSource:</TokenIdentifier>
+			<Abstract type="html">A datasource delegate used to provide data for the cells, headers and footers.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;TKListViewDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/dataSource</TokenIdentifier>
+			<Abstract type="html">A datasource delegate used to provide data for the cells, headers and footers.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;TKListViewDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListView/dataSource</TokenIdentifier>
+			<Abstract type="html">A datasource delegate used to provide data for the cells, headers and footers.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;TKListViewDataSource&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/setLayout:</TokenIdentifier>
+			<Abstract type="html">The layout object used to arrange cells.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UICollectionViewLayout *layout</Declaration>
+			
+			
+			<Anchor>//api/name/layout</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/layout</TokenIdentifier>
+			<Abstract type="html">The layout object used to arrange cells.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UICollectionViewLayout *layout</Declaration>
+			
+			
+			<Anchor>//api/name/layout</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListView/layout</TokenIdentifier>
+			<Abstract type="html">The layout object used to arrange cells.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UICollectionViewLayout *layout</Declaration>
+			
+			
+			<Anchor>//api/name/layout</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/setAllowsMultipleSelection:</TokenIdentifier>
+			<Abstract type="html">Indicates whether user is able to select multiple items.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowsMultipleSelection</Declaration>
+			
+			
+			<Anchor>//api/name/allowsMultipleSelection</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/allowsMultipleSelection</TokenIdentifier>
+			<Abstract type="html">Indicates whether user is able to select multiple items.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowsMultipleSelection</Declaration>
+			
+			
+			<Anchor>//api/name/allowsMultipleSelection</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListView/allowsMultipleSelection</TokenIdentifier>
+			<Abstract type="html">Indicates whether user is able to select multiple items.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowsMultipleSelection</Declaration>
+			
+			
+			<Anchor>//api/name/allowsMultipleSelection</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/setAllowsCellReorder:</TokenIdentifier>
+			<Abstract type="html">Indicates whether user is able to reorder cells.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowsCellReorder</Declaration>
+			
+			
+			<Anchor>//api/name/allowsCellReorder</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/allowsCellReorder</TokenIdentifier>
+			<Abstract type="html">Indicates whether user is able to reorder cells.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowsCellReorder</Declaration>
+			
+			
+			<Anchor>//api/name/allowsCellReorder</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListView/allowsCellReorder</TokenIdentifier>
+			<Abstract type="html">Indicates whether user is able to reorder cells.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowsCellReorder</Declaration>
+			
+			
+			<Anchor>//api/name/allowsCellReorder</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/setAllowsCellSwipe:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the end-user is able to swipe cells.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowsCellSwipe</Declaration>
+			
+			
+			<Anchor>//api/name/allowsCellSwipe</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/allowsCellSwipe</TokenIdentifier>
+			<Abstract type="html">Indicates whether the end-user is able to swipe cells.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowsCellSwipe</Declaration>
+			
+			
+			<Anchor>//api/name/allowsCellSwipe</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListView/allowsCellSwipe</TokenIdentifier>
+			<Abstract type="html">Indicates whether the end-user is able to swipe cells.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowsCellSwipe</Declaration>
+			
+			
+			<Anchor>//api/name/allowsCellSwipe</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/setAllowsPullToRefresh:</TokenIdentifier>
+			<Abstract type="html">Indicates whether user is able to perform the pull-to-refresh gesture.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowsPullToRefresh</Declaration>
+			
+			
+			<Anchor>//api/name/allowsPullToRefresh</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/allowsPullToRefresh</TokenIdentifier>
+			<Abstract type="html">Indicates whether user is able to perform the pull-to-refresh gesture.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowsPullToRefresh</Declaration>
+			
+			
+			<Anchor>//api/name/allowsPullToRefresh</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListView/allowsPullToRefresh</TokenIdentifier>
+			<Abstract type="html">Indicates whether user is able to perform the pull-to-refresh gesture.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowsPullToRefresh</Declaration>
+			
+			
+			<Anchor>//api/name/allowsPullToRefresh</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/setCellSwipeLimits:</TokenIdentifier>
+			<Abstract type="html">The maximum distance a cell can be swiped by the end-user.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIEdgeInsets cellSwipeLimits</Declaration>
+			
+			
+			<Anchor>//api/name/cellSwipeLimits</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/cellSwipeLimits</TokenIdentifier>
+			<Abstract type="html">The maximum distance a cell can be swiped by the end-user.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIEdgeInsets cellSwipeLimits</Declaration>
+			
+			
+			<Anchor>//api/name/cellSwipeLimits</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListView/cellSwipeLimits</TokenIdentifier>
+			<Abstract type="html">The maximum distance a cell can be swiped by the end-user.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIEdgeInsets cellSwipeLimits</Declaration>
+			
+			
+			<Anchor>//api/name/cellSwipeLimits</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/setCellSwipeTreshold:</TokenIdentifier>
+			<Abstract type="html">The cell swipe treshold - the distance defining whether the cell will revert to original position or animate to the swipe limits if the end-user does not finish the swipe gesture.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat cellSwipeTreshold</Declaration>
+			
+			
+			<Anchor>//api/name/cellSwipeTreshold</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/cellSwipeTreshold</TokenIdentifier>
+			<Abstract type="html">The cell swipe treshold - the distance defining whether the cell will revert to original position or animate to the swipe limits if the end-user does not finish the swipe gesture.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat cellSwipeTreshold</Declaration>
+			
+			
+			<Anchor>//api/name/cellSwipeTreshold</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListView/cellSwipeTreshold</TokenIdentifier>
+			<Abstract type="html">The cell swipe treshold - the distance defining whether the cell will revert to original position or animate to the swipe limits if the end-user does not finish the swipe gesture.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat cellSwipeTreshold</Declaration>
+			
+			
+			<Anchor>//api/name/cellSwipeTreshold</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/setCellSwipeAnimationDuration:</TokenIdentifier>
+			<Abstract type="html">The cell swipe animation duration.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat cellSwipeAnimationDuration</Declaration>
+			
+			
+			<Anchor>//api/name/cellSwipeAnimationDuration</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/cellSwipeAnimationDuration</TokenIdentifier>
+			<Abstract type="html">The cell swipe animation duration.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat cellSwipeAnimationDuration</Declaration>
+			
+			
+			<Anchor>//api/name/cellSwipeAnimationDuration</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListView/cellSwipeAnimationDuration</TokenIdentifier>
+			<Abstract type="html">The cell swipe animation duration.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat cellSwipeAnimationDuration</Declaration>
+			
+			
+			<Anchor>//api/name/cellSwipeAnimationDuration</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/setAutoScrollTreshold:</TokenIdentifier>
+			<Abstract type="html">The distance from the edge where autoscroll commences while dragging/reordering a cell.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat autoScrollTreshold</Declaration>
+			
+			
+			<Anchor>//api/name/autoScrollTreshold</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/autoScrollTreshold</TokenIdentifier>
+			<Abstract type="html">The distance from the edge where autoscroll commences while dragging/reordering a cell.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat autoScrollTreshold</Declaration>
+			
+			
+			<Anchor>//api/name/autoScrollTreshold</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListView/autoScrollTreshold</TokenIdentifier>
+			<Abstract type="html">The distance from the edge where autoscroll commences while dragging/reordering a cell.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat autoScrollTreshold</Declaration>
+			
+			
+			<Anchor>//api/name/autoScrollTreshold</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/setPullToRefreshTreshold:</TokenIdentifier>
+			<Abstract type="html">The pull distance at which pull-to-refresh activates.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat pullToRefreshTreshold</Declaration>
+			
+			
+			<Anchor>//api/name/pullToRefreshTreshold</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/pullToRefreshTreshold</TokenIdentifier>
+			<Abstract type="html">The pull distance at which pull-to-refresh activates.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat pullToRefreshTreshold</Declaration>
+			
+			
+			<Anchor>//api/name/pullToRefreshTreshold</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListView/pullToRefreshTreshold</TokenIdentifier>
+			<Abstract type="html">The pull distance at which pull-to-refresh activates.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat pullToRefreshTreshold</Declaration>
+			
+			
+			<Anchor>//api/name/pullToRefreshTreshold</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/setCellBufferSize:</TokenIdentifier>
+			<Abstract type="html">Defines the number of cells from the bottom of TKListView up at which to start requesting load-on-demand data.
+Default is zero which means that no data will be loaded on demand.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger cellBufferSize</Declaration>
+			
+			
+			<Anchor>//api/name/cellBufferSize</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/cellBufferSize</TokenIdentifier>
+			<Abstract type="html">Defines the number of cells from the bottom of TKListView up at which to start requesting load-on-demand data.
+Default is zero which means that no data will be loaded on demand.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger cellBufferSize</Declaration>
+			
+			
+			<Anchor>//api/name/cellBufferSize</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListView/cellBufferSize</TokenIdentifier>
+			<Abstract type="html">Defines the number of cells from the bottom of TKListView up at which to start requesting load-on-demand data.
+Default is zero which means that no data will be loaded on demand.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger cellBufferSize</Declaration>
+			
+			
+			<Anchor>//api/name/cellBufferSize</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/setContentInset:</TokenIdentifier>
+			<Abstract type="html">The content insets relative to its view size.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIEdgeInsets contentInset</Declaration>
+			
+			
+			<Anchor>//api/name/contentInset</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/contentInset</TokenIdentifier>
+			<Abstract type="html">The content insets relative to its view size.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIEdgeInsets contentInset</Declaration>
+			
+			
+			<Anchor>//api/name/contentInset</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListView/contentInset</TokenIdentifier>
+			<Abstract type="html">The content insets relative to its view size.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIEdgeInsets contentInset</Declaration>
+			
+			
+			<Anchor>//api/name/contentInset</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/setContentOffset:</TokenIdentifier>
+			<Abstract type="html">The content offset.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGPoint contentOffset</Declaration>
+			
+			
+			<Anchor>//api/name/contentOffset</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/contentOffset</TokenIdentifier>
+			<Abstract type="html">The content offset.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGPoint contentOffset</Declaration>
+			
+			
+			<Anchor>//api/name/contentOffset</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListView/contentOffset</TokenIdentifier>
+			<Abstract type="html">The content offset.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGPoint contentOffset</Declaration>
+			
+			
+			<Anchor>//api/name/contentOffset</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/setScrollDirection:</TokenIdentifier>
+			<Abstract type="html">Defines the scroll direction. Applicable if the current layout supports it.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKListViewScrollDirection scrollDirection</Declaration>
+			
+			
+			<Anchor>//api/name/scrollDirection</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/scrollDirection</TokenIdentifier>
+			<Abstract type="html">Defines the scroll direction. Applicable if the current layout supports it.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKListViewScrollDirection scrollDirection</Declaration>
+			
+			
+			<Anchor>//api/name/scrollDirection</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListView/scrollDirection</TokenIdentifier>
+			<Abstract type="html">Defines the scroll direction. Applicable if the current layout supports it.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKListViewScrollDirection scrollDirection</Declaration>
+			
+			
+			<Anchor>//api/name/scrollDirection</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/setSelectionBehavior:</TokenIdentifier>
+			<Abstract type="html">Defines whether cells are selected on press, long press, or can&apos;t be selected at all.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKListViewSelectionBehavior selectionBehavior</Declaration>
+			
+			
+			<Anchor>//api/name/selectionBehavior</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/selectionBehavior</TokenIdentifier>
+			<Abstract type="html">Defines whether cells are selected on press, long press, or can&apos;t be selected at all.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKListViewSelectionBehavior selectionBehavior</Declaration>
+			
+			
+			<Anchor>//api/name/selectionBehavior</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListView/selectionBehavior</TokenIdentifier>
+			<Abstract type="html">Defines whether cells are selected on press, long press, or can&apos;t be selected at all.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKListViewSelectionBehavior selectionBehavior</Declaration>
+			
+			
+			<Anchor>//api/name/selectionBehavior</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/setPullToRefreshView:</TokenIdentifier>
+			<Abstract type="html">The UIView containing the activity indicator while TKListView is refreshing data after the pull-to-refresh gesture.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKListViewPullToRefreshView *pullToRefreshView</Declaration>
+			
+			
+			<Anchor>//api/name/pullToRefreshView</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/pullToRefreshView</TokenIdentifier>
+			<Abstract type="html">The UIView containing the activity indicator while TKListView is refreshing data after the pull-to-refresh gesture.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKListViewPullToRefreshView *pullToRefreshView</Declaration>
+			
+			
+			<Anchor>//api/name/pullToRefreshView</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListView/pullToRefreshView</TokenIdentifier>
+			<Abstract type="html">The UIView containing the activity indicator while TKListView is refreshing data after the pull-to-refresh gesture.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKListViewPullToRefreshView *pullToRefreshView</Declaration>
+			
+			
+			<Anchor>//api/name/pullToRefreshView</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/setLoadOnDemandView:</TokenIdentifier>
+			<Abstract type="html">The UIView containing the activity indicator while TKListView is loading data on demand and has scrolled to the end of the content size.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKListViewLoadOnDemandView *loadOnDemandView</Declaration>
+			
+			
+			<Anchor>//api/name/loadOnDemandView</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/loadOnDemandView</TokenIdentifier>
+			<Abstract type="html">The UIView containing the activity indicator while TKListView is loading data on demand and has scrolled to the end of the content size.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKListViewLoadOnDemandView *loadOnDemandView</Declaration>
+			
+			
+			<Anchor>//api/name/loadOnDemandView</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListView/loadOnDemandView</TokenIdentifier>
+			<Abstract type="html">The UIView containing the activity indicator while TKListView is loading data on demand and has scrolled to the end of the content size.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKListViewLoadOnDemandView *loadOnDemandView</Declaration>
+			
+			
+			<Anchor>//api/name/loadOnDemandView</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/setBackgroundView:</TokenIdentifier>
+			<Abstract type="html">A view that will be automatically resized to track the size of the collection view and placed behind all cells and supplementary views.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIView *backgroundView</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundView</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/backgroundView</TokenIdentifier>
+			<Abstract type="html">A view that will be automatically resized to track the size of the collection view and placed behind all cells and supplementary views.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIView *backgroundView</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundView</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListView/backgroundView</TokenIdentifier>
+			<Abstract type="html">A view that will be automatically resized to track the size of the collection view and placed behind all cells and supplementary views.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIView *backgroundView</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundView</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/reloadData</TokenIdentifier>
+			<Abstract type="html">Reloads all data.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)reloadData</Declaration>
+			
+			
+			<Anchor>//api/name/reloadData</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/indexPathsForSelectedItems</TokenIdentifier>
+			<Abstract type="html">Returns an array with the index paths of the selected items.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)indexPathsForSelectedItems</Declaration>
+			
+			
+			<Anchor>//api/name/indexPathsForSelectedItems</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/clearSelectedItems</TokenIdentifier>
+			<Abstract type="html">Deselects all selected items.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)clearSelectedItems</Declaration>
+			
+			
+			<Anchor>//api/name/clearSelectedItems</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/selectItemAtIndexPath:animated:scrollPosition:</TokenIdentifier>
+			<Abstract type="html">Selects an item at the given index path.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)selectItemAtIndexPath:(NSIndexPath *)indexPath animated:(BOOL)animated scrollPosition:(UICollectionViewScrollPosition)scrollPosition</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path of the item to select.</Abstract>
+				</Parameter><Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">Determines whether to animate the selection.</Abstract>
+				</Parameter><Parameter>
+					<Name>scrollPosition</Name>
+					<Abstract type="html">The scroll position.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/selectItemAtIndexPath:animated:scrollPosition:</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/deselectItemAtIndexPath:animated:</TokenIdentifier>
+			<Abstract type="html">Deselects an item at the given index path.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)deselectItemAtIndexPath:(NSIndexPath *)indexPath animated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path of the item to deselect.</Abstract>
+				</Parameter><Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">Determines whether to animate the selection.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deselectItemAtIndexPath:animated:</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/dequeueReusableCellWithReuseIdentifier:forIndexPath:</TokenIdentifier>
+			<Abstract type="html">Returns a TKListVIewCell to be provided in the listView:cellForItemAtIndexPath:ndexPath delegate method.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (id)dequeueReusableCellWithReuseIdentifier:(NSString *)identifier forIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>identifier</Name>
+					<Abstract type="html">A string identifier of the cell type.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path of the item we need a cell for.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/dequeueReusableCellWithReuseIdentifier:forIndexPath:</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath:</TokenIdentifier>
+			<Abstract type="html">Returns a header or footer view to be provided in the listView:viewForSupplementaryElementOfKind:atIndexPath:</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (id)dequeueReusableSupplementaryViewOfKind:(NSString *)elementKind withReuseIdentifier:(NSString *)identifier forIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>elementKind</Name>
+					<Abstract type="html">The element kind - header or footer.</Abstract>
+				</Parameter><Parameter>
+					<Name>identifier</Name>
+					<Abstract type="html">A string identifier of the view type.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path of the supplementary view.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath:</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/registerClass:forCellWithReuseIdentifier:</TokenIdentifier>
+			<Abstract type="html">Registers a class to be used to represent cells in listview.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)registerClass:(Class)cellClass forCellWithReuseIdentifier:(NSString *)identifier</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>cellClass</Name>
+					<Abstract type="html">The class of the UIView to represent a cell.</Abstract>
+				</Parameter><Parameter>
+					<Name>identifier</Name>
+					<Abstract type="html">A string identifier of the cell type.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/registerClass:forCellWithReuseIdentifier:</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/registerClass:forSupplementaryViewOfKind:withReuseIdentifier:</TokenIdentifier>
+			<Abstract type="html">Registers a class to be used to represent headers and footers.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)registerClass:(Class)viewClass forSupplementaryViewOfKind:(NSString *)elementKind withReuseIdentifier:(NSString *)identifier</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>viewClass</Name>
+					<Abstract type="html">The class of the UIView to represent a header or footer</Abstract>
+				</Parameter><Parameter>
+					<Name>elementKind</Name>
+					<Abstract type="html">The element kind - header or footer.</Abstract>
+				</Parameter><Parameter>
+					<Name>identifier</Name>
+					<Abstract type="html">A string identifier of the supplementary view type.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/registerClass:forSupplementaryViewOfKind:withReuseIdentifier:</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/cellForItemAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">Returns the visible cell object at the specified index path.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (TKListViewCell *)cellForItemAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path for the cell.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/cellForItemAtIndexPath:</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/insertItemsAtIndexPaths:</TokenIdentifier>
+			<Abstract type="html">Inserts new items at the specified index paths.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)insertItemsAtIndexPaths:(NSArray *)indexPaths</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>indexPaths</Name>
+					<Abstract type="html">The index paths of the newly inserted items.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/insertItemsAtIndexPaths:</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/moveItemAtIndexPath:toIndexPath:</TokenIdentifier>
+			<Abstract type="html">Moves an item from one location to another in the list view.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)moveItemAtIndexPath:(NSIndexPath *)indexPath toIndexPath:(NSIndexPath *)newIndexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The old index path.</Abstract>
+				</Parameter><Parameter>
+					<Name>newIndexPath</Name>
+					<Abstract type="html">The new index path.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/moveItemAtIndexPath:toIndexPath:</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/deleteItemsAtIndexPaths:</TokenIdentifier>
+			<Abstract type="html">Deletes the items at the specified index paths.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)deleteItemsAtIndexPaths:(NSArray *)indexPaths</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>indexPaths</Name>
+					<Abstract type="html">The index paths of the deleted items.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteItemsAtIndexPaths:</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/reloadItemsAtIndexPaths:</TokenIdentifier>
+			<Abstract type="html">Reloads the items at the specified index paths.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)reloadItemsAtIndexPaths:(NSArray *)indexPaths</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>indexPaths</Name>
+					<Abstract type="html">The index paths of items to reload.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/reloadItemsAtIndexPaths:</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/performBatchUpdates:completion:</TokenIdentifier>
+			<Abstract type="html">Allows multiple insert/delete/reload/move calls to be animated.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)performBatchUpdates:(void ( ^ ) ( void ))updates completion:(void ( ^ ) ( BOOL finished ))completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>updates</Name>
+					<Abstract type="html">The updates to apply.</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">Will be executed upon completion.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/performBatchUpdates:completion:</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/numberOfSections</TokenIdentifier>
+			<Abstract type="html">Returns the number of sections.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)numberOfSections</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfSections</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/numberOfItemsInSection:</TokenIdentifier>
+			<Abstract type="html">Returns the number of items conatined in specific section.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)numberOfItemsInSection:(NSInteger)section</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>section</Name>
+					<Abstract type="html">The index of the section.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/numberOfItemsInSection:</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/visibleCells</TokenIdentifier>
+			<Abstract type="html">Returns the number for currently visible cells.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)visibleCells</Declaration>
+			
+			
+			<Anchor>//api/name/visibleCells</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/indexPathsForVisibleItems</TokenIdentifier>
+			<Abstract type="html">Returns the index paths for the currently visible cells.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)indexPathsForVisibleItems</Declaration>
+			
+			
+			<Anchor>//api/name/indexPathsForVisibleItems</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/indexPathForItemAtPoint:</TokenIdentifier>
+			<Abstract type="html">Returns the index path for the item at the specified location.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (NSIndexPath *)indexPathForItemAtPoint:(CGPoint)point</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>point</Name>
+					<Abstract type="html">The point where the item is located.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/indexPathForItemAtPoint:</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/indexPathForCell:</TokenIdentifier>
+			<Abstract type="html">Returns the index path for specific cell.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (NSIndexPath *)indexPathForCell:(UICollectionViewCell *)cell</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>cell</Name>
+					<Abstract type="html">The cell.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/indexPathForCell:</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/scrollToItemAtIndexPath:atScrollPosition:animated:</TokenIdentifier>
+			<Abstract type="html">Scrolls to specific item.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)scrollToItemAtIndexPath:(NSIndexPath *)indexPath atScrollPosition:(UICollectionViewScrollPosition)scrollPosition animated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">The index path for the item.</Abstract>
+				</Parameter><Parameter>
+					<Name>scrollPosition</Name>
+					<Abstract type="html">The scroll position.</Abstract>
+				</Parameter><Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">Determines whether to animate the scrolling.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/scrollToItemAtIndexPath:atScrollPosition:animated:</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListView/didLoadDataOnDemand</TokenIdentifier>
+			<Abstract type="html">Notifies the list view that a new data requested on demand is ready to be shown.</Abstract>
+			<DeclaredIn>TKListView.h</DeclaredIn>
+			
+			<Declaration>- (void)didLoadDataOnDemand</Declaration>
+			
+			
+			<Anchor>//api/name/didLoadDataOnDemand</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

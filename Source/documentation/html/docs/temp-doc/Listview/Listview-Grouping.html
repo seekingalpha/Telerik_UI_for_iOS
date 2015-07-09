@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Listview-Grouping Document</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../../../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../../../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../../../index.html">TelerikUI </a></h1>
+				<a id="developerHome" href="../../../index.html">Telerik</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode" id="pageTitleHeader">Listview-Grouping Document</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<a title="Listview-Grouping Document" name="top"></a>
+			<div id="overview_contents" role="main">
+				<div id="container">	
+					<h1>ListView: Grouping</h1>
+
+<p>ListView may be set up to display items in groups divided visually by section headers and footers.
+There are two ways to implement grouping with <a href="../../../Classes/TKListView.html">TKListView</a> - manually implementing the required methods of the <a href="../../../Protocols/TKListViewDataSource.html">TKListViewDataSource</a> delegate or using <a href="../../../Classes/TKDataSource.html">TKDataSource</a> and let it do the dirty work for you.</p>
+
+<p><img src="../images/listview-grouping001.png"/></p>
+
+<h2>Displaying grouped data using TKDataSource</h2>
+
+<p>In case you need more flexibility you may implement grouping manualy as follows.</p>
+
+<p>Objective-C</p>
+
+<pre><code>- (void)viewDidLoad
+{
+    [super viewDidLoad];
+
+    NSMutableArray *items = [NSMutableArray new];
+    [items addObject:[[DataSourceItem alloc] initWithName:@"John" value:50 group:@"A"]];
+    [items addObject:[[DataSourceItem alloc] initWithName:@"Abby" value:33 group:@"A"]];
+    [items addObject:[[DataSourceItem alloc] initWithName:@"Smith" value:42 group:@"B"]];
+    [items addObject:[[DataSourceItem alloc] initWithName:@"Peter" value:28 group:@"B"]];
+    [items addObject:[[DataSourceItem alloc] initWithName:@"Paula" value:25 group:@"B"]];
+
+    dataSource = [TKDataSource new];
+    dataSource.itemSource = items;
+    [dataSource groupWithKey:@"group"];
+    dataSource.displayKey = @"name";
+
+    TKListView *_listView = [[TKListView alloc] initWithFrame: CGRectMake(20, 20, self.view.bounds.size.width-40,self.view.bounds.size.height-40)];
+    _listView.dataSource = dataSource;
+    TKListViewLinearLayout *layout = (TKListViewLinearLayout*)_listView.layout;
+    layout.headerReferenceSize = CGSizeMake(200, 22);
+
+    [self.view addSubview:_listView];
+}
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>var dataSource: TKDataSource?
+
+override func viewDidLoad() {
+    super.viewDidLoad()
+    var items = [DataSourceItem]()
+    items.append(DataSourceItem(name: "John", value: 50, group: "A"))
+    items.append(DataSourceItem(name: "Abby", value: 33, group: "A"))
+    items.append(DataSourceItem(name: "Smith", value: 42, group: "B"))
+    items.append(DataSourceItem(name: "Peter", value: 28, group: "B"))
+    items.append(DataSourceItem(name: "Paula", value: 25, group: "B"))
+
+    dataSource = TKDataSource()
+    dataSource?.itemSource = items
+    dataSource?.groupWithKey("group")
+    dataSource?.displayKey = "name"
+    let listView = TKListView(frame: CGRectMake(20, 20, self.view.bounds.size.width-40,self.view.bounds.size.height-40))        
+    listView.dataSource = dataSource
+    let layout = listView.layout as! TKListViewLinearLayout
+    layout.headerReferenceSize = CGSizeMake(200, 22)
+    self.view.addSubview(listView)
+}
+</code></pre>
+
+<h2>Displaying grouped data using a <a href="../../../Protocols/TKListViewDataSource.html">TKListViewDataSource</a> delegate methods</h2>
+
+<p>Objective-C</p>
+
+<pre><code>- (void)viewDidLoad
+{
+    [super viewDidLoad];
+
+    _groups= @[@[@"John",@"Abby"],@[@"Smith",@"Peter",@"Paula"]];
+
+
+    TKListView *_listView = [[TKListView alloc] initWithFrame: CGRectMake(20, 20, self.view.bounds.size.width-40,self.view.bounds.size.height-40)];
+    [_listView registerClass:[TKListViewCell class] forCellWithReuseIdentifier:@"cell"];
+
+    [_listView registerClass:[TKListViewHeaderCell class] forSupplementaryViewOfKind:TKListViewElementKindSectionHeader withReuseIdentifier:@"header"];
+    _listView.dataSource = self;
+    _listView.layout.headerReferenceSize = CGSizeMake(200, 22);
+
+    [self.view addSubview:_listView];
+}
+
+-(NSInteger) numberOfSectionsInListView:(TKListView *)listView
+{
+    return _groups.count;
+}
+
+-(NSInteger) listView:(TKListView *)listView numberOfItemsInSection:(NSInteger)section
+{
+    return ((NSArray*)_groups[section]).count;
+}
+
+-(TKListViewCell*) listView:(TKListView *)listView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    TKListViewCell *cell = [listView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
+    cell.textLabel.text = _groups[indexPath.section][indexPath.row];
+
+    return cell;
+}
+
+-(TKListViewReusableCell*) listView:(TKListView *)listView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
+{
+    TKListViewReusableCell *headerCell = [listView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"header" forIndexPath:indexPath];
+    headerCell.textLabel.text = [NSString stringWithFormat:@"Group %li",indexPath.section];
+    return headerCell;
+}
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let groups = [["John","Abby"],["Smith","Peter","Paula"]]
+override func viewDidLoad() {
+    super.viewDidLoad()
+
+    let groups = [["John","Abby"],["Smith","Peter","Paula"]]
+    let listView = TKListView(frame: CGRectMake(20, 20, self.view.bounds.size.width-40,self.view.bounds.size.height-40))
+    listView.registerClass(TKListViewCell.self, forCellWithReuseIdentifier: "cell")
+    listView.registerClass(TKListViewHeaderCell.self, forSupplementaryViewOfKind: TKListViewElementKindSectionHeader, withReuseIdentifier: "header")
+    listView.dataSource = self
+    listView.layout.headerReferenceSize = CGSizeMake(200, 22)
+    self.view.addSubview(listView)
+}
+
+func numberOfSectionsInListView(listView: TKListView!) -&gt; Int {
+    return groups.count
+}
+
+func listView(listView: TKListView!, numberOfItemsInSection section: Int) -&gt; Int {
+    return groups[section].count
+}
+
+func listView(listView: TKListView!, cellForItemAtIndexPath indexPath: NSIndexPath!) -&gt; TKListViewCell! {
+    let cell = listView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as! TKListViewCell
+    cell.textLabel.text = groups[indexPath.section][indexPath.row]
+
+    return cell
+}
+
+func listView(listView: TKListView!, viewForSupplementaryElementOfKind kind: String!, atIndexPath indexPath: NSIndexPath!) -&gt; TKListViewReusableCell! {
+    let headerCell = listView.dequeueReusableSupplementaryViewOfKind(TKListViewElementKindSectionHeader, withReuseIdentifier: "header", forIndexPath: indexPath) as! TKListViewHeaderCell
+    headerCell.textLabel.text = "Group \(indexPath.section)"
+
+    return headerCell
+}
+</code></pre>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Telerik. All rights reserved. (Last updated: 2015-06-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					
+					</div>
+				</div>
+			</div>
+		</article>
+	</body>
+</html>

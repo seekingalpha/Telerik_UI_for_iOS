@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartStackInfo.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartStackInfo</TokenIdentifier>
+			<Abstract type="html">Represents a set of stack properties.</Abstract>
+			<DeclaredIn>TKChartStackInfo.h</DeclaredIn>
+            
+			
+			<NodeRef refid="192"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartStackInfo/setStackID:</TokenIdentifier>
+			<Abstract type="html">The stack info id.</Abstract>
+			<DeclaredIn>TKChartStackInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id stackID</Declaration>
+			
+			
+			<Anchor>//api/name/stackID</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartStackInfo/stackID</TokenIdentifier>
+			<Abstract type="html">The stack info id.</Abstract>
+			<DeclaredIn>TKChartStackInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id stackID</Declaration>
+			
+			
+			<Anchor>//api/name/stackID</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartStackInfo/stackID</TokenIdentifier>
+			<Abstract type="html">The stack info id.</Abstract>
+			<DeclaredIn>TKChartStackInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id stackID</Declaration>
+			
+			
+			<Anchor>//api/name/stackID</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartStackInfo/setStackMode:</TokenIdentifier>
+			<Abstract type="html">The stack info mode.</Abstract>
+			<DeclaredIn>TKChartStackInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartStackMode stackMode</Declaration>
+			
+			
+			<Anchor>//api/name/stackMode</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartStackInfo/stackMode</TokenIdentifier>
+			<Abstract type="html">The stack info mode.</Abstract>
+			<DeclaredIn>TKChartStackInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartStackMode stackMode</Declaration>
+			
+			
+			<Anchor>//api/name/stackMode</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartStackInfo/stackMode</TokenIdentifier>
+			<Abstract type="html">The stack info mode.</Abstract>
+			<DeclaredIn>TKChartStackInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartStackMode stackMode</Declaration>
+			
+			
+			<Anchor>//api/name/stackMode</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartStackInfo/initWithID:withStackMode:</TokenIdentifier>
+			<Abstract type="html">Initializes the stack info class.</Abstract>
+			<DeclaredIn>TKChartStackInfo.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithID:(id)aStackID withStackMode:(TKChartStackMode)aStackMode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>aStackID</Name>
+					<Abstract type="html">The stack id.</Abstract>
+				</Parameter><Parameter>
+					<Name>aStackMode</Name>
+					<Abstract type="html">The stack mode.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithID:withStackMode:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

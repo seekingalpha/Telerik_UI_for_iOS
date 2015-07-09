@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartColumnSeries.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartColumnSeries</TokenIdentifier>
+			<Abstract type="html">Represents TKChart column series. Check this Guide for more information.</Abstract>
+			<DeclaredIn>TKChartColumnSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="127"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartColumnSeries/setGapLength:</TokenIdentifier>
+			<Abstract type="html">The value which controls the distance between bar groups as percent. Note that the value should be between 0 and 1,
+where a value of 0 means that a bar would take the entire space between two ticks, while a value of 1 means the bar will have
+* zero width as all the space should appear as gap.</Abstract>
+			<DeclaredIn>TKChartColumnSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat gapLength</Declaration>
+			
+			
+			<Anchor>//api/name/gapLength</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartColumnSeries/gapLength</TokenIdentifier>
+			<Abstract type="html">The value which controls the distance between bar groups as percent. Note that the value should be between 0 and 1,
+where a value of 0 means that a bar would take the entire space between two ticks, while a value of 1 means the bar will have
+* zero width as all the space should appear as gap.</Abstract>
+			<DeclaredIn>TKChartColumnSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat gapLength</Declaration>
+			
+			
+			<Anchor>//api/name/gapLength</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartColumnSeries/gapLength</TokenIdentifier>
+			<Abstract type="html">The value which controls the distance between bar groups as percent. Note that the value should be between 0 and 1,
+where a value of 0 means that a bar would take the entire space between two ticks, while a value of 1 means the bar will have
+* zero width as all the space should appear as gap.</Abstract>
+			<DeclaredIn>TKChartColumnSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat gapLength</Declaration>
+			
+			
+			<Anchor>//api/name/gapLength</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartColumnSeries/setMaxColumnWidth:</TokenIdentifier>
+			<Abstract type="html">Value for maximum possible column width in TKChartColumnSeries.</Abstract>
+			<DeclaredIn>TKChartColumnSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxColumnWidth</Declaration>
+			
+			
+			<Anchor>//api/name/maxColumnWidth</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartColumnSeries/maxColumnWidth</TokenIdentifier>
+			<Abstract type="html">Value for maximum possible column width in TKChartColumnSeries.</Abstract>
+			<DeclaredIn>TKChartColumnSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxColumnWidth</Declaration>
+			
+			
+			<Anchor>//api/name/maxColumnWidth</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartColumnSeries/maxColumnWidth</TokenIdentifier>
+			<Abstract type="html">Value for maximum possible column width in TKChartColumnSeries.</Abstract>
+			<DeclaredIn>TKChartColumnSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxColumnWidth</Declaration>
+			
+			
+			<Anchor>//api/name/maxColumnWidth</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartColumnSeries/setMinColumnWidth:</TokenIdentifier>
+			<Abstract type="html">Value for minimum column width in TKChartColumnSeries.</Abstract>
+			<DeclaredIn>TKChartColumnSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minColumnWidth</Declaration>
+			
+			
+			<Anchor>//api/name/minColumnWidth</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartColumnSeries/minColumnWidth</TokenIdentifier>
+			<Abstract type="html">Value for minimum column width in TKChartColumnSeries.</Abstract>
+			<DeclaredIn>TKChartColumnSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minColumnWidth</Declaration>
+			
+			
+			<Anchor>//api/name/minColumnWidth</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartColumnSeries/minColumnWidth</TokenIdentifier>
+			<Abstract type="html">Value for minimum column width in TKChartColumnSeries.</Abstract>
+			<DeclaredIn>TKChartColumnSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minColumnWidth</Declaration>
+			
+			
+			<Anchor>//api/name/minColumnWidth</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartColumnSeries/setAllowClustering:</TokenIdentifier>
+			<Abstract type="html">Determines whether clustering is allowed when arranging non-stacked series</Abstract>
+			<DeclaredIn>TKChartColumnSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL allowClustering</Declaration>
+			
+			
+			<Anchor>//api/name/allowClustering</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartColumnSeries/allowClustering</TokenIdentifier>
+			<Abstract type="html">Determines whether clustering is allowed when arranging non-stacked series</Abstract>
+			<DeclaredIn>TKChartColumnSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL allowClustering</Declaration>
+			
+			
+			<Anchor>//api/name/allowClustering</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartColumnSeries/allowClustering</TokenIdentifier>
+			<Abstract type="html">Determines whether clustering is allowed when arranging non-stacked series</Abstract>
+			<DeclaredIn>TKChartColumnSeries.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL allowClustering</Declaration>
+			
+			
+			<Anchor>//api/name/allowClustering</Anchor>
+            <NodeRef refid="127"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

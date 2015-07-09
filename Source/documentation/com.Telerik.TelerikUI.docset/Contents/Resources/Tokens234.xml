@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKListViewFooterCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKListViewFooterCell</TokenIdentifier>
+			<Abstract type="html">A cell representing a group footer.</Abstract>
+			<DeclaredIn>TKListViewFooterCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="234"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

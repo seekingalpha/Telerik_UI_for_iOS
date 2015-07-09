@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartTrackball.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartTrackball</TokenIdentifier>
+			<Abstract type="html">The trackball used in TKChart.</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+            
+			
+			<NodeRef refid="198"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackball/initWithChart:</TokenIdentifier>
+			<Abstract type="html">Initializes the trackball with a TKChart instance.</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithChart:(TKChart *)chart</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The chart which owns this annotation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithChart:</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackball/showAtPoint:</TokenIdentifier>
+			<Abstract type="html">Displayes the trackball by specifying a plot area coordinates.</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>- (void)showAtPoint:(CGPoint)point</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>point</Name>
+					<Abstract type="html">The point where the trackball should locate.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/showAtPoint:</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackball/hide</TokenIdentifier>
+			<Abstract type="html">Hides the trackball.</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>- (void)hide</Declaration>
+			
+			
+			<Anchor>//api/name/hide</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackball/isVisible</TokenIdentifier>
+			<Abstract type="html">Returns a value indicating whether the trackball is currently visible (read-only).</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isVisible</Declaration>
+			
+			
+			<Anchor>//api/name/isVisible</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackball/setLine:</TokenIdentifier>
+			<Abstract type="html">Returns the line annotation used to present the trackball (read-only).</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKChartTrackballLineAnnotation *line</Declaration>
+			
+			
+			<Anchor>//api/name/line</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackball/line</TokenIdentifier>
+			<Abstract type="html">Returns the line annotation used to present the trackball (read-only).</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKChartTrackballLineAnnotation *line</Declaration>
+			
+			
+			<Anchor>//api/name/line</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartTrackball/line</TokenIdentifier>
+			<Abstract type="html">Returns the line annotation used to present the trackball (read-only).</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKChartTrackballLineAnnotation *line</Declaration>
+			
+			
+			<Anchor>//api/name/line</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackball/setTooltip:</TokenIdentifier>
+			<Abstract type="html">Returns the tooltip annotation used to present the trackball (read-only).</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKChartTrackballTooltipAnnotation *tooltip</Declaration>
+			
+			
+			<Anchor>//api/name/tooltip</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackball/tooltip</TokenIdentifier>
+			<Abstract type="html">Returns the tooltip annotation used to present the trackball (read-only).</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKChartTrackballTooltipAnnotation *tooltip</Declaration>
+			
+			
+			<Anchor>//api/name/tooltip</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartTrackball/tooltip</TokenIdentifier>
+			<Abstract type="html">Returns the tooltip annotation used to present the trackball (read-only).</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKChartTrackballTooltipAnnotation *tooltip</Declaration>
+			
+			
+			<Anchor>//api/name/tooltip</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackball/setSnapMode:</TokenIdentifier>
+			<Abstract type="html">Gets or sets the trackball snap mode.</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartTrackballSnapMode snapMode</Declaration>
+			
+			
+			<Anchor>//api/name/snapMode</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackball/snapMode</TokenIdentifier>
+			<Abstract type="html">Gets or sets the trackball snap mode.</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartTrackballSnapMode snapMode</Declaration>
+			
+			
+			<Anchor>//api/name/snapMode</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartTrackball/snapMode</TokenIdentifier>
+			<Abstract type="html">Gets or sets the trackball snap mode.</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartTrackballSnapMode snapMode</Declaration>
+			
+			
+			<Anchor>//api/name/snapMode</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackball/setOrientation:</TokenIdentifier>
+			<Abstract type="html">The trackball orientation.</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartTrackballOrientation orientation</Declaration>
+			
+			
+			<Anchor>//api/name/orientation</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackball/orientation</TokenIdentifier>
+			<Abstract type="html">The trackball orientation.</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartTrackballOrientation orientation</Declaration>
+			
+			
+			<Anchor>//api/name/orientation</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartTrackball/orientation</TokenIdentifier>
+			<Abstract type="html">The trackball orientation.</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartTrackballOrientation orientation</Declaration>
+			
+			
+			<Anchor>//api/name/orientation</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackball/setMinimumPressDuration:</TokenIdentifier>
+			<Abstract type="html">  Default is 0.5. Time in seconds the fingers must be held down for the gesture to be recognized</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat minimumPressDuration</Declaration>
+			
+			
+			<Anchor>//api/name/minimumPressDuration</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackball/minimumPressDuration</TokenIdentifier>
+			<Abstract type="html">  Default is 0.5. Time in seconds the fingers must be held down for the gesture to be recognized</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat minimumPressDuration</Declaration>
+			
+			
+			<Anchor>//api/name/minimumPressDuration</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartTrackball/minimumPressDuration</TokenIdentifier>
+			<Abstract type="html">  Default is 0.5. Time in seconds the fingers must be held down for the gesture to be recognized</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat minimumPressDuration</Declaration>
+			
+			
+			<Anchor>//api/name/minimumPressDuration</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackball/setHideMode:</TokenIdentifier>
+			<Abstract type="html">The trackball hide mode.</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartTrackballHideMode hideMode</Declaration>
+			
+			
+			<Anchor>//api/name/hideMode</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackball/hideMode</TokenIdentifier>
+			<Abstract type="html">The trackball hide mode.</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartTrackballHideMode hideMode</Declaration>
+			
+			
+			<Anchor>//api/name/hideMode</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartTrackball/hideMode</TokenIdentifier>
+			<Abstract type="html">The trackball hide mode.</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TKChartTrackballHideMode hideMode</Declaration>
+			
+			
+			<Anchor>//api/name/hideMode</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackball/setMarginForHitDetection:</TokenIdentifier>
+			<Abstract type="html">If set to a nonzero value the trackball will show only when the touch event occured in the specified distance to an actual point in chart.</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat marginForHitDetection</Declaration>
+			
+			
+			<Anchor>//api/name/marginForHitDetection</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartTrackball/marginForHitDetection</TokenIdentifier>
+			<Abstract type="html">If set to a nonzero value the trackball will show only when the touch event occured in the specified distance to an actual point in chart.</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat marginForHitDetection</Declaration>
+			
+			
+			<Anchor>//api/name/marginForHitDetection</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartTrackball/marginForHitDetection</TokenIdentifier>
+			<Abstract type="html">If set to a nonzero value the trackball will show only when the touch event occured in the specified distance to an actual point in chart.</Abstract>
+			<DeclaredIn>TKChartTrackball.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat marginForHitDetection</Declaration>
+			
+			
+			<Anchor>//api/name/marginForHitDetection</Anchor>
+            <NodeRef refid="198"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

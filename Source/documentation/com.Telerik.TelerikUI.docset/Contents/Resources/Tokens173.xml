@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartPointLabelStyle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartPointLabelStyle</TokenIdentifier>
+			<Abstract type="html">Represents a point label style.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="173"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/setFill:</TokenIdentifier>
+			<Abstract type="html">The background color of a point label.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *fill</Declaration>
+			
+			
+			<Anchor>//api/name/fill</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/fill</TokenIdentifier>
+			<Abstract type="html">The background color of a point label.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *fill</Declaration>
+			
+			
+			<Anchor>//api/name/fill</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartPointLabelStyle/fill</TokenIdentifier>
+			<Abstract type="html">The background color of a point label.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKFill *fill</Declaration>
+			
+			
+			<Anchor>//api/name/fill</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/setStroke:</TokenIdentifier>
+			<Abstract type="html">The stroke color of a point label.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *stroke</Declaration>
+			
+			
+			<Anchor>//api/name/stroke</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/stroke</TokenIdentifier>
+			<Abstract type="html">The stroke color of a point label.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *stroke</Declaration>
+			
+			
+			<Anchor>//api/name/stroke</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartPointLabelStyle/stroke</TokenIdentifier>
+			<Abstract type="html">The stroke color of a point label.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) TKStroke *stroke</Declaration>
+			
+			
+			<Anchor>//api/name/stroke</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/setLabelOffset:</TokenIdentifier>
+			<Abstract type="html">The point label&apos;s offset from the corresponding data point.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIOffset labelOffset</Declaration>
+			
+			
+			<Anchor>//api/name/labelOffset</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/labelOffset</TokenIdentifier>
+			<Abstract type="html">The point label&apos;s offset from the corresponding data point.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIOffset labelOffset</Declaration>
+			
+			
+			<Anchor>//api/name/labelOffset</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartPointLabelStyle/labelOffset</TokenIdentifier>
+			<Abstract type="html">The point label&apos;s offset from the corresponding data point.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIOffset labelOffset</Declaration>
+			
+			
+			<Anchor>//api/name/labelOffset</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/setCornerRadius:</TokenIdentifier>
+			<Abstract type="html">Corner radius for point label&apos;s rect.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat cornerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/cornerRadius</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/cornerRadius</TokenIdentifier>
+			<Abstract type="html">Corner radius for point label&apos;s rect.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat cornerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/cornerRadius</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartPointLabelStyle/cornerRadius</TokenIdentifier>
+			<Abstract type="html">Corner radius for point label&apos;s rect.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat cornerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/cornerRadius</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/setInsets:</TokenIdentifier>
+			<Abstract type="html">Text insets. Use negative values to enlarge area.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIEdgeInsets insets</Declaration>
+			
+			
+			<Anchor>//api/name/insets</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/insets</TokenIdentifier>
+			<Abstract type="html">Text insets. Use negative values to enlarge area.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIEdgeInsets insets</Declaration>
+			
+			
+			<Anchor>//api/name/insets</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartPointLabelStyle/insets</TokenIdentifier>
+			<Abstract type="html">Text insets. Use negative values to enlarge area.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIEdgeInsets insets</Declaration>
+			
+			
+			<Anchor>//api/name/insets</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/setLayoutMode:</TokenIdentifier>
+			<Abstract type="html">Layout mode for a point label.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKChartPointLabelLayoutMode layoutMode</Declaration>
+			
+			
+			<Anchor>//api/name/layoutMode</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/layoutMode</TokenIdentifier>
+			<Abstract type="html">Layout mode for a point label.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKChartPointLabelLayoutMode layoutMode</Declaration>
+			
+			
+			<Anchor>//api/name/layoutMode</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartPointLabelStyle/layoutMode</TokenIdentifier>
+			<Abstract type="html">Layout mode for a point label.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKChartPointLabelLayoutMode layoutMode</Declaration>
+			
+			
+			<Anchor>//api/name/layoutMode</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/setClipMode:</TokenIdentifier>
+			<Abstract type="html">Clip mode for a point label.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKChartPointLabelClipMode clipMode</Declaration>
+			
+			
+			<Anchor>//api/name/clipMode</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/clipMode</TokenIdentifier>
+			<Abstract type="html">Clip mode for a point label.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKChartPointLabelClipMode clipMode</Declaration>
+			
+			
+			<Anchor>//api/name/clipMode</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartPointLabelStyle/clipMode</TokenIdentifier>
+			<Abstract type="html">Clip mode for a point label.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKChartPointLabelClipMode clipMode</Declaration>
+			
+			
+			<Anchor>//api/name/clipMode</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/setTextAlignment:</TokenIdentifier>
+			<Abstract type="html">Point label&apos;s text alignment.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTextAlignment textAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/textAlignment</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/textAlignment</TokenIdentifier>
+			<Abstract type="html">Point label&apos;s text alignment.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTextAlignment textAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/textAlignment</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartPointLabelStyle/textAlignment</TokenIdentifier>
+			<Abstract type="html">Point label&apos;s text alignment.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTextAlignment textAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/textAlignment</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/setTextOrientation:</TokenIdentifier>
+			<Abstract type="html">Point label&apos;s text orientation.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKChartPointLabelOrientation textOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/textOrientation</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/textOrientation</TokenIdentifier>
+			<Abstract type="html">Point label&apos;s text orientation.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKChartPointLabelOrientation textOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/textOrientation</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartPointLabelStyle/textOrientation</TokenIdentifier>
+			<Abstract type="html">Point label&apos;s text orientation.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) TKChartPointLabelOrientation textOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/textOrientation</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/setBlurRadius:</TokenIdentifier>
+			<Abstract type="html">Blur radius for point label&apos;s text shadow.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat blurRadius</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadius</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/blurRadius</TokenIdentifier>
+			<Abstract type="html">Blur radius for point label&apos;s text shadow.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat blurRadius</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadius</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartPointLabelStyle/blurRadius</TokenIdentifier>
+			<Abstract type="html">Blur radius for point label&apos;s text shadow.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat blurRadius</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadius</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/setFormatter:</TokenIdentifier>
+			<Abstract type="html">Formatter for point label&apos;s text.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSFormatter *formatter</Declaration>
+			
+			
+			<Anchor>//api/name/formatter</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/formatter</TokenIdentifier>
+			<Abstract type="html">Formatter for point label&apos;s text.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSFormatter *formatter</Declaration>
+			
+			
+			<Anchor>//api/name/formatter</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartPointLabelStyle/formatter</TokenIdentifier>
+			<Abstract type="html">Formatter for point label&apos;s text.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSFormatter *formatter</Declaration>
+			
+			
+			<Anchor>//api/name/formatter</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/setStringFormat:</TokenIdentifier>
+			<Abstract type="html">String formatter for point label.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *stringFormat</Declaration>
+			
+			
+			<Anchor>//api/name/stringFormat</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartPointLabelStyle/stringFormat</TokenIdentifier>
+			<Abstract type="html">String formatter for point label.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *stringFormat</Declaration>
+			
+			
+			<Anchor>//api/name/stringFormat</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartPointLabelStyle/stringFormat</TokenIdentifier>
+			<Abstract type="html">String formatter for point label.</Abstract>
+			<DeclaredIn>TKChartPointLabelStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *stringFormat</Declaration>
+			
+			
+			<Anchor>//api/name/stringFormat</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

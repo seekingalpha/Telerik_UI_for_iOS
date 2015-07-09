@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKListViewGridLayout.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKListViewGridLayout</TokenIdentifier>
+			<Abstract type="html">A layout that renders cells in TKListView by distributing them in a fixed columns count. Supports cell alignment e.g. left, right , center, justify</Abstract>
+			<DeclaredIn>TKListViewGridLayout.h</DeclaredIn>
+            
+			
+			<NodeRef refid="235"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewGridLayout/setSpanCount:</TokenIdentifier>
+			<Abstract type="html">The number of columns/rows to be rendered.</Abstract>
+			<DeclaredIn>TKListViewGridLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger spanCount</Declaration>
+			
+			
+			<Anchor>//api/name/spanCount</Anchor>
+            <NodeRef refid="235"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewGridLayout/spanCount</TokenIdentifier>
+			<Abstract type="html">The number of columns/rows to be rendered.</Abstract>
+			<DeclaredIn>TKListViewGridLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger spanCount</Declaration>
+			
+			
+			<Anchor>//api/name/spanCount</Anchor>
+            <NodeRef refid="235"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListViewGridLayout/spanCount</TokenIdentifier>
+			<Abstract type="html">The number of columns/rows to be rendered.</Abstract>
+			<DeclaredIn>TKListViewGridLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger spanCount</Declaration>
+			
+			
+			<Anchor>//api/name/spanCount</Anchor>
+            <NodeRef refid="235"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewGridLayout/setLineSpacing:</TokenIdentifier>
+			<Abstract type="html">The spacing between item rows.</Abstract>
+			<DeclaredIn>TKListViewGridLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat lineSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/lineSpacing</Anchor>
+            <NodeRef refid="235"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKListViewGridLayout/lineSpacing</TokenIdentifier>
+			<Abstract type="html">The spacing between item rows.</Abstract>
+			<DeclaredIn>TKListViewGridLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat lineSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/lineSpacing</Anchor>
+            <NodeRef refid="235"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKListViewGridLayout/lineSpacing</TokenIdentifier>
+			<Abstract type="html">The spacing between item rows.</Abstract>
+			<DeclaredIn>TKListViewGridLayout.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat lineSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/lineSpacing</Anchor>
+            <NodeRef refid="235"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

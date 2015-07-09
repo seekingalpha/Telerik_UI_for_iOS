@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKChartLegendPosition.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKChartLegendPosition</TokenIdentifier>
+			<Abstract type="html">@enum TKChartLegendPosition</Abstract>
+			<DeclaredIn>TKChartLegendStyle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="311"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartLegendPositionLeft</TokenIdentifier>
+            <Abstract type="html">     The legend is positioned at the left side of the chart.
+     </Abstract>
+            <Declaration>TKChartLegendPositionLeft</Declaration>
+            
+            <DeclaredIn>TKChartLegendStyle.h</DeclaredIn>
+            
+            <NodeRef refid="311"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartLegendPositionRight</TokenIdentifier>
+            <Abstract type="html">     The legend is positioned at the right side of the chart.
+     </Abstract>
+            <Declaration>TKChartLegendPositionRight</Declaration>
+            
+            <DeclaredIn>TKChartLegendStyle.h</DeclaredIn>
+            
+            <NodeRef refid="311"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartLegendPositionTop</TokenIdentifier>
+            <Abstract type="html">     The legend is positioned at the top side of the chart.
+     </Abstract>
+            <Declaration>TKChartLegendPositionTop</Declaration>
+            
+            <DeclaredIn>TKChartLegendStyle.h</DeclaredIn>
+            
+            <NodeRef refid="311"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartLegendPositionBottom</TokenIdentifier>
+            <Abstract type="html">     The legend is positioned at the bottom side of the chart.
+     </Abstract>
+            <Declaration>TKChartLegendPositionBottom</Declaration>
+            
+            <DeclaredIn>TKChartLegendStyle.h</DeclaredIn>
+            
+            <NodeRef refid="311"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKChartLegendPositionFloating</TokenIdentifier>
+            <Abstract type="html">     The legend is floating. You should set the offset and offsetOrigin properties when using this option.
+     </Abstract>
+            <Declaration>TKChartLegendPositionFloating</Declaration>
+            
+            <DeclaredIn>TKChartLegendStyle.h</DeclaredIn>
+            
+            <NodeRef refid="311"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKChartSeriesRender.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKChartSeriesRender</TokenIdentifier>
+			<Abstract type="html">Represents a class that renders stacked series.</Abstract>
+			<DeclaredIn>TKChartSeriesRender.h</DeclaredIn>
+            
+			
+			<NodeRef refid="184"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TKChartSeriesRender/locationOfValue:forAxis:inRect:</TokenIdentifier>
+			<Abstract type="html">Returns The location of numeric value representation</Abstract>
+			<DeclaredIn>TKChartSeriesRender.h</DeclaredIn>
+			
+			<Declaration>+ (CGFloat)locationOfValue:(double)numericValue forAxis:(TKChartAxis *)axis inRect:(CGRect)bounds</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>numericValue</Name>
+					<Abstract type="html">The numeric value</Abstract>
+				</Parameter><Parameter>
+					<Name>axis</Name>
+					<Abstract type="html">The axis</Abstract>
+				</Parameter><Parameter>
+					<Name>bounds</Name>
+					<Abstract type="html">The bounds</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The location of numeric value representation</Abstract></ReturnValue>
+			<Anchor>//api/name/locationOfValue:forAxis:inRect:</Anchor>
+            <NodeRef refid="184"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeriesRender/initWithChart:forSeries:</TokenIdentifier>
+			<Abstract type="html">Initializes the TKChartSeriesRender object.</Abstract>
+			<DeclaredIn>TKChartSeriesRender.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithChart:(TKChart *)chart forSeries:(NSArray *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">The chart associated with this render.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The stacked series.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithChart:forSeries:</Anchor>
+            <NodeRef refid="184"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeriesRender/series</TokenIdentifier>
+			<Abstract type="html">The series associated with this render.</Abstract>
+			<DeclaredIn>TKChartSeriesRender.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)series</Declaration>
+			
+			
+			<Anchor>//api/name/series</Anchor>
+            <NodeRef refid="184"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeriesRender/addSeries:</TokenIdentifier>
+			<Abstract type="html">Adds a series to render.</Abstract>
+			<DeclaredIn>TKChartSeriesRender.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)addSeries:(TKChartSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series that should be added.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addSeries:</Anchor>
+            <NodeRef refid="184"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeriesRender/isCompatibleWithSeries:</TokenIdentifier>
+			<Abstract type="html">Determines whether a series is compatible with TKChartSeriesRender.</Abstract>
+			<DeclaredIn>TKChartSeriesRender.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isCompatibleWithSeries:(TKChartSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series to test with.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/isCompatibleWithSeries:</Anchor>
+            <NodeRef refid="184"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeriesRender/locationOfXNumericValue:inSeries:</TokenIdentifier>
+			<Abstract type="html">Returns an x-coordinate of the x-numeric value for specific series.</Abstract>
+			<DeclaredIn>TKChartSeriesRender.h</DeclaredIn>
+			
+			<Declaration>- (double)locationOfXNumericValue:(double)numericValue inSeries:(TKChartSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>numericValue</Name>
+					<Abstract type="html">The numeric value.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/locationOfXNumericValue:inSeries:</Anchor>
+            <NodeRef refid="184"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeriesRender/locationOfYNumericValue:inSeries:</TokenIdentifier>
+			<Abstract type="html">Returns a y-coordinate of the y-numeric value for specific series.</Abstract>
+			<DeclaredIn>TKChartSeriesRender.h</DeclaredIn>
+			
+			<Declaration>- (double)locationOfYNumericValue:(double)numericValue inSeries:(TKChartSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>numericValue</Name>
+					<Abstract type="html">The numeric value.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/locationOfYNumericValue:inSeries:</Anchor>
+            <NodeRef refid="184"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeriesRender/locationOfPoint:inSeries:</TokenIdentifier>
+			<Abstract type="html">Returns the location of a data point</Abstract>
+			<DeclaredIn>TKChartSeriesRender.h</DeclaredIn>
+			
+			<Declaration>- (CGPoint)locationOfPoint:(id&lt;TKChartData&gt;)data inSeries:(TKChartSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The data point to locate</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series to which the specified data point is associated</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/locationOfPoint:inSeries:</Anchor>
+            <NodeRef refid="184"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeriesRender/pointFromData:pointIndex:inSeries:</TokenIdentifier>
+			<Abstract type="html">Returns a visual point based on the provided information.</Abstract>
+			<DeclaredIn>TKChartSeriesRender.h</DeclaredIn>
+			
+			<Declaration>- (TKChartVisualPoint *)pointFromData:(id&lt;TKChartData&gt;)point pointIndex:(NSUInteger)index inSeries:(TKChartSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>point</Name>
+					<Abstract type="html">The data point that should be converted.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The data point index.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series which contains this point.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of TKChartVisualPoint if successfull.</Abstract></ReturnValue>
+			<Anchor>//api/name/pointFromData:pointIndex:inSeries:</Anchor>
+            <NodeRef refid="184"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeriesRender/createVisualPoint:pointIndex:inSeries:</TokenIdentifier>
+			<Abstract type="html">Creates a visual point based on the provided information.</Abstract>
+			<DeclaredIn>TKChartSeriesRender.h</DeclaredIn>
+			
+			<Declaration>- (TKChartVisualPoint *)createVisualPoint:(id&lt;TKChartData&gt;)data pointIndex:(NSInteger)index inSeries:(TKChartSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The data point that should be converted.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The data point index.</Abstract>
+				</Parameter><Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series which contains this point.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The instance of the newly created TKChartVisualPoint.</Abstract></ReturnValue>
+			<Anchor>//api/name/createVisualPoint:pointIndex:inSeries:</Anchor>
+            <NodeRef refid="184"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeriesRender/setSeriesRenderStates:</TokenIdentifier>
+			<Abstract type="html">Returns the render states for all associated series</Abstract>
+			<DeclaredIn>TKChartSeriesRender.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKMutableArray *seriesRenderStates</Declaration>
+			
+			
+			<Anchor>//api/name/seriesRenderStates</Anchor>
+            <NodeRef refid="184"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeriesRender/seriesRenderStates</TokenIdentifier>
+			<Abstract type="html">Returns the render states for all associated series</Abstract>
+			<DeclaredIn>TKChartSeriesRender.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKMutableArray *seriesRenderStates</Declaration>
+			
+			
+			<Anchor>//api/name/seriesRenderStates</Anchor>
+            <NodeRef refid="184"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKChartSeriesRender/seriesRenderStates</TokenIdentifier>
+			<Abstract type="html">Returns the render states for all associated series</Abstract>
+			<DeclaredIn>TKChartSeriesRender.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) TKMutableArray *seriesRenderStates</Declaration>
+			
+			
+			<Anchor>//api/name/seriesRenderStates</Anchor>
+            <NodeRef refid="184"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeriesRender/hitTestForPoint:</TokenIdentifier>
+			<Abstract type="html">Does a hit point test.</Abstract>
+			<DeclaredIn>TKChartSeriesRender.h</DeclaredIn>
+			
+			<Declaration>- (TKChartSelectionInfo *)hitTestForPoint:(CGPoint)point</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>point</Name>
+					<Abstract type="html">The point to test with.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A TKChartSelectionInfo object containing information about the hit point found. Returns nil when no hit test found.</Abstract></ReturnValue>
+			<Anchor>//api/name/hitTestForPoint:</Anchor>
+            <NodeRef refid="184"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKChartSeriesRender/selectionWillChangeForSeries:andPoint:</TokenIdentifier>
+			<Abstract type="html">This method is being called by TKChart when the selection is about to change.</Abstract>
+			<DeclaredIn>TKChartSeriesRender.h</DeclaredIn>
+			
+			<Declaration>- (void)selectionWillChangeForSeries:(TKChartSeries *)series andPoint:(NSInteger)pointIndex</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series that is currently selected.</Abstract>
+				</Parameter><Parameter>
+					<Name>pointIndex</Name>
+					<Abstract type="html">The point index of the currently selected point.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/selectionWillChangeForSeries:andPoint:</Anchor>
+            <NodeRef refid="184"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

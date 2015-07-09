@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TKCalendarCellType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TKCalendarCellType</TokenIdentifier>
+			<Abstract type="html">@enum TKCalendarCellType</Abstract>
+			<DeclaredIn>TKCalendar.h</DeclaredIn>
+            
+			
+			<NodeRef refid="286"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarCellTypeDay</TokenIdentifier>
+            <Abstract type="html">     A cell responsible for presenting a date.
+     </Abstract>
+            <Declaration>TKCalendarCellTypeDay</Declaration>
+            
+            <DeclaredIn>TKCalendar.h</DeclaredIn>
+            
+            <NodeRef refid="286"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarCellTypeDayName</TokenIdentifier>
+            <Abstract type="html">     A cell responsible for presenting a week day name.
+     </Abstract>
+            <Declaration>TKCalendarCellTypeDayName</Declaration>
+            
+            <DeclaredIn>TKCalendar.h</DeclaredIn>
+            
+            <NodeRef refid="286"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarCellTypeWeekNumber</TokenIdentifier>
+            <Abstract type="html">     A cell responsible for presenting a week number.
+     </Abstract>
+            <Declaration>TKCalendarCellTypeWeekNumber</Declaration>
+            
+            <DeclaredIn>TKCalendar.h</DeclaredIn>
+            
+            <NodeRef refid="286"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarCellTypeTitle</TokenIdentifier>
+            <Abstract type="html">     A cell responsible for presenting a title.
+     </Abstract>
+            <Declaration>TKCalendarCellTypeTitle</Declaration>
+            
+            <DeclaredIn>TKCalendar.h</DeclaredIn>
+            
+            <NodeRef refid="286"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarCellTypeMonthName</TokenIdentifier>
+            <Abstract type="html">     A cell responsible for presenting a month name.
+     </Abstract>
+            <Declaration>TKCalendarCellTypeMonthName</Declaration>
+            
+            <DeclaredIn>TKCalendar.h</DeclaredIn>
+            
+            <NodeRef refid="286"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TKCalendarCellTypeYearNumber</TokenIdentifier>
+            <Abstract type="html">     A cell responsible for presenting a year number.
+     </Abstract>
+            <Declaration>TKCalendarCellTypeYearNumber</Declaration>
+            
+            <DeclaredIn>TKCalendar.h</DeclaredIn>
+            
+            <NodeRef refid="286"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,1727 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>TKChartDelegate Protocol Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">TelerikUI </a></h1>
+				<a id="developerHome" href="../index.html">Telerik</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">TKChartDelegate Protocol Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/chart:animationForSeries:withState:inRect:">&nbsp;&nbsp;&nbsp;&nbsp;- chart:animationForSeries:withState:inRect:</option>
+	
+	<option value="//api/name/chart:attributedTextForAxis:value:atIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- chart:attributedTextForAxis:value:atIndex:</option>
+	
+	<option value="//api/name/chart:didDeselectPoint:inSeries:atIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- chart:didDeselectPoint:inSeries:atIndex:</option>
+	
+	<option value="//api/name/chart:didDeselectSeries:">&nbsp;&nbsp;&nbsp;&nbsp;- chart:didDeselectSeries:</option>
+	
+	<option value="//api/name/chart:didSelectPoint:inSeries:atIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- chart:didSelectPoint:inSeries:atIndex:</option>
+	
+	<option value="//api/name/chart:didSelectSeries:">&nbsp;&nbsp;&nbsp;&nbsp;- chart:didSelectSeries:</option>
+	
+	<option value="//api/name/chart:didTapOnLegendItem:">&nbsp;&nbsp;&nbsp;&nbsp;- chart:didTapOnLegendItem:</option>
+	
+	<option value="//api/name/chart:labelForDataPoint:inSeries:atIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- chart:labelForDataPoint:inSeries:atIndex:</option>
+	
+	<option value="//api/name/chart:legendItemForSeries:atIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- chart:legendItemForSeries:atIndex:</option>
+	
+	<option value="//api/name/chart:paletteItemForPoint:inSeries:">&nbsp;&nbsp;&nbsp;&nbsp;- chart:paletteItemForPoint:inSeries:</option>
+	
+	<option value="//api/name/chart:paletteItemForSeries:atIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- chart:paletteItemForSeries:atIndex:</option>
+	
+	<option value="//api/name/chart:pointLabelRenderForSeries:withRender:">&nbsp;&nbsp;&nbsp;&nbsp;- chart:pointLabelRenderForSeries:withRender:</option>
+	
+	<option value="//api/name/chart:shapeForSeries:atIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- chart:shapeForSeries:atIndex:</option>
+	
+	<option value="//api/name/chart:textForAxis:value:atIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- chart:textForAxis:value:atIndex:</option>
+	
+	<option value="//api/name/chart:textForLabelAtPoint:inSeries:atIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- chart:textForLabelAtPoint:inSeries:atIndex:</option>
+	
+	<option value="//api/name/chart:trackballDidHideSelection:">&nbsp;&nbsp;&nbsp;&nbsp;- chart:trackballDidHideSelection:</option>
+	
+	<option value="//api/name/chart:trackballDidTrackSelection:">&nbsp;&nbsp;&nbsp;&nbsp;- chart:trackballDidTrackSelection:</option>
+	
+	<option value="//api/name/chart:updateLegendItem:forSeries:atIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- chart:updateLegendItem:forSeries:atIndex:</option>
+	
+	<option value="//api/name/chartDidPan:">&nbsp;&nbsp;&nbsp;&nbsp;- chartDidPan:</option>
+	
+	<option value="//api/name/chartDidZoom:">&nbsp;&nbsp;&nbsp;&nbsp;- chartDidZoom:</option>
+	
+	<option value="//api/name/chartWillPan:">&nbsp;&nbsp;&nbsp;&nbsp;- chartWillPan:</option>
+	
+	<option value="//api/name/chartWillZoom:">&nbsp;&nbsp;&nbsp;&nbsp;- chartWillZoom:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Changing TKChart appearance">Changing TKChart appearance</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Handling TKChart notifications">Handling TKChart notifications</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chart:animationForSeries:withState:inRect:">chart:animationForSeries:withState:inRect:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chart:attributedTextForAxis:value:atIndex:">chart:attributedTextForAxis:value:atIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chart:didDeselectPoint:inSeries:atIndex:">chart:didDeselectPoint:inSeries:atIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chart:didDeselectSeries:">chart:didDeselectSeries:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chart:didSelectPoint:inSeries:atIndex:">chart:didSelectPoint:inSeries:atIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chart:didSelectSeries:">chart:didSelectSeries:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chart:didTapOnLegendItem:">chart:didTapOnLegendItem:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chart:labelForDataPoint:inSeries:atIndex:">chart:labelForDataPoint:inSeries:atIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chart:legendItemForSeries:atIndex:">chart:legendItemForSeries:atIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chart:paletteItemForPoint:inSeries:">chart:paletteItemForPoint:inSeries:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chart:paletteItemForSeries:atIndex:">chart:paletteItemForSeries:atIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chart:pointLabelRenderForSeries:withRender:">chart:pointLabelRenderForSeries:withRender:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chart:shapeForSeries:atIndex:">chart:shapeForSeries:atIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chart:textForAxis:value:atIndex:">chart:textForAxis:value:atIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chart:textForLabelAtPoint:inSeries:atIndex:">chart:textForLabelAtPoint:inSeries:atIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chart:trackballDidHideSelection:">chart:trackballDidHideSelection:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chart:trackballDidTrackSelection:">chart:trackballDidTrackSelection:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chart:updateLegendItem:forSeries:atIndex:">chart:updateLegendItem:forSeries:atIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chartDidPan:">chartDidPan:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chartDidZoom:">chartDidZoom:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chartWillPan:">chartWillPan:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chartWillZoom:">chartWillZoom:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="TKChartDelegate Protocol Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">TKChartDelegate Protocol Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">TKChart.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>The methods declared by the TKChartDelegate protocol allow the adopting delegate to respond to messages from the <a href="../Classes/TKChart.html">TKChart</a> class and thus respond to, and in some affect, operations such as panning, zooming and data animations.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Changing TKChart appearance" name="task_Changing TKChart appearance"></a>
+						<h3 class="subsubtitle task-title">Changing TKChart appearance</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chart:paletteItemForSeries:atIndex:">&ndash;&nbsp;chart:paletteItemForSeries:atIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chart:paletteItemForPoint:inSeries:">&ndash;&nbsp;chart:paletteItemForPoint:inSeries:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chart:shapeForSeries:atIndex:">&ndash;&nbsp;chart:shapeForSeries:atIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chart:animationForSeries:withState:inRect:">&ndash;&nbsp;chart:animationForSeries:withState:inRect:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Handling TKChart notifications" name="task_Handling TKChart notifications"></a>
+						<h3 class="subsubtitle task-title">Handling TKChart notifications</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chart:didSelectSeries:">&ndash;&nbsp;chart:didSelectSeries:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chart:didDeselectSeries:">&ndash;&nbsp;chart:didDeselectSeries:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chart:didSelectPoint:inSeries:atIndex:">&ndash;&nbsp;chart:didSelectPoint:inSeries:atIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chart:didDeselectPoint:inSeries:atIndex:">&ndash;&nbsp;chart:didDeselectPoint:inSeries:atIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chartWillZoom:">&ndash;&nbsp;chartWillZoom:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chartDidZoom:">&ndash;&nbsp;chartDidZoom:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chartWillPan:">&ndash;&nbsp;chartWillPan:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chartDidPan:">&ndash;&nbsp;chartDidPan:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chart:trackballDidTrackSelection:">&ndash;&nbsp;chart:trackballDidTrackSelection:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chart:trackballDidHideSelection:">&ndash;&nbsp;chart:trackballDidHideSelection:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chart:labelForDataPoint:inSeries:atIndex:">&ndash;&nbsp;chart:labelForDataPoint:inSeries:atIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chart:textForLabelAtPoint:inSeries:atIndex:">&ndash;&nbsp;chart:textForLabelAtPoint:inSeries:atIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chart:textForAxis:value:atIndex:">&ndash;&nbsp;chart:textForAxis:value:atIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chart:attributedTextForAxis:value:atIndex:">&ndash;&nbsp;chart:attributedTextForAxis:value:atIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chart:pointLabelRenderForSeries:withRender:">&ndash;&nbsp;chart:pointLabelRenderForSeries:withRender:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chart:legendItemForSeries:atIndex:">&ndash;&nbsp;chart:legendItemForSeries:atIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chart:updateLegendItem:forSeries:atIndex:">&ndash;&nbsp;chart:updateLegendItem:forSeries:atIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chart:didTapOnLegendItem:">&ndash;&nbsp;chart:didTapOnLegendItem:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/chart:animationForSeries:withState:inRect:" title="chart:animationForSeries:withState:inRect:"></a>
+	<h3 class="subsubtitle method-title">chart:animationForSeries:withState:inRect:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Creates an animation for particular series.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (CAAnimation *)chart:(TKChart *)<em>chart</em> animationForSeries:(TKChartSeries *)<em>series</em> withState:(TKChartSeriesRenderState *)<em>state</em> inRect:(CGRect)<em>rect</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> instance requesting this information.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>series</em></dt>
+			<dd><p>The series to which the animation will be applied.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>state</em></dt>
+			<dd><p>The series' visual state.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>rect</em></dt>
+			<dd><p>The viewport of the plot area.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chart:attributedTextForAxis:value:atIndex:" title="chart:attributedTextForAxis:value:atIndex:"></a>
+	<h3 class="subsubtitle method-title">chart:attributedTextForAxis:value:atIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns an attributed string representing the specified tick value.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSAttributedString *)chart:(TKChart *)<em>chart</em> attributedTextForAxis:(TKChartAxis *)<em>axis</em> value:(id)<em>value</em> atIndex:(NSUInteger)<em>index</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> instance requesting this information.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>axis</em></dt>
+			<dd><p>The axis.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>value</em></dt>
+			<dd><p>The tick value.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>index</em></dt>
+			<dd><p>The index of the tick value.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chart:didDeselectPoint:inSeries:atIndex:" title="chart:didDeselectPoint:inSeries:atIndex:"></a>
+	<h3 class="subsubtitle method-title">chart:didDeselectPoint:inSeries:atIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Called when a point is deselected.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)chart:(TKChart *)<em>chart</em> didDeselectPoint:(id&lt;TKChartData&gt;)<em>point</em> inSeries:(TKChartSeries *)<em>series</em> atIndex:(NSInteger)<em>index</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> for which the selection change has occurred.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>point</em></dt>
+			<dd><p>The data point that is deselected.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>series</em></dt>
+			<dd><p>The series that contains the selected point.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>index</em></dt>
+			<dd><p>The index of the data point within the series.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chart:didDeselectSeries:" title="chart:didDeselectSeries:"></a>
+	<h3 class="subsubtitle method-title">chart:didDeselectSeries:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Called when a series is deselected.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)chart:(TKChart *)<em>chart</em> didDeselectSeries:(TKChartSeries *)<em>series</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> for which the selection change has occurred.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>series</em></dt>
+			<dd><p>The series that is deselected.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chart:didSelectPoint:inSeries:atIndex:" title="chart:didSelectPoint:inSeries:atIndex:"></a>
+	<h3 class="subsubtitle method-title">chart:didSelectPoint:inSeries:atIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Called on selecting a point.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)chart:(TKChart *)<em>chart</em> didSelectPoint:(id&lt;TKChartData&gt;)<em>point</em> inSeries:(TKChartSeries *)<em>series</em> atIndex:(NSInteger)<em>index</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> for which the selection change has occurred.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>point</em></dt>
+			<dd><p>The data point that is selected.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>series</em></dt>
+			<dd><p>The series that contains the selected point.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>index</em></dt>
+			<dd><p>The index of the data point within the series.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chart:didSelectSeries:" title="chart:didSelectSeries:"></a>
+	<h3 class="subsubtitle method-title">chart:didSelectSeries:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Called on selecting series.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)chart:(TKChart *)<em>chart</em> didSelectSeries:(TKChartSeries *)<em>series</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> for which the selection has occurred.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>series</em></dt>
+			<dd><p>The series that is selected.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chart:didTapOnLegendItem:" title="chart:didTapOnLegendItem:"></a>
+	<h3 class="subsubtitle method-title">chart:didTapOnLegendItem:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Called when touch occured on a legend item.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)chart:(TKChart *)<em>chart</em> didTapOnLegendItem:(TKChartLegendItem *)<em>legendItem</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> instance where the event occured.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chart:labelForDataPoint:inSeries:atIndex:" title="chart:labelForDataPoint:inSeries:atIndex:"></a>
+	<h3 class="subsubtitle method-title">chart:labelForDataPoint:inSeries:atIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns <a href="../Classes/TKChartPointLabel.html">TKChartPointLabel</a> for specific data point.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (TKChartPointLabel *)chart:(TKChart *)<em>chart</em> labelForDataPoint:(id&lt;TKChartData&gt;)<em>dataPoint</em> inSeries:(TKChartSeries *)<em>series</em> atIndex:(NSUInteger)<em>dataIndex</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> instance requesting the label.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>dataPoint</em></dt>
+			<dd><p>The data point for which a label will be returned.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>series</em></dt>
+			<dd><p>The series of the data point.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>dataIndex</em></dt>
+			<dd><p>The index of the data point.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p><a href="../Classes/TKChartPointLabel.html">TKChartPointLabel</a> instance that will be rendered for the data point.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chart:legendItemForSeries:atIndex:" title="chart:legendItemForSeries:atIndex:"></a>
+	<h3 class="subsubtitle method-title">chart:legendItemForSeries:atIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns <a href="../Classes/TKChartLegendItem.html">TKChartLegendItem</a> instance for series.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (TKChartLegendItem *)chart:(TKChart *)<em>chart</em> legendItemForSeries:(TKChartSeries *)<em>series</em> atIndex:(NSUInteger)<em>index</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> instance requesting this information.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>series</em></dt>
+			<dd><p>The series for which a legend item is requested.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>index</em></dt>
+			<dd><p>The legend item&rsquo;s index.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chart:paletteItemForPoint:inSeries:" title="chart:paletteItemForPoint:inSeries:"></a>
+	<h3 class="subsubtitle method-title">chart:paletteItemForPoint:inSeries:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns an instance of <a href="../Classes/TKChartPaletteItem.html">TKChartPaletteItem</a> used to draw a single point in chart based on the point index and the series.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (TKChartPaletteItem *)chart:(TKChart *)<em>chart</em> paletteItemForPoint:(NSUInteger)<em>index</em> inSeries:(TKChartSeries *)<em>series</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> instance requesting this information.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>index</em></dt>
+			<dd><p>The point index within the specified series.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>series</em></dt>
+			<dd><p>The series where the point is contained.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The instance of TKCahrtPaletteItem that contains style settings for specific point.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chart:paletteItemForSeries:atIndex:" title="chart:paletteItemForSeries:atIndex:"></a>
+	<h3 class="subsubtitle method-title">chart:paletteItemForSeries:atIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns an instance of <a href="../Classes/TKChartPaletteItem.html">TKChartPaletteItem</a> based on the specified series and index.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (TKChartPaletteItem *)chart:(TKChart *)<em>chart</em> paletteItemForSeries:(TKChartSeries *)<em>series</em> atIndex:(NSInteger)<em>index</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> instance requesting this information.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>series</em></dt>
+			<dd><p>The series of the palette item that is being requested.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>index</em></dt>
+			<dd><p>The item index for the series.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The instance of <a href="../Classes/TKChartPaletteItem.html">TKChartPaletteItem</a> that contains style settings for specific series.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chart:pointLabelRenderForSeries:withRender:" title="chart:pointLabelRenderForSeries:withRender:"></a>
+	<h3 class="subsubtitle method-title">chart:pointLabelRenderForSeries:withRender:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a render for point labels.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (TKChartPointLabelRender *)chart:(TKChart *)<em>chart</em> pointLabelRenderForSeries:(TKChartSeries *)<em>series</em> withRender:(TKChartSeriesRender *)<em>render</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> instance requesting this information.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>series</em></dt>
+			<dd><p>The series for which labels will be rendered.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>render</em></dt>
+			<dd><p>The series render.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p><a href="../Classes/TKChartPointLabelRender.html">TKChartPointLabelRender</a> instance.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chart:shapeForSeries:atIndex:" title="chart:shapeForSeries:atIndex:"></a>
+	<h3 class="subsubtitle method-title">chart:shapeForSeries:atIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a shape for a specified series and index.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (TKShape *)chart:(TKChart *)<em>chart</em> shapeForSeries:(TKChartSeries *)<em>series</em> atIndex:(NSUInteger)<em>index</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> instance requesting the shape.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>series</em></dt>
+			<dd><p>The series of the palette item that is being requested.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>index</em></dt>
+			<dd><p>The index of the series item.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of <a href="../Classes/TKChartPaletteItem.html">TKChartPaletteItem</a> that contains style settings for a specific series.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chart:textForAxis:value:atIndex:" title="chart:textForAxis:value:atIndex:"></a>
+	<h3 class="subsubtitle method-title">chart:textForAxis:value:atIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a string representing the specified tick value.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)chart:(TKChart *)<em>chart</em> textForAxis:(TKChartAxis *)<em>axis</em> value:(id)<em>value</em> atIndex:(NSUInteger)<em>index</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> instance requesting this information.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>axis</em></dt>
+			<dd><p>The axis.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>value</em></dt>
+			<dd><p>The tick value.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>index</em></dt>
+			<dd><p>The index of the tick value.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chart:textForLabelAtPoint:inSeries:atIndex:" title="chart:textForLabelAtPoint:inSeries:atIndex:"></a>
+	<h3 class="subsubtitle method-title">chart:textForLabelAtPoint:inSeries:atIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns a string representing the specified point.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)chart:(TKChart *)<em>chart</em> textForLabelAtPoint:(id&lt;TKChartData&gt;)<em>dataPoint</em> inSeries:(TKChartSeries *)<em>series</em> atIndex:(NSUInteger)<em>dataIndex</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> instance requesting this information.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>dataPoint</em></dt>
+			<dd><p>The data point for which a label is being created.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>series</em></dt>
+			<dd><p>The series of the data point.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>dataIndex</em></dt>
+			<dd><p>The index of the data point.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A string for the point label.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chart:trackballDidHideSelection:" title="chart:trackballDidHideSelection:"></a>
+	<h3 class="subsubtitle method-title">chart:trackballDidHideSelection:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Called when the trackball hides.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)chart:(TKChart *)<em>chart</em> trackballDidHideSelection:(NSArray *)<em>selection</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> instance displaying the content.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>selection</em></dt>
+			<dd><p>The array of <a href="../Classes/TKChartSelectionInfo.html">TKChartSelectionInfo</a></p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chart:trackballDidTrackSelection:" title="chart:trackballDidTrackSelection:"></a>
+	<h3 class="subsubtitle method-title">chart:trackballDidTrackSelection:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Called on trackball moved</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)chart:(TKChart *)<em>chart</em> trackballDidTrackSelection:(NSArray *)<em>selection</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> for which the crosshair moved</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>selection</em></dt>
+			<dd><p>The array of <a href="../Classes/TKChartSelectionInfo.html">TKChartSelectionInfo</a></p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chart:updateLegendItem:forSeries:atIndex:" title="chart:updateLegendItem:forSeries:atIndex:"></a>
+	<h3 class="subsubtitle method-title">chart:updateLegendItem:forSeries:atIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Called when legend item&rsquo;s styles should be updated.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)chart:(TKChart *)<em>chart</em> updateLegendItem:(TKChartLegendItem *)<em>item</em> forSeries:(TKChartSeries *)<em>series</em> atIndex:(NSUInteger)<em>index</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> instance requesting this information.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>item</em></dt>
+			<dd><p>The legend item that will be updated.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>series</em></dt>
+			<dd><p>The legend item&rsquo;s series.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>index</em></dt>
+			<dd><p>The legend item&rsquo;s index.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chartDidPan:" title="chartDidPan:"></a>
+	<h3 class="subsubtitle method-title">chartDidPan:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Tells the delegate that the <a href="../Classes/TKChart.html">TKChart</a> pan factor changed.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)chartDidPan:(TKChart *)<em>chart</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> instance displaying the content.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chartDidZoom:" title="chartDidZoom:"></a>
+	<h3 class="subsubtitle method-title">chartDidZoom:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Tells the delegate that the <a href="../Classes/TKChart.html">TKChart</a> zoom factor changed.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)chartDidZoom:(TKChart *)<em>chart</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> instance displaying the content.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chartWillPan:" title="chartWillPan:"></a>
+	<h3 class="subsubtitle method-title">chartWillPan:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>*
+Tells the delegate when the <a href="../Classes/TKChart.html">TKChart</a> is about to start panning the content.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)chartWillPan:(TKChart *)<em>chart</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> instance displaying the content.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chartWillZoom:" title="chartWillZoom:"></a>
+	<h3 class="subsubtitle method-title">chartWillZoom:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Tells the delegate when the chart view is about to start zooming the content.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)chartWillZoom:(TKChart *)<em>chart</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>chart</em></dt>
+			<dd><p>The <a href="../Classes/TKChart.html">TKChart</a> instance displaying the content.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TKChart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Telerik. All rights reserved. (Last updated: 2015-06-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

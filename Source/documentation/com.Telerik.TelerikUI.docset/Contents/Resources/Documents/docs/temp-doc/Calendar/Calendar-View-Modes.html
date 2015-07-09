@@ -1,0 +1,274 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Calendar-View-Modes Document</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../../../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../../../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../../../index.html">TelerikUI </a></h1>
+				<a id="developerHome" href="../../../index.html">Telerik</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode" id="pageTitleHeader">Calendar-View-Modes Document</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<a title="Calendar-View-Modes Document" name="top"></a>
+			<div id="overview_contents" role="main">
+				<div id="container">	
+					<h1>Calendar: View Modes</h1>
+
+<p><a href="../../../Classes/TKCalendar.html">TKCalendar</a> is able to present its contents in different ways. Those include:</p>
+
+<ul>
+<li>A single month.</li>
+<li>A single week.</li>
+<li>A list with years, containing months and month days.</li>
+<li>A list with month names.</li>
+<li>A list with year numbers.</li>
+<li>A flow layout with months and month days.</li>
+<li>A separate view controller to allow iOS 7 calendar style like experience.</li>
+</ul>
+
+
+<p>This article describes those view modes in detail.</p>
+
+<p>The presenter property of <a href="../../../Classes/TKCalendar.html">TKCalendar</a> allows customizing settings specific for the current view mode. Every view mode has its dedicated presenter class:</p>
+
+<p>Objective-C</p>
+
+<pre><code>TKCalendarYearPresenter *presenter = (TKCalendarYearPresenter*)calendarView.presenter;
+presenter.columns = 3;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let presenter: TKCalendarYearPresenter = calendarView.presenter() as! TKCalendarYearPresenter
+presenter.columns = 3
+</code></pre>
+
+<p>You can determine whether a view change occurred by implementing <a href="../../../Protocols/TKCalendarDelegate.html">TKCalendarDelegate</a> protocol:</p>
+
+<p>Objective-C</p>
+
+<pre><code>- (void)calendar:(TKCalendar *)calendar didChangedViewModeFrom:(TKCalendarViewMode)previousViewMode to:(TKCalendarViewMode)viewMode
+{
+    // Here you can perform the desired action when the selection is changed.
+}
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>func calendar(calendar: TKCalendar!, didChangedViewModeFrom previousViewMode: TKCalendarViewMode, to viewMode: TKCalendarViewMode) {
+    // Here you can perform the desired action when the selection is changed
+}
+</code></pre>
+
+<h2>Single month view mode</h2>
+
+<p><img src="../images/calendar-gettingstarted001.png"/></p>
+
+<p>Use the TKCalendarViewModeMonth to enable the single month view:</p>
+
+<p>Objective-C</p>
+
+<pre><code>calendarView.viewMode = TKCalendarViewModeMonth;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>calendarView.viewMode = TKCalendarViewModeMonth
+</code></pre>
+
+<p>In this mode <a href="../../../Classes/TKCalendar.html">TKCalendar</a> renders a single month and allows switching to a different month with a swipe gesture. This transition can be customized with different transition effects. More about this is available in this help article: <a href="calendar-view-transitions.html">Transition effects</a></p>
+
+<p>In addition to selecting a different month with swipe, users can change the view mode to month names when the allowPinchZoom property is set to YES:</p>
+
+<p>Objective-C</p>
+
+<pre><code>calendarView.allowPinchZoom = YES;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>calendarView.allowPinchZoom = true
+</code></pre>
+
+<p>Dates can be selected according to the selectionMode property. Details about selection are available in the dedicated help article about selection: <a href="calendar-selection.html">Selection</a></p>
+
+<p>Dates in this view mode are represented by the <a href="../../../Classes/TKCalendarCell.html">TKCalendarCell</a> class which inherits from UIView. The visual appearance can be customized by creating custom cells and handling the calendar:viewForCellOfKind: method of <a href="../../../Protocols/TKCalendarDelegate.html">TKCalendarDelegate</a> protocol. This technique is described in <a href="calendar-customizations.html">Calendar customizations</a> article.</p>
+
+<p>The presenter class responsible for month view is the <a href="../../../Classes/TKCalendarMonthPresenter.html">TKCalendarMonthPresenter</a> class. It contains a style property where different UI settings can be tuned. For example:</p>
+
+<p>Objective-C</p>
+
+<pre><code>TKCalendarMonthPresenter *monthPresenter = (TKCalendarMonthPresenter*)calendarView.presenter;
+monthPresenter.style.rowSpacing = 2;
+monthPresenter.style.columnSpacing = 2;
+monthPresenter.titleHidden = YES;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let monthPresenter = calendarView.presenter() as! TKCalendarMonthPresenter
+monthPresenter.style().rowSpacing = 2
+monthPresenter.style().columnSpacing = 2
+monthPresenter.titleHidden = true
+</code></pre>
+
+<h2>Single week view mode</h2>
+
+<p><img src="../images/calendar-view-modes001.png"/></p>
+
+<p>Set the viewMode property to TKCalendarViewModeWeek to enable this view:</p>
+
+<p>Objective-C</p>
+
+<pre><code>calendarView.viewMode = TKCalendarViewModeWeek;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>calendarView.viewMode = TKCalendarViewModeWeek
+</code></pre>
+
+<p>This view mode is similar to the previous one, but it displays only one week. The presenter class for this view mode is <a href="../../../Classes/TKCalendarWeekPresenter.html">TKCalendarWeekPresenter</a>, it inherits from <a href="../../../Classes/TKCalendarMonthPresenter.html">TKCalendarMonthPresenter</a> and allows the same customization and behavior features.</p>
+
+<h2>List with years view mode</h2>
+
+<p><img src="../images/calendar-view-modes002.png"/></p>
+
+<p>Set the viewMode property to TKCalendarViewModeYear to enable this view:</p>
+
+<p>Objective-C</p>
+
+<pre><code>calendarView.viewMode = TKCalendarViewModeYear;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>calendarView.viewMode = TKCalendarViewModeYear
+</code></pre>
+
+<p>This view mode displays a list of years with their months and dates. The user can select months by tapping on them.</p>
+
+<p>The presenter class for this view mode is <a href="../../../Classes/TKCalendarYearPresenter.html">TKCalendarYearPresenter</a>.</p>
+
+<h2>List with month names</h2>
+
+<p><img src="../images/calendar-view-modes003.png"/></p>
+
+<p>Set the viewMode property to TKCalendarViewModeMonthNames to enable this view.</p>
+
+<p>Objective-C</p>
+
+<pre><code>calendarView.viewMode = TKCalendarViewModeMonthNames;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>calendarView.viewMode = TKCalendarViewModeMonthNames
+</code></pre>
+
+<p>The month names view is used together with the month view mode when the allowPinchZoom option is turned on. It allows for selecting a different month faster. Use pinch-in/out gesture to switch between single month/year numbers view mode.</p>
+
+<p>The presenter class for this view mode is <a href="../../../Classes/TKCalendarMonthNamesPresenter.html">TKCalendarMonthNamesPresenter</a>, it inherits from <a href="../../../Classes/TKCalendarMonthPresenter.html">TKCalendarMonthPresenter</a> and allows the same customization and behavior features.</p>
+
+<h2>List with year numbers</h2>
+
+<p><img src="../images/calendar-view-modes004.png"/></p>
+
+<p>Set the viewMode property to TKCalendarViewModeYearNumbers to enable this view.</p>
+
+<p>Objective-C</p>
+
+<pre><code>calendarView.viewMode = TKCalendarViewModeYearNumbers;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>calendarView.viewMode = TKCalendarViewModeYearNumbers
+</code></pre>
+
+<p>The year numbers view is used together with the month view mode when the allowPinchZoom option is turned on. It allows for selecting a different year faster.</p>
+
+<p>The presenter class for this view mode is <a href="../../../Classes/TKCalendarYearNumbersPresenter.html">TKCalendarYearNumbersPresenter</a>, it inherits from <a href="../../../Classes/TKCalendarMonthPresenter.html">TKCalendarMonthPresenter</a> and allows the same customization and behavior features.</p>
+
+<h2>Flow layout with months and month days</h2>
+
+<p><img src="../images/calendar-view-modes005.png"/></p>
+
+<p>Set the viewMode property to TKCalendarViewModeFlow to enable this view.</p>
+
+<p>Objective-C</p>
+
+<pre><code>calendarView.viewMode = TKCalendarViewModeFlow;
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>calendarView.viewMode = TKCalendarViewModeFlow
+</code></pre>
+
+<p>The flow view displays months with single dates. Single cells are represented by the <a href="../../../Classes/TKCalendarCell.html">TKCalendarCell</a> class and allow customization by handling the calendar:viewForCellOfKind method.</p>
+
+<p>Only the single selection mode is available when selecting cells in flow view.</p>
+
+<p>The presenter class for this view mode is <a href="../../../Classes/TKCalendarFlowPresenter.html">TKCalendarFlowPresenter</a>.</p>
+
+<h2>iOS 7 calendar style experience</h2>
+
+<p>The <a href="../../../Classes/TKCalendarYearViewController.html">TKCalendarYearViewController</a> class can be used to create an experience similar to the one in the built-in calendar in iOS 7. Follow these steps to add the <a href="../../../Classes/TKCalendarYearViewController.html">TKCalendarYearViewController</a> to your application:</p>
+
+<ol>
+<li>Add a navigation controller</li>
+<li>Use this code to show the year view controller in your application:</li>
+</ol>
+
+
+<p>Objective-C</p>
+
+<pre><code>TKCalendarYearViewController *controller = [TKCalendarYearViewController new];
+[self.navigationController pushViewController:controller animated:YES];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>let controller = TKCalendarYearViewController()
+self.navigationController?.pushViewController(controller, animated: true)
+</code></pre>
+
+<p>The contentView property of <a href="../../../Classes/TKCalendarYearViewController.html">TKCalendarYearViewController</a> contains the presented <a href="../../../Classes/TKCalendar.html">TKCalendar</a> object instance. Use its properties and methods to customize the calendar. For example, the following code navigates to the current date:</p>
+
+<p>Objective-C</p>
+
+<pre><code>[controller.contentView navigateToDate:[NSDate date] animated:NO];
+</code></pre>
+
+<p>Swift</p>
+
+<pre><code>controller.contentView().navigateToDate(NSDate(), animated: false)
+</code></pre>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 Telerik. All rights reserved. (Last updated: 2015-06-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					
+					</div>
+				</div>
+			</div>
+		</article>
+	</body>
+</html>
