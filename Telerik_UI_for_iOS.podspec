@@ -12,5 +12,6 @@ Pod::Spec.new do |s|
   :tag => "v0.0.1"
   }
 
+  s.vendored_frameworks = 'TelerikUI.framework'
   s.source_files = 'Classes', 'Classes/**/*.{h,m}'
 end
