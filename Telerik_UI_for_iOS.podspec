@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version         = "0.0.1"
   s.homepage        = "http://www.telerik.com/ios-ui"
 
-  s.license         = { :type => 'MIT', :file => 'LICENSE' }
+  s.license         = { :type => 'BSD' , :file => 'LICENSE' }
 
   s.authors         = { "Adi Rome" => "adirome@seekingalpha.com" }
   s.summary         = "A cocoa pod containing the TelerikUI framework."
@@ -13,5 +13,7 @@ Pod::Spec.new do |s|
   }
 
   s.frameworks = 'TelerikUI'
+  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '/Applications/Xcode.app/Contents/Developer/Library/Frameworks' }
+
   s.source_files = 'Classes', 'Classes/**/*.{h,m}'
 end
