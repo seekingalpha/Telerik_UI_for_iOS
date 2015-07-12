@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
   s.license         = { :type => 'BSD' , :file => 'LICENSE' }
 
-  s.authors         = { "Adi Rome" => "adirome@seekingalpha.com" }
+  s.authors         = { "John Smith" => "john.smith@telerik.com" }
   s.summary         = "A cocoa pod containing the TelerikUI framework."
   s.source          = {
   :git => "https://github.com/seekingalpha/Telerik_UI_for_iOS.git",
