@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'TelerikUI'
   s.vendored_frameworks = 'TelerikUI.framework'
-  s.source_files = 'Classes', 'Classes/**/*.{h,m}'
+  s.source_files = 'Classes/*.{h,m}'
 end
