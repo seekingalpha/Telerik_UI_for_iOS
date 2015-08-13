@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   }
 
   s.frameworks = 'TelerikUI'
-  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '${PODS_ROOT}/Telerik_UI_for_iOS' }
+  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '/Users/yaakov/Documents/Github/Portfolio/SeekingAlpha/Pods/Telerik_UI_for_iOS' }
 
   s.source_files = 'Classes', 'Classes/**/*.{h,m}'
 end
