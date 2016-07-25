@@ -2,9 +2,7 @@ Pod::Spec.new do |s|
   s.name            = "Telerik_UI_for_iOS"
   s.version         = "0.0.1"
   s.homepage        = "http://www.telerik.com/ios-ui"
-
-  s.license         = { :type => 'BSD' , :file => 'LICENSE' }
-
+  s.license         = 'BSD'
   s.authors         = { "John Smith" => "john.smith@telerik.com" }
   s.summary         = "A cocoa pod containing the TelerikUI framework."
   s.source          = {
