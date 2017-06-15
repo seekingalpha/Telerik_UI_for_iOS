@@ -11,5 +11,7 @@ Pod::Spec.new do |s|
   }
 
   s.frameworks = 'TelerikUI'
-  s.source_files = 'TelerikUI.{h,m}'
+  s.vendored_frameworks = 'TelerikUI.framework'
+  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '/Applications/Xcode.app/Contents/Developer/Library/Frameworks' }
+  s.source_files = 'Classes/*.{h,m}'
 end
