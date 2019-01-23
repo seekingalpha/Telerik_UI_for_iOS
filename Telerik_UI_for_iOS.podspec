@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary         = "A cocoa pod containing the TelerikUI framework."
   s.source          = {
   :git => "https://github.com/seekingalpha/Telerik_UI_for_iOS.git",
-  :tag => "v0.0.1"
+  :tag => "v0.0.2"
   }
 
   s.frameworks = 'TelerikUI'
